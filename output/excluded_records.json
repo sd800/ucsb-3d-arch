@@ -1,0 +1,167 @@
+[
+  {
+    "id": 65,
+    "name": "Tropicana Gardens",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 95,
+    "name": "Tropicana Del Norte ",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 210,
+    "name": "Fuel Cell",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 211,
+    "name": "Fuel Cell",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 237,
+    "name": "Green Barn",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 278,
+    "name": "Distribution & Logistical Services",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 285,
+    "name": "Student Greenhouse",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 348,
+    "name": "Bird Aviary ",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 496,
+    "name": "Santa Ynez Apartments 830",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 499,
+    "name": "Charles T. Munger Physics Residence",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 500,
+    "name": "San Clemente Parking IV ",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 501,
+    "name": "San Clemente Arrowhead Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 502,
+    "name": "San Clemente Arrowhead Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 503,
+    "name": "San Clemente Bradbury Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 504,
+    "name": "San Clemente Castaic Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 505,
+    "name": "San Clemente Donner Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 506,
+    "name": "San Clemente Encino Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 507,
+    "name": "San Clemente Donner Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 508,
+    "name": "San Clemente Castaic Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 509,
+    "name": "San Clemente Castaic Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 510,
+    "name": "San Clemente Bradbury Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 511,
+    "name": "San Clemente Arrowhead Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 512,
+    "name": "San Clemente Castaic Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 513,
+    "name": "San Clemente Encino Apartments",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 543,
+    "name": "Embarcadero Hall ",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 547,
+    "name": "Westgate Apartments ",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 548,
+    "name": "Isla Vista Theater ",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 549,
+    "name": "Pardall Center ",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 550,
+    "name": "Isla Vista Community Resources Building",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 551,
+    "name": null,
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 555,
+    "name": "Building 994",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 556,
+    "name": "Building 995",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  },
+  {
+    "id": 557,
+    "name": "IV Foot Patrol",
+    "reason": "Outside coastal main-campus scope or duplicate utility point"
+  }
+]

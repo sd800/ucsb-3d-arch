@@ -1,0 +1,119 @@
+[
+  {
+    "file": "icm_2.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/2",
+    "features": 79,
+    "bytes": 221239,
+    "sha256": "e1717d5c0757279857deb802ce7fadd3171f03e3df9fa946a1d93bf0ce49b401",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.789459+00:00"
+  },
+  {
+    "file": "icm_5.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/5",
+    "features": 158,
+    "bytes": 141760,
+    "sha256": "a2a60556a750096c3b34e6dfb55952c1f02d03c2fff3026f4eebba993daf3aab",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.789281+00:00"
+  },
+  {
+    "file": "icm_7.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/7",
+    "features": 476,
+    "bytes": 312674,
+    "sha256": "cbe1d1998bd206b864a7c10dbf423b327060b9044d709e07f75bd78e30f82ecf",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:49.663371+00:00"
+  },
+  {
+    "file": "icm_11.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/11",
+    "features": 780,
+    "bytes": 25245908,
+    "sha256": "b42f084c6ed7187f5a026a38f2437910905581fcbeb3107b683d48b63f4a34d4",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:52:11.154984+00:00"
+  },
+  {
+    "file": "icm_14.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/14",
+    "features": 5084,
+    "bytes": 1178918,
+    "sha256": "e246d737d466d22d31ab521991f4bdecbb351c51494168853eda7c04afe979ec",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.796357+00:00"
+  },
+  {
+    "file": "icm_18.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/18",
+    "features": 275,
+    "bytes": 679089,
+    "sha256": "4ef88dddafb52d216d0261e7ffc0d73c44d706ded0602f30df2e7f8b984a9412",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.800682+00:00"
+  },
+  {
+    "file": "icm_20.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/20",
+    "features": 3,
+    "bytes": 84272,
+    "sha256": "65b71b8dffb773da608a41aaa46347dcfa9a03dad4204704abf6cabf38075bc1",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.801511+00:00"
+  },
+  {
+    "file": "icm_21.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/21",
+    "features": 5,
+    "bytes": 430247,
+    "sha256": "2c228caa48c60e441317a38e7f72870bf63d936e26f70980fe2707f6b78f6ca2",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.803656+00:00"
+  },
+  {
+    "file": "icm_22.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/22",
+    "features": 423,
+    "bytes": 519554,
+    "sha256": "0dafb114b3506c2db858f6245f8504fcc98631457e30e8db158facf2c94a0e6b",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.807511+00:00"
+  },
+  {
+    "file": "icm_23.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/23",
+    "features": 203,
+    "bytes": 150227,
+    "sha256": "0045abe781ef928e8f1607be335dc7f7d6c7c721f0cd3dd50e8b19accd7124f6",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.808767+00:00"
+  },
+  {
+    "file": "icm_24.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/24",
+    "features": 17,
+    "bytes": 20701,
+    "sha256": "c0daece89f28d258a4ce780cf07a3fcf81c57780b69386f99d8878d550731e60",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.808991+00:00"
+  },
+  {
+    "file": "icm_25.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/25",
+    "features": 245,
+    "bytes": 165030,
+    "sha256": "05087014dbb05a67408f2119d7c32cd3896eead919054e87c5a3f5945a42ea1c",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.810182+00:00"
+  },
+  {
+    "file": "icm_30.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer/30",
+    "features": 2,
+    "bytes": 93099,
+    "sha256": "6fbb421846829499e6ac4e64f690fdd5731b789c39dd4b2f94932c5ffc0196d2",
+    "retained_snapshot": true,
+    "recorded_utc": "2026-10-14T02:51:48.810776+00:00"
+  }
+]

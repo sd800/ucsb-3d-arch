@@ -1,0 +1,126 @@
+{
+  "snapshot_date_chicago": "2026-10-13",
+  "notes": "Public snapshots. Landscape and flora mapping is historical; Buildings2026 identifies a 2026-02-03 DFSS extraction. Retrieval and landscape manifests record URLs. Derived OSM geometry is normalized from the raw compressed API snapshots. Not a surveyed current-condition inventory.",
+  "files": [
+    {
+      "file": "building_schema.json",
+      "bytes": 2952,
+      "sha256": "97727326b9928c7e00e0564bfd57ec37148a8749ac213fdaebffa4ae3d5cb1a8"
+    },
+    {
+      "file": "icm_11.geojson",
+      "bytes": 25245908,
+      "sha256": "b42f084c6ed7187f5a026a38f2437910905581fcbeb3107b683d48b63f4a34d4"
+    },
+    {
+      "file": "icm_14.geojson",
+      "bytes": 1178918,
+      "sha256": "e246d737d466d22d31ab521991f4bdecbb351c51494168853eda7c04afe979ec"
+    },
+    {
+      "file": "icm_18.geojson",
+      "bytes": 679089,
+      "sha256": "4ef88dddafb52d216d0261e7ffc0d73c44d706ded0602f30df2e7f8b984a9412"
+    },
+    {
+      "file": "icm_2.geojson",
+      "bytes": 221239,
+      "sha256": "e1717d5c0757279857deb802ce7fadd3171f03e3df9fa946a1d93bf0ce49b401"
+    },
+    {
+      "file": "icm_20.geojson",
+      "bytes": 84272,
+      "sha256": "65b71b8dffb773da608a41aaa46347dcfa9a03dad4204704abf6cabf38075bc1"
+    },
+    {
+      "file": "icm_21.geojson",
+      "bytes": 430247,
+      "sha256": "2c228caa48c60e441317a38e7f72870bf63d936e26f70980fe2707f6b78f6ca2"
+    },
+    {
+      "file": "icm_22.geojson",
+      "bytes": 519554,
+      "sha256": "0dafb114b3506c2db858f6245f8504fcc98631457e30e8db158facf2c94a0e6b"
+    },
+    {
+      "file": "icm_23.geojson",
+      "bytes": 150227,
+      "sha256": "0045abe781ef928e8f1607be335dc7f7d6c7c721f0cd3dd50e8b19accd7124f6"
+    },
+    {
+      "file": "icm_24.geojson",
+      "bytes": 20701,
+      "sha256": "c0daece89f28d258a4ce780cf07a3fcf81c57780b69386f99d8878d550731e60"
+    },
+    {
+      "file": "icm_25.geojson",
+      "bytes": 165030,
+      "sha256": "05087014dbb05a67408f2119d7c32cd3896eead919054e87c5a3f5945a42ea1c"
+    },
+    {
+      "file": "icm_30.geojson",
+      "bytes": 93099,
+      "sha256": "6fbb421846829499e6ac4e64f690fdd5731b789c39dd4b2f94932c5ffc0196d2"
+    },
+    {
+      "file": "icm_5.geojson",
+      "bytes": 141760,
+      "sha256": "a2a60556a750096c3b34e6dfb55952c1f02d03c2fff3026f4eebba993daf3aab"
+    },
+    {
+      "file": "icm_7.geojson",
+      "bytes": 312674,
+      "sha256": "cbe1d1998bd206b864a7c10dbf423b327060b9044d709e07f75bd78e30f82ecf"
+    },
+    {
+      "file": "landscape_manifest.json",
+      "bytes": 4670,
+      "sha256": "229016b1ae8939b3abc07f9f1accf6e343d9fc44a5b1ea6f3659bedfbda94496"
+    },
+    {
+      "file": "osm_features.geojson",
+      "bytes": 2919416,
+      "sha256": "b7d7b61c4233fa246221fdbefc09bd08f56e076ce8766b92f4d305809a88e59b"
+    },
+    {
+      "file": "osm_map_east.xml.gz",
+      "bytes": 440227,
+      "sha256": "6738d22a42687f367d1b274eb45e35a568485d8e8c48cf12106fcdc8cfce89d7"
+    },
+    {
+      "file": "osm_map_west.xml.gz",
+      "bytes": 745422,
+      "sha256": "56b7c79d44fc58d9c42a5cd6802905e195d4764224dc178ad35b93ba75d982b8"
+    },
+    {
+      "file": "retrieval_manifest.json",
+      "bytes": 1563,
+      "sha256": "a1f055eaad94c040f3e762526b8e7230a303c82aa2b061853bef1c41ccf9f0b4"
+    },
+    {
+      "file": "terrain_dem.tif",
+      "bytes": 591017,
+      "sha256": "c8e889892fc6145b487cef81a5c0ea279503dc83dab230dcf75f27604a0c4330"
+    },
+    {
+      "file": "terrain_export_metadata.json",
+      "bytes": 360,
+      "sha256": "3278548987e45d28cbbd4a8e106320d183ae3dad861cf5abcf20c03b202e6a16"
+    },
+    {
+      "file": "terrain_source.json",
+      "bytes": 675,
+      "sha256": "d777f2f9f9bbfda4ea95deaf2e2f22a9a6b67c75e4ff2d93b8592924e14e1d3a"
+    },
+    {
+      "file": "trees_2016.geojson",
+      "bytes": 98,
+      "sha256": "1ce7eb457779acd1dc230a1bcb4692d06f27533481f26cbfe0e9e599134c0cd4"
+    },
+    {
+      "file": "ucsb_buildings.geojson",
+      "bytes": 420759,
+      "sha256": "7eb11ce418601eb891bbc631f8af07e623d5086b9450b14d3da2a631db8e58a9"
+    }
+  ]
+}

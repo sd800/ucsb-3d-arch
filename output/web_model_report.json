@@ -1,0 +1,15 @@
+{
+  "buildSignature": "0c13a85807a6326d18683670380eb5ff5cffbb1733feabc641388368e30edb9e",
+  "format": "campus-3ds-v1",
+  "codec": "meshoptimizer 1.3.0 lossless vertex/index-sequence codecs + gzip",
+  "source": "output/UCSB_MainCampus.3ds",
+  "sourceBytes": 51286908,
+  "sourceSha256": "c978eab15e6160ceaa363e819e6c0dfd34aec26600beddb91d00c4ec54f9c8e5",
+  "ordinaryGzipBytes": 20593400,
+  "previousTransferBytes": 20593400,
+  "packedBytes": 36086257,
+  "transferBytes": 10586216,
+  "transferSha256": "c02815d6aa4479651cb6ae14c53708ecf04b6380090303e264f0a1d266b269be",
+  "maxEncodedBlockBytes": 348050,
+  "decodedGeometryChanged": false
+}

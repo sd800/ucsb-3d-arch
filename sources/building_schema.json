@@ -1,0 +1,102 @@
+{
+  "name": "Buildings",
+  "description": "The footprint of a building designed for a function or to afford a particular convenience or service. These are a subset of the buildings found in the BuildingFootprint feature class and only those actively managed by a local government, or other land holder. The information typically comes from design drawings of the facilities and is a framework for the management of interior spaces and work activities associated with such.",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "sqlType": "sqlTypeOther",
+      "nullable": false,
+      "editable": false,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "BUILDINGID",
+      "type": "esriFieldTypeString",
+      "alias": "Building Identifier",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "SHORTNAME",
+      "type": "esriFieldTypeString",
+      "alias": "Short Name of Building",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "LONGNAME",
+      "type": "esriFieldTypeString",
+      "alias": "Full Name of Building",
+      "sqlType": "sqlTypeOther",
+      "length": 100,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "FLOORCOUNT",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Number of Floors",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "BLDGAREA",
+      "type": "esriFieldTypeDouble",
+      "alias": "Size of Building",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "BLDGTYPE",
+      "type": "esriFieldTypeString",
+      "alias": "Building Type",
+      "sqlType": "sqlTypeOther",
+      "length": 50,
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "BLDGHEIGHT",
+      "type": "esriFieldTypeDouble",
+      "alias": "Building Height",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "BuildingNumber",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "BuildingNumber",
+      "sqlType": "sqlTypeOther",
+      "nullable": true,
+      "editable": true,
+      "domain": null,
+      "defaultValue": null
+    }
+  ],
+  "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+  "note": "Public field definitions do not declare a BLDGHEIGHT unit."
+}

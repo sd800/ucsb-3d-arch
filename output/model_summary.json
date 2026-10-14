@@ -1,0 +1,70 @@
+{
+  "buildings": 175,
+  "layers": 176,
+  "environment_layer": "Environment",
+  "native_closed_solids": 224,
+  "objects_3ds": 1314,
+  "vertices": 1425784,
+  "triangles": 2435376,
+  "trees": 4525,
+  "mapped_flora_positions": 4654,
+  "palms": 917,
+  "coastal_shrubs": 576,
+  "landmarks": 24,
+  "unit": "meters",
+  "crs": "EPSG:32611 local offsets",
+  "origin_wgs84": [
+    -119.8476,
+    34.4135
+  ],
+  "origin_utm": [
+    238272.13860105744,
+    3811683.1623743693
+  ],
+  "local_z_zero_m": 0,
+  "bounds": [
+    -700.0,
+    -1130.0,
+    1080.0,
+    1150.0
+  ],
+  "district_bounds": {
+    "central": [
+      -144.57514058842207,
+      -267.2838122989051,
+      1059.1999215623655,
+      429.3374901819043
+    ],
+    "west": [
+      -526.0381082452659,
+      -218.40312062110752,
+      -70.79882155024097,
+      374.5999695081264
+    ],
+    "south": [
+      -557.714641321596,
+      -791.7152623804286,
+      503.04036493515014,
+      -206.49593204865232
+    ],
+    "north": [
+      -685.0060737669992,
+      362.9027476203628,
+      256.5376712049474,
+      1074.0266848169267
+    ]
+  },
+  "overview_center": [
+    130,
+    -90
+  ],
+  "terrain": "USGS 3DEP F32 bare-earth DEM, about 8m sampling; segmented landscape, locally flattened building pads",
+  "terrain_source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sectors": {
+    "central": 77,
+    "west": 17,
+    "south": 43,
+    "north": 38
+  },
+  "accuracy": "Official 2026 building outlines, historical public landscape and flora positions, OSM and USGS DEM. Storke overall height published; remaining heights, components, vegetation sizes, wave styling and width estimates approximate."
+}

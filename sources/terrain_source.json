@@ -1,0 +1,18 @@
+{
+  "service": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "export_parameters": {
+    "f": "json",
+    "bbox": "237096.0741812057,3810439.5205482626,239377.46176056267,3813039.930316353",
+    "bboxSR": 32611,
+    "imageSR": 32611,
+    "size": "300,300",
+    "format": "tiff",
+    "pixelType": "F32",
+    "interpolation": "RSP_BilinearInterpolation",
+    "noDataInterpretation": "esriNoDataMatchAny",
+    "adjustAspectRatio": "false"
+  },
+  "raster_sha256": "c8e889892fc6145b487cef81a5c0ea279503dc83dab230dcf75f27604a0c4330",
+  "height_datum": "USGS 3DEP service elevations in meters; no survey certification",
+  "local_z_zero_m": 0
+}

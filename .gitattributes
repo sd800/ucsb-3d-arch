@@ -1,0 +1,13 @@
+*.3ds binary
+*.3dm binary
+*.bin binary
+*.tif binary
+*.gz binary
+assets/viewer.bundle.js linguist-generated=true -whitespace
+assets/model-local.js linguist-generated=true -diff -whitespace
+index.html linguist-generated=true -whitespace
+output/*.json linguist-generated=true
+output/*.geojson linguist-generated=true
+output/*.csv linguist-generated=true -whitespace
+assets/fonts/OFL.txt -whitespace
+scripts/vendor/* linguist-vendored=true -whitespace

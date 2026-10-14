@@ -1,0 +1,197 @@
+"""Bilingual source curation. Heights are approximations except cited Storke height."""
+GIS='https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0'
+MAP='https://map.ucsb.edu/'
+ICM='https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer'
+LANDMARKS=['353','291','277','218','288','284','303','324','282','297','300','213','280','321','332','227','287','320','308','276','345','283','299','350']
+REFS={'353':'https://www.campuscalendar.ucsb.edu/storke_tower','291':'https://www.library.ucsb.edu/events-exhibitions/exhibitions/construction-reinvention-ucsb-library-photo-history-1954-2016','277':'https://classrooms.ucsb.edu/interactive-learning-pavilion','218':'https://www.dfss.ucsb.edu/design-construction-services/major-capital-projects/jeff-and-judy-henley-hall-institute-energy-efficiency','288':'https://classrooms.ucsb.edu/classroom-inventory/bren','345':'https://ucsbgauchos.com/facilities/harder-stadium/1','320':'https://bosl.ucsb.edu/','332':'https://www.kitp.ucsb.edu/'}
+# Main-campus exterior storeys. GIS FLOORCOUNT sometimes includes basements;
+# BLDGHEIGHT has no published unit, so it is never treated as certified height.
+LEVELS={213:3,215:2,217:3,218:3,220:4,221:2,223:4,224:3,225:5,226:5,227:4,228:3,229:3,230:1,269:1,274:4,275:2,276:2,277:4,279:2,280:4,282:6,283:2,284:3,287:4,288:4,291:8,292:2,293:2,294:6,297:3,299:2,300:2,301:3,303:1,307:1,308:1,309:2,311:2,312:2,313:2,314:2,316:3,317:5,318:8,319:3,320:2,321:5,322:4,323:2,324:2,326:6,327:8,328:2,329:6,330:2,332:2,333:4,336:6,337:6,338:1,343:1,345:2,346:2,350:7,351:3,352:1,353:0,354:1,355:2,356:1,359:1,360:3,361:4,362:2,516:1}
+HEIGHTS={353:53.34,354:4.2,291:32.5,277:22.0,218:15.2,288:18.8,282:24.0,284:14.0,303:10.2,276:16.5,345:9.0,343:5.5,283:12.0,279:12.0,294:25.5,317:23.5,318:25.0,327:25.0,329:25.0,326:23.0,350:23.0,516:5.2,267:4.5,304:4.5,356:4.5,295:4.0}
+CORRECT={277:'Interactive Learning Pavilion',291:'UCSB Library',327:'San Nicolas Residence Hall',328:'Carrillo Dining Commons',240:'Marine Science Institute Trailer 342',222:'Arnhold Tennis Center',29:'Softball Facility'}
+ZH={}
+for line in '''
+29|垒球场设施
+186|校园配套楼 186
+187|校园配套楼 187
+188|校园配套楼 188
+200|体育场配套楼 200
+201|体育场配套楼 201
+202|体育场配套楼 202
+203|体育场配套楼 203
+204|体育场配套楼 204
+208|The REEF 海洋教育中心
+209|过滤与蓄水设施
+210|燃料电池设施
+211|燃料电池设施
+212|电气设备储藏楼
+213|学生资源中心
+214|开关站
+215|戏剧与舞蹈西楼
+216|科莱希奥变电站
+217|工程科学楼
+218|亨利楼
+219|232号临时楼
+220|生命科学楼
+221|校际体育管理楼
+222|阿恩霍尔德网球中心
+223|梅萨停车楼（18号）
+224|心理学东楼
+225|10号停车楼
+226|22号停车楼
+227|埃林斯楼
+228|教育楼
+229|社会科学与媒体研究楼
+230|波洛克剧院
+231|校园教学资源楼
+232|317号警务楼
+233|322号可迁移楼
+234|自行车维修店
+235|海洋科学研究所334号临时楼
+236|海洋科学研究所338号临时楼
+238|设施管理340号楼
+239|341号楼
+240|海洋科学研究所342号临时楼
+241|学生会自行车维修店
+254|警务临时楼
+255|传播学临时楼
+256|传播学二号临时楼
+257|工程380号临时楼
+258|工程384号临时楼
+259|387号模块化教室
+260|圣拉斐尔泳池更衣室
+261|402号楼
+262|奇卡诺学生中心
+263|434号楼
+264|442号温室
+265|443号温室
+266|451号楼
+267|水族实验设施
+268|477号楼
+269|旧体育馆与泳池
+270|489号楼
+271|创意研究学院楼
+272|阿伯便利店
+273|海滩泵房
+274|工程二号楼
+275|生物科学教学楼
+276|活动中心（Thunderdome 体育馆）
+277|互动教学馆
+279|多功能活动中心
+280|生物工程楼
+281|海洋科学教育楼
+282|人文与社会科学楼
+283|文体活动中心
+284|莫舍校友之家
+286|海洋科学设备楼
+287|海洋科学楼
+288|布伦楼
+289|522号楼
+290|变电站
+291|加州大学圣塔芭芭拉分校图书馆
+292|韦布楼
+293|圣罗莎宿舍
+294|南楼
+295|主污水泵站
+296|百年纪念会议中心
+297|音乐楼
+298|珊瑚树咖啡馆
+299|罗伯逊体育馆
+300|艺术楼
+301|北楼
+302|文体器材储藏楼
+303|坎贝尔礼堂
+304|生物科学附楼
+305|540号温室
+306|541号温室
+307|奥尔特加餐厅
+308|大学官邸
+309|诺布尔楼
+310|体育场卫生间与储藏室
+311|伍德豪斯实验楼
+312|阿纳卡帕宿舍
+313|圣克鲁斯宿舍
+314|德拉格拉餐厅
+315|海滩泵房
+316|心理学楼
+317|奇德尔楼
+318|圣米格尔宿舍
+319|戏剧与舞蹈东楼
+320|贝尼奥夫海洋科学实验室
+321|哈罗德·弗兰克楼
+322|化学楼
+323|多元文化中心
+324|大学中心
+325|北污水泵站
+326|菲尔普斯楼
+327|圣尼古拉斯宿舍
+328|卡里略餐厅
+329|埃利森楼
+330|格维茨楼
+331|环境健康与安全楼
+332|科恩楼
+333|学生事务与行政服务楼
+334|生物学研究实验楼
+335|化学附楼
+336|生物科学二号楼
+337|布罗伊达楼
+338|布坎南礼堂
+339|公共安全楼
+340|云研究实验室
+341|棒球击球练习笼
+342|棒球队更衣室
+343|哈德体育场西看台与配套用房
+344|污水泵站
+345|哈德体育场东看台
+346|教职工俱乐部与宾馆
+347|售票亭
+348|鸟舍
+349|北供水泵站
+350|圣拉斐尔宿舍塔楼
+351|圣拉斐尔宿舍组团
+352|学生健康中心
+353|斯托克钟塔
+354|斯托克学生出版中心
+355|克尔楼
+356|熔融金属实验室
+357|急救用房
+358|化学易燃品储藏室
+359|学生服务楼
+360|材料研究实验楼
+361|自然科学北楼
+362|自然科学南楼
+364|工程697号临时楼
+365|工程698号临时楼
+366|工程699号临时楼
+470|802号储藏库
+515|曼萨尼塔村德安萨宿舍
+516|洛马佩洛纳多功能中心
+517|曼萨尼塔村特科洛特宿舍
+518|曼萨尼塔村谢内加宿舍
+519|曼萨尼塔村哈拉马宿舍
+520|曼萨尼塔村阿圭略宿舍
+521|曼萨尼塔村米兰达宿舍
+522|曼萨尼塔村加维奥塔宿舍
+523|曼萨尼塔村康多尔宿舍
+524|曼萨尼塔村拉昆布雷宿舍
+525|曼萨尼塔村蒙特西托宿舍
+526|曼萨尼塔村特普斯奎特宿舍
+527|曼萨尼塔村林孔宿舍
+528|曼萨尼塔村萨卡宿舍
+529|曼萨尼塔村卡穆埃萨宿舍
+530|曼萨尼塔村彭多拉宿舍
+531|曼萨尼塔村库亚马宿舍
+532|曼萨尼塔村马杜尔塞宿舍
+533|曼萨尼塔村菲格罗亚宿舍
+539|工程936号临时楼（南）
+540|工程936号临时楼（北）
+541|工程937号临时楼
+542|工程939号临时楼
+544|工程942号临时楼
+627|383号模块化楼
+'''.strip().splitlines():
+ k,v=line.split('|',1);ZH[int(k)]=v
+SHORT={'291':'UCSB Library','353':'Storke Tower','277':'Interactive Learning Pavilion','282':'Humanities & Social Sciences','276':'Thunderdome','324':'University Center','283':'Recreation Center','320':'Benioff Ocean Science Lab'}
+PITCHED=set(range(515,534))|{308,346}
+DETAIL_NOTES={353:('Open concrete piers, elevator/stair core, belfry beams, clocks and simplified bells; 175 ft published overall height. Individual members are illustrative.','开敞混凝土塔柱、楼梯与电梯核心、钟室梁、钟面及简化钟组；总高采用校方公布的175英尺，构件尺寸为近似。'),291:('Separate eight-storey research tower, four-storey southern wing, low original library and three-storey northern addition, with glazed passage. Part boundaries and heights are approximate.','分别表达八层研究塔楼、南侧四层翼楼、原低层馆舍与北侧三层扩建，设玻璃连接空间；分段位置和标高为近似。'),277:('Mapped separate lecture-room volumes, open central circulation, elevated bridges, exterior stairs, railings and sun fins. Member sizes and floor heights are approximate.','保留映射的独立教学体块、开放交通空间，并表达上层连桥、室外楼梯、栏杆和遮阳构件；构件尺寸及层高为近似。'),218:('Three-storey research form with terra-cotta fins, glazing, shaded entry and layered flat roof. Facade modules are approximate.','三层研究楼，表达陶土遮阳片、玻璃幕墙、入口遮棚与屋顶层次；立面模数为近似。'),288:('Courtyard void, stepped teaching/research wings, sun screens, terraces and roof photovoltaic arrays. All exterior detail is simplified.','保留内庭院，表达教学科研翼楼、遮阳、露台及屋顶光伏阵列，外部细节均为简化表达。')}
+def chinese(id,name):return ZH.get(int(id),'校园设施 '+str(id))

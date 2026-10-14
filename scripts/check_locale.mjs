@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {initialLanguage} from './locale.js';
+assert.equal(initialLanguage(['en-US'],null),'en');
+assert.equal(initialLanguage(['fr-FR','en'],null),'en');
+assert.equal(initialLanguage(['en-US','zh-CN'],null),'en');
+assert.equal(initialLanguage(['zh-TW'],null),'en');
+assert.equal(initialLanguage(['ZH-hant-HK'],null),'en');
+assert.equal(initialLanguage(['en-US'],'zh'),'zh');
+assert.equal(initialLanguage(['zh-CN'],'en'),'en');
+assert.equal(initialLanguage(['en'],'invalid'),'en');
+console.log('Language preference checks passed (8 cases).');

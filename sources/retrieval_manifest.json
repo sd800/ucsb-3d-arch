@@ -1,0 +1,30 @@
+[
+  {
+    "file": "building_layer.json",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0?f=pjson",
+    "retrieved_utc": "2026-10-14T02:18:47.937774+00:00",
+    "bytes": 22464,
+    "sha256": "e9d414a550cd614885f1dc666990adc27d8d24000357118a5ef1d34bf2d7ff6b"
+  },
+  {
+    "file": "ucsb_buildings.geojson",
+    "url": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0/query?f=geojson&where=1%3D1&geometry=-119.86%2C34.402%2C-119.836%2C34.426&geometryType=esriGeometryEnvelope&inSR=4326&outSR=4326&outFields=OBJECTID%2CBUILDINGID%2CFACILITYKEY%2CSHORTNAME%2CLONGNAME%2CFLOORCOUNT%2CBLDGAREA%2CBLDGTYPE%2CBLDGHEIGHT%2CBuildingNumber%2CPF_Zone%2CLink%2CNotes&returnGeometry=true&resultRecordCount=2000",
+    "retrieved_utc": "2026-10-14T02:18:48.524740+00:00",
+    "bytes": 420759,
+    "sha256": "7eb11ce418601eb891bbc631f8af07e623d5086b9450b14d3da2a631db8e58a9"
+  },
+  {
+    "file": "osm_map_east.xml.gz",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-119.848,34.402,-119.836,34.426",
+    "retrieved_utc": "2026-10-14T02:18:51.676679+00:00",
+    "bytes": 440227,
+    "sha256": "6738d22a42687f367d1b274eb45e35a568485d8e8c48cf12106fcdc8cfce89d7"
+  },
+  {
+    "file": "osm_map_west.xml.gz",
+    "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-119.86,34.402,-119.848,34.426",
+    "retrieved_utc": "2026-10-14T02:18:56.277283+00:00",
+    "bytes": 745422,
+    "sha256": "56b7c79d44fc58d9c42a5cd6802905e195d4764224dc178ad35b93ba75d982b8"
+  }
+]
