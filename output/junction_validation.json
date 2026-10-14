@@ -1,0 +1,1967 @@
+{
+  "max_join_distance_m": 2.2,
+  "joins": [
+    {
+      "source_id": "way/11470811",
+      "kind": "bike",
+      "gap_m": 1.986
+    },
+    {
+      "source_id": "way/31449039",
+      "kind": "bike",
+      "gap_m": 0.579
+    },
+    {
+      "source_id": "way/31449528",
+      "kind": "bike",
+      "gap_m": 1.545
+    },
+    {
+      "source_id": "way/31449530",
+      "kind": "bike",
+      "gap_m": 1.943
+    },
+    {
+      "source_id": "way/38089666",
+      "kind": "bike",
+      "gap_m": 1.287
+    },
+    {
+      "source_id": "way/38094274",
+      "kind": "walk",
+      "gap_m": 0.619
+    },
+    {
+      "source_id": "way/38094733",
+      "kind": "walk",
+      "gap_m": 1.285
+    },
+    {
+      "source_id": "way/38094734",
+      "kind": "walk",
+      "gap_m": 2.174
+    },
+    {
+      "source_id": "way/38094737",
+      "kind": "walk",
+      "gap_m": 0.713
+    },
+    {
+      "source_id": "way/38095372",
+      "kind": "walk",
+      "gap_m": 1.008
+    },
+    {
+      "source_id": "way/38095528",
+      "kind": "walk",
+      "gap_m": 1.364
+    },
+    {
+      "source_id": "way/38096782",
+      "kind": "bike",
+      "gap_m": 0.781
+    },
+    {
+      "source_id": "way/38096782",
+      "kind": "bike",
+      "gap_m": 1.319
+    },
+    {
+      "source_id": "way/38096925",
+      "kind": "walk",
+      "gap_m": 0.575
+    },
+    {
+      "source_id": "way/38097859",
+      "kind": "walk",
+      "gap_m": 0.46
+    },
+    {
+      "source_id": "way/38097861",
+      "kind": "walk",
+      "gap_m": 0.28
+    },
+    {
+      "source_id": "way/38098096",
+      "kind": "walk",
+      "gap_m": 1.606
+    },
+    {
+      "source_id": "way/38098097",
+      "kind": "walk",
+      "gap_m": 0.191
+    },
+    {
+      "source_id": "way/38099480",
+      "kind": "walk",
+      "gap_m": 2.188
+    },
+    {
+      "source_id": "way/38132072",
+      "kind": "bike",
+      "gap_m": 1.287
+    },
+    {
+      "source_id": "way/38132074",
+      "kind": "bike",
+      "gap_m": 1.294
+    },
+    {
+      "source_id": "way/38132083",
+      "kind": "walk",
+      "gap_m": 0.962
+    },
+    {
+      "source_id": "way/38132642",
+      "kind": "bike",
+      "gap_m": 1.294
+    },
+    {
+      "source_id": "way/38132643",
+      "kind": "bike",
+      "gap_m": 1.294
+    },
+    {
+      "source_id": "way/38132714",
+      "kind": "bike",
+      "gap_m": 0.598
+    },
+    {
+      "source_id": "way/38140934",
+      "kind": "walk",
+      "gap_m": 1.179
+    },
+    {
+      "source_id": "way/38173131",
+      "kind": "bike",
+      "gap_m": 1.398
+    },
+    {
+      "source_id": "way/38173133",
+      "kind": "bike",
+      "gap_m": 1.398
+    },
+    {
+      "source_id": "way/38173134",
+      "kind": "bike",
+      "gap_m": 1.398
+    },
+    {
+      "source_id": "way/38228946",
+      "kind": "walk",
+      "gap_m": 0.334
+    },
+    {
+      "source_id": "way/38347040",
+      "kind": "bike",
+      "gap_m": 1.545
+    },
+    {
+      "source_id": "way/38347041",
+      "kind": "walk",
+      "gap_m": 0.889
+    },
+    {
+      "source_id": "way/38347041",
+      "kind": "walk",
+      "gap_m": 0.497
+    },
+    {
+      "source_id": "way/42967930",
+      "kind": "walk",
+      "gap_m": 0.439
+    },
+    {
+      "source_id": "way/42967934",
+      "kind": "walk",
+      "gap_m": 0.787
+    },
+    {
+      "source_id": "way/43080018",
+      "kind": "walk",
+      "gap_m": 0.835
+    },
+    {
+      "source_id": "way/43080022",
+      "kind": "walk",
+      "gap_m": 2.076
+    },
+    {
+      "source_id": "way/43080127",
+      "kind": "walk",
+      "gap_m": 1.067
+    },
+    {
+      "source_id": "way/50970188",
+      "kind": "walk",
+      "gap_m": 1.071
+    },
+    {
+      "source_id": "way/144056519",
+      "kind": "walk",
+      "gap_m": 0.816
+    },
+    {
+      "source_id": "way/144056519",
+      "kind": "walk",
+      "gap_m": 0.155
+    },
+    {
+      "source_id": "way/144056520",
+      "kind": "bike",
+      "gap_m": 1.012
+    },
+    {
+      "source_id": "way/144057621",
+      "kind": "walk",
+      "gap_m": 2.047
+    },
+    {
+      "source_id": "way/144069201",
+      "kind": "walk",
+      "gap_m": 1.42
+    },
+    {
+      "source_id": "way/144069203",
+      "kind": "walk",
+      "gap_m": 1.759
+    },
+    {
+      "source_id": "way/191588276",
+      "kind": "walk",
+      "gap_m": 1.047
+    },
+    {
+      "source_id": "way/196223589",
+      "kind": "walk",
+      "gap_m": 0.833
+    },
+    {
+      "source_id": "way/218817550",
+      "kind": "walk",
+      "gap_m": 0.665
+    },
+    {
+      "source_id": "way/220078745",
+      "kind": "bike",
+      "gap_m": 0.781
+    },
+    {
+      "source_id": "way/220078749",
+      "kind": "walk",
+      "gap_m": 2.059
+    },
+    {
+      "source_id": "way/221147253",
+      "kind": "walk",
+      "gap_m": 1.026
+    },
+    {
+      "source_id": "way/221147265",
+      "kind": "walk",
+      "gap_m": 0.338
+    },
+    {
+      "source_id": "way/221147267",
+      "kind": "walk",
+      "gap_m": 1.082
+    },
+    {
+      "source_id": "way/221147290",
+      "kind": "walk",
+      "gap_m": 0.51
+    },
+    {
+      "source_id": "way/221147302",
+      "kind": "walk",
+      "gap_m": 1.283
+    },
+    {
+      "source_id": "way/221147312",
+      "kind": "walk",
+      "gap_m": 0.088
+    },
+    {
+      "source_id": "way/221147312",
+      "kind": "walk",
+      "gap_m": 1.085
+    },
+    {
+      "source_id": "way/221264842",
+      "kind": "walk",
+      "gap_m": 1.093
+    },
+    {
+      "source_id": "way/222570972",
+      "kind": "walk",
+      "gap_m": 1.676
+    },
+    {
+      "source_id": "way/222571672",
+      "kind": "walk",
+      "gap_m": 1.639
+    },
+    {
+      "source_id": "way/222571672",
+      "kind": "walk",
+      "gap_m": 1.764
+    },
+    {
+      "source_id": "way/222576453",
+      "kind": "walk",
+      "gap_m": 0.825
+    },
+    {
+      "source_id": "way/222576454",
+      "kind": "walk",
+      "gap_m": 0.355
+    },
+    {
+      "source_id": "way/222576455",
+      "kind": "walk",
+      "gap_m": 0.331
+    },
+    {
+      "source_id": "way/446745500",
+      "kind": "bike",
+      "gap_m": 1.545
+    },
+    {
+      "source_id": "way/544030629",
+      "kind": "walk",
+      "gap_m": 1.071
+    },
+    {
+      "source_id": "way/809871424",
+      "kind": "bike",
+      "gap_m": 1.317
+    },
+    {
+      "source_id": "way/829005118",
+      "kind": "walk",
+      "gap_m": 0.313
+    },
+    {
+      "source_id": "way/829005119",
+      "kind": "walk",
+      "gap_m": 0.313
+    },
+    {
+      "source_id": "way/829005122",
+      "kind": "walk",
+      "gap_m": 2.085
+    },
+    {
+      "source_id": "way/829873542",
+      "kind": "walk",
+      "gap_m": 2.124
+    },
+    {
+      "source_id": "way/887404422",
+      "kind": "bike",
+      "gap_m": 1.943
+    },
+    {
+      "source_id": "way/887404424",
+      "kind": "bike",
+      "gap_m": 1.943
+    },
+    {
+      "source_id": "way/887725948",
+      "kind": "bike",
+      "gap_m": 1.287
+    },
+    {
+      "source_id": "way/945281322",
+      "kind": "walk",
+      "gap_m": 1.843
+    },
+    {
+      "source_id": "way/945281323",
+      "kind": "walk",
+      "gap_m": 0.872
+    },
+    {
+      "source_id": "way/946668298",
+      "kind": "bike",
+      "gap_m": 1.528
+    },
+    {
+      "source_id": "way/946668298",
+      "kind": "bike",
+      "gap_m": 1.142
+    },
+    {
+      "source_id": "way/946698703",
+      "kind": "walk",
+      "gap_m": 0.327
+    },
+    {
+      "source_id": "way/964482652",
+      "kind": "walk",
+      "gap_m": 0.458
+    },
+    {
+      "source_id": "way/964482652",
+      "kind": "walk",
+      "gap_m": 0.575
+    },
+    {
+      "source_id": "way/977064400",
+      "kind": "bike",
+      "gap_m": 1.012
+    },
+    {
+      "source_id": "way/985377894",
+      "kind": "walk",
+      "gap_m": 0.132
+    },
+    {
+      "source_id": "way/985377895",
+      "kind": "walk",
+      "gap_m": 0.132
+    },
+    {
+      "source_id": "way/1081978742",
+      "kind": "walk",
+      "gap_m": 0.462
+    },
+    {
+      "source_id": "way/1081978746",
+      "kind": "walk",
+      "gap_m": 1.352
+    },
+    {
+      "source_id": "way/1082784738",
+      "kind": "walk",
+      "gap_m": 0.143
+    },
+    {
+      "source_id": "way/1082784738",
+      "kind": "walk",
+      "gap_m": 0.186
+    },
+    {
+      "source_id": "way/1192230763",
+      "kind": "walk",
+      "gap_m": 2.085
+    },
+    {
+      "source_id": "way/1192230763",
+      "kind": "walk",
+      "gap_m": 0.754
+    },
+    {
+      "source_id": "way/1192230764",
+      "kind": "walk",
+      "gap_m": 1.916
+    },
+    {
+      "source_id": "way/1238669277",
+      "kind": "walk",
+      "gap_m": 1.249
+    },
+    {
+      "source_id": "way/1238669278",
+      "kind": "walk",
+      "gap_m": 0.28
+    },
+    {
+      "source_id": "way/1347840835",
+      "kind": "walk",
+      "gap_m": 0.28
+    },
+    {
+      "source_id": "way/1347840836",
+      "kind": "walk",
+      "gap_m": 0.28
+    },
+    {
+      "source_id": "way/1362914639",
+      "kind": "walk",
+      "gap_m": 1.858
+    },
+    {
+      "source_id": "way/1387368822",
+      "kind": "walk",
+      "gap_m": 0.686
+    },
+    {
+      "source_id": "way/1387369321",
+      "kind": "walk",
+      "gap_m": 1.741
+    },
+    {
+      "source_id": "way/1391861999",
+      "kind": "walk",
+      "gap_m": 0.186
+    },
+    {
+      "source_id": "way/1409345254",
+      "kind": "walk",
+      "gap_m": 0.214
+    },
+    {
+      "source_id": "way/1409345255",
+      "kind": "walk",
+      "gap_m": 0.214
+    },
+    {
+      "source_id": "way/1414137911",
+      "kind": "walk",
+      "gap_m": 1.805
+    },
+    {
+      "source_id": "way/1414137912",
+      "kind": "walk",
+      "gap_m": 1.32
+    },
+    {
+      "source_id": "way/1414137913",
+      "kind": "walk",
+      "gap_m": 1.161
+    },
+    {
+      "source_id": "way/1414137914",
+      "kind": "walk",
+      "gap_m": 1.32
+    },
+    {
+      "source_id": "way/1414137919",
+      "kind": "walk",
+      "gap_m": 0.148
+    },
+    {
+      "source_id": "way/1414137922",
+      "kind": "walk",
+      "gap_m": 1.001
+    },
+    {
+      "source_id": "way/1414137924",
+      "kind": "walk",
+      "gap_m": 0.151
+    },
+    {
+      "source_id": "way/1414137926",
+      "kind": "walk",
+      "gap_m": 0.262
+    },
+    {
+      "source_id": "way/1414137926",
+      "kind": "walk",
+      "gap_m": 1.042
+    },
+    {
+      "source_id": "way/1414322106",
+      "kind": "walk",
+      "gap_m": 0.665
+    },
+    {
+      "source_id": "way/1414322119",
+      "kind": "walk",
+      "gap_m": 0.18
+    },
+    {
+      "source_id": "way/1414322120",
+      "kind": "walk",
+      "gap_m": 0.18
+    },
+    {
+      "source_id": "way/1414322126",
+      "kind": "walk",
+      "gap_m": 1.364
+    },
+    {
+      "source_id": "way/1414322127",
+      "kind": "walk",
+      "gap_m": 1.759
+    },
+    {
+      "source_id": "way/1414322128",
+      "kind": "walk",
+      "gap_m": 1.759
+    },
+    {
+      "source_id": "way/1414322128",
+      "kind": "walk",
+      "gap_m": 0.458
+    },
+    {
+      "source_id": "way/1414322132",
+      "kind": "walk",
+      "gap_m": 0.485
+    },
+    {
+      "source_id": "way/1414322133",
+      "kind": "walk",
+      "gap_m": 0.485
+    },
+    {
+      "source_id": "way/1414325074",
+      "kind": "walk",
+      "gap_m": 0.088
+    },
+    {
+      "source_id": "way/1414325075",
+      "kind": "walk",
+      "gap_m": 0.088
+    },
+    {
+      "source_id": "way/1414325079",
+      "kind": "walk",
+      "gap_m": 0.883
+    },
+    {
+      "source_id": "way/1414325080",
+      "kind": "walk",
+      "gap_m": 0.883
+    },
+    {
+      "source_id": "way/1414325083",
+      "kind": "walk",
+      "gap_m": 1.75
+    },
+    {
+      "source_id": "way/1414325087",
+      "kind": "walk",
+      "gap_m": 0.759
+    },
+    {
+      "source_id": "way/1414325090",
+      "kind": "walk",
+      "gap_m": 1.065
+    },
+    {
+      "source_id": "way/1414504376",
+      "kind": "walk",
+      "gap_m": 2.124
+    },
+    {
+      "source_id": "way/1414504378",
+      "kind": "walk",
+      "gap_m": 0.088
+    },
+    {
+      "source_id": "way/1414504379",
+      "kind": "walk",
+      "gap_m": 1.179
+    },
+    {
+      "source_id": "way/1414516897",
+      "kind": "bike",
+      "gap_m": 0.429
+    },
+    {
+      "source_id": "way/1414516898",
+      "kind": "bike",
+      "gap_m": 0.579
+    },
+    {
+      "source_id": "way/1414516898",
+      "kind": "bike",
+      "gap_m": 0.429
+    },
+    {
+      "source_id": "way/1414516903",
+      "kind": "walk",
+      "gap_m": 0.759
+    },
+    {
+      "source_id": "way/1414516903",
+      "kind": "walk",
+      "gap_m": 0.327
+    },
+    {
+      "source_id": "way/1414516904",
+      "kind": "walk",
+      "gap_m": 0.327
+    },
+    {
+      "source_id": "way/1414516905",
+      "kind": "walk",
+      "gap_m": 0.504
+    },
+    {
+      "source_id": "way/1414516906",
+      "kind": "walk",
+      "gap_m": 1.085
+    },
+    {
+      "source_id": "way/1415009005",
+      "kind": "walk",
+      "gap_m": 0.287
+    },
+    {
+      "source_id": "way/1415009006",
+      "kind": "walk",
+      "gap_m": 0.287
+    },
+    {
+      "source_id": "way/1415009014",
+      "kind": "walk",
+      "gap_m": 1.606
+    },
+    {
+      "source_id": "way/1415009019",
+      "kind": "walk",
+      "gap_m": 0.829
+    },
+    {
+      "source_id": "way/1415009020",
+      "kind": "walk",
+      "gap_m": 0.829
+    },
+    {
+      "source_id": "way/1415009023",
+      "kind": "walk",
+      "gap_m": 1.026
+    },
+    {
+      "source_id": "way/1415009024",
+      "kind": "walk",
+      "gap_m": 0.835
+    },
+    {
+      "source_id": "way/1415009025",
+      "kind": "walk",
+      "gap_m": 2.076
+    },
+    {
+      "source_id": "way/1415009026",
+      "kind": "walk",
+      "gap_m": 2.141
+    },
+    {
+      "source_id": "way/1415009026",
+      "kind": "walk",
+      "gap_m": 0.399
+    },
+    {
+      "source_id": "way/1415009027",
+      "kind": "walk",
+      "gap_m": 0.399
+    },
+    {
+      "source_id": "way/1415009029",
+      "kind": "walk",
+      "gap_m": 0.51
+    },
+    {
+      "source_id": "way/1415009030",
+      "kind": "walk",
+      "gap_m": 0.306
+    },
+    {
+      "source_id": "way/1415009032",
+      "kind": "walk",
+      "gap_m": 0.086
+    },
+    {
+      "source_id": "way/1415009033",
+      "kind": "walk",
+      "gap_m": 0.086
+    },
+    {
+      "source_id": "way/1415281648",
+      "kind": "walk",
+      "gap_m": 0.607
+    },
+    {
+      "source_id": "way/1415281649",
+      "kind": "walk",
+      "gap_m": 1.756
+    },
+    {
+      "source_id": "way/1415281649",
+      "kind": "walk",
+      "gap_m": 1.639
+    },
+    {
+      "source_id": "way/1415281650",
+      "kind": "walk",
+      "gap_m": 0.607
+    },
+    {
+      "source_id": "way/1420621817",
+      "kind": "walk",
+      "gap_m": 0.439
+    },
+    {
+      "source_id": "way/1420621820",
+      "kind": "walk",
+      "gap_m": 1.378
+    },
+    {
+      "source_id": "way/1420621821",
+      "kind": "walk",
+      "gap_m": 0.682
+    },
+    {
+      "source_id": "way/1420621822",
+      "kind": "walk",
+      "gap_m": 0.682
+    },
+    {
+      "source_id": "way/1420621823",
+      "kind": "walk",
+      "gap_m": 0.462
+    },
+    {
+      "source_id": "way/1420621824",
+      "kind": "walk",
+      "gap_m": 0.15
+    },
+    {
+      "source_id": "way/1420621825",
+      "kind": "walk",
+      "gap_m": 0.754
+    },
+    {
+      "source_id": "way/1420621827",
+      "kind": "walk",
+      "gap_m": 0.575
+    },
+    {
+      "source_id": "way/1420621828",
+      "kind": "walk",
+      "gap_m": 0.321
+    },
+    {
+      "source_id": "way/1420621829",
+      "kind": "walk",
+      "gap_m": 0.334
+    },
+    {
+      "source_id": "way/1420621830",
+      "kind": "walk",
+      "gap_m": 0.702
+    },
+    {
+      "source_id": "way/1420621830",
+      "kind": "walk",
+      "gap_m": 1.219
+    },
+    {
+      "source_id": "way/1420621831",
+      "kind": "walk",
+      "gap_m": 1.464
+    },
+    {
+      "source_id": "way/1420621831",
+      "kind": "walk",
+      "gap_m": 0.702
+    },
+    {
+      "source_id": "way/1420621832",
+      "kind": "walk",
+      "gap_m": 1.219
+    },
+    {
+      "source_id": "way/1420621837",
+      "kind": "walk",
+      "gap_m": 0.911
+    },
+    {
+      "source_id": "way/1420621837",
+      "kind": "walk",
+      "gap_m": 1.089
+    },
+    {
+      "source_id": "way/1420621838",
+      "kind": "walk",
+      "gap_m": 2.047
+    },
+    {
+      "source_id": "way/1420621838",
+      "kind": "walk",
+      "gap_m": 0.911
+    },
+    {
+      "source_id": "way/1420621839",
+      "kind": "walk",
+      "gap_m": 0.115
+    },
+    {
+      "source_id": "way/1420621839",
+      "kind": "walk",
+      "gap_m": 1.843
+    },
+    {
+      "source_id": "way/1420621840",
+      "kind": "walk",
+      "gap_m": 0.787
+    },
+    {
+      "source_id": "way/1420621840",
+      "kind": "walk",
+      "gap_m": 0.115
+    },
+    {
+      "source_id": "way/1420621841",
+      "kind": "walk",
+      "gap_m": 0.148
+    },
+    {
+      "source_id": "way/1420621842",
+      "kind": "walk",
+      "gap_m": 0.522
+    },
+    {
+      "source_id": "way/1420621843",
+      "kind": "walk",
+      "gap_m": 0.522
+    },
+    {
+      "source_id": "way/1420621844",
+      "kind": "walk",
+      "gap_m": 0.279
+    },
+    {
+      "source_id": "way/1420621845",
+      "kind": "walk",
+      "gap_m": 0.279
+    },
+    {
+      "source_id": "way/1420621846",
+      "kind": "walk",
+      "gap_m": 1.249
+    },
+    {
+      "source_id": "way/1420621847",
+      "kind": "walk",
+      "gap_m": 1.285
+    },
+    {
+      "source_id": "way/1420621850",
+      "kind": "walk",
+      "gap_m": 0.697
+    },
+    {
+      "source_id": "way/1420621851",
+      "kind": "walk",
+      "gap_m": 0.697
+    },
+    {
+      "source_id": "way/1423439859",
+      "kind": "walk",
+      "gap_m": 0.799
+    },
+    {
+      "source_id": "way/1423439859",
+      "kind": "walk",
+      "gap_m": 1.413
+    },
+    {
+      "source_id": "way/1423439860",
+      "kind": "walk",
+      "gap_m": 1.413
+    },
+    {
+      "source_id": "way/1423439861",
+      "kind": "walk",
+      "gap_m": 1.174
+    },
+    {
+      "source_id": "way/1423439862",
+      "kind": "walk",
+      "gap_m": 1.174
+    },
+    {
+      "source_id": "way/1423439862",
+      "kind": "walk",
+      "gap_m": 0.799
+    },
+    {
+      "source_id": "way/1423439863",
+      "kind": "walk",
+      "gap_m": 0.139
+    },
+    {
+      "source_id": "way/1423439864",
+      "kind": "walk",
+      "gap_m": 1.654
+    },
+    {
+      "source_id": "way/1423439864",
+      "kind": "walk",
+      "gap_m": 0.57
+    },
+    {
+      "source_id": "way/1423439865",
+      "kind": "walk",
+      "gap_m": 0.57
+    },
+    {
+      "source_id": "way/1423439867",
+      "kind": "walk",
+      "gap_m": 1.01
+    },
+    {
+      "source_id": "way/1423439868",
+      "kind": "walk",
+      "gap_m": 1.959
+    },
+    {
+      "source_id": "way/1423439869",
+      "kind": "walk",
+      "gap_m": 1.959
+    },
+    {
+      "source_id": "way/1423439870",
+      "kind": "walk",
+      "gap_m": 1.666
+    },
+    {
+      "source_id": "way/1423439874",
+      "kind": "walk",
+      "gap_m": 1.666
+    },
+    {
+      "source_id": "way/1423440176",
+      "kind": "walk",
+      "gap_m": 1.915
+    },
+    {
+      "source_id": "way/1424275626",
+      "kind": "walk",
+      "gap_m": 1.764
+    },
+    {
+      "source_id": "way/1425474772",
+      "kind": "walk",
+      "gap_m": 0.618
+    },
+    {
+      "source_id": "way/1425474772",
+      "kind": "walk",
+      "gap_m": 0.305
+    },
+    {
+      "source_id": "way/1425474773",
+      "kind": "walk",
+      "gap_m": 0.458
+    },
+    {
+      "source_id": "way/1425474774",
+      "kind": "walk",
+      "gap_m": 0.305
+    },
+    {
+      "source_id": "way/1425474778",
+      "kind": "walk",
+      "gap_m": 0.143
+    },
+    {
+      "source_id": "way/1425474784",
+      "kind": "walk",
+      "gap_m": 0.912
+    },
+    {
+      "source_id": "way/1425474785",
+      "kind": "walk",
+      "gap_m": 0.912
+    },
+    {
+      "source_id": "way/1464465523",
+      "kind": "walk",
+      "gap_m": 0.186
+    },
+    {
+      "source_id": "way/1464465525",
+      "kind": "walk",
+      "gap_m": 0.962
+    },
+    {
+      "source_id": "way/1466816168",
+      "kind": "walk",
+      "gap_m": 2.153
+    },
+    {
+      "source_id": "way/1469577420",
+      "kind": "walk",
+      "gap_m": 1.039
+    },
+    {
+      "source_id": "way/1483018328",
+      "kind": "walk",
+      "gap_m": 0.172
+    },
+    {
+      "source_id": "way/1483018329",
+      "kind": "walk",
+      "gap_m": 0.172
+    },
+    {
+      "source_id": "way/1483018330",
+      "kind": "walk",
+      "gap_m": 0.459
+    },
+    {
+      "source_id": "way/1483018331",
+      "kind": "walk",
+      "gap_m": 0.459
+    },
+    {
+      "source_id": "way/1483018332",
+      "kind": "walk",
+      "gap_m": 1.235
+    },
+    {
+      "source_id": "way/1483018338",
+      "kind": "bike",
+      "gap_m": 0.121
+    },
+    {
+      "source_id": "way/1495670017",
+      "kind": "walk",
+      "gap_m": 1.234
+    },
+    {
+      "source_id": "way/1495683688",
+      "kind": "walk",
+      "gap_m": 1.047
+    },
+    {
+      "source_id": "way/1510391218",
+      "kind": "walk",
+      "gap_m": 2.164
+    },
+    {
+      "source_id": "way/1510391218",
+      "kind": "walk",
+      "gap_m": 0.474
+    },
+    {
+      "source_id": "way/1517195792",
+      "kind": "walk",
+      "gap_m": 0.497
+    },
+    {
+      "source_id": "way/1517195792",
+      "kind": "walk",
+      "gap_m": 0.574
+    },
+    {
+      "source_id": "way/1517201714",
+      "kind": "walk",
+      "gap_m": 1.159
+    },
+    {
+      "source_id": "way/11470812",
+      "kind": "bike",
+      "gap_m": 1.731
+    },
+    {
+      "source_id": "way/38094138",
+      "kind": "walk",
+      "gap_m": 1.798
+    },
+    {
+      "source_id": "way/38094147",
+      "kind": "walk",
+      "gap_m": 0.521
+    },
+    {
+      "source_id": "way/38094148",
+      "kind": "walk",
+      "gap_m": 0.607
+    },
+    {
+      "source_id": "way/38094338",
+      "kind": "bike",
+      "gap_m": 1.829
+    },
+    {
+      "source_id": "way/38094747",
+      "kind": "walk",
+      "gap_m": 0.986
+    },
+    {
+      "source_id": "way/38094747",
+      "kind": "walk",
+      "gap_m": 1.17
+    },
+    {
+      "source_id": "way/38094789",
+      "kind": "walk",
+      "gap_m": 0.915
+    },
+    {
+      "source_id": "way/38095649",
+      "kind": "walk",
+      "gap_m": 0.412
+    },
+    {
+      "source_id": "way/38132069",
+      "kind": "walk",
+      "gap_m": 0.315
+    },
+    {
+      "source_id": "way/38132069",
+      "kind": "walk",
+      "gap_m": 0.434
+    },
+    {
+      "source_id": "way/38132219",
+      "kind": "bike",
+      "gap_m": 0.781
+    },
+    {
+      "source_id": "way/38216218",
+      "kind": "bike",
+      "gap_m": 1.844
+    },
+    {
+      "source_id": "way/38216219",
+      "kind": "bike",
+      "gap_m": 0.254
+    },
+    {
+      "source_id": "way/38229309",
+      "kind": "walk",
+      "gap_m": 1.221
+    },
+    {
+      "source_id": "way/38229309",
+      "kind": "walk",
+      "gap_m": 0.73
+    },
+    {
+      "source_id": "way/38229313",
+      "kind": "walk",
+      "gap_m": 1.468
+    },
+    {
+      "source_id": "way/38229315",
+      "kind": "bike",
+      "gap_m": 1.302
+    },
+    {
+      "source_id": "way/43939414",
+      "kind": "walk",
+      "gap_m": 0.948
+    },
+    {
+      "source_id": "way/50978513",
+      "kind": "walk",
+      "gap_m": 1.609
+    },
+    {
+      "source_id": "way/53149070",
+      "kind": "bike",
+      "gap_m": 1.71
+    },
+    {
+      "source_id": "way/78594763",
+      "kind": "walk",
+      "gap_m": 2.075
+    },
+    {
+      "source_id": "way/144070689",
+      "kind": "walk",
+      "gap_m": 0.418
+    },
+    {
+      "source_id": "way/146173686",
+      "kind": "walk",
+      "gap_m": 0.812
+    },
+    {
+      "source_id": "way/146317799",
+      "kind": "walk",
+      "gap_m": 1.07
+    },
+    {
+      "source_id": "way/146317807",
+      "kind": "walk",
+      "gap_m": 2.136
+    },
+    {
+      "source_id": "way/220078735",
+      "kind": "walk",
+      "gap_m": 1.065
+    },
+    {
+      "source_id": "way/220539864",
+      "kind": "walk",
+      "gap_m": 2.177
+    },
+    {
+      "source_id": "way/220539864",
+      "kind": "walk",
+      "gap_m": 2.177
+    },
+    {
+      "source_id": "way/221263874",
+      "kind": "walk",
+      "gap_m": 0.1
+    },
+    {
+      "source_id": "way/221686870",
+      "kind": "walk",
+      "gap_m": 1.525
+    },
+    {
+      "source_id": "way/221686871",
+      "kind": "walk",
+      "gap_m": 2.096
+    },
+    {
+      "source_id": "way/221686874",
+      "kind": "walk",
+      "gap_m": 0.647
+    },
+    {
+      "source_id": "way/221686876",
+      "kind": "walk",
+      "gap_m": 0.364
+    },
+    {
+      "source_id": "way/221686876",
+      "kind": "walk",
+      "gap_m": 0.647
+    },
+    {
+      "source_id": "way/221686883",
+      "kind": "walk",
+      "gap_m": 1.582
+    },
+    {
+      "source_id": "way/221686883",
+      "kind": "walk",
+      "gap_m": 1.525
+    },
+    {
+      "source_id": "way/221686885",
+      "kind": "walk",
+      "gap_m": 1.969
+    },
+    {
+      "source_id": "way/221686889",
+      "kind": "walk",
+      "gap_m": 0.742
+    },
+    {
+      "source_id": "way/222567402",
+      "kind": "walk",
+      "gap_m": 0.566
+    },
+    {
+      "source_id": "way/222834866",
+      "kind": "walk",
+      "gap_m": 0.755
+    },
+    {
+      "source_id": "way/222834867",
+      "kind": "walk",
+      "gap_m": 1.7
+    },
+    {
+      "source_id": "way/222834869",
+      "kind": "walk",
+      "gap_m": 2.066
+    },
+    {
+      "source_id": "way/222834870",
+      "kind": "walk",
+      "gap_m": 2.066
+    },
+    {
+      "source_id": "way/360558373",
+      "kind": "bike",
+      "gap_m": 1.071
+    },
+    {
+      "source_id": "way/360558374",
+      "kind": "walk",
+      "gap_m": 0.362
+    },
+    {
+      "source_id": "way/551630575",
+      "kind": "bike",
+      "gap_m": 0.348
+    },
+    {
+      "source_id": "way/551630577",
+      "kind": "bike",
+      "gap_m": 1.071
+    },
+    {
+      "source_id": "way/551650742",
+      "kind": "bike",
+      "gap_m": 0.838
+    },
+    {
+      "source_id": "way/552084757",
+      "kind": "bike",
+      "gap_m": 2.034
+    },
+    {
+      "source_id": "way/552084764",
+      "kind": "walk",
+      "gap_m": 0.73
+    },
+    {
+      "source_id": "way/552084766",
+      "kind": "walk",
+      "gap_m": 1.786
+    },
+    {
+      "source_id": "way/552092097",
+      "kind": "walk",
+      "gap_m": 0.593
+    },
+    {
+      "source_id": "way/552109586",
+      "kind": "walk",
+      "gap_m": 1.419
+    },
+    {
+      "source_id": "way/566838555",
+      "kind": "walk",
+      "gap_m": 0.639
+    },
+    {
+      "source_id": "way/566838555",
+      "kind": "walk",
+      "gap_m": 1.295
+    },
+    {
+      "source_id": "way/586190676",
+      "kind": "walk",
+      "gap_m": 1.611
+    },
+    {
+      "source_id": "way/592214537",
+      "kind": "walk",
+      "gap_m": 0.898
+    },
+    {
+      "source_id": "way/618613536",
+      "kind": "walk",
+      "gap_m": 1.419
+    },
+    {
+      "source_id": "way/618613538",
+      "kind": "walk",
+      "gap_m": 0.095
+    },
+    {
+      "source_id": "way/824708699",
+      "kind": "walk",
+      "gap_m": 2.079
+    },
+    {
+      "source_id": "way/828930490",
+      "kind": "walk",
+      "gap_m": 2.029
+    },
+    {
+      "source_id": "way/897309039",
+      "kind": "walk",
+      "gap_m": 1.609
+    },
+    {
+      "source_id": "way/901726083",
+      "kind": "walk",
+      "gap_m": 1.486
+    },
+    {
+      "source_id": "way/964535740",
+      "kind": "walk",
+      "gap_m": 1.198
+    },
+    {
+      "source_id": "way/964917485",
+      "kind": "walk",
+      "gap_m": 0.315
+    },
+    {
+      "source_id": "way/964917485",
+      "kind": "walk",
+      "gap_m": 0.523
+    },
+    {
+      "source_id": "way/977064390",
+      "kind": "bike",
+      "gap_m": 0.711
+    },
+    {
+      "source_id": "way/977064391",
+      "kind": "bike",
+      "gap_m": 1.071
+    },
+    {
+      "source_id": "way/977064392",
+      "kind": "bike",
+      "gap_m": 0.711
+    },
+    {
+      "source_id": "way/986973105",
+      "kind": "walk",
+      "gap_m": 1.225
+    },
+    {
+      "source_id": "way/1386848243",
+      "kind": "walk",
+      "gap_m": 1.875
+    },
+    {
+      "source_id": "way/1387878948",
+      "kind": "walk",
+      "gap_m": 0.163
+    },
+    {
+      "source_id": "way/1391863397",
+      "kind": "walk",
+      "gap_m": 0.798
+    },
+    {
+      "source_id": "way/1391863398",
+      "kind": "walk",
+      "gap_m": 0.209
+    },
+    {
+      "source_id": "way/1391863399",
+      "kind": "walk",
+      "gap_m": 1.516
+    },
+    {
+      "source_id": "way/1391863401",
+      "kind": "walk",
+      "gap_m": 1.213
+    },
+    {
+      "source_id": "way/1394216157",
+      "kind": "walk",
+      "gap_m": 0.167
+    },
+    {
+      "source_id": "way/1394216158",
+      "kind": "walk",
+      "gap_m": 0.167
+    },
+    {
+      "source_id": "way/1394216164",
+      "kind": "bike",
+      "gap_m": 0.348
+    },
+    {
+      "source_id": "way/1394216165",
+      "kind": "bike",
+      "gap_m": 0.254
+    },
+    {
+      "source_id": "way/1408412278",
+      "kind": "walk",
+      "gap_m": 1.9
+    },
+    {
+      "source_id": "way/1409345257",
+      "kind": "walk",
+      "gap_m": 2.174
+    },
+    {
+      "source_id": "way/1409345258",
+      "kind": "walk",
+      "gap_m": 2.02
+    },
+    {
+      "source_id": "way/1409345259",
+      "kind": "walk",
+      "gap_m": 2.174
+    },
+    {
+      "source_id": "way/1409345260",
+      "kind": "walk",
+      "gap_m": 2.177
+    },
+    {
+      "source_id": "way/1409932819",
+      "kind": "walk",
+      "gap_m": 1.283
+    },
+    {
+      "source_id": "way/1414325091",
+      "kind": "walk",
+      "gap_m": 0.819
+    },
+    {
+      "source_id": "way/1414325092",
+      "kind": "walk",
+      "gap_m": 0.819
+    },
+    {
+      "source_id": "way/1414325100",
+      "kind": "walk",
+      "gap_m": 1.294
+    },
+    {
+      "source_id": "way/1414377400",
+      "kind": "walk",
+      "gap_m": 1.419
+    },
+    {
+      "source_id": "way/1414377400",
+      "kind": "walk",
+      "gap_m": 0.095
+    },
+    {
+      "source_id": "way/1414377401",
+      "kind": "walk",
+      "gap_m": 0.614
+    },
+    {
+      "source_id": "way/1414377401",
+      "kind": "walk",
+      "gap_m": 1.294
+    },
+    {
+      "source_id": "way/1414377402",
+      "kind": "walk",
+      "gap_m": 0.898
+    },
+    {
+      "source_id": "way/1414377402",
+      "kind": "walk",
+      "gap_m": 0.614
+    },
+    {
+      "source_id": "way/1414377403",
+      "kind": "walk",
+      "gap_m": 1.197
+    },
+    {
+      "source_id": "way/1414377404",
+      "kind": "walk",
+      "gap_m": 0.251
+    },
+    {
+      "source_id": "way/1414377405",
+      "kind": "walk",
+      "gap_m": 0.251
+    },
+    {
+      "source_id": "way/1414377406",
+      "kind": "walk",
+      "gap_m": 0.593
+    },
+    {
+      "source_id": "way/1414377407",
+      "kind": "walk",
+      "gap_m": 0.523
+    },
+    {
+      "source_id": "way/1414377409",
+      "kind": "walk",
+      "gap_m": 0.535
+    },
+    {
+      "source_id": "way/1414377410",
+      "kind": "walk",
+      "gap_m": 0.883
+    },
+    {
+      "source_id": "way/1414377410",
+      "kind": "walk",
+      "gap_m": 0.742
+    },
+    {
+      "source_id": "way/1414377411",
+      "kind": "walk",
+      "gap_m": 0.364
+    },
+    {
+      "source_id": "way/1414377412",
+      "kind": "walk",
+      "gap_m": 0.535
+    },
+    {
+      "source_id": "way/1414377414",
+      "kind": "walk",
+      "gap_m": 0.201
+    },
+    {
+      "source_id": "way/1414377414",
+      "kind": "walk",
+      "gap_m": 0.283
+    },
+    {
+      "source_id": "way/1414377415",
+      "kind": "walk",
+      "gap_m": 0.283
+    },
+    {
+      "source_id": "way/1414377416",
+      "kind": "walk",
+      "gap_m": 0.315
+    },
+    {
+      "source_id": "way/1414377424",
+      "kind": "walk",
+      "gap_m": 0.152
+    },
+    {
+      "source_id": "way/1414377425",
+      "kind": "walk",
+      "gap_m": 0.172
+    },
+    {
+      "source_id": "way/1414377427",
+      "kind": "walk",
+      "gap_m": 0.172
+    },
+    {
+      "source_id": "way/1414504345",
+      "kind": "walk",
+      "gap_m": 1.159
+    },
+    {
+      "source_id": "way/1414504346",
+      "kind": "walk",
+      "gap_m": 1.713
+    },
+    {
+      "source_id": "way/1414504348",
+      "kind": "walk",
+      "gap_m": 0.362
+    },
+    {
+      "source_id": "way/1414504349",
+      "kind": "walk",
+      "gap_m": 0.247
+    },
+    {
+      "source_id": "way/1414504350",
+      "kind": "walk",
+      "gap_m": 0.247
+    },
+    {
+      "source_id": "way/1414504353",
+      "kind": "walk",
+      "gap_m": 0.325
+    },
+    {
+      "source_id": "way/1414504355",
+      "kind": "walk",
+      "gap_m": 1.57
+    },
+    {
+      "source_id": "way/1414504372",
+      "kind": "walk",
+      "gap_m": 0.107
+    },
+    {
+      "source_id": "way/1414516871",
+      "kind": "walk",
+      "gap_m": 0.464
+    },
+    {
+      "source_id": "way/1414516872",
+      "kind": "walk",
+      "gap_m": 0.464
+    },
+    {
+      "source_id": "way/1414516872",
+      "kind": "walk",
+      "gap_m": 0.619
+    },
+    {
+      "source_id": "way/1414516873",
+      "kind": "walk",
+      "gap_m": 0.412
+    },
+    {
+      "source_id": "way/1414516875",
+      "kind": "walk",
+      "gap_m": 1.7
+    },
+    {
+      "source_id": "way/1414516880",
+      "kind": "walk",
+      "gap_m": 0.628
+    },
+    {
+      "source_id": "way/1415281655",
+      "kind": "walk",
+      "gap_m": 0.167
+    },
+    {
+      "source_id": "way/1422970512",
+      "kind": "bike",
+      "gap_m": 1.61
+    },
+    {
+      "source_id": "way/1422973633",
+      "kind": "walk",
+      "gap_m": 0.197
+    },
+    {
+      "source_id": "way/1422973634",
+      "kind": "walk",
+      "gap_m": 0.197
+    },
+    {
+      "source_id": "way/1422973636",
+      "kind": "walk",
+      "gap_m": 0.692
+    },
+    {
+      "source_id": "way/1422973637",
+      "kind": "walk",
+      "gap_m": 1.213
+    },
+    {
+      "source_id": "way/1422973639",
+      "kind": "bike",
+      "gap_m": 1.3
+    },
+    {
+      "source_id": "way/1422973640",
+      "kind": "bike",
+      "gap_m": 1.3
+    },
+    {
+      "source_id": "way/1422973641",
+      "kind": "walk",
+      "gap_m": 2.075
+    },
+    {
+      "source_id": "way/1435973071",
+      "kind": "walk",
+      "gap_m": 0.903
+    },
+    {
+      "source_id": "way/1435986773",
+      "kind": "walk",
+      "gap_m": 0.566
+    },
+    {
+      "source_id": "way/1435986774",
+      "kind": "walk",
+      "gap_m": 0.281
+    },
+    {
+      "source_id": "way/1435986775",
+      "kind": "walk",
+      "gap_m": 0.281
+    },
+    {
+      "source_id": "way/1459397675",
+      "kind": "walk",
+      "gap_m": 1.008
+    },
+    {
+      "source_id": "way/1459397677",
+      "kind": "walk",
+      "gap_m": 0.315
+    },
+    {
+      "source_id": "way/1459397678",
+      "kind": "walk",
+      "gap_m": 1.17
+    },
+    {
+      "source_id": "way/1459397682",
+      "kind": "walk",
+      "gap_m": 1.582
+    },
+    {
+      "source_id": "way/1459397693",
+      "kind": "walk",
+      "gap_m": 0.991
+    },
+    {
+      "source_id": "way/1459967244",
+      "kind": "walk",
+      "gap_m": 1.442
+    },
+    {
+      "source_id": "way/1466654787",
+      "kind": "walk",
+      "gap_m": 2.151
+    },
+    {
+      "source_id": "way/1466976561",
+      "kind": "walk",
+      "gap_m": 2.021
+    },
+    {
+      "source_id": "way/1467136752",
+      "kind": "walk",
+      "gap_m": 1.138
+    },
+    {
+      "source_id": "way/1468871842",
+      "kind": "walk",
+      "gap_m": 2.018
+    },
+    {
+      "source_id": "way/1471449845",
+      "kind": "walk",
+      "gap_m": 0.812
+    },
+    {
+      "source_id": "way/1495921112",
+      "kind": "walk",
+      "gap_m": 1.045
+    },
+    {
+      "source_id": "way/1547681097",
+      "kind": "walk",
+      "gap_m": 1.786
+    },
+    {
+      "source_id": "way/1547681097",
+      "kind": "walk",
+      "gap_m": 0.73
+    },
+    {
+      "source_id": "way/1548728717",
+      "kind": "walk",
+      "gap_m": 0.784
+    },
+    {
+      "source_id": "way/1548728717",
+      "kind": "walk",
+      "gap_m": 2.018
+    },
+    {
+      "source_id": "way/1563228996",
+      "kind": "bike",
+      "gap_m": 0.251
+    },
+    {
+      "source_id": "way/1563228996",
+      "kind": "bike",
+      "gap_m": 0.251
+    },
+    {
+      "source_id": "way/1563228997",
+      "kind": "bike",
+      "gap_m": 0.585
+    },
+    {
+      "source_id": "way/1563229000",
+      "kind": "bike",
+      "gap_m": 1.544
+    },
+    {
+      "source_id": "way/1563229001",
+      "kind": "bike",
+      "gap_m": 1.312
+    },
+    {
+      "source_id": "way/1563229002",
+      "kind": "bike",
+      "gap_m": 0.145
+    },
+    {
+      "source_id": "way/1563229004",
+      "kind": "walk",
+      "gap_m": 1.442
+    }
+  ],
+  "road_walk_grade_transition_m": 1.8,
+  "note": "Small closure of source route endpoint gaps only; no inferred cross-campus routes."
+}

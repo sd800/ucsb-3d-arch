@@ -1,0 +1,2268 @@
+{
+  "reference_date": "2026-10-13",
+  "imagery_attribution": "Esri, Vantor, Earthstar Geographics and the GIS User Community",
+  "method": "Parking row back edges interpreted from satellite imagery; individual bay spacing and member sizes approximate. Current building footprints and mapped landscape islands take precedence. No aerial raster is redistributed.",
+  "retired_parking_objectids": [
+    88,
+    98
+  ],
+  "omitted_unclear_or_covered": [
+    80,
+    118
+  ],
+  "rows": [
+    {
+      "lot_objectid": 79,
+      "path": [
+        [
+          400.811,
+          332.248
+        ],
+        [
+          403.04,
+          294.802
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 79,
+      "path": [
+        [
+          416.879,
+          320.362
+        ],
+        [
+          418.367,
+          282.498
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 79,
+      "path": [
+        [
+          426.614,
+          264.674
+        ],
+        [
+          454.682,
+          264.766
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 79,
+      "path": [
+        [
+          414.029,
+          244.797
+        ],
+        [
+          435.917,
+          245.502
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 79,
+      "path": [
+        [
+          472.842,
+          262.497
+        ],
+        [
+          495.07,
+          262.313
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 79,
+      "path": [
+        [
+          467.262,
+          245.502
+        ],
+        [
+          496.045,
+          245.134
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 81,
+      "path": [
+        [
+          224.988,
+          437.549
+        ],
+        [
+          260.116,
+          422.027
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 81,
+      "path": [
+        [
+          188.325,
+          398.433
+        ],
+        [
+          243.349,
+          396.888
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 81,
+      "path": [
+        [
+          205.787,
+          376.832
+        ],
+        [
+          243.616,
+          375.769
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 81,
+      "path": [
+        [
+          199.521,
+          357.973
+        ],
+        [
+          245.374,
+          356.685
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 81,
+      "path": [
+        [
+          255.492,
+          379.935
+        ],
+        [
+          255.045,
+          364.027
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 81,
+      "path": [
+        [
+          347.995,
+          385.297
+        ],
+        [
+          347.277,
+          359.707
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 82,
+      "path": [
+        [
+          59.452,
+          393.667
+        ],
+        [
+          132.651,
+          391.609
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 82,
+      "path": [
+        [
+          47.002,
+          378.624
+        ],
+        [
+          121.658,
+          376.526
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 82,
+      "path": [
+        [
+          80.815,
+          362.721
+        ],
+        [
+          131.799,
+          361.288
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 83,
+      "path": [
+        [
+          -15.493,
+          266.45
+        ],
+        [
+          16.19,
+          265.559
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 83,
+      "path": [
+        [
+          33.67,
+          265.068
+        ],
+        [
+          70.451,
+          264.034
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 83,
+      "path": [
+        [
+          -16.265,
+          251.959
+        ],
+        [
+          15.782,
+          251.058
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 83,
+      "path": [
+        [
+          33.991,
+          250.546
+        ],
+        [
+          70.043,
+          249.533
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 84,
+      "path": [
+        [
+          226.897,
+          -485.283
+        ],
+        [
+          264.772,
+          -486.346
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 84,
+      "path": [
+        [
+          226.805,
+          -501.551
+        ],
+        [
+          262.859,
+          -502.563
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 84,
+      "path": [
+        [
+          220.058,
+          -521.15
+        ],
+        [
+          267.038,
+          -522.47
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 84,
+      "path": [
+        [
+          211.188,
+          -486.601
+        ],
+        [
+          210.411,
+          -514.283
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 84,
+      "path": [
+        [
+          280.451,
+          -499.1
+        ],
+        [
+          279.451,
+          -534.691
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 85,
+      "path": [
+        [
+          488.173,
+          -404.832
+        ],
+        [
+          475.434,
+          -443.174
+        ],
+        [
+          465.343,
+          -478.071
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 85,
+      "path": [
+        [
+          459.498,
+          -491.54
+        ],
+        [
+          445.228,
+          -532.477
+        ],
+        [
+          425.699,
+          -578.984
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 85,
+      "path": [
+        [
+          470.63,
+          -406.539
+        ],
+        [
+          463.119,
+          -427.436
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 86,
+      "path": [
+        [
+          111.415,
+          -318.544
+        ],
+        [
+          129.988,
+          -319.066
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 86,
+      "path": [
+        [
+          114.662,
+          -332.707
+        ],
+        [
+          126.68,
+          -333.045
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 87,
+      "path": [
+        [
+          66.948,
+          -247.808
+        ],
+        [
+          107.007,
+          -248.933
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 87,
+      "path": [
+        [
+          98.175,
+          -264.956
+        ],
+        [
+          108.371,
+          -265.242
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 89,
+      "path": [
+        [
+          448.594,
+          -47.494
+        ],
+        [
+          446.596,
+          -118.682
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 89,
+      "path": [
+        [
+          432.2,
+          -60.227
+        ],
+        [
+          431.873,
+          -84.846
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 89,
+      "path": [
+        [
+          464.891,
+          -64.223
+        ],
+        [
+          464.582,
+          -75.209
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 91,
+      "path": [
+        [
+          -185.04,
+          92.094
+        ],
+        [
+          -175.469,
+          30.699
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 91,
+      "path": [
+        [
+          -167.795,
+          83.253
+        ],
+        [
+          -157.261,
+          30.186
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 91,
+      "path": [
+        [
+          -201.823,
+          78.494
+        ],
+        [
+          -189.431,
+          26.694
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 91,
+      "path": [
+        [
+          -148.643,
+          77.438
+        ],
+        [
+          -139.88,
+          26.18
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 91,
+      "path": [
+        [
+          -207.031,
+          100.628
+        ],
+        [
+          -172.88,
+          109.782
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 92,
+      "path": [
+        [
+          -511.796,
+          -142.435
+        ],
+        [
+          -513.177,
+          -204.398
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 92,
+      "path": [
+        [
+          -495.335,
+          -140.26
+        ],
+        [
+          -496.678,
+          -200.905
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 92,
+      "path": [
+        [
+          -476.022,
+          -140.364
+        ],
+        [
+          -477.353,
+          -200.57
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 92,
+      "path": [
+        [
+          -456.358,
+          -140.918
+        ],
+        [
+          -457.689,
+          -201.124
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 92,
+      "path": [
+        [
+          -434.596,
+          -144.609
+        ],
+        [
+          -435.828,
+          -201.299
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 93,
+      "path": [
+        [
+          -503.222,
+          370.591
+        ],
+        [
+          -466.378,
+          333.054
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 93,
+      "path": [
+        [
+          -505.727,
+          294.585
+        ],
+        [
+          -475.1,
+          320.986
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 93,
+      "path": [
+        [
+          -519.427,
+          235.165
+        ],
+        [
+          -501.153,
+          224.096
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 94,
+      "path": [
+        [
+          -205.67,
+          738.348
+        ],
+        [
+          -227.644,
+          708.622
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 94,
+      "path": [
+        [
+          -218.908,
+          747.077
+        ],
+        [
+          -234.284,
+          731.677
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 95,
+      "path": [
+        [
+          -519.722,
+          -296.032
+        ],
+        [
+          -519.81,
+          -325.051
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 95,
+      "path": [
+        [
+          -534.473,
+          -302.212
+        ],
+        [
+          -534.765,
+          -325.509
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 95,
+      "path": [
+        [
+          -501.063,
+          -293.479
+        ],
+        [
+          -501.942,
+          -324.674
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 96,
+      "path": [
+        [
+          -391.131,
+          133.606
+        ],
+        [
+          -390.454,
+          105.882
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 96,
+      "path": [
+        [
+          -372.669,
+          155.073
+        ],
+        [
+          -371.806,
+          133.941
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 96,
+      "path": [
+        [
+          -354.868,
+          166.006
+        ],
+        [
+          -353.883,
+          123.322
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 96,
+      "path": [
+        [
+          -338.968,
+          161.161
+        ],
+        [
+          -338.095,
+          114.523
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 96,
+      "path": [
+        [
+          -323.168,
+          152.8
+        ],
+        [
+          -323.905,
+          113.683
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 96,
+      "path": [
+        [
+          -298.104,
+          149.896
+        ],
+        [
+          -275.817,
+          125.962
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 96,
+      "path": [
+        [
+          -399.644,
+          103.063
+        ],
+        [
+          -370.147,
+          102.232
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 97,
+      "path": [
+        [
+          -520.601,
+          561.971
+        ],
+        [
+          -522.356,
+          499.658
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 97,
+      "path": [
+        [
+          -505.926,
+          558.744
+        ],
+        [
+          -507.174,
+          500.637
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 97,
+      "path": [
+        [
+          -488.454,
+          558.252
+        ],
+        [
+          -489.663,
+          501.55
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 97,
+      "path": [
+        [
+          -468.462,
+          550.655
+        ],
+        [
+          -469.742,
+          505.209
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 101,
+      "path": [
+        [
+          182.368,
+          -274.333
+        ],
+        [
+          181.775,
+          -295.424
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 101,
+      "path": [
+        [
+          164.918,
+          -311.662
+        ],
+        [
+          176.208,
+          -311.979
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 102,
+      "path": [
+        [
+          -478.581,
+          928.293
+        ],
+        [
+          -445.778,
+          915.495
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 103,
+      "path": [
+        [
+          123.948,
+          -95.079
+        ],
+        [
+          124.923,
+          -164.149
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 103,
+      "path": [
+        [
+          137.435,
+          -95.018
+        ],
+        [
+          145.749,
+          -201.234
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 103,
+      "path": [
+        [
+          152.298,
+          -110.827
+        ],
+        [
+          161.483,
+          -199.038
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 104,
+      "path": [
+        [
+          315.056,
+          -235.097
+        ],
+        [
+          319.965,
+          -280.97
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 104,
+      "path": [
+        [
+          302.372,
+          -232.542
+        ],
+        [
+          304.039,
+          -277.005
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 104,
+      "path": [
+        [
+          332.426,
+          -239.542
+        ],
+        [
+          330.896,
+          -268.084
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 65,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 105,
+      "path": [
+        [
+          274.182,
+          -334.345
+        ],
+        [
+          333.179,
+          -336.002
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 105,
+      "path": [
+        [
+          274.065,
+          -351.493
+        ],
+        [
+          332.698,
+          -353.139
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 106,
+      "path": [
+        [
+          -464.291,
+          77.85
+        ],
+        [
+          -429.332,
+          76.865
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 107,
+      "path": [
+        [
+          -651.236,
+          -220.038
+        ],
+        [
+          -599.163,
+          -221.506
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 107,
+      "path": [
+        [
+          -651.632,
+          -234.098
+        ],
+        [
+          -600.288,
+          -235.545
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          -4.059,
+          592.799
+        ],
+        [
+          29.444,
+          591.857
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          29.511,
+          555.353
+        ],
+        [
+          53.546,
+          554.678
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          28.906,
+          533.821
+        ],
+        [
+          88.266,
+          532.152
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          -20.788,
+          516.307
+        ],
+        [
+          30.196,
+          514.874
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          41.8,
+          512.788
+        ],
+        [
+          88.413,
+          511.478
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          70.021,
+          557.293
+        ],
+        [
+          114.708,
+          539.325
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          86.58,
+          485.143
+        ],
+        [
+          86.308,
+          449.528
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          86.653,
+          435.885
+        ],
+        [
+          86.474,
+          416.539
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          115.726,
+          484.763
+        ],
+        [
+          113.75,
+          414.453
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          128.095,
+          483.976
+        ],
+        [
+          126.144,
+          414.545
+        ]
+      ],
+      "sides": [
+        -1,
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          141.786,
+          478.314
+        ],
+        [
+          140.106,
+          418.55
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 119,
+      "path": [
+        [
+          76.783,
+          408.895
+        ],
+        [
+          91.714,
+          408.476
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 120,
+      "path": [
+        [
+          -707.402,
+          529.14
+        ],
+        [
+          -707.955,
+          496.614
+        ]
+      ],
+      "sides": [
+        1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    },
+    {
+      "lot_objectid": 120,
+      "path": [
+        [
+          -689.51,
+          530.395
+        ],
+        [
+          -690.464,
+          496.561
+        ]
+      ],
+      "sides": [
+        -1
+      ],
+      "angle_deg": 90,
+      "spacing_m": 2.75,
+      "depth_m": 5.0
+    }
+  ],
+  "solar_carports": [
+    {
+      "lot_objectid": 118,
+      "outline": [
+        [
+          -606.928,
+          579.161
+        ],
+        [
+          -551.578,
+          577.601
+        ],
+        [
+          -552.098,
+          559.146
+        ],
+        [
+          -607.448,
+          560.706
+        ]
+      ],
+      "eaves_m": 4.0,
+      "rise_m": 0.5
+    },
+    {
+      "lot_objectid": 118,
+      "outline": [
+        [
+          -607.609,
+          554.994
+        ],
+        [
+          -552.259,
+          553.434
+        ],
+        [
+          -552.779,
+          534.979
+        ],
+        [
+          -608.129,
+          536.539
+        ]
+      ],
+      "eaves_m": 4.0,
+      "rise_m": 0.5
+    },
+    {
+      "lot_objectid": 118,
+      "outline": [
+        [
+          -608.29,
+          530.826
+        ],
+        [
+          -552.94,
+          529.267
+        ],
+        [
+          -553.46,
+          510.812
+        ],
+        [
+          -608.81,
+          512.371
+        ]
+      ],
+      "eaves_m": 4.0,
+      "rise_m": 0.5
+    },
+    {
+      "lot_objectid": 118,
+      "outline": [
+        [
+          -608.971,
+          506.659
+        ],
+        [
+          -553.621,
+          505.099
+        ],
+        [
+          -553.807,
+          498.508
+        ],
+        [
+          -609.157,
+          500.068
+        ]
+      ],
+      "eaves_m": 4.0,
+      "rise_m": 0.5
+    }
+  ],
+  "references": [
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84399889250652%2C34.41510253914458%2C-119.8414636478244%2C34.41732493134028&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 79,
+      "name": "Lot 11",
+      "geographic_extent": {
+        "xmin": -119.84399889250653,
+        "ymin": 34.41494611290137,
+        "xmax": -119.84146364782441,
+        "ymax": 34.41748135758349,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84584323756057%2C34.416255739898354%2C-119.84384821669282%2C34.41800462875073&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 81,
+      "name": "Lot 12",
+      "geographic_extent": {
+        "xmin": -119.84584323756056,
+        "ymin": 34.416132673890665,
+        "xmax": -119.8438482166928,
+        "ymax": 34.41812769475842,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84804856905758%2C34.41581098743006%2C-119.84551341771486%2C34.41803345920822&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 82,
+      "name": "Lot 14",
+      "geographic_extent": {
+        "xmin": -119.84804856905761,
+        "ymin": 34.41565464764778,
+        "xmax": -119.84551341771488,
+        "ymax": 34.418189798990504,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84864994062113%2C34.414701603909265%2C-119.84611483752465%2C34.41692408606634&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 83,
+      "name": "Lot 15",
+      "geographic_extent": {
+        "xmin": -119.84864994062116,
+        "ymin": 34.41454529343956,
+        "xmax": -119.84611483752468,
+        "ymax": 34.417080396536036,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84603556240575%2C34.407849421784356%2C-119.84350058005862%2C34.41007184500406&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 84,
+      "name": "Lot 5",
+      "geographic_extent": {
+        "xmin": -119.84603556240577,
+        "ymin": 34.407693142220644,
+        "xmax": -119.84350058005865,
+        "ymax": 34.41022812456777,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84384650755777%2C34.408077664727735%2C-119.84131145747214%2C34.41030004565915&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 85,
+      "name": "Lot 6",
+      "geographic_extent": {
+        "xmin": -119.84384650755779,
+        "ymin": 34.40792133015063,
+        "xmax": -119.84131145747216,
+        "ymax": 34.410456380236255,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84752765129052%2C34.409484431336175%2C-119.84499266444219%2C34.41170688549752&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 86,
+      "name": "Lot 4",
+      "geographic_extent": {
+        "xmin": -119.84752765129055,
+        "ymin": 34.4093281649927,
+        "xmax": -119.84499266444222,
+        "ymax": 34.41186315184103,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.8478582379471%2C34.41009842188582%2C-119.84532324297709%2C34.41232088320074&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 87,
+      "name": "Lot 8",
+      "geographic_extent": {
+        "xmin": -119.8478582379471,
+        "ymin": 34.409942155058275,
+        "xmax": -119.84532324297709,
+        "ymax": 34.41247715002828,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84390242400325%2C34.411741772604124%2C-119.84136727176693%2C34.41396415895265&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 89,
+      "name": "Lot 1",
+      "geographic_extent": {
+        "xmin": -119.84390242400319,
+        "ymin": 34.41158538966021,
+        "xmax": -119.84136727176687,
+        "ymax": 34.41412054189653,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85083539907869%2C34.41289806531225%2C-119.84830040823175%2C34.415120587820496&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 91,
+      "name": "Lot 29",
+      "geographic_extent": {
+        "xmin": -119.85083539907868,
+        "ymin": 34.412741831142895,
+        "xmax": -119.84830040823174,
+        "ymax": 34.415276821989835,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85388307196571%2C34.4107661519056%2C-119.85134822679618%2C34.412988731126696&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 92,
+      "name": "Lot 23",
+      "geographic_extent": {
+        "xmin": -119.85388307196565,
+        "ymin": 34.410610018931365,
+        "xmax": -119.85134822679612,
+        "ymax": 34.4131448641009,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85428364472502%2C34.41493764438349%2C-119.85174869271961%2C34.417160236343086&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 93,
+      "name": "Lot 25",
+      "geographic_extent": {
+        "xmin": -119.85428364472497,
+        "ymin": 34.41478146436059,
+        "xmax": -119.85174869271957,
+        "ymax": 34.41731641636599,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85158608726489%2C34.41889195332138%2C-119.84905094776978%2C34.421114497530006&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 94,
+      "name": "Lot 17",
+      "geographic_extent": {
+        "xmin": -119.85158608726488,
+        "ymin": 34.418735655678134,
+        "xmax": -119.84905094776977,
+        "ymax": 34.42127079517324,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85442121030856%2C34.409119281816864%2C-119.8518864268077%2C34.411341869542035&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 95,
+      "name": "Lot 24",
+      "geographic_extent": {
+        "xmin": -119.85442121030853,
+        "ymin": 34.40896318392902,
+        "xmax": -119.85188642680767,
+        "ymax": 34.41149796742988,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85261658113247%2C34.41352469687072%2C-119.85008162242963%2C34.41574725474748&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 96,
+      "name": "Lot 27",
+      "geographic_extent": {
+        "xmin": -119.85261658113247,
+        "ymin": 34.41336849645768,
+        "xmax": -119.85008162242963,
+        "ymax": 34.41590345516052,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85451118093262%2C34.41765030952535%2C-119.85180825472361%2C34.42002011422666&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 97,
+      "name": "Lot 30",
+      "geographic_extent": {
+        "xmin": -119.85451118093262,
+        "ymin": 34.417483748771495,
+        "xmax": -119.85180825472361,
+        "ymax": 34.420186674980506,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84688493183137%2C34.40983723019878%2C-119.84434991700401%2C34.41205967228274&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 101,
+      "name": "Lot 19",
+      "geographic_extent": {
+        "xmin": -119.84688493183138,
+        "ymin": 34.40968094382708,
+        "xmax": -119.84434991700402,
+        "ymax": 34.412215958654436,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85418665566381%2C34.42054545164337%2C-119.85165154220034%2C34.42276804837464&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 102,
+      "name": "Lot 33",
+      "geographic_extent": {
+        "xmin": -119.85418665566381,
+        "ymin": 34.42038919327727,
+        "xmax": -119.85165154220034,
+        "ymax": 34.42292430674074,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84727749963656%2C34.411088442647625%2C-119.84474246038626%2C34.41331089384432&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 103,
+      "name": "Lot 3",
+      "geographic_extent": {
+        "xmin": -119.84727749963656,
+        "ymin": 34.41093214862081,
+        "xmax": -119.84474246038626,
+        "ymax": 34.41346718787111,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84534397849353%2C34.41011330324685%2C-119.8428089127115%2C34.412335715698745&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 104,
+      "name": "Lot 9",
+      "geographic_extent": {
+        "xmin": -119.8453439784935,
+        "ymin": 34.40995697658179,
+        "xmax": -119.84280891271148,
+        "ymax": 34.412492042363816,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84545290763003%2C34.40944667891252%2C-119.8429178637658%2C34.411669092693906&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 105,
+      "name": "Lot 2",
+      "geographic_extent": {
+        "xmin": -119.84545290763005,
+        "ymin": 34.4092903638711,
+        "xmax": -119.84291786376582,
+        "ymax": 34.41182540773533,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85377090018348%2C34.412964323437514%2C-119.85123598966669%2C34.41518690308763&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 106,
+      "name": "Lot 22",
+      "geographic_extent": {
+        "xmin": -119.85377090018346,
+        "ymin": 34.41280815800416,
+        "xmax": -119.85123598966668,
+        "ymax": 34.41534306852095,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85559254153931%2C34.41018623955121%2C-119.8530577606498%2C34.412408851308946&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 107,
+      "name": "Lot 40",
+      "geographic_extent": {
+        "xmin": -119.85559254153931,
+        "ymin": 34.410030154985336,
+        "xmax": -119.8530577606498,
+        "ymax": 34.41256493587484,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.84837586454368%2C34.41690322579513%2C-119.84584069144408%2C34.41912570523019&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 119,
+      "name": "Lot 16",
+      "geographic_extent": {
+        "xmin": -119.84837586454368,
+        "ymin": 34.41674687896286,
+        "xmax": -119.84584069144408,
+        "ymax": 34.419282052062464,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85661869316155%2C34.41680897076745%2C-119.85408375359438%2C34.41903161033962&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 120,
+      "name": "Lot 51",
+      "geographic_extent": {
+        "xmin": -119.85661869316155,
+        "ymin": 34.416652820769954,
+        "xmax": -119.85408375359438,
+        "ymax": 34.419187760337124,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    },
+    {
+      "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.85532415753245%2C34.417075102178565%2C-119.85278917417179%2C34.41929771690285&bboxSR=4326&size=640%2C640&imageSR=4326&format=png&f=json",
+      "lot_id": 118,
+      "name": "Lot 50",
+      "geographic_extent": {
+        "xmin": -119.85532415753245,
+        "ymin": 34.41691891786038,
+        "xmax": -119.85278917417179,
+        "ymax": 34.41945390122104,
+        "spatialReference": {
+          "wkid": 4326,
+          "latestWkid": 4326
+        }
+      }
+    }
+  ]
+}

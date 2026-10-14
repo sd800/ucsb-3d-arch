@@ -3,9 +3,9 @@
   "layers": 176,
   "environment_layer": "Environment",
   "native_closed_solids": 224,
-  "objects_3ds": 1314,
-  "vertices": 1425784,
-  "triangles": 2435376,
+  "objects_3ds": 1320,
+  "vertices": 1496674,
+  "triangles": 2570340,
   "trees": 4525,
   "mapped_flora_positions": 4654,
   "palms": 917,
@@ -25,7 +25,7 @@
   "bounds": [
     -700.0,
     -1130.0,
-    1080.0,
+    1075.3254594738285,
     1150.0
   ],
   "district_bounds": {

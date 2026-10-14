@@ -1,14 +1,14 @@
 import {createOutdoorPicker,groundPoint,installCampusHover} from './outdoor_hover.js';
 import {createViewportRenderLoop} from './viewport_rendering.js';
 import {createTerrainLighting,applyTerrainLighting} from './terrain_lighting.js';
-import {prepareLandscape,prepareBuildingRoofs,stabilizeBuildingMaterial,updateCampusDepthRange,setCampusClipping,updateCampusDetailDepth,stabilizeCampusShadows,fitCampusSun} from './surface_rendering.js';
+import {prepareTerrainMass,prepareLandscape,prepareBuildingRoofs,stabilizeBuildingMaterial,updateCampusDepthRange,setCampusClipping,updateCampusDetailDepth,stabilizeCampusShadows,fitCampusSun} from './surface_rendering.js';
 import {groundHeight} from './ground_height.js';
 import {installMapSelection} from './map_selection.js';
 import {CampusMapControls,setRotationMode,frameCampusBox} from './campus_controls.js';
 import {parseCampusModel,recoverCampusDownload,nextPaint} from './model_parser.js';
 import {loadingIndicator} from './loading.js';
 import * as THREE from 'three';
-import {styleCoastalWater,prepareCoastalWater} from './coastal_water.js';
+import {styleWaterDepth,styleCoastalWater,prepareCoastalWater} from './coastal_water.js';
 import {initialLanguage} from './locale.js';
 import {loadModelBytes} from './model_data.js';
 import {updateCampusZoomLimit} from './camera_limits.js';
@@ -30,7 +30,7 @@ Object.assign(zh,{rotationMode:'旋转',load_local:'读取本地模型',load_rea
 Object.assign(en,{title:'UCSB Campus 3D Model',subtitle:'Coastal main campus model',central:'Academics',west:'Arts & west',south:'Lagoon & coast',north:'Athletics',core:'Campus core',eyebrow:'SANTA BARBARA · COASTAL ATLAS',stone:'Stucco & stone',intro:'Individually layered buildings, detailed campus spaces and a continuous coastal setting. Based on public footprint, landscape and terrain data; heights and exterior detail are approximate.',helpAccuracy:'Scale: 1 unit = 1 meter. Building outlines use UCSB’s 2026 public GIS; campus paths, planting and lawns use historical campus mapping supplemented by OpenStreetMap. Ground follows sampled USGS 3DEP elevations with flattened building pads. Storke Tower uses the university’s published 175 ft overall height. Other heights, storeys, facade openings, vegetation sizes and unrecorded widths are approximate. Ocean, surf and shallow-water colors are illustrative, not bathymetry. This is an independent exterior study, not official university BIM or a measured survey.',helpLanguages:'English is the default on every device. A manual language choice is remembered when browser storage is available. Chinese building names are independent translations; original English names remain available for comparison with the university map.',snapshot:'Public-data snapshot · 13 Oct 2026'});
 Object.assign(zh,{subtitle:'临海主校区模型',central:'教学科研',west:'艺术与西部片区',south:'泻湖与海岸',north:'体育区',core:'校园核心',eyebrow:'圣塔芭芭拉 · 海岸校园图集',stone:'灰泥与石材',intro:'建筑逐栋分层，细化校园室外空间、泻湖与滨海环境；采用公开建筑轮廓、景观和地形数据，高度与外部细节为近似。',helpAccuracy:'1单位=1米。建筑轮廓采用UCSB 2026年公开GIS；步道、草坪与植物点位结合历史校园地图及OpenStreetMap；地形依据USGS 3DEP采样，建筑基座局部平整化。斯托克钟塔总高采用校方公布的175英尺。其他高度、层数、开窗、植被尺寸和未记录的道路宽度为近似。海面、浪线与浅水配色为示意，不是海底地形测绘。本项目为独立室外研究模型，并非校方官方BIM或实测模型。',helpLanguages:'所有设备首次打开均默认英文。浏览器存储可用时会记住手动语言选择。中文名称为忠于原义的独立译名，详情保留原英文专名供对照。',snapshot:'公开资料快照 · 2026年10月13日'});
 let stored=null;try{stored=localStorage.getItem('ucsb-model-language');}catch{}
-let lang=initialLanguage(navigator.languages?.length?navigator.languages:[navigator.language||'en'],stored);
+let lang=initialLanguage([],stored);
 const t=key=>(lang==='zh'?zh[key]:en[key])||en[key]||key;
 const loadingView=loadingIndicator($('load-progress'),$('load-status'),t);
 const reportLoad=event=>loadingView.update(event);
@@ -177,11 +177,11 @@ try{
  const input=bytes;bytes=null;campus=await parseCampusModel(input,reportLoad,data);const meshes=[];campus.traverse(o=>{if(o.isMesh)meshes.push(o);});
  const coastalFields=await prepareCoastalWater(data);const terrainLighting=createTerrainLighting(data.groundGrid);let prepared=0,lastPrepared=performance.now();
  for(const m of meshes){
-  const old=Array.isArray(m.material)?m.material:[m.material];const materials=old.map(mm=>{const mat=mm.clone();const co=data.palette[mat.name];if(co)mat.color.setRGB(co[0]/255,co[1]/255,co[2]/255,THREE.SRGBColorSpace);mat.shininess=mat.name==='Glass'?25:0;mat.specular.set(mat.name==='Glass'?0x222222:0);mat.flatShading=true;mat.emissiveIntensity=0;if(['Ocean','CoastalWater','ShallowWater','Water','PoolWater','Foam'].includes(mat.name)){const water=new THREE.MeshBasicMaterial({color:mat.color,name:mat.name});styleCoastalWater(water,coastalFields);return water;}stabilizeBuildingMaterial(mat,m.name.includes('D'));stabilizeCampusShadows(mat);return mat;});
+  const old=Array.isArray(m.material)?m.material:[m.material];const materials=old.map(mm=>{const mat=mm.clone();const co=data.palette[mat.name];if(co)mat.color.setRGB(co[0]/255,co[1]/255,co[2]/255,THREE.SRGBColorSpace);mat.shininess=mat.name==='Glass'?25:0;mat.specular.set(mat.name==='Glass'?0x222222:0);mat.flatShading=true;mat.emissiveIntensity=0;if(['OceanDepth','LagoonDepth','Ocean','CoastalWater','ShallowWater','Water','PoolWater','Foam'].includes(mat.name)){const water=new THREE.MeshBasicMaterial({color:mat.color,name:mat.name});if(['OceanDepth','LagoonDepth'].includes(mat.name))styleWaterDepth(water,coastalFields);else styleCoastalWater(water,coastalFields);return water;}stabilizeBuildingMaterial(mat,m.name.includes('D'));stabilizeCampusShadows(mat);return mat;});
   m.material=Array.isArray(m.material)?materials:materials[0];m.receiveShadow=true;
   const r=byLayer.get(data.layers[m.name]?.layer);
   if(r){let g=buildings.get(r.code);if(!g){g=new THREE.Group();g.name=r.code;buildings.set(r.code,g);campus.add(g);}const center=new THREE.Box3().setFromObject(m).getCenter(new THREE.Vector3());for(const part of prepareBuildingRoofs(m,groundHeight(data,center.x,center.y),m.name.includes('D'),true)){g.attach(part);part.castShadow=true;part.userData.code=r.code;pickMeshes.push(part);if(part.name.includes('D'))details.push(part);}}
-  else{m.castShadow=materials.some(mat=>['Leaves','Trunk','Furniture'].includes(mat.name));const parts=prepareLandscape(m);for(const part of parts)if(part.renderOrder<0)applyTerrainLighting(part.material,terrainLighting);envMeshes.push(...parts);}
+  else{if(materials.some(mat=>['OceanDepth','LagoonDepth'].includes(mat.name))){m.renderOrder=-110;m.receiveShadow=false;}if(materials.some(mat=>mat.name==='Earth'))prepareTerrainMass(m,data.landBoundary);m.castShadow=materials.some(mat=>['Leaves','Trunk','Furniture'].includes(mat.name));const parts=prepareLandscape(m);for(const part of parts)if(part.renderOrder<0)applyTerrainLighting(part.material,terrainLighting);envMeshes.push(...parts);}
   prepared++;if(performance.now()-lastPrepared>8){reportLoad({phase:'scene',loaded:meshes.length+prepared,total:meshes.length*2});await nextPaint();lastPrepared=performance.now();}
  }
  reportLoad({phase:'scene',loaded:1,total:1});

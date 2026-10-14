@@ -3,8 +3,9 @@ from cad_core import *
 from campus_detail import *
 from curation import *
 from scipy.interpolate import RegularGridInterpolator
-from shapely import segmentize,points
+from shapely import segmentize,points,distance
 from shapely.strtree import STRtree
+from shapely.ops import nearest_points
 from PIL import Image
 import re
 
@@ -35,7 +36,12 @@ for f in raw:
     zone='north' if c.y>400 else ('south' if c.y<-240 else ('west' if c.x<-140 else 'central'))
     buildings.append({**f,'id':id,'name':name,'name_zh':chinese(id,name),'zone':zone})
 buildings.sort(key=lambda f:(['central','west','south','north'].index(f['zone']),-f['poly'].centroid.y,f['poly'].centroid.x))
-footprints=unary_union([f['poly'] for f in buildings]);scope=unary_union([scope,footprints.buffer(5)]).buffer(0);land=scope.difference(ocean).difference(lagoon).buffer(0);meta=json.loads((ROOT/'sources/terrain_export_metadata.json').read_text());ex=meta['extent'];dem=np.asarray(Image.open(ROOT/'sources/terrain_dem.tif'),dtype=float)
+footprints=unary_union([f['poly'] for f in buildings])
+campus_property=next(f['poly']for f in osm if f['properties'].get('osm_id')=='relation/12409275')
+# Keep mapped campus land and the complete coastal point, without filling the
+# neighboring airport area with a large unclassified ground sheet.
+scope=unary_union([scope.intersection(campus_property.buffer(8)),scope.intersection(box(-700,-1130,700,-500)),footprints.buffer(5)]).buffer(0)
+land=scope.difference(ocean).difference(lagoon).buffer(0);meta=json.loads((ROOT/'sources/terrain_export_metadata.json').read_text());ex=meta['extent'];dem=np.asarray(Image.open(ROOT/'sources/terrain_dem.tif'),dtype=float)
 assert np.isfinite(dem).all() and dem.min()>-100 and dem.max()<200
 xs=np.linspace(ex['xmin'],ex['xmax'],dem.shape[1],endpoint=False)+(ex['xmax']-ex['xmin'])/dem.shape[1]/2-OX
 ys=np.linspace(ex['ymin'],ex['ymax'],dem.shape[0],endpoint=False)+(ex['ymax']-ex['ymin'])/dem.shape[0]/2-OY
@@ -141,7 +147,12 @@ def env(g,z,hh,mat,drape=True,clip=True):
                 for pp in polygons(q.intersection(box(gx,gy,gx+size,gy+size))):
                     if drape:pp=segmentize(pp,10)
                     m=extrusion(pp,z,hh)
-                    if drape:m.vertices[:,2]+=ground(m.vertices[:,0],m.vertices[:,1])
+                    if drape:
+                        m.vertices[:,2]+=ground(m.vertices[:,0],m.vertices[:,1])
+                        if mat in ['Walk','Cycleway']:
+                            # A short graded transition meets the road surface exactly.
+                            ramp=np.clip(1-distance(points(m.vertices[:,0],m.vertices[:,1]),roadarea)/1.8,0,1)
+                            m.vertices[:,2]-=max(0,z+hh-.11)*ramp
                     eg[mat].append(m)
 def unionfile(file):return unary_union([f['poly']for f in features(file)]).buffer(0)
 roads=[];walks=[];bikes=[]
@@ -151,10 +162,37 @@ for f in osm:
     if h in ['primary','secondary','tertiary','residential','service','unclassified','living_street']:roads.append(g.buffer({'primary':7,'secondary':6,'tertiary':4.5,'residential':3.4,'service':2.3,'unclassified':3.2,'living_street':2.5}[h],cap_style=2,join_style=2))
     if h in ['footway','path','steps','pedestrian']:walks.append(g.buffer(1.3 if h!='path' else .95,cap_style=2,join_style=2))
     if h=='cycleway':bikes.append(g.buffer(2.0,cap_style=2,join_style=2))
-roadarea=unary_union([*roads,unionfile('icm_20.geojson'),unionfile('icm_21.geojson'),unionfile('icm_2.geojson')]).intersection(land).difference(footprints).buffer(0)
+parking_layout=json.loads((ROOT/'sources/parking_layouts.json').read_text());parking_fs=features('icm_2.geojson')
+retired_parking=unary_union([f['poly']for f in parking_fs if f['properties']['OBJECTID']in parking_layout['retired_parking_objectids']])
+active_parking=unary_union([f['poly']for f in parking_fs if f['properties']['OBJECTID']not in parking_layout['retired_parking_objectids']])
+roadarea=unary_union([*roads,unionfile('icm_20.geojson'),unionfile('icm_21.geojson'),active_parking]).difference(retired_parking).intersection(land).difference(footprints).buffer(0)
+# Mapped planting islands remain planted within the larger parking parcel.
+parking_islands=unionfile('icm_22.geojson').intersection(active_parking).difference(footprints).difference(unary_union(roads))
+roadarea=roadarea.difference(parking_islands).buffer(0)
 walkarea=unary_union([*walks,unionfile('icm_18.geojson')]).intersection(land).difference(footprints).difference(roadarea).buffer(0)
 for f in features('icm_5.geojson'):bikes.append(f['poly'].buffer(1.8,cap_style=2,join_style=2))
 bikearea=unary_union(bikes).intersection(land).difference(footprints).difference(roadarea).buffer(0)
+# Close only short mapped path endpoints that almost meet another route/road.
+# No route is drawn across a lawn simply to connect unrelated nearby paths.
+joins={'walk':[],'bike':[]};junction_audit=[]
+join_targets={'bike':unary_union([roadarea,walkarea]),'walk':unary_union([roadarea,bikearea])}
+for f in osm:
+    g=f['poly'];h=f['properties'].get('highway')
+    if g.geom_type!='LineString' or h not in ['footway','path','steps','pedestrian','cycleway']:continue
+    if f['properties'].get('tunnel')=='yes' or f['properties'].get('layer')=='-1':continue
+    kind='bike'if h=='cycleway'else 'walk';own=bikearea if kind=='bike'else walkarea
+    for xy in [g.coords[0],g.coords[-1]]:
+        pt=Point(*xy)
+        if not land.contains(pt) or footprints.buffer(.5).contains(pt):continue
+        target=join_targets[kind]
+        gap=pt.distance(target)
+        if .08<gap<=2.2:
+            end=nearest_points(pt,target)[1];line=LineString([pt,end]);patch=line.buffer(1.7 if kind=='bike'else 1.25,cap_style=2).intersection(land).difference(footprints.buffer(.2)).difference(roadarea)
+            if patch.area>.1:
+                joins[kind].append(patch);junction_audit.append({'source_id':f['properties'].get('osm_id'),'kind':kind,'gap_m':round(gap,3)})
+walkarea=unary_union([walkarea,*joins['walk']]).difference(roadarea).difference(footprints)
+bikearea=unary_union([bikearea,*joins['bike']]).difference(roadarea).difference(footprints)
+(OUT/'junction_validation.json').write_text(json.dumps({'max_join_distance_m':2.2,'joins':junction_audit,'road_walk_grade_transition_m':1.8,'note':'Small closure of source route endpoint gaps only; no inferred cross-campus routes.'},indent=2)+'\n')
 lawns=unionfile('icm_22.geojson').intersection(land).difference(footprints).difference(roadarea).difference(walkarea).difference(bikearea).buffer(0)
 beaches=unary_union([f['poly']for f in osm if f['properties'].get('natural')=='beach' and f['poly'].geom_type in ['Polygon','MultiPolygon']]).intersection(land)
 beaches=unary_union([beaches,land.intersection(ocean.buffer(10))]).difference(footprints).buffer(0)
@@ -162,7 +200,28 @@ beaches=unary_union([beaches,land.intersection(ocean.buffer(10))]).difference(fo
 # at sparse terrain vertices allowed triangles to pass below a flat building base.
 env(land.difference(footprints),-2.5,2.5,'Ground')
 for f in buildings:env(f['poly'],f['ground']-.18,.18,'Ground',False)
-env(lawns,.11,.05,'Grass');env(roadarea,.06,.05,'Road');env(walkarea.difference(bikearea),.17,.05,'Walk');env(bikearea,.2,.045,'Cycleway');env(beaches,.13,.05,'Sand')
+# Public land-cover polygons supplement the historical campus lawn inventory.
+cover=[]
+for f in osm:
+    t=f['properties'];q=f['poly']
+    if q.geom_type not in ['Polygon','MultiPolygon'] or t.get('building'):continue
+    mat='Grass' if t.get('landuse') in ['grass','meadow','village_green'] or t.get('natural')=='grassland' else ('Garden' if t.get('natural') in ['scrub','wood'] or t.get('landuse')=='forest' or t.get('leisure')=='garden' else None)
+    if mat:
+        q=q.intersection(land).difference(footprints).difference(roadarea).difference(walkarea).difference(bikearea).difference(beaches).difference(lawns)
+        if not q.is_empty:env(q,.09,.04,mat);cover.append(q)
+(OUT/'surface_validation.json').write_text(json.dumps({'land_m2':land.area,'mapped_lawn_m2':lawns.area,'roads_and_parking_m2':roadarea.area,'walks_m2':walkarea.area,'cycleways_m2':bikearea.area,'supplementary_mapped_cover_m2':unary_union(cover).area,'fallback':'Muted dry-earth material for unclassified land; not an assertion of parcel-level land cover.','parking_stall_grid_generated':False,'parking_layout_source':'Satellite-interpreted row paths; sources/parking_layouts.json'},indent=2)+'\n')
+env(lawns,.11,.05,'Grass');env(roadarea,.06,.05,'Road');env(walkarea.difference(bikearea),.13,.05,'Walk');env(bikearea,.11,.035,'Cycleway');env(beaches,.13,.05,'Sand')
+# A continuous closed earth mass, including the island and Campus Point. The
+# cartographic surface renderer deliberately removes generic extrusion sides;
+# the land therefore needs its own physical underside, not just a narrow coast ribbon.
+# Reuse the exact top triangulation of the final grade skin. A separately
+# triangulated coarse soil cap can protrude through roads on curved terrain.
+for source in eg['Ground']:
+    m=source.copy();up=np.unique(source.faces[source.face_normals[:,2]>.1].ravel())
+    m.vertices[:,2]=-3;m.vertices[up,2]=source.vertices[up,2]-.04;eg['Earth'].append(m)
+land_rings=[]
+for q in polygons(land):land_rings.extend([list(q.exterior.coords),*[list(r.coords)for r in q.interiors]])
+(OUT/'land_boundary.json').write_text(json.dumps(land_rings,separators=(',',':')))
 # Close the real coastline down to sea level so low views do not reveal floating land.
 cliff=land.intersection(ocean.buffer(2.0)).difference(footprints)
 for q in polygons(cliff):
@@ -174,6 +233,8 @@ for f in osm:
     if t.get('natural')=='coastline' and q.geom_type in ['Polygon','MultiPolygon'] and q.area<4000 and q.intersects(box(180,-1130,400,-900)):
         for part in polygons(q):
             m=extrusion(part,-.3,1.9);top=m.vertices[:,2]>.8;m.vertices[top,2]+=np.sin(m.vertices[top,0]*.13)*.35+np.cos(m.vertices[top,1]*.16)*.3;eg['Bluff'].append(m)
+for q in polygons(sea_context):eg['OceanDepth'].append(extrusion(q,-24,23.99))
+for q in polygons(lagoon):eg['LagoonDepth'].append(extrusion(q,-10,10.77))
 env(sea_context,.02,.035,'Ocean',False,False);env(lagoon,.78,.025,'Water',False)
 # Alongshore ribbons stay outside the mapped land. They follow the coastline.
 for distance,width,zz in [(3,.8,.16),(11,.5,.17),(23,.4,.18)]:
@@ -244,7 +305,7 @@ for f in osm:
         for yy in np.arange(bb,dd,4):env(box(aa,yy-.025,cc,yy+.025).intersection(g).difference(footprints),.325,.012,'StoneJoint')
 # Road edges remain open at pedestrian and bicycle connections.
 curb=roadarea.boundary.buffer(.16).intersection(land).difference(footprints).difference(walkarea.buffer(.4)).difference(bikearea.buffer(.5))
-env(curb,.175,.10,'Concrete')
+env(curb,.11,.07,'Concrete')
 # Centre dashes follow public cycle routes and stop at the road crossings.
 for f in features('icm_5.geojson'):
     g=f['poly']
@@ -252,16 +313,11 @@ for f in features('icm_5.geojson'):
         if line.geom_type!='LineString':continue
         for dd0 in np.arange(2,line.length-2,14):
             a0=line.interpolate(dd0);b0=line.interpolate(min(dd0+2,line.length));env(LineString([a0,b0]).buffer(.055).intersection(bikearea),.27,.018,'Marking')
-# OSM-marked crossing points: zebra direction follows the nearest mapped street.
-roadlines=[f['poly']for f in osm if f['properties'].get('highway')in ['residential','service','tertiary','secondary']and f['poly'].geom_type=='LineString']
-for f in osm:
-    q=f['poly']
-    if q.geom_type!='Point'or f['properties'].get('highway')!='crossing'or not land.contains(q):continue
-    street=min(roadlines,key=lambda g:g.distance(q));at=street.project(q);a0=street.interpolate(max(0,at-1));b0=street.interpolate(min(street.length,at+1));u=np.array([b0.x-a0.x,b0.y-a0.y]);ln=np.linalg.norm(u)
-    if ln<.05:continue
-    u/=ln;n=np.array([-u[1],u[0]]);c0=np.array([q.x,q.y])
-    for k in range(-4,5):
-        c1=c0+n*k*.8;pp=Polygon([c1-u*1.3-n*.23,c1+u*1.3-n*.23,c1+u*1.3+n*.23,c1-u*1.3+n*.23]);env(pp.intersection(roadarea),.14,.025,'Marking')
+# Only explicitly mapped paint is drawn. Unmarked path intersections are not zebras.
+from crossing_markings import crossing_markings
+crossings,crossing_audit=crossing_markings(osm,land,roadarea)
+for geometry in crossings:env(geometry,.14,.025,'Marking')
+(OUT/'crossing_validation.json').write_text(json.dumps(crossing_audit,indent=2)+'\n')
 # Bicycle racks occupy their public mapped footprints; the U-shaped bars are approximate.
 for f in features('icm_7.geojson'):
     q=f['poly'].intersection(land).difference(footprints)
@@ -285,15 +341,25 @@ for f in osm:
         z=float(ground(q.x,q.y));eg['Furniture'] += [boxmesh(q.x,q.y,z+.45,1.8,.5,.12),boxmesh(q.x,q.y+.22,z+.5,1.8,.08,.5)]
         for dx in [-.6,.6]:
             for dy in [-.16,.16]:eg['Furniture'].append(cylinder((q.x+dx,q.y+dy,z-.3),(q.x+dx,q.y+dy,z+.5),.045,5))
-# Painted parking stalls from the official parking polygons (illustrative modules).
-for f in features('icm_2.geojson'):
-    q=f['poly'].intersection(roadarea)
-    if q.is_empty:continue
-    aa,bb,cc,dd=q.bounds
-    for xx in np.arange(aa+3,cc-2,2.7):
-        for yy in np.arange(bb+3,dd-2,15):
-            line=box(xx-.045,yy,xx+.045,yy+4.8)
-            if q.contains(line):env(line,.14,.014,'Marking')
+# Parking uses fine bay outlines aligned with lot edges, with a clear central aisle.
+from parking_markings import parking_markings
+parking_clear=unary_union([lawns,unionfile('icm_23.geojson')])
+parking_paint,parking_audit=parking_markings(parking_fs,land,footprints,roadarea,parking_layout,parking_clear)
+for q in parking_paint:env(q,.14,.014,'Marking')
+(OUT/'parking_validation.json').write_text(json.dumps(parking_audit,indent=2)+'\n')
+# Satellite-observed solar carports use dark panels and open column supports.
+for canopy in parking_layout['solar_carports']:
+    g=Polygon(canopy['outline']).intersection(land).difference(footprints.buffer(.2))
+    for q in polygons(g):
+        a,b,c,d=q.bounds;zz=float(raw_ground(q.centroid.x,q.centroid.y))+canopy['eaves_m']
+        panel=extrusion(q,zz,.14);panel.vertices[:,2]+=canopy['rise_m']*(panel.vertices[:,1]-b)/max(d-b,1);eg['Solar'].append(panel)
+        for xx in np.arange(a+2,c-1,9):
+            for yy in [b+1.8,d-1.8]:
+                if q.contains(Point(xx,yy)):eg['Frame'].append(cylinder((xx,yy,float(ground(xx,yy))-.2),(xx,yy,zz+.2),.12,6))
+        for xx in np.arange(a+1,c,2):
+            joint=LineString([(xx,b),(xx,d)]).buffer(.012).intersection(q)
+            for part in polygons(joint):eg['Frame'].append(extrusion(part,zz+.145,.012))
+
 # Existing mapped trees: public flora inventory is historical, not a live census.
 clear=footprints.buffer(.7);trees=palmtree=0;used=[]
 for f in features('icm_14.geojson'):

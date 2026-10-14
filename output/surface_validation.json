@@ -1,0 +1,11 @@
+{
+  "land_m2": 1730717.6860815156,
+  "mapped_lawn_m2": 198339.82961408014,
+  "roads_and_parking_m2": 284620.25894062134,
+  "walks_m2": 174344.5396637332,
+  "cycleways_m2": 49270.021968112385,
+  "supplementary_mapped_cover_m2": 171682.90695210765,
+  "fallback": "Muted dry-earth material for unclassified land; not an assertion of parcel-level land cover.",
+  "parking_stall_grid_generated": false,
+  "parking_layout_source": "Satellite-interpreted row paths; sources/parking_layouts.json"
+}

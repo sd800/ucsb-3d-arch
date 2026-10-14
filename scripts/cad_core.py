@@ -13,13 +13,14 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]; OUT=ROOT/'output';OUT.mkdir(ex
 TF=Transformer.from_crs(4326,32611,always_xy=True)
 LON,LAT=-119.8476,34.4135;OX,OY=TF.transform(LON,LAT)
 COLORS={
- 'Cycleway':(144,159,151),'Ocean':(76,139,165),'CoastalWater':(84,149,170),'ShallowWater':(97,158,174),'Foundation':(196,188,166),'Bank':(137,145,108),'Sage':(135,153,107),'DryGrass':(175,164,115),'Bluff':(185,166,129),'Boardwalk':(155,135,101),'Limestone':(216,204,176),'LightStone':(233,222,196),'Brick':(144,86,67),
+ 'Earth':(166,150,113),'OceanDepth':(72,127,151),'LagoonDepth':(67,108,103),
+ 'Cycleway':(124,137,131),'Ocean':(76,139,165),'CoastalWater':(84,149,170),'ShallowWater':(97,158,174),'Foundation':(196,188,166),'Bank':(137,145,108),'Sage':(135,153,107),'DryGrass':(175,164,115),'Bluff':(185,166,129),'Boardwalk':(155,135,101),'Limestone':(216,204,176),'LightStone':(233,222,196),'Brick':(144,86,67),
  'Slate':(71,75,79),'Tile':(161,84,53),'Concrete':(197,198,193),'WhitePanel':(225,226,219),
  'Metal':(113,124,128),'Glass':(113,157,174),'DarkGlass':(59,83,91),'Frame':(64,65,64),
- 'Ground':(218,218,207),'Road':(81,86,89),'Paving':(195,186,164),'Walk':(215,210,191),
+ 'Ground':(155,157,127),'Road':(81,86,89),'Paving':(178,165,140),'Walk':(183,180,161),
  'Grass':(116,149,96),'Garden':(93,127,83),'Water':(86,142,146),'Track':(159,83,62),
  'Court':(89,132,122),'Marking':(232,228,207),'Leaves':(67,116,75),'Trunk':(119,95,68),
- 'Furniture':(72,78,72),'Solar':(50,73,88),'Purple':(0,54,96),'Gold':(254,188,17),'Blossom':(225,172,185),'Sand':(213,198,159),'Seat':(197,199,194),'BrickPath':(166,120,94),'BrickPale':(150,78,56),'BrickWarm':(143,69,50),'BrickBand':(119,60,48),'StepStone':(182,175,157),'StoneEdge':(191,186,171),'StoneJoint':(141,143,136),'Corten':(117,63,43),'Spray':(194,221,225),'PoolWater':(65,123,145),'Foam':(228,239,235),'Ripple':(114,166,180),'BlossomPale':(237,198,208),
+ 'Furniture':(72,78,72),'Solar':(50,73,88),'Purple':(0,54,96),'Gold':(254,188,17),'Blossom':(225,172,185),'Sand':(201,182,138),'Seat':(197,199,194),'BrickPath':(166,120,94),'BrickPale':(150,78,56),'BrickWarm':(143,69,50),'BrickBand':(119,60,48),'StepStone':(182,175,157),'StoneEdge':(191,186,171),'StoneJoint':(141,143,136),'Corten':(117,63,43),'Spray':(194,221,225),'PoolWater':(65,123,145),'Foam':(228,239,235),'Ripple':(114,166,180),'BlossomPale':(237,198,208),
 }
 model=rh.File3dm();model.ApplicationName='University of California, Santa Barbara Public-source Exterior Model'
 model.Settings.ModelUnitSystem=rh.UnitSystem.Meters;model.Settings.ModelAbsoluteTolerance=.01

@@ -205,3 +205,28 @@ export function setCampusClipping(renderer,campus,plane=null) {
   });
   renderer.shadowMap.needsUpdate=true;
 }
+
+/** Keep closed CAD earth solids, but draw only their underside and side walls.
+ * The independent cartographic skins already supply the top; drawing a second
+ * soil cap over those skins would conceal the roads and planting. */
+const boundaryCaches=new WeakMap();
+function nearLandBoundary(rings,x,y){
+ let grid=boundaryCaches.get(rings);const size=50;
+ if(!grid){grid=new Map();for(const ring of rings)for(let i=1;i<ring.length;i++){
+  const [ax,ay]=ring[i-1],[bx,by]=ring[i],edge=[ax,ay,bx,by];
+  for(let ix=Math.floor((Math.min(ax,bx)-.04)/size);ix<=Math.floor((Math.max(ax,bx)+.04)/size);ix++)for(let iy=Math.floor((Math.min(ay,by)-.04)/size);iy<=Math.floor((Math.max(ay,by)+.04)/size);iy++){const k=ix+','+iy;if(!grid.has(k))grid.set(k,[]);grid.get(k).push(edge);}
+ }boundaryCaches.set(rings,grid);}
+ for(const [ax,ay,bx,by]of grid.get(Math.floor(x/size)+','+Math.floor(y/size))||[]){const dx=bx-ax,dy=by-ay,l=dx*dx+dy*dy,u=l?Math.max(0,Math.min(1,((x-ax)*dx+(y-ay)*dy)/l)):0;if(Math.hypot(x-ax-u*dx,y-ay-u*dy)<.04)return true;}
+ return false;
+}
+export function prepareTerrainMass(mesh,boundary){
+ mesh.updateWorldMatrix(true,false);
+ const source=mesh.geometry,p=source.attributes.position,index=source.index,keep=[],a=new Vector3(),b=new Vector3(),c=new Vector3(),n=new Vector3();
+ for(let i=0;i<(index?.count??p.count);i+=3){
+  const ids=[0,1,2].map(k=>index?index.getX(i+k):i+k);
+  a.fromBufferAttribute(p,ids[0]).applyMatrix4(mesh.matrixWorld);b.fromBufferAttribute(p,ids[1]).applyMatrix4(mesh.matrixWorld);c.fromBufferAttribute(p,ids[2]).applyMatrix4(mesh.matrixWorld);n.subVectors(b,a).cross(c.clone().sub(a));
+  if(n.z< -n.length()*.1||(n.z<=n.length()*.1&&nearLandBoundary(boundary,(a.x+b.x+c.x)/3,(a.y+b.y+c.y)/3)))keep.push(...ids);
+ }
+ const g=new BufferGeometry();for(const [name,attribute]of Object.entries(source.attributes))g.setAttribute(name,attribute);g.setIndex(keep);mesh.geometry=g;mesh.castShadow=false;mesh.receiveShadow=false;
+ return mesh;
+}

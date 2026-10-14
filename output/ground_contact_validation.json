@@ -1,11 +1,11 @@
 {
   "source": "output/UCSB_MainCampus.3ds",
   "buildings": 175,
-  "samples": 1505,
-  "ground_top_triangles": 25373,
+  "samples": 1498,
+  "ground_top_triangles": 22163,
   "missing_ground_samples": 0,
   "max_floating_gap_m": 0.00049340820312338,
-  "max_intrusion_m": 0.00752608860367765,
+  "max_intrusion_m": 0.0004896850585929258,
   "passed": true,
   "failures": []
 }

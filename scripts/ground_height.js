@@ -5,7 +5,9 @@ function insideRing(ring,x,y){
  for(let i=0,j=ring.length-1;i<ring.length;j=i++){
   const [ax,ay]=ring[j],[bx,by]=ring[i];
   const cross=(x-ax)*(by-ay)-(y-ay)*(bx-ax);
-  if(Math.abs(cross)<1e-7&&x>=Math.min(ax,bx)-1e-7&&x<=Math.max(ax,bx)+1e-7&&y>=Math.min(ay,by)-1e-7&&y<=Math.max(ay,by)+1e-7)return true;
+  // CAD uses a 5 mm plan precision grid; accept the same boundary tolerance.
+  const length=Math.hypot(bx-ax,by-ay);
+  if(length>0&&Math.abs(cross)/length<.006&&x>=Math.min(ax,bx)-.006&&x<=Math.max(ax,bx)+.006&&y>=Math.min(ay,by)-.006&&y<=Math.max(ay,by)+.006)return true;
   if((ay>y)!==(by>y)&&x<(bx-ax)*(y-ay)/(by-ay)+ax)inside=!inside;
  }
  return inside;
@@ -17,7 +19,7 @@ function padHeight(data,x,y){
   cells=new Map();
   for(const pad of data.groundPads){
    const [a,b,c,d]=pad.bounds;
-   for(let ix=Math.floor(a/cellSize);ix<=Math.floor(c/cellSize);ix++)for(let iy=Math.floor(b/cellSize);iy<=Math.floor(d/cellSize);iy++){
+   for(let ix=Math.floor((a-.006)/cellSize);ix<=Math.floor((c+.006)/cellSize);ix++)for(let iy=Math.floor((b-.006)/cellSize);iy<=Math.floor((d+.006)/cellSize);iy++){
     const key=ix+','+iy;if(!cells.has(key))cells.set(key,[]);cells.get(key).push(pad);
    }
   }

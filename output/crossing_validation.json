@@ -1,0 +1,1902 @@
+{
+  "source": "OSM snapshot; road widths remain approximate",
+  "crossings_in_scope": 254,
+  "painted_crossings": 57,
+  "zebra_crossings": 7,
+  "dense_parking_stripe_grid": false,
+  "records": [
+    {
+      "source_id": "node/165443651",
+      "crossing": "marked",
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/165443689",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": false,
+      "street_distance_m": 23.093,
+      "reason": "Crossing point is not on a mapped vehicular street"
+    },
+    {
+      "source_id": "node/291147239",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448100527",
+      "crossing": null,
+      "markings": "yes",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448115222",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448767074",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448773896",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448773898",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448785395",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448785397",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448800153",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448887318",
+      "crossing": "uncontrolled",
+      "markings": "yes",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/451063338",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.63
+    },
+    {
+      "source_id": "node/451063340",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 0.828
+    },
+    {
+      "source_id": "node/452947339",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947340",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947346",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947356",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947359",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947360",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947382",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947383",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947385",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947394",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/538172724",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/565170517",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/565170519",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/565181444",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.593
+    },
+    {
+      "source_id": "node/569077005",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/569077006",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/569077007",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/569077009",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/569077016",
+      "crossing": "unmarked",
+      "markings": "yes",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/860161053",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.316
+    },
+    {
+      "source_id": "node/1576402072",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.478
+    },
+    {
+      "source_id": "node/1576515578",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/1576515579",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/1576521633",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.189
+    },
+    {
+      "source_id": "node/1576521634",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.217
+    },
+    {
+      "source_id": "node/2065717833",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.316
+    },
+    {
+      "source_id": "node/2302046080",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2302046081",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2302046082",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2315236931",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/3660614163",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/3660614165",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/3660614168",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.616
+    },
+    {
+      "source_id": "node/4569423060",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/4612618467",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.656
+    },
+    {
+      "source_id": "node/5327308249",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.31
+    },
+    {
+      "source_id": "node/5480085956",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/5733736567",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.614
+    },
+    {
+      "source_id": "node/5733748793",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.655
+    },
+    {
+      "source_id": "node/5735678854",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/6846312056",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/7721727315",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/7737996894",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/7738481843",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8232005774",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8253580195",
+      "crossing": null,
+      "markings": "yes",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8751292720",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8921187984",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8921187988",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/11068086404",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 0.824
+    },
+    {
+      "source_id": "node/12880494186",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494187",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494188",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494193",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494194",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494195",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494196",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494197",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494198",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520401",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520402",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520404",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520409",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 2.419
+    },
+    {
+      "source_id": "node/12880520410",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520412",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.635
+    },
+    {
+      "source_id": "node/12880520415",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.635
+    },
+    {
+      "source_id": "node/12888309813",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12888309815",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12888309820",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.656
+    },
+    {
+      "source_id": "node/12888309821",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.656
+    },
+    {
+      "source_id": "node/12888309822",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.503
+    },
+    {
+      "source_id": "node/12888309823",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.654
+    },
+    {
+      "source_id": "node/12888309824",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.655
+    },
+    {
+      "source_id": "node/12888309825",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.649
+    },
+    {
+      "source_id": "node/12889448441",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889448442",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889448443",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889448444",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889448447",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889448448",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889448449",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458813",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458816",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458817",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458818",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458819",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458820",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.626
+    },
+    {
+      "source_id": "node/12889458821",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458822",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458823",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458825",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458826",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458827",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458828",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458829",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12890243080",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12890243082",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12890243083",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12890243084",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12890243085",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12890249173",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12896995487",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12896995488",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12897017031",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12897017053",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12902535863",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12903120297",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12903120300",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12903201101",
+      "crossing": "uncontrolled",
+      "markings": "ladder:skewed",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "zebra",
+      "paint_area_m2": 7.56
+    },
+    {
+      "source_id": "node/12903201102",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12903201103",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12903331320",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12950338670",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12950338671",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12950509055",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12994727944",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12994727945",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12996864322",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12996864323",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/13016308617",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/13016363475",
+      "crossing": "uncontrolled",
+      "markings": "ladder:skewed",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "zebra",
+      "paint_area_m2": 7.518
+    },
+    {
+      "source_id": "node/13055104596",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/13082810481",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/13082835440",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/13667271038",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/13702205638",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/14041919529",
+      "crossing": "uncontrolled",
+      "markings": "ladder:skewed",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "zebra",
+      "paint_area_m2": 7.53
+    },
+    {
+      "source_id": "node/351098830",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/351099175",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448090960",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448797006",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/448865310",
+      "crossing": "uncontrolled",
+      "markings": "ladder:skewed",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "zebra",
+      "paint_area_m2": 10.08
+    },
+    {
+      "source_id": "node/450544696",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947362",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947371",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947374",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/452947377",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/566109499",
+      "crossing": "uncontrolled",
+      "markings": "ladder:skewed",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "zebra",
+      "paint_area_m2": 13.86
+    },
+    {
+      "source_id": "node/569076996",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/569076998",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/672630642",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/672630648",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/860193391",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.319
+    },
+    {
+      "source_id": "node/922119753",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.319
+    },
+    {
+      "source_id": "node/922119778",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.314
+    },
+    {
+      "source_id": "node/1595847279",
+      "crossing": null,
+      "markings": "yes",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/1595847322",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2291993874",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.638
+    },
+    {
+      "source_id": "node/2296515921",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307228397",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307228398",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237134",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237169",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237171",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237172",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237173",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237174",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.236
+    },
+    {
+      "source_id": "node/2307237175",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237177",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.23
+    },
+    {
+      "source_id": "node/2307237181",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2307237182",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.196
+    },
+    {
+      "source_id": "node/2315227162",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2315227203",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2315227209",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2315227212",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2315227213",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2315227215",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2315288238",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.304
+    },
+    {
+      "source_id": "node/2315288240",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.317
+    },
+    {
+      "source_id": "node/2316142879",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2316142880",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2316142881",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2316142882",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2590856330",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2590856331",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2590856332",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2590856333",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/2590856334",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/4612618460",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.65
+    },
+    {
+      "source_id": "node/5327308250",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.317
+    },
+    {
+      "source_id": "node/5327327475",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.301
+    },
+    {
+      "source_id": "node/5330821571",
+      "crossing": null,
+      "markings": "yes",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/5457998810",
+      "crossing": null,
+      "markings": "yes",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/5457998812",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/5733744992",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.222
+    },
+    {
+      "source_id": "node/5733744993",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.237
+    },
+    {
+      "source_id": "node/5733746434",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/5846916222",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/5846916223",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/6884264700",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/7738158791",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/7972870203",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.318
+    },
+    {
+      "source_id": "node/8250597666",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 4.319
+    },
+    {
+      "source_id": "node/8253592453",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.235
+    },
+    {
+      "source_id": "node/8253592454",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 3.23
+    },
+    {
+      "source_id": "node/8253592464",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8921209036",
+      "crossing": "uncontrolled",
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8921819982",
+      "crossing": null,
+      "markings": null,
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/8926270188",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.572
+    },
+    {
+      "source_id": "node/8926270191",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/11512574286",
+      "crossing": "uncontrolled",
+      "markings": "ladder:skewed",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "zebra",
+      "paint_area_m2": 7.363
+    },
+    {
+      "source_id": "node/12880357694",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880357695",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880448602",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494189",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494190",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494191",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494192",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880494200",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520403",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520405",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520406",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520407",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520408",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880520411",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880545082",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12880545084",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.64
+    },
+    {
+      "source_id": "node/12880545085",
+      "crossing": "uncontrolled",
+      "markings": "ladder",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "zebra",
+      "paint_area_m2": 7.529
+    },
+    {
+      "source_id": "node/12888183899",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12888245309",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12888309814",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12888309816",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.649
+    },
+    {
+      "source_id": "node/12888309817",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12888309818",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12888309819",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889448438",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.654
+    },
+    {
+      "source_id": "node/12889448439",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458802",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12889458803",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12896995466",
+      "crossing": "traffic_signals",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 0.828
+    },
+    {
+      "source_id": "node/12897001287",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.656
+    },
+    {
+      "source_id": "node/12897017041",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12902535864",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.634
+    },
+    {
+      "source_id": "node/12903331321",
+      "crossing": "uncontrolled",
+      "markings": "lines",
+      "painted": true,
+      "street_distance_m": 0.0,
+      "style": "two parallel crossing boundary lines",
+      "paint_area_m2": 1.63
+    },
+    {
+      "source_id": "node/12906379449",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/12996208253",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/14092871639",
+      "crossing": null,
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/14092871640",
+      "crossing": "uncontrolled",
+      "markings": "surface",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/14228267689",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
+      "source_id": "node/14228267690",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    }
+  ]
+}
