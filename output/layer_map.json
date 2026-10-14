@@ -2454,51 +2454,6 @@
     "category": "building",
     "material": "WhitePanel"
   },
-  "S063B07": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B08": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B09": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B10": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B11": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B12": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B13": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B14": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
-  "S063B15": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "WhitePanel"
-  },
   "S063M0800": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
@@ -2514,10 +2469,10 @@
     "category": "building",
     "material": "Concrete"
   },
-  "S063M3000": {
+  "S063M2900": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
-    "material": "Metal"
+    "material": "WhitePanel"
   },
   "S063D3200": {
     "layer": "S063_Interactive Learning Pavilion",

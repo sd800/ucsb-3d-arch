@@ -1,10 +1,11 @@
 """Metric coastal main-campus exterior study, from public snapshots, not an as-built BIM."""
 from cad_core import *
 from campus_detail import *
-from ilp_architecture import pavilion_parts,pavilion_detail,pavilion_facade
+from ilp_architecture import DECK,pavilion_parts,pavilion_detail,pavilion_facade
 from library_architecture import library_parts,library_detail,library_landscape
 from roof_finishes import nearby_roof,ROOF_PROFILE
 from curation import *
+from coastal_geometry import open_sea_domain
 from scipy.interpolate import RegularGridInterpolator
 from shapely import segmentize,points,distance,contains
 from shapely.strtree import STRtree
@@ -29,7 +30,7 @@ waterfs=features('icm_30.geojson');ocean=next(f['poly'] for f in waterfs if f['p
 lagoon=next(f['poly'] for f in osm if f['properties'].get('name')=='Campus Lagoon' and f['poly'].geom_type=='Polygon')
 land=scope.difference(ocean).difference(lagoon).buffer(0)
 # Open sea is modeled far beyond the campus framing. Its outer color fades in the viewer.
-sea_context=ocean.intersection(Point(170,-350).buffer(4200,quad_segs=64));shallow=ocean.intersection(land.buffer(65));midsea=ocean.intersection(land.buffer(420)).difference(shallow)
+sea_context=open_sea_domain(ocean).intersection(Point(170,-350).buffer(4200,quad_segs=64));shallow=ocean.intersection(land.buffer(65));midsea=ocean.intersection(land.buffer(420)).difference(shallow)
 excluded=[];buildings=[]
 for f in raw:
     t=f['properties'];id=int(t['OBJECTID']);p=f['poly'];c=p.centroid
@@ -103,13 +104,13 @@ for j,f in enumerate(buildings,1):
     elif id==277:
         height=18.18;levels=4
         for q,hh,n,balcony in pavilion_parts(p):
-            volumes=[(q,0,hh,n)] if balcony is None else [(q,0,4.4,1),(q.difference(balcony[1]),4.4,hh-4.4,3)]
+            volumes=[(q,0,hh,n)] if balcony is None else [(q,0,4.4-DECK,1),(q.difference(balcony[1]),4.4-DECK,hh-4.4+DECK,3)]
             for volume,z0,h0,n0 in volumes:
                 for part in polygons(volume):
                     native_extrude(part,base+z0,h0,code+'_Volume',lay,'WhitePanel',info);push(code+'B'+f'{body_index:02d}',extrusion(part,base+z0,h0),'WhitePanel',lay,native=False,info=info);body_index+=1
                     pavilion_facade(ms,part,base+z0,h0,n0)
             partitions.append({'area_m2':round(q.area,2),'height_m':hh,'storeys':n})
-        pavilion_detail(ms,p,base)
+        pavilion_detail(ms,p,base,ground)
     elif id in {343,345}:
         # Each mapped stand is its own layer. Stepped seating follows the real long axis.
         for q in polygons(p):
@@ -273,8 +274,8 @@ for f in osm:
     if t.get('natural')=='coastline' and q.geom_type in ['Polygon','MultiPolygon'] and q.area<4000 and q.intersects(box(180,-1130,400,-900)):
         for part in polygons(q):
             m=extrusion(part,-.3,1.9);top=m.vertices[:,2]>.8;m.vertices[top,2]+=np.sin(m.vertices[top,0]*.13)*.35+np.cos(m.vertices[top,1]*.16)*.3;eg['Bluff'].append(m)
-for q in polygons(sea_context):eg['OceanDepth'].append(extrusion(q,-24,23.99))
-for q in polygons(lagoon):eg['LagoonDepth'].append(extrusion(q,-10,10.77))
+for q in polygons(sea_context):eg['OceanDepth'].append(extrusion(q,-24,24.055))
+for q in polygons(lagoon):eg['LagoonDepth'].append(extrusion(q,-10,10.805))
 env(sea_context,.02,.035,'Ocean',False,False);env(lagoon,.78,.025,'Water',False)
 # Alongshore ribbons stay outside the mapped land. They follow the coastline.
 for distance,width,zz in [(3,.8,.16),(11,.5,.17),(23,.4,.18)]:

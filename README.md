@@ -1,4 +1,4 @@
-# UCSB Campus 3D Model
+# UC Santa Barbara Campus 3D Model
 
 An independent, bilingual exterior study of the **University of California, Santa Barbara coastal Main Campus**, including the academic core, arts buildings, athletics, residences, Campus Lagoon, Lagoon Island, Campus Point, beaches and adjacent Pacific Ocean.
 
@@ -87,3 +87,7 @@ Interactive Learning Pavilion has curved inner terraces, an open paseo, connecti
 Where available, primary university CAD stripe geometry replaces interpreted parking rows, after comparison with satellite imagery and exclusion of garages, current buildings, planting and obsolete parking. Added coastal sand joins the campus parcel to the mapped waterline, with continuous grade and a closed underside.
 
 Library roof finishes are differentiated by wing, with satellite-visible photovoltaic patches on the original/Mountain wings and Kerr Hall. Nearby clay roof ranges and pale membrane roofs retain their individual materials. See `sources/library_roof_reference.json` for the reviewed image extent and approximate array outlines.
+
+ILP stairs, landings, terraces and both bridges form one connected upper circulation surface at each level. Treads meet the shared slab-top datum, supported by closed inclined waist slabs; rails leave the connecting routes open. Connection and level checks are recorded in `output/ilp_connection_validation.json`.
+
+Offshore context uses only land-facing shoreline distances, excluding artificial water-map crop edges. The sea surface and closed depth volume share a continuous fade, including low-angle views. See `output/ocean_low_angle.png` and `output/ocean_continuity_validation.json`.

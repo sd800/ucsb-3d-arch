@@ -1,0 +1,49 @@
+{
+  "reference": "https://lmnarchitects.com/project/classroom-building-university-of-california",
+  "member_dimensions": "Public-photo approximation",
+  "connected_terrace_wings": 3,
+  "upper_connected_surface_components": 1,
+  "max_plan_connection_gap_m": 0.0,
+  "terrace_top_levels_m": [
+    4.4,
+    8.8,
+    13.2
+  ],
+  "slab_thickness_m": 0.22,
+  "unified_upper_decks": 3,
+  "inclined_waist_slabs": 6,
+  "ground_fitted_landing": true,
+  "stairs": [
+    {
+      "arrival_top_m": 4.4,
+      "departure_top_m": 0.18,
+      "half_landing_top_m": 2.29,
+      "risers": 26,
+      "riser_height_m": 0.162308,
+      "tread_run_m": 0.28,
+      "landing_to_terrace_gap_m": 0.0,
+      "flight_to_platform_vertical_gap_m": 0
+    },
+    {
+      "arrival_top_m": 8.8,
+      "departure_top_m": 4.4,
+      "half_landing_top_m": 6.6000000000000005,
+      "risers": 26,
+      "riser_height_m": 0.169231,
+      "tread_run_m": 0.28,
+      "landing_to_terrace_gap_m": 0.0,
+      "flight_to_platform_vertical_gap_m": 0
+    },
+    {
+      "arrival_top_m": 13.2,
+      "departure_top_m": 8.8,
+      "half_landing_top_m": 11.0,
+      "risers": 26,
+      "riser_height_m": 0.169231,
+      "tread_run_m": 0.28,
+      "landing_to_terrace_gap_m": 0.0,
+      "flight_to_platform_vertical_gap_m": 0
+    }
+  ],
+  "passed": true
+}

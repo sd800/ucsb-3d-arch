@@ -51,3 +51,12 @@ The campus parcel polygon follows the bluff and differs from the public water po
 ## Roof material correction
 
 Library wings no longer share one pale material. Specific roof colors, perimeter bands and observed PV patches follow `sources/library_roof_reference.json`. Nearby clay roof ranges, Kerr arrays and the pale Bioengineering roof are also differentiated. Existing lighting and navigation are retained; the pavilion material is moderated to avoid a washed-out roof plane.
+
+## ILP circulation continuity
+
+Curved terrace edge segments are merged before buffering so their deck strips form continuous surfaces. Both bridges and the stair arrival link are registered to those terrace polygons. Each level unions terraces, bridges and landings into one slab; the first-storey body cap ends beneath it to prevent overlapping top faces. Every upper floor uses a common top-of-slab datum; closed stair treads and inclined waist slabs meet the half and upper landings at that datum. Rails stop at bridge/terrace openings and continue around the stair turnarounds. The ground landing has a DEM-fitted closed support. Dimensions and detailed layout remain approximate exterior reconstructions. `output/ilp_connection_validation.json` records plan connectivity and level alignment.
+
+
+## Continuous offshore context
+
+The water GIS closes at a rectangular data extent. Its three long offshore closure edges are excluded from shoreline-distance calculation. An extended closed water volume is clipped to the 4.2 km viewing context; actual shoreline vertices remain unchanged. Surface and side-wall shaders share top colors and offshore/radial fade, with aligned top elevations. Depth shading is illustrative, not bathymetry.

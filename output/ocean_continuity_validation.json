@@ -1,0 +1,32 @@
+{
+  "mapped_shoreline_length_m": 10902.896,
+  "excluded_offshore_closure_edges": 3,
+  "context_radius_m": 4200,
+  "surface_and_depth_top_m": 0.055,
+  "fully_faded_radius_m": 3300,
+  "transects": [
+    {
+      "x_m": 0,
+      "samples": 34,
+      "minimum_increase_m": 88.654,
+      "old_crop_distance_m": 58.95,
+      "true_shore_distance_m": 2188.36
+    },
+    {
+      "x_m": 500,
+      "samples": 34,
+      "minimum_increase_m": 72.817,
+      "old_crop_distance_m": 43.44,
+      "true_shore_distance_m": 2181.4
+    },
+    {
+      "x_m": 1000,
+      "samples": 34,
+      "minimum_increase_m": 36.268,
+      "old_crop_distance_m": 27.94,
+      "true_shore_distance_m": 2283.49
+    }
+  ],
+  "texture_max_distance_error_m": 9.754,
+  "passed": true
+}
