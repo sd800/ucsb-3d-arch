@@ -13,6 +13,8 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]; OUT=ROOT/'output';OUT.mkdir(ex
 TF=Transformer.from_crs(4326,32611,always_xy=True)
 LON,LAT=-119.8476,34.4135;OX,OY=TF.transform(LON,LAT)
 COLORS={
+ 'WetSand':(177,157,113),
+ 'RoofPavilion':(202,205,200),'ConcreteBlock':(178,170,156),
  'Earth':(166,150,113),'OceanDepth':(72,127,151),'LagoonDepth':(67,108,103),
  'Cycleway':(124,137,131),'Ocean':(76,139,165),'CoastalWater':(84,149,170),'ShallowWater':(97,158,174),'Foundation':(196,188,166),'Bank':(137,145,108),'Sage':(135,153,107),'DryGrass':(175,164,115),'Bluff':(185,166,129),'Boardwalk':(155,135,101),'Limestone':(216,204,176),'LightStone':(233,222,196),'Brick':(144,86,67),
  'Slate':(71,75,79),'Tile':(161,84,53),'Concrete':(197,198,193),'WhitePanel':(225,226,219),

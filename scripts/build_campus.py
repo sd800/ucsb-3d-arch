@@ -1,9 +1,11 @@
 """Metric coastal main-campus exterior study, from public snapshots, not an as-built BIM."""
 from cad_core import *
 from campus_detail import *
+from ilp_architecture import pavilion_parts,pavilion_detail,pavilion_facade
+from library_architecture import library_parts,library_detail,library_landscape
 from curation import *
 from scipy.interpolate import RegularGridInterpolator
-from shapely import segmentize,points,distance
+from shapely import segmentize,points,distance,contains
 from shapely.strtree import STRtree
 from shapely.ops import nearest_points
 from PIL import Image
@@ -40,14 +42,28 @@ footprints=unary_union([f['poly'] for f in buildings])
 campus_property=next(f['poly']for f in osm if f['properties'].get('osm_id')=='relation/12409275')
 # Keep mapped campus land and the complete coastal point, without filling the
 # neighboring airport area with a large unclassified ground sheet.
+model_extent=scope
 scope=unary_union([scope.intersection(campus_property.buffer(8)),scope.intersection(box(-700,-1130,700,-500)),footprints.buffer(5)]).buffer(0)
+# The campus parcel ends at the bluff, while the historical water polygon starts
+# at the beach. Keeping only the parcel left an unmodeled white coastal strip.
+# Complete that land context up to the source waterline without filling airport
+# parcels or extending the offshore surface across actual land.
+parcel_extent=scope
+coastal_completion=model_extent.buffer(30).intersection(ocean.buffer(45)).difference(ocean).difference(scope).buffer(0)
+scope=unary_union([scope,coastal_completion]).buffer(0)
 land=scope.difference(ocean).difference(lagoon).buffer(0);meta=json.loads((ROOT/'sources/terrain_export_metadata.json').read_text());ex=meta['extent'];dem=np.asarray(Image.open(ROOT/'sources/terrain_dem.tif'),dtype=float)
 assert np.isfinite(dem).all() and dem.min()>-100 and dem.max()<200
 xs=np.linspace(ex['xmin'],ex['xmax'],dem.shape[1],endpoint=False)+(ex['xmax']-ex['xmin'])/dem.shape[1]/2-OX
 ys=np.linspace(ex['ymin'],ex['ymax'],dem.shape[0],endpoint=False)+(ex['ymax']-ex['ymin'])/dem.shape[0]/2-OY
 interpolate=RegularGridInterpolator((ys,xs),dem[::-1],bounds_error=False,fill_value=None)
 def raw_ground(x,y):
-    x,y=np.broadcast_arrays(x,y);return np.maximum(.18,interpolate(np.column_stack([y.ravel(),x.ravel()])).reshape(x.shape))
+    x,y=np.broadcast_arrays(x,y);z=np.maximum(.18,interpolate(np.column_stack([y.ravel(),x.ravel()])).reshape(x.shape))
+    pts=points(x.ravel(),y.ravel());mask=contains(coastal_completion,pts)
+    if np.any(mask):
+        wet=distance(pts[mask],ocean);inland=distance(pts[mask],parcel_extent)
+        blend=wet/np.maximum(.01,wet+inland)
+        z.ravel()[mask]=.18+(z.ravel()[mask]-.18)*blend
+    return z
 for f in buildings:
     c=f['poly'].representative_point();f['ground']=float(raw_ground(c.x,c.y))
 pad_tree=STRtree([f['poly'].buffer(.25) for f in buildings]);pad_z=np.array([f['ground'] for f in buildings])
@@ -75,6 +91,24 @@ for j,f in enumerate(buildings,1):
         ms['Foundation'].append(support)
 
     if id==353:storke(ms,p,base,height)
+    elif id==291:
+        parts=library_parts(p,osm);levels=8;height=32.88
+        for name,volume,hh,n in parts:
+            material='Glass' if name=='paseo' else ('WhitePanel' if name in ['addition','original'] else 'ConcreteBlock')
+            for q in polygons(volume):
+                native_extrude(q,base,hh,code+'_Volume',lay,material,info);push(code+'B'+f'{body_index:02d}',extrusion(q,base,hh),material,lay,native=False,info=info);body_index+=1
+                partitions.append({'name':name,'area_m2':round(q.area,2),'height_m':hh,'storeys':n})
+        library_detail(ms,p,base,parts)
+    elif id==277:
+        height=18.18;levels=4
+        for q,hh,n,balcony in pavilion_parts(p):
+            volumes=[(q,0,hh,n)] if balcony is None else [(q,0,4.4,1),(q.difference(balcony[1]),4.4,hh-4.4,3)]
+            for volume,z0,h0,n0 in volumes:
+                for part in polygons(volume):
+                    native_extrude(part,base+z0,h0,code+'_Volume',lay,'WhitePanel',info);push(code+'B'+f'{body_index:02d}',extrusion(part,base+z0,h0),'WhitePanel',lay,native=False,info=info);body_index+=1
+                    pavilion_facade(ms,part,base+z0,h0,n0)
+            partitions.append({'area_m2':round(q.area,2),'height_m':hh,'storeys':n})
+        pavilion_detail(ms,p,base)
     elif id in {343,345}:
         # Each mapped stand is its own layer. Stepped seating follows the real long axis.
         for q in polygons(p):
@@ -92,7 +126,10 @@ for j,f in enumerate(buildings,1):
                 native_extrude(q,base,hh,code+'_Volume',lay,mat,info);push(code+'B'+f'{body_index:02d}',extrusion(q,base,hh),mat,lay,native=False,info=info);body_index+=1;partitions.append({'area_m2':round(q.area,2),'height_m':hh,'storeys':n})
                 facade(ms,q,base,hh,n,continuous=id in {218,280,284,227,291},spacing=3.6 if id in {218,277,288,291} else 4.2)
                 roof(ms,q,base+hh,tile);bands(ms,q,base,hh,max(1,n),mat='LightStone' if mat!='Limestone' else 'Concrete')
-        if id in {218,277,288,282,284,280,321,274}:fins(ms,p,base,height,spacing=2.0 if id==218 else 5.4,mat='Tile' if id==218 else 'LightStone',depth=.75)
+        # Screens follow each wing's eaves. Unverified whole-building rods are omitted.
+        if id in {218,288}:
+            for volume,hh,n in split_volumes(id,p,height,levels):
+                if volume.area>150:fins(ms,volume,base,hh,spacing=2.0 if id==218 else 5.4,mat='Tile' if id==218 else 'LightStone',depth=.30)
         # Public mapped entrances provide actual door positions; member sizes are approximate.
         entry_points=[e['poly']for e in mapped_entries if e['poly'].geom_type=='Point'and e['poly'].distance(p.boundary)<1.8]
         if not entry_points and id in {218,277,288,282,284,280,213,324,291}:entrance(ms,p,base)
@@ -101,7 +138,7 @@ for j,f in enumerate(buildings,1):
             if ln<.05:continue
             u/=ln;n=np.array([u[1],-u[0]]);c0=np.array([door.x,door.y])+n*.10;pp=Polygon([c0-u*.75,c0+u*.75,c0+u*.75+n*.1,c0-u*.75+n*.1]);ms['DarkGlass'].append(extrusion(pp,base+.06,2.6))
 
-        if id==277:pavilion_bridges(ms,base)
+
         if id==303:
             center=p.centroid;m=trimesh.creation.cone(radius=21.3,height=1.6,sections=64);m.apply_translation([center.x,center.y,base+height+.24]);ms['Metal'].append(m)
         if id in {288,280,274,283}:
@@ -116,9 +153,6 @@ for j,f in enumerate(buildings,1):
         if id==284:
             q=p.buffer(-2)
             for pp in polygons(q):ms['Garden'].append(extrusion(pp,base+height+.6,.15))
-        if id==291:
-            q=p.intersection(box(-10000,77,10000,86))
-            for pp in polygons(q):ms['Glass'].append(extrusion(pp,base+8.8,.5))
         if id in {276,279,299}:
             for xx in np.arange(a+5,c-3,8):
                 q=box(xx-.12,b+4,xx+.12,d-4).intersection(p.buffer(-1))
@@ -195,7 +229,7 @@ bikearea=unary_union([bikearea,*joins['bike']]).difference(roadarea).difference(
 (OUT/'junction_validation.json').write_text(json.dumps({'max_join_distance_m':2.2,'joins':junction_audit,'road_walk_grade_transition_m':1.8,'note':'Small closure of source route endpoint gaps only; no inferred cross-campus routes.'},indent=2)+'\n')
 lawns=unionfile('icm_22.geojson').intersection(land).difference(footprints).difference(roadarea).difference(walkarea).difference(bikearea).buffer(0)
 beaches=unary_union([f['poly']for f in osm if f['properties'].get('natural')=='beach' and f['poly'].geom_type in ['Polygon','MultiPolygon']]).intersection(land)
-beaches=unary_union([beaches,land.intersection(ocean.buffer(10))]).difference(footprints).buffer(0)
+beaches=unary_union([beaches,coastal_completion,land.intersection(ocean.buffer(10))]).difference(footprints).buffer(0)
 # Cut actual footprint holes before triangulation. Evaluating the pad height only
 # at sparse terrain vertices allowed triangles to pass below a flat building base.
 env(land.difference(footprints),-2.5,2.5,'Ground')
@@ -211,6 +245,9 @@ for f in osm:
         if not q.is_empty:env(q,.09,.04,mat);cover.append(q)
 (OUT/'surface_validation.json').write_text(json.dumps({'land_m2':land.area,'mapped_lawn_m2':lawns.area,'roads_and_parking_m2':roadarea.area,'walks_m2':walkarea.area,'cycleways_m2':bikearea.area,'supplementary_mapped_cover_m2':unary_union(cover).area,'fallback':'Muted dry-earth material for unclassified land; not an assertion of parcel-level land cover.','parking_stall_grid_generated':False,'parking_layout_source':'Satellite-interpreted row paths; sources/parking_layouts.json'},indent=2)+'\n')
 env(lawns,.11,.05,'Grass');env(roadarea,.06,.05,'Road');env(walkarea.difference(bikearea),.13,.05,'Walk');env(bikearea,.11,.035,'Cycleway');env(beaches,.13,.05,'Sand')
+wet_sand=beaches.intersection(ocean.buffer(2.3)).difference(footprints)
+env(wet_sand,.19,.018,'WetSand')
+(OUT/'shore_join_validation.json').write_text(json.dumps({'completed_coastal_land_m2':round(coastal_completion.area,2),'shore_source':ICM,'coastal_context_width_m':45,'grade':'Continuous blend between the existing parcel DEM and a 0.18 m waterline toe','closed_land_mass':True},indent=2)+'\n')
 # A continuous closed earth mass, including the island and Campus Point. The
 # cartographic surface renderer deliberately removes generic extrusion sides;
 # the land therefore needs its own physical underside, not just a narrow coast ribbon.
@@ -344,8 +381,17 @@ for f in osm:
 # Parking uses fine bay outlines aligned with lot edges, with a clear central aisle.
 from parking_markings import parking_markings
 parking_clear=unary_union([lawns,unionfile('icm_23.geojson')])
-parking_paint,parking_audit=parking_markings(parking_fs,land,footprints,roadarea,parking_layout,parking_clear)
+cad_paint=json.loads((ROOT/'sources/parking_paint.geojson').read_text());cad_lots={int(id)for f in cad_paint['features']for id in f['properties']['lot_ids']}
+parking_paint,parking_audit=parking_markings([f for f in parking_fs if f['properties']['OBJECTID']not in cad_lots],land,footprints,roadarea,parking_layout,parking_clear)
 for q in parking_paint:env(q,.14,.014,'Marking')
+paint_clear=land.intersection(roadarea).difference(footprints.buffer(.4)).difference(parking_clear.buffer(.1))
+paint_count=0
+for feature in cad_paint['features']:
+    line=shape(feature['geometry'])
+    if line.length<.20:continue
+    q=line.buffer(.045,cap_style=2,join_style=2).intersection(paint_clear)
+    if not q.is_empty:env(q,.14,.014,'Marking');paint_count+=1
+parking_audit.update({'native_cad_paint_features':paint_count,'native_cad_lots':sorted(cad_lots),'paint_geometry_source':cad_paint['source'],'paint_width_m':.09,'satellite_referenced_fallback_rows_only_for_lots_without_cad':True})
 (OUT/'parking_validation.json').write_text(json.dumps(parking_audit,indent=2)+'\n')
 # Satellite-observed solar carports use dark panels and open column supports.
 for canopy in parking_layout['solar_carports']:
@@ -360,8 +406,12 @@ for canopy in parking_layout['solar_carports']:
             joint=LineString([(xx,b),(xx,d)]).buffer(.012).intersection(q)
             for part in polygons(joint):eg['Frame'].append(extrusion(part,zz+.145,.012))
 
+# Library entrances and the Mountain courtyard are modeled with the corrected
+# building parts; all other public routes retain their mapped plan geometry.
+library=next(f for f in buildings if f['id']==291)
+library_approach=library_landscape(eg,library['poly'],library['ground'],ground,walkarea,bikearea,footprints)
 # Existing mapped trees: public flora inventory is historical, not a live census.
-clear=footprints.buffer(.7);trees=palmtree=0;used=[]
+clear=unary_union([footprints.buffer(.7),library_approach.buffer(.5)]);trees=palmtree=0;used=[]
 for f in features('icm_14.geojson'):
     q=f['poly'];t=f['properties']
     if q.geom_type!='Point' or not land.contains(q)or clear.contains(q)or lagoon.contains(q):continue

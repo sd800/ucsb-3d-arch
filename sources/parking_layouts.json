@@ -4,7 +4,8 @@
   "method": "Parking row back edges interpreted from satellite imagery; individual bay spacing and member sizes approximate. Current building footprints and mapped landscape islands take precedence. No aerial raster is redistributed.",
   "retired_parking_objectids": [
     88,
-    98
+    98,
+    99
   ],
   "omitted_unclear_or_covered": [
     80,
@@ -2264,5 +2265,6 @@
         }
       }
     }
-  ]
+  ],
+  "construction_no_paint_note": "OBJECTID 99 appears as construction in satellite reference inspected 2026-10-14; no inferred parking stripes."
 }

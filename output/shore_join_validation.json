@@ -1,0 +1,7 @@
+{
+  "completed_coastal_land_m2": 11417.83,
+  "shore_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/ucsb_icm.gdb/FeatureServer",
+  "coastal_context_width_m": 45,
+  "grade": "Continuous blend between the existing parcel DEM and a 0.18 m waterline toe",
+  "closed_land_mass": true
+}

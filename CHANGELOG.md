@@ -1,5 +1,13 @@
 # Changelog
 
+## 26.10.14.2 — 2026-10-14
+
+- Rebuild Interactive Learning Pavilion with four-storey teaching volumes, an open paseo, curved inner terraces, supported switchback stairs, shallow guard panels, narrow vertical glazing and a pale membrane roof.
+- Rebuild UCSB Library from official floor plans and mapped wings, correcting the tower depth and Paseo position; add the white entry portal, north addition, individual facade systems, graded west approach and Mountain courtyard.
+- Close the unmodeled coastal strip between the campus parcel and mapped waterline; grade the added sand to sea level and retain a closed underside with a narrow wet-sand transition.
+- Remove unsupported full-building facade rods and bound retained screens to the eaves of their own building wings.
+- Replace reconstructed parking rows where available with primary university CAD stripe geometry checked against satellite imagery; retain explicit satellite rows for other clearly visible lots. Exclude obsolete parking, garages, current buildings, planting and the construction parcel.
+
 ## 26.10.14.1 — 2026-10-14
 
 - Replace dense parking stripes with satellite-referenced rows, straight/angled bay outlines, clear aisles and solar carports; stop turning unmarked crossings into zebras. Distinguish explicitly mapped zebra/ladder paint from two-line crossing boundaries.

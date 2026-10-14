@@ -61,9 +61,6 @@ def storke(ms,p,z,h):
             b=center+normal*.18+tangent*(length*math.sin(ang));ms['Frame'].append(cylinder((*(center+normal*.18),cz),(*b,cz+length*math.cos(ang)),.045,5))
 
 def split_volumes(id,p,h,levels):
-    if id==291:
-        # Published sequence from north: new addition / original / tower / south wing.
-        return [(p.intersection(box(-10000,87,10000,10000)),12.0,3),(p.intersection(box(-10000,23,10000,87)),8.0,2),(p.intersection(box(-10000,-25,10000,23)),32.5,8),(p.intersection(box(-10000,-10000,10000,-25)),16.0,4)]
     if id==277:return [(q,4.0 if q.area<150 else (21.0 if q.centroid.x>210 else 17.5),1 if q.area<150 else 4) for q in polygons(p)]
     if id in {317,329,326,294,337,336}:
         a,b,c,d=p.bounds;axis=(c-a)>(d-b);cut=box(a,b,c,b+(d-b)*.36) if axis else box(a,b,a+(c-a)*.36,d)

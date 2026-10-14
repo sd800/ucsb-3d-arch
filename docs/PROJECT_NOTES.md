@@ -32,3 +32,18 @@
 - Ocean and lagoon include closed display-depth volumes with a static downward color fade, so water does not disappear into a zero-thickness plane at an exact horizon view. Display depths are presentation geometry, not bathymetric measurements. The viewer filters internal soil patch walls and uses only actual land/water boundary faces for the visible earth perimeter.
 
 - Mapped lawn islands override the enclosing parking parcel, while actual street corridors remain open. Back-to-back angled bays use parallel dividers rather than opposing chevrons.
+
+
+## Pavilion and parking revision
+
+Interactive Learning Pavilion is reconstructed from the current footprint and [LMN project photos](https://lmnarchitects.com/project/classroom-building-university-of-california). The four-storey concrete-panel volumes, open paseo, inward terraces, bridge levels and switchback stairs replace unverified facade rods. Local dimensions and elevations remain approximations.
+
+`sources/parking_paint_snapshot.geojson` retains the complete public historical CAD stripe layer (5,409 records), with `sources/parking_paint.geojson` holding its current outdoor-lot subset. Only genuine stripe layers are rendered; garage paint, old parking and building/planting overlaps are excluded. Satellite-checked explicit row paths remain where no useful native paint exists. Raster imagery is reference-only and not redistributed.
+
+## Library refinement
+
+See `sources/ARCHITECTURE_REFERENCES.md`. The Library uses mapped individual wings and official floor plans; the earlier oversized tower and misplaced glazed hall have been replaced. Graded entry paving, supported steps and the Mountain courtyard follow the corrected arrangement.
+
+## Coastal parcel/waterline join
+
+The campus parcel polygon follows the bluff and differs from the public water polygon. A narrow land context now joins those boundaries, using the mapped waterline and a continuous grade blend to a 0.18 m toe. Sand and wet sand cover the added strip; it shares the closed earth mass, preventing white background gaps and floating sheets. `output/shore_join_validation.json` records the completed area.

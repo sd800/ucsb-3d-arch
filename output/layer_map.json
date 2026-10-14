@@ -4,37 +4,37 @@
     "category": "building",
     "material": "Concrete"
   },
-  "S001M0700": {
+  "S001M1000": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S001M1400": {
+  "S001M1700": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S001M1700": {
+  "S001M2000": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S001M2000": {
+  "S001M2300": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S001D2100": {
+  "S001D2400": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S001D2200": {
+  "S001D2500": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S001D2300": {
+  "S001D2600": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Frame"
@@ -44,37 +44,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S002M0700": {
+  "S002M1000": {
     "layer": "S002_Building 402",
     "category": "building",
     "material": "Foundation"
   },
-  "S002M1400": {
+  "S002M1700": {
     "layer": "S002_Building 402",
     "category": "building",
     "material": "LightStone"
   },
-  "S002M1800": {
+  "S002M2100": {
     "layer": "S002_Building 402",
     "category": "building",
     "material": "Concrete"
   },
-  "S002M2000": {
+  "S002M2300": {
     "layer": "S002_Building 402",
     "category": "building",
     "material": "Metal"
   },
-  "S002D2100": {
+  "S002D2400": {
     "layer": "S002_Building 402",
     "category": "building",
     "material": "Glass"
   },
-  "S002D2200": {
+  "S002D2500": {
     "layer": "S002_Building 402",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S002D2300": {
+  "S002D2600": {
     "layer": "S002_Building 402",
     "category": "building",
     "material": "Frame"
@@ -84,32 +84,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S003M0700": {
+  "S003M1000": {
     "layer": "S003_Building 451",
     "category": "building",
     "material": "Foundation"
   },
-  "S003M1400": {
+  "S003M1700": {
     "layer": "S003_Building 451",
     "category": "building",
     "material": "LightStone"
   },
-  "S003M2000": {
+  "S003M2300": {
     "layer": "S003_Building 451",
     "category": "building",
     "material": "Metal"
   },
-  "S003D2100": {
+  "S003D2400": {
     "layer": "S003_Building 451",
     "category": "building",
     "material": "Glass"
   },
-  "S003D2200": {
+  "S003D2500": {
     "layer": "S003_Building 451",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S003D2300": {
+  "S003D2600": {
     "layer": "S003_Building 451",
     "category": "building",
     "material": "Frame"
@@ -119,32 +119,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S004M0700": {
+  "S004M1000": {
     "layer": "S004_Chemistry Annex",
     "category": "building",
     "material": "Foundation"
   },
-  "S004M1400": {
+  "S004M1700": {
     "layer": "S004_Chemistry Annex",
     "category": "building",
     "material": "LightStone"
   },
-  "S004M2000": {
+  "S004M2300": {
     "layer": "S004_Chemistry Annex",
     "category": "building",
     "material": "Metal"
   },
-  "S004D2100": {
+  "S004D2400": {
     "layer": "S004_Chemistry Annex",
     "category": "building",
     "material": "Glass"
   },
-  "S004D2200": {
+  "S004D2500": {
     "layer": "S004_Chemistry Annex",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S004D2300": {
+  "S004D2600": {
     "layer": "S004_Chemistry Annex",
     "category": "building",
     "material": "Frame"
@@ -154,37 +154,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S005M0700": {
+  "S005M1000": {
     "layer": "S005_Student Affairs and Administrative Services",
     "category": "building",
     "material": "Foundation"
   },
-  "S005M1400": {
+  "S005M1700": {
     "layer": "S005_Student Affairs and Administrative Services",
     "category": "building",
     "material": "LightStone"
   },
-  "S005M1800": {
+  "S005M2100": {
     "layer": "S005_Student Affairs and Administrative Services",
     "category": "building",
     "material": "Concrete"
   },
-  "S005M2000": {
+  "S005M2300": {
     "layer": "S005_Student Affairs and Administrative Services",
     "category": "building",
     "material": "Metal"
   },
-  "S005D2100": {
+  "S005D2400": {
     "layer": "S005_Student Affairs and Administrative Services",
     "category": "building",
     "material": "Glass"
   },
-  "S005D2200": {
+  "S005D2500": {
     "layer": "S005_Student Affairs and Administrative Services",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S005D2300": {
+  "S005D2600": {
     "layer": "S005_Student Affairs and Administrative Services",
     "category": "building",
     "material": "Frame"
@@ -204,37 +204,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S006M0700": {
+  "S006M1000": {
     "layer": "S006_Cheadle Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S006M1400": {
+  "S006M1700": {
     "layer": "S006_Cheadle Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S006M1800": {
+  "S006M2100": {
     "layer": "S006_Cheadle Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S006M2000": {
+  "S006M2300": {
     "layer": "S006_Cheadle Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S006D2100": {
+  "S006D2400": {
     "layer": "S006_Cheadle Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S006D2200": {
+  "S006D2500": {
     "layer": "S006_Cheadle Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S006D2300": {
+  "S006D2600": {
     "layer": "S006_Cheadle Hall",
     "category": "building",
     "material": "Frame"
@@ -244,32 +244,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S007M0700": {
+  "S007M1000": {
     "layer": "S007_Building 489",
     "category": "building",
     "material": "Foundation"
   },
-  "S007M1400": {
+  "S007M1700": {
     "layer": "S007_Building 489",
     "category": "building",
     "material": "LightStone"
   },
-  "S007M2000": {
+  "S007M2300": {
     "layer": "S007_Building 489",
     "category": "building",
     "material": "Metal"
   },
-  "S007D2100": {
+  "S007D2400": {
     "layer": "S007_Building 489",
     "category": "building",
     "material": "Glass"
   },
-  "S007D2200": {
+  "S007D2500": {
     "layer": "S007_Building 489",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S007D2300": {
+  "S007D2600": {
     "layer": "S007_Building 489",
     "category": "building",
     "material": "Frame"
@@ -279,27 +279,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S008M0700": {
+  "S008M1000": {
     "layer": "S008_Campbell Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S008M1400": {
+  "S008M1700": {
     "layer": "S008_Campbell Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S008M2000": {
+  "S008M2300": {
     "layer": "S008_Campbell Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S008D2100": {
+  "S008D2400": {
     "layer": "S008_Campbell Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S008D2300": {
+  "S008D2600": {
     "layer": "S008_Campbell Hall",
     "category": "building",
     "material": "Frame"
@@ -314,37 +314,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S009M0700": {
+  "S009M1000": {
     "layer": "S009_Phelps Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S009M1400": {
+  "S009M1700": {
     "layer": "S009_Phelps Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S009M1800": {
+  "S009M2100": {
     "layer": "S009_Phelps Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S009M2000": {
+  "S009M2300": {
     "layer": "S009_Phelps Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S009D2100": {
+  "S009D2400": {
     "layer": "S009_Phelps Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S009D2200": {
+  "S009D2500": {
     "layer": "S009_Phelps Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S009D2300": {
+  "S009D2600": {
     "layer": "S009_Phelps Hall",
     "category": "building",
     "material": "Frame"
@@ -354,32 +354,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S010M0700": {
+  "S010M1000": {
     "layer": "S010_Engineering Trailer 936",
     "category": "building",
     "material": "Foundation"
   },
-  "S010M1400": {
+  "S010M1700": {
     "layer": "S010_Engineering Trailer 936",
     "category": "building",
     "material": "LightStone"
   },
-  "S010M2000": {
+  "S010M2300": {
     "layer": "S010_Engineering Trailer 936",
     "category": "building",
     "material": "Metal"
   },
-  "S010D2100": {
+  "S010D2400": {
     "layer": "S010_Engineering Trailer 936",
     "category": "building",
     "material": "Glass"
   },
-  "S010D2200": {
+  "S010D2500": {
     "layer": "S010_Engineering Trailer 936",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S010D2300": {
+  "S010D2600": {
     "layer": "S010_Engineering Trailer 936",
     "category": "building",
     "material": "Frame"
@@ -389,27 +389,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S011M0700": {
+  "S011M1000": {
     "layer": "S011_Associated Students Bike Shop",
     "category": "building",
     "material": "Foundation"
   },
-  "S011M1400": {
+  "S011M1700": {
     "layer": "S011_Associated Students Bike Shop",
     "category": "building",
     "material": "LightStone"
   },
-  "S011M2000": {
+  "S011M2300": {
     "layer": "S011_Associated Students Bike Shop",
     "category": "building",
     "material": "Metal"
   },
-  "S011D2100": {
+  "S011D2400": {
     "layer": "S011_Associated Students Bike Shop",
     "category": "building",
     "material": "Glass"
   },
-  "S011D2300": {
+  "S011D2600": {
     "layer": "S011_Associated Students Bike Shop",
     "category": "building",
     "material": "Frame"
@@ -419,32 +419,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S012M0700": {
+  "S012M1000": {
     "layer": "S012_Engineering Trailer 936",
     "category": "building",
     "material": "Foundation"
   },
-  "S012M1400": {
+  "S012M1700": {
     "layer": "S012_Engineering Trailer 936",
     "category": "building",
     "material": "LightStone"
   },
-  "S012M2000": {
+  "S012M2300": {
     "layer": "S012_Engineering Trailer 936",
     "category": "building",
     "material": "Metal"
   },
-  "S012D2100": {
+  "S012D2400": {
     "layer": "S012_Engineering Trailer 936",
     "category": "building",
     "material": "Glass"
   },
-  "S012D2200": {
+  "S012D2500": {
     "layer": "S012_Engineering Trailer 936",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S012D2300": {
+  "S012D2600": {
     "layer": "S012_Engineering Trailer 936",
     "category": "building",
     "material": "Frame"
@@ -454,32 +454,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S013M0700": {
+  "S013M1000": {
     "layer": "S013_Trailer 232",
     "category": "building",
     "material": "Foundation"
   },
-  "S013M1400": {
+  "S013M1700": {
     "layer": "S013_Trailer 232",
     "category": "building",
     "material": "LightStone"
   },
-  "S013M2000": {
+  "S013M2300": {
     "layer": "S013_Trailer 232",
     "category": "building",
     "material": "Metal"
   },
-  "S013D2100": {
+  "S013D2400": {
     "layer": "S013_Trailer 232",
     "category": "building",
     "material": "Glass"
   },
-  "S013D2200": {
+  "S013D2500": {
     "layer": "S013_Trailer 232",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S013D2300": {
+  "S013D2600": {
     "layer": "S013_Trailer 232",
     "category": "building",
     "material": "Frame"
@@ -489,32 +489,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S014M0700": {
+  "S014M1000": {
     "layer": "S014_Coral Tree Cafe",
     "category": "building",
     "material": "Foundation"
   },
-  "S014M1400": {
+  "S014M1700": {
     "layer": "S014_Coral Tree Cafe",
     "category": "building",
     "material": "LightStone"
   },
-  "S014M2000": {
+  "S014M2300": {
     "layer": "S014_Coral Tree Cafe",
     "category": "building",
     "material": "Metal"
   },
-  "S014D2100": {
+  "S014D2400": {
     "layer": "S014_Coral Tree Cafe",
     "category": "building",
     "material": "Glass"
   },
-  "S014D2200": {
+  "S014D2500": {
     "layer": "S014_Coral Tree Cafe",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S014D2300": {
+  "S014D2600": {
     "layer": "S014_Coral Tree Cafe",
     "category": "building",
     "material": "Frame"
@@ -524,27 +524,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S015M0700": {
+  "S015M1000": {
     "layer": "S015_Chemistry Flammable Chemical Storage",
     "category": "building",
     "material": "Foundation"
   },
-  "S015M1400": {
+  "S015M1700": {
     "layer": "S015_Chemistry Flammable Chemical Storage",
     "category": "building",
     "material": "LightStone"
   },
-  "S015M2000": {
+  "S015M2300": {
     "layer": "S015_Chemistry Flammable Chemical Storage",
     "category": "building",
     "material": "Metal"
   },
-  "S015D2100": {
+  "S015D2400": {
     "layer": "S015_Chemistry Flammable Chemical Storage",
     "category": "building",
     "material": "Glass"
   },
-  "S015D2300": {
+  "S015D2600": {
     "layer": "S015_Chemistry Flammable Chemical Storage",
     "category": "building",
     "material": "Frame"
@@ -564,37 +564,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S016M0700": {
+  "S016M1000": {
     "layer": "S016_Ellison Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S016M1400": {
+  "S016M1700": {
     "layer": "S016_Ellison Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S016M1800": {
+  "S016M2100": {
     "layer": "S016_Ellison Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S016M2000": {
+  "S016M2300": {
     "layer": "S016_Ellison Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S016D2100": {
+  "S016D2400": {
     "layer": "S016_Ellison Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S016D2200": {
+  "S016D2500": {
     "layer": "S016_Ellison Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S016D2300": {
+  "S016D2600": {
     "layer": "S016_Ellison Hall",
     "category": "building",
     "material": "Frame"
@@ -604,32 +604,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S017M0700": {
+  "S017M1000": {
     "layer": "S017_Main Sewer Pump",
     "category": "building",
     "material": "Foundation"
   },
-  "S017M1400": {
+  "S017M1700": {
     "layer": "S017_Main Sewer Pump",
     "category": "building",
     "material": "LightStone"
   },
-  "S017M1800": {
+  "S017M2100": {
     "layer": "S017_Main Sewer Pump",
     "category": "building",
     "material": "Concrete"
   },
-  "S017M2000": {
+  "S017M2300": {
     "layer": "S017_Main Sewer Pump",
     "category": "building",
     "material": "Metal"
   },
-  "S017D2100": {
+  "S017D2400": {
     "layer": "S017_Main Sewer Pump",
     "category": "building",
     "material": "Glass"
   },
-  "S017D2300": {
+  "S017D2600": {
     "layer": "S017_Main Sewer Pump",
     "category": "building",
     "material": "Frame"
@@ -644,37 +644,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S018M0700": {
+  "S018M1000": {
     "layer": "S018_Engineering Science",
     "category": "building",
     "material": "Foundation"
   },
-  "S018M1400": {
+  "S018M1700": {
     "layer": "S018_Engineering Science",
     "category": "building",
     "material": "LightStone"
   },
-  "S018M1800": {
+  "S018M2100": {
     "layer": "S018_Engineering Science",
     "category": "building",
     "material": "Concrete"
   },
-  "S018M2000": {
+  "S018M2300": {
     "layer": "S018_Engineering Science",
     "category": "building",
     "material": "Metal"
   },
-  "S018D2100": {
+  "S018D2400": {
     "layer": "S018_Engineering Science",
     "category": "building",
     "material": "Glass"
   },
-  "S018D2200": {
+  "S018D2500": {
     "layer": "S018_Engineering Science",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S018D2300": {
+  "S018D2600": {
     "layer": "S018_Engineering Science",
     "category": "building",
     "material": "Frame"
@@ -684,27 +684,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S019M0700": {
+  "S019M1000": {
     "layer": "S019_Buchanan Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S019M1400": {
+  "S019M1700": {
     "layer": "S019_Buchanan Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S019M2000": {
+  "S019M2300": {
     "layer": "S019_Buchanan Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S019D2100": {
+  "S019D2400": {
     "layer": "S019_Buchanan Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S019D2300": {
+  "S019D2600": {
     "layer": "S019_Buchanan Hall",
     "category": "building",
     "material": "Frame"
@@ -714,37 +714,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S020M0700": {
+  "S020M1000": {
     "layer": "S020_Physical Sciences North",
     "category": "building",
     "material": "Foundation"
   },
-  "S020M1400": {
+  "S020M1700": {
     "layer": "S020_Physical Sciences North",
     "category": "building",
     "material": "LightStone"
   },
-  "S020M1800": {
+  "S020M2100": {
     "layer": "S020_Physical Sciences North",
     "category": "building",
     "material": "Concrete"
   },
-  "S020M2000": {
+  "S020M2300": {
     "layer": "S020_Physical Sciences North",
     "category": "building",
     "material": "Metal"
   },
-  "S020D2100": {
+  "S020D2400": {
     "layer": "S020_Physical Sciences North",
     "category": "building",
     "material": "Glass"
   },
-  "S020D2200": {
+  "S020D2500": {
     "layer": "S020_Physical Sciences North",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S020D2300": {
+  "S020D2600": {
     "layer": "S020_Physical Sciences North",
     "category": "building",
     "material": "Frame"
@@ -754,37 +754,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S021M0700": {
+  "S021M1000": {
     "layer": "S021_Chemistry",
     "category": "building",
     "material": "Foundation"
   },
-  "S021M1400": {
+  "S021M1700": {
     "layer": "S021_Chemistry",
     "category": "building",
     "material": "LightStone"
   },
-  "S021M1800": {
+  "S021M2100": {
     "layer": "S021_Chemistry",
     "category": "building",
     "material": "Concrete"
   },
-  "S021M2000": {
+  "S021M2300": {
     "layer": "S021_Chemistry",
     "category": "building",
     "material": "Metal"
   },
-  "S021D2100": {
+  "S021D2400": {
     "layer": "S021_Chemistry",
     "category": "building",
     "material": "Glass"
   },
-  "S021D2200": {
+  "S021D2500": {
     "layer": "S021_Chemistry",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S021D2300": {
+  "S021D2600": {
     "layer": "S021_Chemistry",
     "category": "building",
     "material": "Frame"
@@ -804,27 +804,27 @@
     "category": "building",
     "material": "WhitePanel"
   },
-  "S022M0700": {
+  "S022M1000": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
     "material": "Foundation"
   },
-  "S022M1400": {
+  "S022M1700": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
     "material": "LightStone"
   },
-  "S022M2000": {
+  "S022M2300": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
     "material": "Metal"
   },
-  "S022D2100": {
+  "S022D2400": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
     "material": "Glass"
   },
-  "S022D2300": {
+  "S022D2600": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
     "material": "Frame"
@@ -834,37 +834,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S023M0700": {
+  "S023M1000": {
     "layer": "S023_Parking II (aka Parking 10)",
     "category": "building",
     "material": "Foundation"
   },
-  "S023M1400": {
+  "S023M1700": {
     "layer": "S023_Parking II (aka Parking 10)",
     "category": "building",
     "material": "LightStone"
   },
-  "S023M1800": {
+  "S023M2100": {
     "layer": "S023_Parking II (aka Parking 10)",
     "category": "building",
     "material": "Concrete"
   },
-  "S023M2000": {
+  "S023M2300": {
     "layer": "S023_Parking II (aka Parking 10)",
     "category": "building",
     "material": "Metal"
   },
-  "S023D2100": {
+  "S023D2400": {
     "layer": "S023_Parking II (aka Parking 10)",
     "category": "building",
     "material": "Glass"
   },
-  "S023D2200": {
+  "S023D2500": {
     "layer": "S023_Parking II (aka Parking 10)",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S023D2300": {
+  "S023D2600": {
     "layer": "S023_Parking II (aka Parking 10)",
     "category": "building",
     "material": "Frame"
@@ -874,37 +874,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S024M0700": {
+  "S024M1000": {
     "layer": "S024_North Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S024M1400": {
+  "S024M1700": {
     "layer": "S024_North Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S024M1800": {
+  "S024M2100": {
     "layer": "S024_North Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S024M2000": {
+  "S024M2300": {
     "layer": "S024_North Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S024D2100": {
+  "S024D2400": {
     "layer": "S024_North Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S024D2200": {
+  "S024D2500": {
     "layer": "S024_North Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S024D2300": {
+  "S024D2600": {
     "layer": "S024_North Hall",
     "category": "building",
     "material": "Frame"
@@ -914,32 +914,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S025M0700": {
+  "S025M1000": {
     "layer": "S025_Pollock Theater",
     "category": "building",
     "material": "Foundation"
   },
-  "S025M1400": {
+  "S025M1700": {
     "layer": "S025_Pollock Theater",
     "category": "building",
     "material": "LightStone"
   },
-  "S025M2000": {
+  "S025M2300": {
     "layer": "S025_Pollock Theater",
     "category": "building",
     "material": "Metal"
   },
-  "S025D2100": {
+  "S025D2400": {
     "layer": "S025_Pollock Theater",
     "category": "building",
     "material": "Glass"
   },
-  "S025D2200": {
+  "S025D2500": {
     "layer": "S025_Pollock Theater",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S025D2300": {
+  "S025D2600": {
     "layer": "S025_Pollock Theater",
     "category": "building",
     "material": "Frame"
@@ -949,42 +949,42 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S026M0700": {
+  "S026M1000": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "Foundation"
   },
-  "S026M1400": {
+  "S026M1700": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "LightStone"
   },
-  "S026M1800": {
+  "S026M2100": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "Concrete"
   },
-  "S026M2000": {
+  "S026M2300": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "Metal"
   },
-  "S026D2100": {
+  "S026D2400": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "Glass"
   },
-  "S026D2200": {
+  "S026D2500": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S026D2300": {
+  "S026D2600": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "Frame"
   },
-  "S026D3700": {
+  "S026D4000": {
     "layer": "S026_Engineering II",
     "category": "building",
     "material": "Solar"
@@ -994,32 +994,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S027M0700": {
+  "S027M1000": {
     "layer": "S027_Old Gym and Pool",
     "category": "building",
     "material": "Foundation"
   },
-  "S027M1400": {
+  "S027M1700": {
     "layer": "S027_Old Gym and Pool",
     "category": "building",
     "material": "LightStone"
   },
-  "S027M2000": {
+  "S027M2300": {
     "layer": "S027_Old Gym and Pool",
     "category": "building",
     "material": "Metal"
   },
-  "S027D2100": {
+  "S027D2400": {
     "layer": "S027_Old Gym and Pool",
     "category": "building",
     "material": "Glass"
   },
-  "S027D2200": {
+  "S027D2500": {
     "layer": "S027_Old Gym and Pool",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S027D2300": {
+  "S027D2600": {
     "layer": "S027_Old Gym and Pool",
     "category": "building",
     "material": "Frame"
@@ -1029,32 +1029,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S028M0700": {
+  "S028M1000": {
     "layer": "S028_Kerr Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S028M1400": {
+  "S028M1700": {
     "layer": "S028_Kerr Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S028M1800": {
+  "S028M2100": {
     "layer": "S028_Kerr Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S028M2000": {
+  "S028M2300": {
     "layer": "S028_Kerr Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S028D2100": {
+  "S028D2400": {
     "layer": "S028_Kerr Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S028D2300": {
+  "S028D2600": {
     "layer": "S028_Kerr Hall",
     "category": "building",
     "material": "Frame"
@@ -1064,37 +1064,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S029M0700": {
+  "S029M1000": {
     "layer": "S029_Physical Sciences South",
     "category": "building",
     "material": "Foundation"
   },
-  "S029M1400": {
+  "S029M1700": {
     "layer": "S029_Physical Sciences South",
     "category": "building",
     "material": "LightStone"
   },
-  "S029M1800": {
+  "S029M2100": {
     "layer": "S029_Physical Sciences South",
     "category": "building",
     "material": "Concrete"
   },
-  "S029M2000": {
+  "S029M2300": {
     "layer": "S029_Physical Sciences South",
     "category": "building",
     "material": "Metal"
   },
-  "S029D2100": {
+  "S029D2400": {
     "layer": "S029_Physical Sciences South",
     "category": "building",
     "material": "Glass"
   },
-  "S029D2200": {
+  "S029D2500": {
     "layer": "S029_Physical Sciences South",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S029D2300": {
+  "S029D2600": {
     "layer": "S029_Physical Sciences South",
     "category": "building",
     "material": "Frame"
@@ -1104,32 +1104,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S030M0700": {
+  "S030M1000": {
     "layer": "S030_Kohn Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S030M1700": {
+  "S030M2000": {
     "layer": "S030_Kohn Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S030M1800": {
+  "S030M2100": {
     "layer": "S030_Kohn Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S030D2100": {
+  "S030D2400": {
     "layer": "S030_Kohn Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S030D2200": {
+  "S030D2500": {
     "layer": "S030_Kohn Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S030D2300": {
+  "S030D2600": {
     "layer": "S030_Kohn Hall",
     "category": "building",
     "material": "Frame"
@@ -1139,37 +1139,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S031M0700": {
+  "S031M1000": {
     "layer": "S031_Chicano Students Center",
     "category": "building",
     "material": "Foundation"
   },
-  "S031M1400": {
+  "S031M1700": {
     "layer": "S031_Chicano Students Center",
     "category": "building",
     "material": "LightStone"
   },
-  "S031M1800": {
+  "S031M2100": {
     "layer": "S031_Chicano Students Center",
     "category": "building",
     "material": "Concrete"
   },
-  "S031M2000": {
+  "S031M2300": {
     "layer": "S031_Chicano Students Center",
     "category": "building",
     "material": "Metal"
   },
-  "S031D2100": {
+  "S031D2400": {
     "layer": "S031_Chicano Students Center",
     "category": "building",
     "material": "Glass"
   },
-  "S031D2200": {
+  "S031D2500": {
     "layer": "S031_Chicano Students Center",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S031D2300": {
+  "S031D2600": {
     "layer": "S031_Chicano Students Center",
     "category": "building",
     "material": "Frame"
@@ -1179,32 +1179,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S032M0700": {
+  "S032M1000": {
     "layer": "S032_Arbor Convenience Store",
     "category": "building",
     "material": "Foundation"
   },
-  "S032M1400": {
+  "S032M1700": {
     "layer": "S032_Arbor Convenience Store",
     "category": "building",
     "material": "LightStone"
   },
-  "S032M2000": {
+  "S032M2300": {
     "layer": "S032_Arbor Convenience Store",
     "category": "building",
     "material": "Metal"
   },
-  "S032D2100": {
+  "S032D2400": {
     "layer": "S032_Arbor Convenience Store",
     "category": "building",
     "material": "Glass"
   },
-  "S032D2200": {
+  "S032D2500": {
     "layer": "S032_Arbor Convenience Store",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S032D2300": {
+  "S032D2600": {
     "layer": "S032_Arbor Convenience Store",
     "category": "building",
     "material": "Frame"
@@ -1214,32 +1214,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S033M0700": {
+  "S033M1000": {
     "layer": "S033_Engineering Trailer 937",
     "category": "building",
     "material": "Foundation"
   },
-  "S033M1400": {
+  "S033M1700": {
     "layer": "S033_Engineering Trailer 937",
     "category": "building",
     "material": "LightStone"
   },
-  "S033M2000": {
+  "S033M2300": {
     "layer": "S033_Engineering Trailer 937",
     "category": "building",
     "material": "Metal"
   },
-  "S033D2100": {
+  "S033D2400": {
     "layer": "S033_Engineering Trailer 937",
     "category": "building",
     "material": "Glass"
   },
-  "S033D2200": {
+  "S033D2500": {
     "layer": "S033_Engineering Trailer 937",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S033D2300": {
+  "S033D2600": {
     "layer": "S033_Engineering Trailer 937",
     "category": "building",
     "material": "Frame"
@@ -1249,27 +1249,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S034M0700": {
+  "S034M1000": {
     "layer": "S034_Campus Learning Resources Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S034M1400": {
+  "S034M1700": {
     "layer": "S034_Campus Learning Resources Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S034M2000": {
+  "S034M2300": {
     "layer": "S034_Campus Learning Resources Building",
     "category": "building",
     "material": "Metal"
   },
-  "S034D2100": {
+  "S034D2400": {
     "layer": "S034_Campus Learning Resources Building",
     "category": "building",
     "material": "Glass"
   },
-  "S034D2300": {
+  "S034D2600": {
     "layer": "S034_Campus Learning Resources Building",
     "category": "building",
     "material": "Frame"
@@ -1279,32 +1279,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S035M0700": {
+  "S035M1000": {
     "layer": "S035_Materials Research Lab",
     "category": "building",
     "material": "Foundation"
   },
-  "S035M1400": {
+  "S035M1700": {
     "layer": "S035_Materials Research Lab",
     "category": "building",
     "material": "LightStone"
   },
-  "S035M1800": {
+  "S035M2100": {
     "layer": "S035_Materials Research Lab",
     "category": "building",
     "material": "Concrete"
   },
-  "S035M2000": {
+  "S035M2300": {
     "layer": "S035_Materials Research Lab",
     "category": "building",
     "material": "Metal"
   },
-  "S035D2100": {
+  "S035D2400": {
     "layer": "S035_Materials Research Lab",
     "category": "building",
     "material": "Glass"
   },
-  "S035D2300": {
+  "S035D2600": {
     "layer": "S035_Materials Research Lab",
     "category": "building",
     "material": "Frame"
@@ -1319,32 +1319,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S036M0700": {
+  "S036M1000": {
     "layer": "S036_Engineering Trailer 939",
     "category": "building",
     "material": "Foundation"
   },
-  "S036M1400": {
+  "S036M1700": {
     "layer": "S036_Engineering Trailer 939",
     "category": "building",
     "material": "LightStone"
   },
-  "S036M2000": {
+  "S036M2300": {
     "layer": "S036_Engineering Trailer 939",
     "category": "building",
     "material": "Metal"
   },
-  "S036D2100": {
+  "S036D2400": {
     "layer": "S036_Engineering Trailer 939",
     "category": "building",
     "material": "Glass"
   },
-  "S036D2200": {
+  "S036D2500": {
     "layer": "S036_Engineering Trailer 939",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S036D2300": {
+  "S036D2600": {
     "layer": "S036_Engineering Trailer 939",
     "category": "building",
     "material": "Frame"
@@ -1369,37 +1369,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S037M0700": {
+  "S037M1000": {
     "layer": "S037_Broida Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S037M1400": {
+  "S037M1700": {
     "layer": "S037_Broida Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S037M1800": {
+  "S037M2100": {
     "layer": "S037_Broida Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S037M2000": {
+  "S037M2300": {
     "layer": "S037_Broida Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S037D2100": {
+  "S037D2400": {
     "layer": "S037_Broida Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S037D2200": {
+  "S037D2500": {
     "layer": "S037_Broida Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S037D2300": {
+  "S037D2600": {
     "layer": "S037_Broida Hall",
     "category": "building",
     "material": "Frame"
@@ -1409,32 +1409,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S038M0700": {
+  "S038M1000": {
     "layer": "S038_Engineering Trailer 942",
     "category": "building",
     "material": "Foundation"
   },
-  "S038M1400": {
+  "S038M1700": {
     "layer": "S038_Engineering Trailer 942",
     "category": "building",
     "material": "LightStone"
   },
-  "S038M2000": {
+  "S038M2300": {
     "layer": "S038_Engineering Trailer 942",
     "category": "building",
     "material": "Metal"
   },
-  "S038D2100": {
+  "S038D2400": {
     "layer": "S038_Engineering Trailer 942",
     "category": "building",
     "material": "Glass"
   },
-  "S038D2200": {
+  "S038D2500": {
     "layer": "S038_Engineering Trailer 942",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S038D2300": {
+  "S038D2600": {
     "layer": "S038_Engineering Trailer 942",
     "category": "building",
     "material": "Frame"
@@ -1459,37 +1459,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S039M0700": {
+  "S039M1000": {
     "layer": "S039_South Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S039M1400": {
+  "S039M1700": {
     "layer": "S039_South Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S039M1800": {
+  "S039M2100": {
     "layer": "S039_South Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S039M2000": {
+  "S039M2300": {
     "layer": "S039_South Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S039D2100": {
+  "S039D2400": {
     "layer": "S039_South Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S039D2200": {
+  "S039D2500": {
     "layer": "S039_South Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S039D2300": {
+  "S039D2600": {
     "layer": "S039_South Hall",
     "category": "building",
     "material": "Frame"
@@ -1497,54 +1497,79 @@
   "S040B00": {
     "layer": "S040_UCSB Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "ConcreteBlock"
   },
   "S040B01": {
     "layer": "S040_UCSB Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "WhitePanel"
   },
   "S040B02": {
     "layer": "S040_UCSB Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "ConcreteBlock"
   },
   "S040B03": {
     "layer": "S040_UCSB Library",
     "category": "building",
-    "material": "Limestone"
+    "material": "Glass"
   },
-  "S040M0700": {
+  "S040B04": {
+    "layer": "S040_UCSB Library",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S040B05": {
+    "layer": "S040_UCSB Library",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S040B06": {
+    "layer": "S040_UCSB Library",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S040B07": {
+    "layer": "S040_UCSB Library",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S040M0100": {
+    "layer": "S040_UCSB Library",
+    "category": "building",
+    "material": "RoofPavilion"
+  },
+  "S040M1000": {
     "layer": "S040_UCSB Library",
     "category": "building",
     "material": "Foundation"
   },
-  "S040M1400": {
-    "layer": "S040_UCSB Library",
-    "category": "building",
-    "material": "LightStone"
-  },
-  "S040M1800": {
+  "S040M2100": {
     "layer": "S040_UCSB Library",
     "category": "building",
     "material": "Concrete"
   },
-  "S040M2000": {
+  "S040M2200": {
+    "layer": "S040_UCSB Library",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S040M2300": {
     "layer": "S040_UCSB Library",
     "category": "building",
     "material": "Metal"
   },
-  "S040D2100": {
+  "S040D2400": {
     "layer": "S040_UCSB Library",
     "category": "building",
     "material": "Glass"
   },
-  "S040D2200": {
+  "S040D2500": {
     "layer": "S040_UCSB Library",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S040D2300": {
+  "S040D2600": {
     "layer": "S040_UCSB Library",
     "category": "building",
     "material": "Frame"
@@ -1554,32 +1579,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S041M0700": {
+  "S041M1000": {
     "layer": "S041_Building 477",
     "category": "building",
     "material": "Foundation"
   },
-  "S041M1400": {
+  "S041M1700": {
     "layer": "S041_Building 477",
     "category": "building",
     "material": "LightStone"
   },
-  "S041M2000": {
+  "S041M2300": {
     "layer": "S041_Building 477",
     "category": "building",
     "material": "Metal"
   },
-  "S041D2100": {
+  "S041D2400": {
     "layer": "S041_Building 477",
     "category": "building",
     "material": "Glass"
   },
-  "S041D2200": {
+  "S041D2500": {
     "layer": "S041_Building 477",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S041D2300": {
+  "S041D2600": {
     "layer": "S041_Building 477",
     "category": "building",
     "material": "Frame"
@@ -1589,37 +1614,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S042M0700": {
+  "S042M1000": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S042M1400": {
+  "S042M1700": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S042M1800": {
+  "S042M2100": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S042M2000": {
+  "S042M2300": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S042D2100": {
+  "S042D2400": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S042D2200": {
+  "S042D2500": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S042D2300": {
+  "S042D2600": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "Frame"
@@ -1629,32 +1654,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S043M0700": {
+  "S043M1000": {
     "layer": "S043_Engineering Trailer 380",
     "category": "building",
     "material": "Foundation"
   },
-  "S043M1400": {
+  "S043M1700": {
     "layer": "S043_Engineering Trailer 380",
     "category": "building",
     "material": "LightStone"
   },
-  "S043M2000": {
+  "S043M2300": {
     "layer": "S043_Engineering Trailer 380",
     "category": "building",
     "material": "Metal"
   },
-  "S043D2100": {
+  "S043D2400": {
     "layer": "S043_Engineering Trailer 380",
     "category": "building",
     "material": "Glass"
   },
-  "S043D2200": {
+  "S043D2500": {
     "layer": "S043_Engineering Trailer 380",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S043D2300": {
+  "S043D2600": {
     "layer": "S043_Engineering Trailer 380",
     "category": "building",
     "material": "Frame"
@@ -1664,32 +1689,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S044M0700": {
+  "S044M1000": {
     "layer": "S044_Engineering Trailer 697",
     "category": "building",
     "material": "Foundation"
   },
-  "S044M1400": {
+  "S044M1700": {
     "layer": "S044_Engineering Trailer 697",
     "category": "building",
     "material": "LightStone"
   },
-  "S044M2000": {
+  "S044M2300": {
     "layer": "S044_Engineering Trailer 697",
     "category": "building",
     "material": "Metal"
   },
-  "S044D2100": {
+  "S044D2400": {
     "layer": "S044_Engineering Trailer 697",
     "category": "building",
     "material": "Glass"
   },
-  "S044D2200": {
+  "S044D2500": {
     "layer": "S044_Engineering Trailer 697",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S044D2300": {
+  "S044D2600": {
     "layer": "S044_Engineering Trailer 697",
     "category": "building",
     "material": "Frame"
@@ -1699,32 +1724,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S045M0700": {
+  "S045M1000": {
     "layer": "S045_Engineering Trailer 698",
     "category": "building",
     "material": "Foundation"
   },
-  "S045M1400": {
+  "S045M1700": {
     "layer": "S045_Engineering Trailer 698",
     "category": "building",
     "material": "LightStone"
   },
-  "S045M2000": {
+  "S045M2300": {
     "layer": "S045_Engineering Trailer 698",
     "category": "building",
     "material": "Metal"
   },
-  "S045D2100": {
+  "S045D2400": {
     "layer": "S045_Engineering Trailer 698",
     "category": "building",
     "material": "Glass"
   },
-  "S045D2200": {
+  "S045D2500": {
     "layer": "S045_Engineering Trailer 698",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S045D2300": {
+  "S045D2600": {
     "layer": "S045_Engineering Trailer 698",
     "category": "building",
     "material": "Frame"
@@ -1734,32 +1759,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S046M0700": {
+  "S046M1000": {
     "layer": "S046_Engineering Trailer 699",
     "category": "building",
     "material": "Foundation"
   },
-  "S046M1400": {
+  "S046M1700": {
     "layer": "S046_Engineering Trailer 699",
     "category": "building",
     "material": "LightStone"
   },
-  "S046M2000": {
+  "S046M2300": {
     "layer": "S046_Engineering Trailer 699",
     "category": "building",
     "material": "Metal"
   },
-  "S046D2100": {
+  "S046D2400": {
     "layer": "S046_Engineering Trailer 699",
     "category": "building",
     "material": "Glass"
   },
-  "S046D2200": {
+  "S046D2500": {
     "layer": "S046_Engineering Trailer 699",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S046D2300": {
+  "S046D2600": {
     "layer": "S046_Engineering Trailer 699",
     "category": "building",
     "material": "Frame"
@@ -1769,32 +1794,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S047M0700": {
+  "S047M1000": {
     "layer": "S047_Engineering Trailer 384",
     "category": "building",
     "material": "Foundation"
   },
-  "S047M1400": {
+  "S047M1700": {
     "layer": "S047_Engineering Trailer 384",
     "category": "building",
     "material": "LightStone"
   },
-  "S047M2000": {
+  "S047M2300": {
     "layer": "S047_Engineering Trailer 384",
     "category": "building",
     "material": "Metal"
   },
-  "S047D2100": {
+  "S047D2400": {
     "layer": "S047_Engineering Trailer 384",
     "category": "building",
     "material": "Glass"
   },
-  "S047D2200": {
+  "S047D2500": {
     "layer": "S047_Engineering Trailer 384",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S047D2300": {
+  "S047D2600": {
     "layer": "S047_Engineering Trailer 384",
     "category": "building",
     "material": "Frame"
@@ -1804,37 +1829,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S048M0700": {
+  "S048M1000": {
     "layer": "S048_Girvetz Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S048M1400": {
+  "S048M1700": {
     "layer": "S048_Girvetz Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S048M1800": {
+  "S048M2100": {
     "layer": "S048_Girvetz Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S048M2000": {
+  "S048M2300": {
     "layer": "S048_Girvetz Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S048D2100": {
+  "S048D2400": {
     "layer": "S048_Girvetz Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S048D2200": {
+  "S048D2500": {
     "layer": "S048_Girvetz Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S048D2300": {
+  "S048D2600": {
     "layer": "S048_Girvetz Hall",
     "category": "building",
     "material": "Frame"
@@ -1844,32 +1869,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S049M0700": {
+  "S049M1000": {
     "layer": "S049_Building 434",
     "category": "building",
     "material": "Foundation"
   },
-  "S049M1400": {
+  "S049M1700": {
     "layer": "S049_Building 434",
     "category": "building",
     "material": "LightStone"
   },
-  "S049M2000": {
+  "S049M2300": {
     "layer": "S049_Building 434",
     "category": "building",
     "material": "Metal"
   },
-  "S049D2100": {
+  "S049D2400": {
     "layer": "S049_Building 434",
     "category": "building",
     "material": "Glass"
   },
-  "S049D2200": {
+  "S049D2500": {
     "layer": "S049_Building 434",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S049D2300": {
+  "S049D2600": {
     "layer": "S049_Building 434",
     "category": "building",
     "material": "Frame"
@@ -1879,32 +1904,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S050M0700": {
+  "S050M1000": {
     "layer": "S050_Cloud Research Lab",
     "category": "building",
     "material": "Foundation"
   },
-  "S050M1400": {
+  "S050M1700": {
     "layer": "S050_Cloud Research Lab",
     "category": "building",
     "material": "LightStone"
   },
-  "S050M2000": {
+  "S050M2300": {
     "layer": "S050_Cloud Research Lab",
     "category": "building",
     "material": "Metal"
   },
-  "S050D2100": {
+  "S050D2400": {
     "layer": "S050_Cloud Research Lab",
     "category": "building",
     "material": "Glass"
   },
-  "S050D2200": {
+  "S050D2500": {
     "layer": "S050_Cloud Research Lab",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S050D2300": {
+  "S050D2600": {
     "layer": "S050_Cloud Research Lab",
     "category": "building",
     "material": "Frame"
@@ -1914,37 +1939,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S051M0700": {
+  "S051M1000": {
     "layer": "S051_Woodhouse Lab",
     "category": "building",
     "material": "Foundation"
   },
-  "S051M1400": {
+  "S051M1700": {
     "layer": "S051_Woodhouse Lab",
     "category": "building",
     "material": "LightStone"
   },
-  "S051M1800": {
+  "S051M2100": {
     "layer": "S051_Woodhouse Lab",
     "category": "building",
     "material": "Concrete"
   },
-  "S051M2000": {
+  "S051M2300": {
     "layer": "S051_Woodhouse Lab",
     "category": "building",
     "material": "Metal"
   },
-  "S051D2100": {
+  "S051D2400": {
     "layer": "S051_Woodhouse Lab",
     "category": "building",
     "material": "Glass"
   },
-  "S051D2200": {
+  "S051D2500": {
     "layer": "S051_Woodhouse Lab",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S051D2300": {
+  "S051D2600": {
     "layer": "S051_Woodhouse Lab",
     "category": "building",
     "material": "Frame"
@@ -1954,37 +1979,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S052M0700": {
+  "S052M1000": {
     "layer": "S052_Webb Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S052M1400": {
+  "S052M1700": {
     "layer": "S052_Webb Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S052M1800": {
+  "S052M2100": {
     "layer": "S052_Webb Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S052M2000": {
+  "S052M2300": {
     "layer": "S052_Webb Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S052D2100": {
+  "S052D2400": {
     "layer": "S052_Webb Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S052D2200": {
+  "S052D2500": {
     "layer": "S052_Webb Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S052D2300": {
+  "S052D2600": {
     "layer": "S052_Webb Hall",
     "category": "building",
     "material": "Frame"
@@ -1994,42 +2019,42 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S053M0700": {
+  "S053M1000": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S053M1400": {
+  "S053M1700": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S053M1800": {
+  "S053M2100": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S053M2000": {
+  "S053M2300": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S053D2100": {
+  "S053D2400": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S053D2200": {
+  "S053D2500": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S053D2300": {
+  "S053D2600": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Frame"
   },
-  "S053D3700": {
+  "S053D4000": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Solar"
@@ -2039,37 +2064,37 @@
     "category": "building",
     "material": "WhitePanel"
   },
-  "S054M0700": {
+  "S054M1000": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "Foundation"
   },
-  "S054M1400": {
+  "S054M1700": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "LightStone"
   },
-  "S054M2000": {
+  "S054M2300": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "Metal"
   },
-  "S054D2100": {
+  "S054D2400": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "Glass"
   },
-  "S054D2200": {
+  "S054D2500": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S054D2300": {
+  "S054D2600": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "Frame"
   },
-  "S054D3700": {
+  "S054D4000": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "Solar"
@@ -2079,27 +2104,27 @@
     "category": "building",
     "material": "Glass"
   },
-  "S055M0700": {
+  "S055M1000": {
     "layer": "S055_Greenhouse 442",
     "category": "building",
     "material": "Foundation"
   },
-  "S055M1400": {
+  "S055M1700": {
     "layer": "S055_Greenhouse 442",
     "category": "building",
     "material": "LightStone"
   },
-  "S055M2000": {
+  "S055M2300": {
     "layer": "S055_Greenhouse 442",
     "category": "building",
     "material": "Metal"
   },
-  "S055D2100": {
+  "S055D2400": {
     "layer": "S055_Greenhouse 442",
     "category": "building",
     "material": "Glass"
   },
-  "S055D2300": {
+  "S055D2600": {
     "layer": "S055_Greenhouse 442",
     "category": "building",
     "material": "Frame"
@@ -2109,27 +2134,27 @@
     "category": "building",
     "material": "Glass"
   },
-  "S056M0700": {
+  "S056M1000": {
     "layer": "S056_Greenhouse 541",
     "category": "building",
     "material": "Foundation"
   },
-  "S056M1400": {
+  "S056M1700": {
     "layer": "S056_Greenhouse 541",
     "category": "building",
     "material": "LightStone"
   },
-  "S056M2000": {
+  "S056M2300": {
     "layer": "S056_Greenhouse 541",
     "category": "building",
     "material": "Metal"
   },
-  "S056D2100": {
+  "S056D2400": {
     "layer": "S056_Greenhouse 541",
     "category": "building",
     "material": "Glass"
   },
-  "S056D2300": {
+  "S056D2600": {
     "layer": "S056_Greenhouse 541",
     "category": "building",
     "material": "Frame"
@@ -2139,32 +2164,32 @@
     "category": "building",
     "material": "Glass"
   },
-  "S057M0700": {
+  "S057M1000": {
     "layer": "S057_Greenhouse 443",
     "category": "building",
     "material": "Foundation"
   },
-  "S057M1400": {
+  "S057M1700": {
     "layer": "S057_Greenhouse 443",
     "category": "building",
     "material": "LightStone"
   },
-  "S057M2000": {
+  "S057M2300": {
     "layer": "S057_Greenhouse 443",
     "category": "building",
     "material": "Metal"
   },
-  "S057D2100": {
+  "S057D2400": {
     "layer": "S057_Greenhouse 443",
     "category": "building",
     "material": "Glass"
   },
-  "S057D2200": {
+  "S057D2500": {
     "layer": "S057_Greenhouse 443",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S057D2300": {
+  "S057D2600": {
     "layer": "S057_Greenhouse 443",
     "category": "building",
     "material": "Frame"
@@ -2174,32 +2199,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S058M0700": {
+  "S058M1000": {
     "layer": "S058_Bio Sciences Annex",
     "category": "building",
     "material": "Foundation"
   },
-  "S058M1400": {
+  "S058M1700": {
     "layer": "S058_Bio Sciences Annex",
     "category": "building",
     "material": "LightStone"
   },
-  "S058M2000": {
+  "S058M2300": {
     "layer": "S058_Bio Sciences Annex",
     "category": "building",
     "material": "Metal"
   },
-  "S058D2100": {
+  "S058D2400": {
     "layer": "S058_Bio Sciences Annex",
     "category": "building",
     "material": "Glass"
   },
-  "S058D2200": {
+  "S058D2500": {
     "layer": "S058_Bio Sciences Annex",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S058D2300": {
+  "S058D2600": {
     "layer": "S058_Bio Sciences Annex",
     "category": "building",
     "material": "Frame"
@@ -2209,37 +2234,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S059M0700": {
+  "S059M1000": {
     "layer": "S059_Biology Research Lab",
     "category": "building",
     "material": "Foundation"
   },
-  "S059M1400": {
+  "S059M1700": {
     "layer": "S059_Biology Research Lab",
     "category": "building",
     "material": "LightStone"
   },
-  "S059M1800": {
+  "S059M2100": {
     "layer": "S059_Biology Research Lab",
     "category": "building",
     "material": "Concrete"
   },
-  "S059M2000": {
+  "S059M2300": {
     "layer": "S059_Biology Research Lab",
     "category": "building",
     "material": "Metal"
   },
-  "S059D2100": {
+  "S059D2400": {
     "layer": "S059_Biology Research Lab",
     "category": "building",
     "material": "Glass"
   },
-  "S059D2200": {
+  "S059D2500": {
     "layer": "S059_Biology Research Lab",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S059D2300": {
+  "S059D2600": {
     "layer": "S059_Biology Research Lab",
     "category": "building",
     "material": "Frame"
@@ -2254,57 +2279,57 @@
     "category": "building",
     "material": "Glass"
   },
-  "S060M0700": {
+  "S060M1000": {
     "layer": "S060_Greenhouse 540",
     "category": "building",
     "material": "Foundation"
   },
-  "S060M1400": {
+  "S060M1700": {
     "layer": "S060_Greenhouse 540",
     "category": "building",
     "material": "LightStone"
   },
-  "S060M2000": {
+  "S060M2300": {
     "layer": "S060_Greenhouse 540",
     "category": "building",
     "material": "Metal"
   },
-  "S060D2100": {
+  "S060D2400": {
     "layer": "S060_Greenhouse 540",
     "category": "building",
     "material": "Glass"
   },
-  "S060D2200": {
+  "S060D2500": {
     "layer": "S060_Greenhouse 540",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S060D2300": {
+  "S060D2600": {
     "layer": "S060_Greenhouse 540",
     "category": "building",
     "material": "Frame"
   },
-  "S061M0700": {
+  "S061M1000": {
     "layer": "S061_Storke Tower",
     "category": "building",
     "material": "Foundation"
   },
-  "S061M1400": {
+  "S061M1700": {
     "layer": "S061_Storke Tower",
     "category": "building",
     "material": "LightStone"
   },
-  "S061M1800": {
+  "S061M2100": {
     "layer": "S061_Storke Tower",
     "category": "building",
     "material": "Concrete"
   },
-  "S061D2300": {
+  "S061D2600": {
     "layer": "S061_Storke Tower",
     "category": "building",
     "material": "Frame"
   },
-  "S061M3900": {
+  "S061M4200": {
     "layer": "S061_Storke Tower",
     "category": "building",
     "material": "Gold"
@@ -2314,32 +2339,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S062M0700": {
+  "S062M1000": {
     "layer": "S062_Storke Publications",
     "category": "building",
     "material": "Foundation"
   },
-  "S062M1400": {
+  "S062M1700": {
     "layer": "S062_Storke Publications",
     "category": "building",
     "material": "LightStone"
   },
-  "S062M2000": {
+  "S062M2300": {
     "layer": "S062_Storke Publications",
     "category": "building",
     "material": "Metal"
   },
-  "S062D2100": {
+  "S062D2400": {
     "layer": "S062_Storke Publications",
     "category": "building",
     "material": "Glass"
   },
-  "S062D2200": {
+  "S062D2500": {
     "layer": "S062_Storke Publications",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S062D2300": {
+  "S062D2600": {
     "layer": "S062_Storke Publications",
     "category": "building",
     "material": "Frame"
@@ -2347,54 +2372,109 @@
   "S063B00": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
-    "material": "Concrete"
+    "material": "WhitePanel"
   },
   "S063B01": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
-    "material": "Concrete"
+    "material": "WhitePanel"
   },
   "S063B02": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
-    "material": "Concrete"
+    "material": "WhitePanel"
   },
   "S063B03": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
-    "material": "Concrete"
+    "material": "WhitePanel"
   },
-  "S063M0700": {
+  "S063B04": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B05": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B06": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B07": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B08": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B09": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B10": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B11": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B12": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B13": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B14": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063B15": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S063M0100": {
+    "layer": "S063_Interactive Learning Pavilion",
+    "category": "building",
+    "material": "RoofPavilion"
+  },
+  "S063M1000": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
     "material": "Foundation"
   },
-  "S063M1400": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "LightStone"
-  },
-  "S063M1800": {
+  "S063M2100": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
     "material": "Concrete"
   },
-  "S063M2000": {
+  "S063M2300": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
     "material": "Metal"
   },
-  "S063D2100": {
-    "layer": "S063_Interactive Learning Pavilion",
-    "category": "building",
-    "material": "Glass"
-  },
-  "S063D2200": {
+  "S063D2500": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S063D2300": {
+  "S063D2600": {
     "layer": "S063_Interactive Learning Pavilion",
     "category": "building",
     "material": "Frame"
@@ -2404,37 +2484,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S064M0700": {
+  "S064M1000": {
     "layer": "S064_Noble Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S064M1400": {
+  "S064M1700": {
     "layer": "S064_Noble Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S064M1800": {
+  "S064M2100": {
     "layer": "S064_Noble Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S064M2000": {
+  "S064M2300": {
     "layer": "S064_Noble Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S064D2100": {
+  "S064D2400": {
     "layer": "S064_Noble Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S064D2200": {
+  "S064D2500": {
     "layer": "S064_Noble Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S064D2300": {
+  "S064D2600": {
     "layer": "S064_Noble Hall",
     "category": "building",
     "material": "Frame"
@@ -2444,37 +2524,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S065M0700": {
+  "S065M1000": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S065M1400": {
+  "S065M1700": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S065M1800": {
+  "S065M2100": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "Concrete"
   },
-  "S065M2000": {
+  "S065M2300": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "Metal"
   },
-  "S065D2100": {
+  "S065D2400": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "Glass"
   },
-  "S065D2200": {
+  "S065D2500": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S065D2300": {
+  "S065D2600": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "Frame"
@@ -2484,37 +2564,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S066M0700": {
+  "S066M1000": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Foundation"
   },
-  "S066M1400": {
+  "S066M1700": {
     "layer": "S066_Music",
     "category": "building",
     "material": "LightStone"
   },
-  "S066M1800": {
+  "S066M2100": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Concrete"
   },
-  "S066M2000": {
+  "S066M2300": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Metal"
   },
-  "S066D2100": {
+  "S066D2400": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Glass"
   },
-  "S066D2200": {
+  "S066D2500": {
     "layer": "S066_Music",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S066D2300": {
+  "S066D2600": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Frame"
@@ -2524,27 +2604,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S067M0700": {
+  "S067M1000": {
     "layer": "S067_Marine Science Utility Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S067M1400": {
+  "S067M1700": {
     "layer": "S067_Marine Science Utility Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S067M2000": {
+  "S067M2300": {
     "layer": "S067_Marine Science Utility Building",
     "category": "building",
     "material": "Metal"
   },
-  "S067D2100": {
+  "S067D2400": {
     "layer": "S067_Marine Science Utility Building",
     "category": "building",
     "material": "Glass"
   },
-  "S067D2300": {
+  "S067D2600": {
     "layer": "S067_Marine Science Utility Building",
     "category": "building",
     "material": "Frame"
@@ -2554,27 +2634,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S068M0700": {
+  "S068M1000": {
     "layer": "S068_Modular Building 383",
     "category": "building",
     "material": "Foundation"
   },
-  "S068M1400": {
+  "S068M1700": {
     "layer": "S068_Modular Building 383",
     "category": "building",
     "material": "LightStone"
   },
-  "S068M2000": {
+  "S068M2300": {
     "layer": "S068_Modular Building 383",
     "category": "building",
     "material": "Metal"
   },
-  "S068D2100": {
+  "S068D2400": {
     "layer": "S068_Modular Building 383",
     "category": "building",
     "material": "Glass"
   },
-  "S068D2300": {
+  "S068D2600": {
     "layer": "S068_Modular Building 383",
     "category": "building",
     "material": "Frame"
@@ -2584,37 +2664,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S069M0700": {
+  "S069M1000": {
     "layer": "S069_Bio Science Instructional Facility",
     "category": "building",
     "material": "Foundation"
   },
-  "S069M1400": {
+  "S069M1700": {
     "layer": "S069_Bio Science Instructional Facility",
     "category": "building",
     "material": "LightStone"
   },
-  "S069M1800": {
+  "S069M2100": {
     "layer": "S069_Bio Science Instructional Facility",
     "category": "building",
     "material": "Concrete"
   },
-  "S069M2000": {
+  "S069M2300": {
     "layer": "S069_Bio Science Instructional Facility",
     "category": "building",
     "material": "Metal"
   },
-  "S069D2100": {
+  "S069D2400": {
     "layer": "S069_Bio Science Instructional Facility",
     "category": "building",
     "material": "Glass"
   },
-  "S069D2200": {
+  "S069D2500": {
     "layer": "S069_Bio Science Instructional Facility",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S069D2300": {
+  "S069D2600": {
     "layer": "S069_Bio Science Instructional Facility",
     "category": "building",
     "material": "Frame"
@@ -2629,37 +2709,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S070M0700": {
+  "S070M1000": {
     "layer": "S070_Psychology",
     "category": "building",
     "material": "Foundation"
   },
-  "S070M1400": {
+  "S070M1700": {
     "layer": "S070_Psychology",
     "category": "building",
     "material": "LightStone"
   },
-  "S070M1800": {
+  "S070M2100": {
     "layer": "S070_Psychology",
     "category": "building",
     "material": "Concrete"
   },
-  "S070M2000": {
+  "S070M2300": {
     "layer": "S070_Psychology",
     "category": "building",
     "material": "Metal"
   },
-  "S070D2100": {
+  "S070D2400": {
     "layer": "S070_Psychology",
     "category": "building",
     "material": "Glass"
   },
-  "S070D2200": {
+  "S070D2500": {
     "layer": "S070_Psychology",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S070D2300": {
+  "S070D2600": {
     "layer": "S070_Psychology",
     "category": "building",
     "material": "Frame"
@@ -2669,37 +2749,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S071M0700": {
+  "S071M1000": {
     "layer": "S071_Psychology East",
     "category": "building",
     "material": "Foundation"
   },
-  "S071M1400": {
+  "S071M1700": {
     "layer": "S071_Psychology East",
     "category": "building",
     "material": "LightStone"
   },
-  "S071M1800": {
+  "S071M2100": {
     "layer": "S071_Psychology East",
     "category": "building",
     "material": "Concrete"
   },
-  "S071M2000": {
+  "S071M2300": {
     "layer": "S071_Psychology East",
     "category": "building",
     "material": "Metal"
   },
-  "S071D2100": {
+  "S071D2400": {
     "layer": "S071_Psychology East",
     "category": "building",
     "material": "Glass"
   },
-  "S071D2200": {
+  "S071D2500": {
     "layer": "S071_Psychology East",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S071D2300": {
+  "S071D2600": {
     "layer": "S071_Psychology East",
     "category": "building",
     "material": "Frame"
@@ -2709,32 +2789,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S072M0700": {
+  "S072M1000": {
     "layer": "S072_Modular Classroom 387",
     "category": "building",
     "material": "Foundation"
   },
-  "S072M1400": {
+  "S072M1700": {
     "layer": "S072_Modular Classroom 387",
     "category": "building",
     "material": "LightStone"
   },
-  "S072M2000": {
+  "S072M2300": {
     "layer": "S072_Modular Classroom 387",
     "category": "building",
     "material": "Metal"
   },
-  "S072D2100": {
+  "S072D2400": {
     "layer": "S072_Modular Classroom 387",
     "category": "building",
     "material": "Glass"
   },
-  "S072D2200": {
+  "S072D2500": {
     "layer": "S072_Modular Classroom 387",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S072D2300": {
+  "S072D2600": {
     "layer": "S072_Modular Classroom 387",
     "category": "building",
     "material": "Frame"
@@ -2749,32 +2829,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S073M0700": {
+  "S073M1000": {
     "layer": "S073_Biological Sciences II (Bio2)",
     "category": "building",
     "material": "Foundation"
   },
-  "S073M1400": {
+  "S073M1700": {
     "layer": "S073_Biological Sciences II (Bio2)",
     "category": "building",
     "material": "LightStone"
   },
-  "S073M1800": {
+  "S073M2100": {
     "layer": "S073_Biological Sciences II (Bio2)",
     "category": "building",
     "material": "Concrete"
   },
-  "S073M2000": {
+  "S073M2300": {
     "layer": "S073_Biological Sciences II (Bio2)",
     "category": "building",
     "material": "Metal"
   },
-  "S073D2100": {
+  "S073D2400": {
     "layer": "S073_Biological Sciences II (Bio2)",
     "category": "building",
     "material": "Glass"
   },
-  "S073D2300": {
+  "S073D2600": {
     "layer": "S073_Biological Sciences II (Bio2)",
     "category": "building",
     "material": "Frame"
@@ -2784,32 +2864,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S074M0700": {
+  "S074M1000": {
     "layer": "S074_Ocean Science Education Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S074M1400": {
+  "S074M1700": {
     "layer": "S074_Ocean Science Education Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S074M1800": {
+  "S074M2100": {
     "layer": "S074_Ocean Science Education Building",
     "category": "building",
     "material": "Concrete"
   },
-  "S074M2000": {
+  "S074M2300": {
     "layer": "S074_Ocean Science Education Building",
     "category": "building",
     "material": "Metal"
   },
-  "S074D2100": {
+  "S074D2400": {
     "layer": "S074_Ocean Science Education Building",
     "category": "building",
     "material": "Glass"
   },
-  "S074D2300": {
+  "S074D2600": {
     "layer": "S074_Ocean Science Education Building",
     "category": "building",
     "material": "Frame"
@@ -2824,37 +2904,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S075M0700": {
+  "S075M1000": {
     "layer": "S075_Life Sciences",
     "category": "building",
     "material": "Foundation"
   },
-  "S075M1400": {
+  "S075M1700": {
     "layer": "S075_Life Sciences",
     "category": "building",
     "material": "LightStone"
   },
-  "S075M1800": {
+  "S075M2100": {
     "layer": "S075_Life Sciences",
     "category": "building",
     "material": "Concrete"
   },
-  "S075M2000": {
+  "S075M2300": {
     "layer": "S075_Life Sciences",
     "category": "building",
     "material": "Metal"
   },
-  "S075D2100": {
+  "S075D2400": {
     "layer": "S075_Life Sciences",
     "category": "building",
     "material": "Glass"
   },
-  "S075D2200": {
+  "S075D2500": {
     "layer": "S075_Life Sciences",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S075D2300": {
+  "S075D2600": {
     "layer": "S075_Life Sciences",
     "category": "building",
     "material": "Frame"
@@ -2864,37 +2944,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S076M0700": {
+  "S076M1000": {
     "layer": "S076_University Center (UCEN)",
     "category": "building",
     "material": "Foundation"
   },
-  "S076M1400": {
+  "S076M1700": {
     "layer": "S076_University Center (UCEN)",
     "category": "building",
     "material": "LightStone"
   },
-  "S076M1800": {
+  "S076M2100": {
     "layer": "S076_University Center (UCEN)",
     "category": "building",
     "material": "Concrete"
   },
-  "S076M2000": {
+  "S076M2300": {
     "layer": "S076_University Center (UCEN)",
     "category": "building",
     "material": "Metal"
   },
-  "S076D2100": {
+  "S076D2400": {
     "layer": "S076_University Center (UCEN)",
     "category": "building",
     "material": "Glass"
   },
-  "S076D2200": {
+  "S076D2500": {
     "layer": "S076_University Center (UCEN)",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S076D2300": {
+  "S076D2600": {
     "layer": "S076_University Center (UCEN)",
     "category": "building",
     "material": "Frame"
@@ -2904,37 +2984,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S077M0700": {
+  "S077M1000": {
     "layer": "S077_Multi-Cultural Center",
     "category": "building",
     "material": "Foundation"
   },
-  "S077M1400": {
+  "S077M1700": {
     "layer": "S077_Multi-Cultural Center",
     "category": "building",
     "material": "LightStone"
   },
-  "S077M1800": {
+  "S077M2100": {
     "layer": "S077_Multi-Cultural Center",
     "category": "building",
     "material": "Concrete"
   },
-  "S077M2000": {
+  "S077M2300": {
     "layer": "S077_Multi-Cultural Center",
     "category": "building",
     "material": "Metal"
   },
-  "S077D2100": {
+  "S077D2400": {
     "layer": "S077_Multi-Cultural Center",
     "category": "building",
     "material": "Glass"
   },
-  "S077D2200": {
+  "S077D2500": {
     "layer": "S077_Multi-Cultural Center",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S077D2300": {
+  "S077D2600": {
     "layer": "S077_Multi-Cultural Center",
     "category": "building",
     "material": "Frame"
@@ -2944,32 +3024,32 @@
     "category": "building",
     "material": "Concrete"
   },
-  "S078M0700": {
+  "S078M1000": {
     "layer": "S078_Robertson Gym",
     "category": "building",
     "material": "Foundation"
   },
-  "S078M1400": {
+  "S078M1700": {
     "layer": "S078_Robertson Gym",
     "category": "building",
     "material": "LightStone"
   },
-  "S078M2000": {
+  "S078M2300": {
     "layer": "S078_Robertson Gym",
     "category": "building",
     "material": "Metal"
   },
-  "S078D2100": {
+  "S078D2400": {
     "layer": "S078_Robertson Gym",
     "category": "building",
     "material": "Glass"
   },
-  "S078D2200": {
+  "S078D2500": {
     "layer": "S078_Robertson Gym",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S078D2300": {
+  "S078D2600": {
     "layer": "S078_Robertson Gym",
     "category": "building",
     "material": "Frame"
@@ -2979,37 +3059,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S079M0700": {
+  "S079M1000": {
     "layer": "S079_Intercollegiate Athletics",
     "category": "building",
     "material": "Foundation"
   },
-  "S079M1400": {
+  "S079M1700": {
     "layer": "S079_Intercollegiate Athletics",
     "category": "building",
     "material": "LightStone"
   },
-  "S079M1800": {
+  "S079M2100": {
     "layer": "S079_Intercollegiate Athletics",
     "category": "building",
     "material": "Concrete"
   },
-  "S079M2000": {
+  "S079M2300": {
     "layer": "S079_Intercollegiate Athletics",
     "category": "building",
     "material": "Metal"
   },
-  "S079D2100": {
+  "S079D2400": {
     "layer": "S079_Intercollegiate Athletics",
     "category": "building",
     "material": "Glass"
   },
-  "S079D2200": {
+  "S079D2500": {
     "layer": "S079_Intercollegiate Athletics",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S079D2300": {
+  "S079D2600": {
     "layer": "S079_Intercollegiate Athletics",
     "category": "building",
     "material": "Frame"
@@ -3019,32 +3099,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S080M0700": {
+  "S080M1000": {
     "layer": "S080_Student Health",
     "category": "building",
     "material": "Foundation"
   },
-  "S080M1400": {
+  "S080M1700": {
     "layer": "S080_Student Health",
     "category": "building",
     "material": "LightStone"
   },
-  "S080M2000": {
+  "S080M2300": {
     "layer": "S080_Student Health",
     "category": "building",
     "material": "Metal"
   },
-  "S080D2100": {
+  "S080D2400": {
     "layer": "S080_Student Health",
     "category": "building",
     "material": "Glass"
   },
-  "S080D2200": {
+  "S080D2500": {
     "layer": "S080_Student Health",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S080D2300": {
+  "S080D2600": {
     "layer": "S080_Student Health",
     "category": "building",
     "material": "Frame"
@@ -3054,37 +3134,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S081M0700": {
+  "S081M1000": {
     "layer": "S081_Education Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S081M1400": {
+  "S081M1700": {
     "layer": "S081_Education Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S081M1800": {
+  "S081M2100": {
     "layer": "S081_Education Building",
     "category": "building",
     "material": "Concrete"
   },
-  "S081M2000": {
+  "S081M2300": {
     "layer": "S081_Education Building",
     "category": "building",
     "material": "Metal"
   },
-  "S081D2100": {
+  "S081D2400": {
     "layer": "S081_Education Building",
     "category": "building",
     "material": "Glass"
   },
-  "S081D2200": {
+  "S081D2500": {
     "layer": "S081_Education Building",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S081D2300": {
+  "S081D2600": {
     "layer": "S081_Education Building",
     "category": "building",
     "material": "Frame"
@@ -3104,37 +3184,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S082M0700": {
+  "S082M1000": {
     "layer": "S082_Social Sciences & Media Studies",
     "category": "building",
     "material": "Foundation"
   },
-  "S082M1400": {
+  "S082M1700": {
     "layer": "S082_Social Sciences & Media Studies",
     "category": "building",
     "material": "LightStone"
   },
-  "S082M1800": {
+  "S082M2100": {
     "layer": "S082_Social Sciences & Media Studies",
     "category": "building",
     "material": "Concrete"
   },
-  "S082M2000": {
+  "S082M2300": {
     "layer": "S082_Social Sciences & Media Studies",
     "category": "building",
     "material": "Metal"
   },
-  "S082D2100": {
+  "S082D2400": {
     "layer": "S082_Social Sciences & Media Studies",
     "category": "building",
     "material": "Glass"
   },
-  "S082D2200": {
+  "S082D2500": {
     "layer": "S082_Social Sciences & Media Studies",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S082D2300": {
+  "S082D2600": {
     "layer": "S082_Social Sciences & Media Studies",
     "category": "building",
     "material": "Frame"
@@ -3144,27 +3224,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S083M0700": {
+  "S083M1000": {
     "layer": "S083_Bike Shop",
     "category": "building",
     "material": "Foundation"
   },
-  "S083M1400": {
+  "S083M1700": {
     "layer": "S083_Bike Shop",
     "category": "building",
     "material": "LightStone"
   },
-  "S083M2000": {
+  "S083M2300": {
     "layer": "S083_Bike Shop",
     "category": "building",
     "material": "Metal"
   },
-  "S083D2100": {
+  "S083D2400": {
     "layer": "S083_Bike Shop",
     "category": "building",
     "material": "Glass"
   },
-  "S083D2300": {
+  "S083D2600": {
     "layer": "S083_Bike Shop",
     "category": "building",
     "material": "Frame"
@@ -3179,32 +3259,32 @@
     "category": "building",
     "material": "Concrete"
   },
-  "S084M0700": {
+  "S084M1000": {
     "layer": "S084_Events Center",
     "category": "building",
     "material": "Foundation"
   },
-  "S084M1400": {
+  "S084M1700": {
     "layer": "S084_Events Center",
     "category": "building",
     "material": "LightStone"
   },
-  "S084M2000": {
+  "S084M2300": {
     "layer": "S084_Events Center",
     "category": "building",
     "material": "Metal"
   },
-  "S084D2100": {
+  "S084D2400": {
     "layer": "S084_Events Center",
     "category": "building",
     "material": "Glass"
   },
-  "S084D2200": {
+  "S084D2500": {
     "layer": "S084_Events Center",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S084D2300": {
+  "S084D2600": {
     "layer": "S084_Events Center",
     "category": "building",
     "material": "Frame"
@@ -3214,32 +3294,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S085M0700": {
+  "S085M1000": {
     "layer": "S085_Parking III (aka Parking 22)",
     "category": "building",
     "material": "Foundation"
   },
-  "S085M1400": {
+  "S085M1700": {
     "layer": "S085_Parking III (aka Parking 22)",
     "category": "building",
     "material": "LightStone"
   },
-  "S085M1800": {
+  "S085M2100": {
     "layer": "S085_Parking III (aka Parking 22)",
     "category": "building",
     "material": "Concrete"
   },
-  "S085M2000": {
+  "S085M2300": {
     "layer": "S085_Parking III (aka Parking 22)",
     "category": "building",
     "material": "Metal"
   },
-  "S085D2100": {
+  "S085D2400": {
     "layer": "S085_Parking III (aka Parking 22)",
     "category": "building",
     "material": "Glass"
   },
-  "S085D2300": {
+  "S085D2600": {
     "layer": "S085_Parking III (aka Parking 22)",
     "category": "building",
     "material": "Frame"
@@ -3254,37 +3334,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S086M0700": {
+  "S086M1000": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S086M1400": {
+  "S086M1700": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S086M1800": {
+  "S086M2100": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "Concrete"
   },
-  "S086M2000": {
+  "S086M2300": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "Metal"
   },
-  "S086D2100": {
+  "S086D2400": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "Glass"
   },
-  "S086D2200": {
+  "S086D2500": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S086D2300": {
+  "S086D2600": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "Frame"
@@ -3294,32 +3374,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S087M0700": {
+  "S087M1000": {
     "layer": "S087_Student Services",
     "category": "building",
     "material": "Foundation"
   },
-  "S087M1400": {
+  "S087M1700": {
     "layer": "S087_Student Services",
     "category": "building",
     "material": "LightStone"
   },
-  "S087M2000": {
+  "S087M2300": {
     "layer": "S087_Student Services",
     "category": "building",
     "material": "Metal"
   },
-  "S087D2100": {
+  "S087D2400": {
     "layer": "S087_Student Services",
     "category": "building",
     "material": "Glass"
   },
-  "S087D2200": {
+  "S087D2500": {
     "layer": "S087_Student Services",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S087D2300": {
+  "S087D2600": {
     "layer": "S087_Student Services",
     "category": "building",
     "material": "Frame"
@@ -3329,37 +3409,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S088M0700": {
+  "S088M1000": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S088M1400": {
+  "S088M1700": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S088M1800": {
+  "S088M2100": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "Concrete"
   },
-  "S088M2000": {
+  "S088M2300": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "Metal"
   },
-  "S088D2100": {
+  "S088D2400": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "Glass"
   },
-  "S088D2200": {
+  "S088D2500": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S088D2300": {
+  "S088D2600": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "Frame"
@@ -3369,37 +3449,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S089M0700": {
+  "S089M1000": {
     "layer": "S089_Theater & Dance East",
     "category": "building",
     "material": "Foundation"
   },
-  "S089M1400": {
+  "S089M1700": {
     "layer": "S089_Theater & Dance East",
     "category": "building",
     "material": "LightStone"
   },
-  "S089M1800": {
+  "S089M2100": {
     "layer": "S089_Theater & Dance East",
     "category": "building",
     "material": "Concrete"
   },
-  "S089M2000": {
+  "S089M2300": {
     "layer": "S089_Theater & Dance East",
     "category": "building",
     "material": "Metal"
   },
-  "S089D2100": {
+  "S089D2400": {
     "layer": "S089_Theater & Dance East",
     "category": "building",
     "material": "Glass"
   },
-  "S089D2200": {
+  "S089D2500": {
     "layer": "S089_Theater & Dance East",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S089D2300": {
+  "S089D2600": {
     "layer": "S089_Theater & Dance East",
     "category": "building",
     "material": "Frame"
@@ -3414,37 +3494,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S090M0700": {
+  "S090M1000": {
     "layer": "S090_Theater & Dance West",
     "category": "building",
     "material": "Foundation"
   },
-  "S090M1400": {
+  "S090M1700": {
     "layer": "S090_Theater & Dance West",
     "category": "building",
     "material": "LightStone"
   },
-  "S090M1800": {
+  "S090M2100": {
     "layer": "S090_Theater & Dance West",
     "category": "building",
     "material": "Concrete"
   },
-  "S090M2000": {
+  "S090M2300": {
     "layer": "S090_Theater & Dance West",
     "category": "building",
     "material": "Metal"
   },
-  "S090D2100": {
+  "S090D2400": {
     "layer": "S090_Theater & Dance West",
     "category": "building",
     "material": "Glass"
   },
-  "S090D2200": {
+  "S090D2500": {
     "layer": "S090_Theater & Dance West",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S090D2300": {
+  "S090D2600": {
     "layer": "S090_Theater & Dance West",
     "category": "building",
     "material": "Frame"
@@ -3459,37 +3539,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S091M0700": {
+  "S091M1000": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "Foundation"
   },
-  "S091M1400": {
+  "S091M1700": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "LightStone"
   },
-  "S091M1800": {
+  "S091M2100": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "Concrete"
   },
-  "S091M2000": {
+  "S091M2300": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "Metal"
   },
-  "S091D2100": {
+  "S091D2400": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "Glass"
   },
-  "S091D2200": {
+  "S091D2500": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S091D2300": {
+  "S091D2600": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "Frame"
@@ -3499,27 +3579,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S092M0700": {
+  "S092M1000": {
     "layer": "S092_Sewer Pump Station",
     "category": "building",
     "material": "Foundation"
   },
-  "S092M1400": {
+  "S092M1700": {
     "layer": "S092_Sewer Pump Station",
     "category": "building",
     "material": "LightStone"
   },
-  "S092M2000": {
+  "S092M2300": {
     "layer": "S092_Sewer Pump Station",
     "category": "building",
     "material": "Metal"
   },
-  "S092D2100": {
+  "S092D2400": {
     "layer": "S092_Sewer Pump Station",
     "category": "building",
     "material": "Glass"
   },
-  "S092D2300": {
+  "S092D2600": {
     "layer": "S092_Sewer Pump Station",
     "category": "building",
     "material": "Frame"
@@ -3534,32 +3614,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S093M0700": {
+  "S093M1000": {
     "layer": "S093_The Club & Guest House",
     "category": "building",
     "material": "Foundation"
   },
-  "S093M1700": {
+  "S093M2000": {
     "layer": "S093_The Club & Guest House",
     "category": "building",
     "material": "Tile"
   },
-  "S093M1800": {
+  "S093M2100": {
     "layer": "S093_The Club & Guest House",
     "category": "building",
     "material": "Concrete"
   },
-  "S093D2100": {
+  "S093D2400": {
     "layer": "S093_The Club & Guest House",
     "category": "building",
     "material": "Glass"
   },
-  "S093D2200": {
+  "S093D2500": {
     "layer": "S093_The Club & Guest House",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S093D2300": {
+  "S093D2600": {
     "layer": "S093_The Club & Guest House",
     "category": "building",
     "material": "Frame"
@@ -3569,27 +3649,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S094M0700": {
+  "S094M1000": {
     "layer": "S094_Molten Metal Lab",
     "category": "building",
     "material": "Foundation"
   },
-  "S094M1400": {
+  "S094M1700": {
     "layer": "S094_Molten Metal Lab",
     "category": "building",
     "material": "LightStone"
   },
-  "S094M2000": {
+  "S094M2300": {
     "layer": "S094_Molten Metal Lab",
     "category": "building",
     "material": "Metal"
   },
-  "S094D2100": {
+  "S094D2400": {
     "layer": "S094_Molten Metal Lab",
     "category": "building",
     "material": "Glass"
   },
-  "S094D2300": {
+  "S094D2600": {
     "layer": "S094_Molten Metal Lab",
     "category": "building",
     "material": "Frame"
@@ -3599,37 +3679,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S095M0700": {
+  "S095M1000": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "Foundation"
   },
-  "S095M1400": {
+  "S095M1700": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "LightStone"
   },
-  "S095M1800": {
+  "S095M2100": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "Concrete"
   },
-  "S095M2000": {
+  "S095M2300": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "Metal"
   },
-  "S095D2100": {
+  "S095D2400": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "Glass"
   },
-  "S095D2200": {
+  "S095D2500": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S095D2300": {
+  "S095D2600": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "Frame"
@@ -3644,27 +3724,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S096M0700": {
+  "S096M1000": {
     "layer": "S096_San Rafael Cluster",
     "category": "building",
     "material": "Foundation"
   },
-  "S096M1700": {
+  "S096M2000": {
     "layer": "S096_San Rafael Cluster",
     "category": "building",
     "material": "Tile"
   },
-  "S096M1800": {
+  "S096M2100": {
     "layer": "S096_San Rafael Cluster",
     "category": "building",
     "material": "Concrete"
   },
-  "S096D2100": {
+  "S096D2400": {
     "layer": "S096_San Rafael Cluster",
     "category": "building",
     "material": "Glass"
   },
-  "S096D2300": {
+  "S096D2600": {
     "layer": "S096_San Rafael Cluster",
     "category": "building",
     "material": "Frame"
@@ -3674,32 +3754,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S097M0700": {
+  "S097M1000": {
     "layer": "S097_Creative Studies",
     "category": "building",
     "material": "Foundation"
   },
-  "S097M1400": {
+  "S097M1700": {
     "layer": "S097_Creative Studies",
     "category": "building",
     "material": "LightStone"
   },
-  "S097M2000": {
+  "S097M2300": {
     "layer": "S097_Creative Studies",
     "category": "building",
     "material": "Metal"
   },
-  "S097D2100": {
+  "S097D2400": {
     "layer": "S097_Creative Studies",
     "category": "building",
     "material": "Glass"
   },
-  "S097D2200": {
+  "S097D2500": {
     "layer": "S097_Creative Studies",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S097D2300": {
+  "S097D2600": {
     "layer": "S097_Creative Studies",
     "category": "building",
     "material": "Frame"
@@ -3709,22 +3789,22 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S098M0700": {
+  "S098M1000": {
     "layer": "S098_Ortega Dining Commons",
     "category": "building",
     "material": "Foundation"
   },
-  "S098M1700": {
+  "S098M2000": {
     "layer": "S098_Ortega Dining Commons",
     "category": "building",
     "material": "Tile"
   },
-  "S098D2100": {
+  "S098D2400": {
     "layer": "S098_Ortega Dining Commons",
     "category": "building",
     "material": "Glass"
   },
-  "S098D2300": {
+  "S098D2600": {
     "layer": "S098_Ortega Dining Commons",
     "category": "building",
     "material": "Frame"
@@ -3734,27 +3814,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S099M0700": {
+  "S099M1000": {
     "layer": "S099_Anacapa Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S099M1700": {
+  "S099M2000": {
     "layer": "S099_Anacapa Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S099M1800": {
+  "S099M2100": {
     "layer": "S099_Anacapa Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S099D2100": {
+  "S099D2400": {
     "layer": "S099_Anacapa Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S099D2300": {
+  "S099D2600": {
     "layer": "S099_Anacapa Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -3764,32 +3844,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S100M0700": {
+  "S100M1000": {
     "layer": "S100_Santa Rosa Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S100M1700": {
+  "S100M2000": {
     "layer": "S100_Santa Rosa Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S100M1800": {
+  "S100M2100": {
     "layer": "S100_Santa Rosa Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S100D2100": {
+  "S100D2400": {
     "layer": "S100_Santa Rosa Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S100D2200": {
+  "S100D2500": {
     "layer": "S100_Santa Rosa Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S100D2300": {
+  "S100D2600": {
     "layer": "S100_Santa Rosa Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -3804,27 +3884,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S101M0700": {
+  "S101M1000": {
     "layer": "S101_Relocatable 322",
     "category": "building",
     "material": "Foundation"
   },
-  "S101M1400": {
+  "S101M1700": {
     "layer": "S101_Relocatable 322",
     "category": "building",
     "material": "LightStone"
   },
-  "S101M2000": {
+  "S101M2300": {
     "layer": "S101_Relocatable 322",
     "category": "building",
     "material": "Metal"
   },
-  "S101D2100": {
+  "S101D2400": {
     "layer": "S101_Relocatable 322",
     "category": "building",
     "material": "Glass"
   },
-  "S101D2300": {
+  "S101D2600": {
     "layer": "S101_Relocatable 322",
     "category": "building",
     "material": "Frame"
@@ -3844,27 +3924,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S102M0700": {
+  "S102M1000": {
     "layer": "S102_Loma Pelona Multipurpose Center",
     "category": "building",
     "material": "Foundation"
   },
-  "S102M1700": {
+  "S102M2000": {
     "layer": "S102_Loma Pelona Multipurpose Center",
     "category": "building",
     "material": "Tile"
   },
-  "S102D2100": {
+  "S102D2400": {
     "layer": "S102_Loma Pelona Multipurpose Center",
     "category": "building",
     "material": "Glass"
   },
-  "S102D2200": {
+  "S102D2500": {
     "layer": "S102_Loma Pelona Multipurpose Center",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S102D2300": {
+  "S102D2600": {
     "layer": "S102_Loma Pelona Multipurpose Center",
     "category": "building",
     "material": "Frame"
@@ -3874,32 +3954,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S103M0700": {
+  "S103M1000": {
     "layer": "S103_Manzanita Village Figueroa Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S103M1700": {
+  "S103M2000": {
     "layer": "S103_Manzanita Village Figueroa Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S103M1800": {
+  "S103M2100": {
     "layer": "S103_Manzanita Village Figueroa Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S103D2100": {
+  "S103D2400": {
     "layer": "S103_Manzanita Village Figueroa Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S103D2200": {
+  "S103D2500": {
     "layer": "S103_Manzanita Village Figueroa Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S103D2300": {
+  "S103D2600": {
     "layer": "S103_Manzanita Village Figueroa Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -3909,32 +3989,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S104M0700": {
+  "S104M1000": {
     "layer": "S104_Manzanita Village Madulce Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S104M1700": {
+  "S104M2000": {
     "layer": "S104_Manzanita Village Madulce Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S104M1800": {
+  "S104M2100": {
     "layer": "S104_Manzanita Village Madulce Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S104D2100": {
+  "S104D2400": {
     "layer": "S104_Manzanita Village Madulce Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S104D2200": {
+  "S104D2500": {
     "layer": "S104_Manzanita Village Madulce Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S104D2300": {
+  "S104D2600": {
     "layer": "S104_Manzanita Village Madulce Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -3949,27 +4029,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S105M0700": {
+  "S105M1000": {
     "layer": "S105_San Rafael Pool Dressing Room",
     "category": "building",
     "material": "Foundation"
   },
-  "S105M1400": {
+  "S105M1700": {
     "layer": "S105_San Rafael Pool Dressing Room",
     "category": "building",
     "material": "LightStone"
   },
-  "S105M2000": {
+  "S105M2300": {
     "layer": "S105_San Rafael Pool Dressing Room",
     "category": "building",
     "material": "Metal"
   },
-  "S105D2100": {
+  "S105D2400": {
     "layer": "S105_San Rafael Pool Dressing Room",
     "category": "building",
     "material": "Glass"
   },
-  "S105D2300": {
+  "S105D2600": {
     "layer": "S105_San Rafael Pool Dressing Room",
     "category": "building",
     "material": "Frame"
@@ -3979,37 +4059,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S106M0700": {
+  "S106M1000": {
     "layer": "S106_San Miguel Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S106M1400": {
+  "S106M1700": {
     "layer": "S106_San Miguel Residence Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S106M1800": {
+  "S106M2100": {
     "layer": "S106_San Miguel Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S106M2000": {
+  "S106M2300": {
     "layer": "S106_San Miguel Residence Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S106D2100": {
+  "S106D2400": {
     "layer": "S106_San Miguel Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S106D2200": {
+  "S106D2500": {
     "layer": "S106_San Miguel Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S106D2300": {
+  "S106D2600": {
     "layer": "S106_San Miguel Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4019,32 +4099,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S107M0700": {
+  "S107M1000": {
     "layer": "S107_Carrillo Dining Commons",
     "category": "building",
     "material": "Foundation"
   },
-  "S107M1700": {
+  "S107M2000": {
     "layer": "S107_Carrillo Dining Commons",
     "category": "building",
     "material": "Tile"
   },
-  "S107M1800": {
+  "S107M2100": {
     "layer": "S107_Carrillo Dining Commons",
     "category": "building",
     "material": "Concrete"
   },
-  "S107D2100": {
+  "S107D2400": {
     "layer": "S107_Carrillo Dining Commons",
     "category": "building",
     "material": "Glass"
   },
-  "S107D2200": {
+  "S107D2500": {
     "layer": "S107_Carrillo Dining Commons",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S107D2300": {
+  "S107D2600": {
     "layer": "S107_Carrillo Dining Commons",
     "category": "building",
     "material": "Frame"
@@ -4054,32 +4134,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S108M0700": {
+  "S108M1000": {
     "layer": "S108_Manzanita Village Cuyama Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S108M1700": {
+  "S108M2000": {
     "layer": "S108_Manzanita Village Cuyama Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S108M1800": {
+  "S108M2100": {
     "layer": "S108_Manzanita Village Cuyama Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S108D2100": {
+  "S108D2400": {
     "layer": "S108_Manzanita Village Cuyama Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S108D2200": {
+  "S108D2500": {
     "layer": "S108_Manzanita Village Cuyama Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S108D2300": {
+  "S108D2600": {
     "layer": "S108_Manzanita Village Cuyama Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4089,32 +4169,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S109M0700": {
+  "S109M1000": {
     "layer": "S109_Santa Cruz Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S109M1700": {
+  "S109M2000": {
     "layer": "S109_Santa Cruz Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S109M1800": {
+  "S109M2100": {
     "layer": "S109_Santa Cruz Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S109D2100": {
+  "S109D2400": {
     "layer": "S109_Santa Cruz Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S109D2200": {
+  "S109D2500": {
     "layer": "S109_Santa Cruz Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S109D2300": {
+  "S109D2600": {
     "layer": "S109_Santa Cruz Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4124,32 +4204,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S110M0700": {
+  "S110M1000": {
     "layer": "S110_Manzanita Village Pendola Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S110M1700": {
+  "S110M2000": {
     "layer": "S110_Manzanita Village Pendola Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S110M1800": {
+  "S110M2100": {
     "layer": "S110_Manzanita Village Pendola Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S110D2100": {
+  "S110D2400": {
     "layer": "S110_Manzanita Village Pendola Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S110D2200": {
+  "S110D2500": {
     "layer": "S110_Manzanita Village Pendola Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S110D2300": {
+  "S110D2600": {
     "layer": "S110_Manzanita Village Pendola Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4159,32 +4239,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S111M0700": {
+  "S111M1000": {
     "layer": "S111_Manzanita Village De Anza Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S111M1700": {
+  "S111M2000": {
     "layer": "S111_Manzanita Village De Anza Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S111M1800": {
+  "S111M2100": {
     "layer": "S111_Manzanita Village De Anza Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S111D2100": {
+  "S111D2400": {
     "layer": "S111_Manzanita Village De Anza Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S111D2200": {
+  "S111D2500": {
     "layer": "S111_Manzanita Village De Anza Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S111D2300": {
+  "S111D2600": {
     "layer": "S111_Manzanita Village De Anza Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4194,32 +4274,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S112M0700": {
+  "S112M1000": {
     "layer": "S112_Manzanita Village Camuesa Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S112M1700": {
+  "S112M2000": {
     "layer": "S112_Manzanita Village Camuesa Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S112M1800": {
+  "S112M2100": {
     "layer": "S112_Manzanita Village Camuesa Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S112D2100": {
+  "S112D2400": {
     "layer": "S112_Manzanita Village Camuesa Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S112D2200": {
+  "S112D2500": {
     "layer": "S112_Manzanita Village Camuesa Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S112D2300": {
+  "S112D2600": {
     "layer": "S112_Manzanita Village Camuesa Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4229,32 +4309,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S113M0700": {
+  "S113M1000": {
     "layer": "S113_De La Guerra Dining Commons",
     "category": "building",
     "material": "Foundation"
   },
-  "S113M1700": {
+  "S113M2000": {
     "layer": "S113_De La Guerra Dining Commons",
     "category": "building",
     "material": "Tile"
   },
-  "S113M1800": {
+  "S113M2100": {
     "layer": "S113_De La Guerra Dining Commons",
     "category": "building",
     "material": "Concrete"
   },
-  "S113D2100": {
+  "S113D2400": {
     "layer": "S113_De La Guerra Dining Commons",
     "category": "building",
     "material": "Glass"
   },
-  "S113D2200": {
+  "S113D2500": {
     "layer": "S113_De La Guerra Dining Commons",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S113D2300": {
+  "S113D2600": {
     "layer": "S113_De La Guerra Dining Commons",
     "category": "building",
     "material": "Frame"
@@ -4264,37 +4344,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S114M0700": {
+  "S114M1000": {
     "layer": "S114_San Nicolas Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S114M1400": {
+  "S114M1700": {
     "layer": "S114_San Nicolas Residence Hall",
     "category": "building",
     "material": "LightStone"
   },
-  "S114M1800": {
+  "S114M2100": {
     "layer": "S114_San Nicolas Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S114M2000": {
+  "S114M2300": {
     "layer": "S114_San Nicolas Residence Hall",
     "category": "building",
     "material": "Metal"
   },
-  "S114D2100": {
+  "S114D2400": {
     "layer": "S114_San Nicolas Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S114D2200": {
+  "S114D2500": {
     "layer": "S114_San Nicolas Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S114D2300": {
+  "S114D2600": {
     "layer": "S114_San Nicolas Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4304,32 +4384,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S115M0700": {
+  "S115M1000": {
     "layer": "S115_Manzanita Village Zaca Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S115M1700": {
+  "S115M2000": {
     "layer": "S115_Manzanita Village Zaca Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S115M1800": {
+  "S115M2100": {
     "layer": "S115_Manzanita Village Zaca Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S115D2100": {
+  "S115D2400": {
     "layer": "S115_Manzanita Village Zaca Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S115D2200": {
+  "S115D2500": {
     "layer": "S115_Manzanita Village Zaca Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S115D2300": {
+  "S115D2600": {
     "layer": "S115_Manzanita Village Zaca Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4339,32 +4419,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S116M0700": {
+  "S116M1000": {
     "layer": "S116_Manzanita Village Jalama Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S116M1700": {
+  "S116M2000": {
     "layer": "S116_Manzanita Village Jalama Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S116M1800": {
+  "S116M2100": {
     "layer": "S116_Manzanita Village Jalama Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S116D2100": {
+  "S116D2400": {
     "layer": "S116_Manzanita Village Jalama Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S116D2200": {
+  "S116D2500": {
     "layer": "S116_Manzanita Village Jalama Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S116D2300": {
+  "S116D2600": {
     "layer": "S116_Manzanita Village Jalama Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4374,32 +4454,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S117M0700": {
+  "S117M1000": {
     "layer": "S117_Manzanita Village Arguello Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S117M1700": {
+  "S117M2000": {
     "layer": "S117_Manzanita Village Arguello Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S117M1800": {
+  "S117M2100": {
     "layer": "S117_Manzanita Village Arguello Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S117D2100": {
+  "S117D2400": {
     "layer": "S117_Manzanita Village Arguello Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S117D2200": {
+  "S117D2500": {
     "layer": "S117_Manzanita Village Arguello Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S117D2300": {
+  "S117D2600": {
     "layer": "S117_Manzanita Village Arguello Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4409,32 +4489,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S118M0700": {
+  "S118M1000": {
     "layer": "S118_Manzanita Village La Cumbre Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S118M1700": {
+  "S118M2000": {
     "layer": "S118_Manzanita Village La Cumbre Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S118M1800": {
+  "S118M2100": {
     "layer": "S118_Manzanita Village La Cumbre Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S118D2100": {
+  "S118D2400": {
     "layer": "S118_Manzanita Village La Cumbre Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S118D2200": {
+  "S118D2500": {
     "layer": "S118_Manzanita Village La Cumbre Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S118D2300": {
+  "S118D2600": {
     "layer": "S118_Manzanita Village La Cumbre Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4444,32 +4524,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S119M0700": {
+  "S119M1000": {
     "layer": "S119_Manzanita Village Montecito Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S119M1700": {
+  "S119M2000": {
     "layer": "S119_Manzanita Village Montecito Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S119M1800": {
+  "S119M2100": {
     "layer": "S119_Manzanita Village Montecito Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S119D2100": {
+  "S119D2400": {
     "layer": "S119_Manzanita Village Montecito Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S119D2200": {
+  "S119D2500": {
     "layer": "S119_Manzanita Village Montecito Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S119D2300": {
+  "S119D2600": {
     "layer": "S119_Manzanita Village Montecito Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4479,32 +4559,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S120M0700": {
+  "S120M1000": {
     "layer": "S120_Manzanita Village Cienega Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S120M1700": {
+  "S120M2000": {
     "layer": "S120_Manzanita Village Cienega Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S120M1800": {
+  "S120M2100": {
     "layer": "S120_Manzanita Village Cienega Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S120D2100": {
+  "S120D2400": {
     "layer": "S120_Manzanita Village Cienega Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S120D2200": {
+  "S120D2500": {
     "layer": "S120_Manzanita Village Cienega Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S120D2300": {
+  "S120D2600": {
     "layer": "S120_Manzanita Village Cienega Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4514,32 +4594,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S121M0700": {
+  "S121M1000": {
     "layer": "S121_Manzanita Village Condor Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S121M1700": {
+  "S121M2000": {
     "layer": "S121_Manzanita Village Condor Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S121M1800": {
+  "S121M2100": {
     "layer": "S121_Manzanita Village Condor Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S121D2100": {
+  "S121D2400": {
     "layer": "S121_Manzanita Village Condor Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S121D2200": {
+  "S121D2500": {
     "layer": "S121_Manzanita Village Condor Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S121D2300": {
+  "S121D2600": {
     "layer": "S121_Manzanita Village Condor Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4549,32 +4629,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S122M0700": {
+  "S122M1000": {
     "layer": "S122_Manzanita Village Miranda Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S122M1700": {
+  "S122M2000": {
     "layer": "S122_Manzanita Village Miranda Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S122M1800": {
+  "S122M2100": {
     "layer": "S122_Manzanita Village Miranda Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S122D2100": {
+  "S122D2400": {
     "layer": "S122_Manzanita Village Miranda Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S122D2200": {
+  "S122D2500": {
     "layer": "S122_Manzanita Village Miranda Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S122D2300": {
+  "S122D2600": {
     "layer": "S122_Manzanita Village Miranda Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4584,32 +4664,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S123M0700": {
+  "S123M1000": {
     "layer": "S123_Manzanita Village Tepusquet Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S123M1700": {
+  "S123M2000": {
     "layer": "S123_Manzanita Village Tepusquet Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S123M1800": {
+  "S123M2100": {
     "layer": "S123_Manzanita Village Tepusquet Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S123D2100": {
+  "S123D2400": {
     "layer": "S123_Manzanita Village Tepusquet Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S123D2200": {
+  "S123D2500": {
     "layer": "S123_Manzanita Village Tepusquet Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S123D2300": {
+  "S123D2600": {
     "layer": "S123_Manzanita Village Tepusquet Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4619,32 +4699,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S124M0700": {
+  "S124M1000": {
     "layer": "S124_Centennial House Conference Facility",
     "category": "building",
     "material": "Foundation"
   },
-  "S124M1400": {
+  "S124M1700": {
     "layer": "S124_Centennial House Conference Facility",
     "category": "building",
     "material": "LightStone"
   },
-  "S124M2000": {
+  "S124M2300": {
     "layer": "S124_Centennial House Conference Facility",
     "category": "building",
     "material": "Metal"
   },
-  "S124D2100": {
+  "S124D2400": {
     "layer": "S124_Centennial House Conference Facility",
     "category": "building",
     "material": "Glass"
   },
-  "S124D2200": {
+  "S124D2500": {
     "layer": "S124_Centennial House Conference Facility",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S124D2300": {
+  "S124D2600": {
     "layer": "S124_Centennial House Conference Facility",
     "category": "building",
     "material": "Frame"
@@ -4654,27 +4734,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S125M0700": {
+  "S125M1000": {
     "layer": "S125_University House",
     "category": "building",
     "material": "Foundation"
   },
-  "S125M1700": {
+  "S125M2000": {
     "layer": "S125_University House",
     "category": "building",
     "material": "Tile"
   },
-  "S125D2100": {
+  "S125D2400": {
     "layer": "S125_University House",
     "category": "building",
     "material": "Glass"
   },
-  "S125D2200": {
+  "S125D2500": {
     "layer": "S125_University House",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S125D2300": {
+  "S125D2600": {
     "layer": "S125_University House",
     "category": "building",
     "material": "Frame"
@@ -4684,32 +4764,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S126M0700": {
+  "S126M1000": {
     "layer": "S126_Manzanita Village Tecolote Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S126M1700": {
+  "S126M2000": {
     "layer": "S126_Manzanita Village Tecolote Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S126M1800": {
+  "S126M2100": {
     "layer": "S126_Manzanita Village Tecolote Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S126D2100": {
+  "S126D2400": {
     "layer": "S126_Manzanita Village Tecolote Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S126D2200": {
+  "S126D2500": {
     "layer": "S126_Manzanita Village Tecolote Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S126D2300": {
+  "S126D2600": {
     "layer": "S126_Manzanita Village Tecolote Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4719,32 +4799,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S127M0700": {
+  "S127M1000": {
     "layer": "S127_Manzanita Village Gaviota Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S127M1700": {
+  "S127M2000": {
     "layer": "S127_Manzanita Village Gaviota Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S127M1800": {
+  "S127M2100": {
     "layer": "S127_Manzanita Village Gaviota Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S127D2100": {
+  "S127D2400": {
     "layer": "S127_Manzanita Village Gaviota Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S127D2200": {
+  "S127D2500": {
     "layer": "S127_Manzanita Village Gaviota Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S127D2300": {
+  "S127D2600": {
     "layer": "S127_Manzanita Village Gaviota Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4754,32 +4834,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S128M0700": {
+  "S128M1000": {
     "layer": "S128_Manzanita Village Rincon Residence Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S128M1700": {
+  "S128M2000": {
     "layer": "S128_Manzanita Village Rincon Residence Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S128M1800": {
+  "S128M2100": {
     "layer": "S128_Manzanita Village Rincon Residence Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S128D2100": {
+  "S128D2400": {
     "layer": "S128_Manzanita Village Rincon Residence Hall",
     "category": "building",
     "material": "Glass"
   },
-  "S128D2200": {
+  "S128D2500": {
     "layer": "S128_Manzanita Village Rincon Residence Hall",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S128D2300": {
+  "S128D2600": {
     "layer": "S128_Manzanita Village Rincon Residence Hall",
     "category": "building",
     "material": "Frame"
@@ -4789,32 +4869,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S129M0700": {
+  "S129M1000": {
     "layer": "S129_Marine Science Institute Trailer 342",
     "category": "building",
     "material": "Foundation"
   },
-  "S129M1400": {
+  "S129M1700": {
     "layer": "S129_Marine Science Institute Trailer 342",
     "category": "building",
     "material": "LightStone"
   },
-  "S129M2000": {
+  "S129M2300": {
     "layer": "S129_Marine Science Institute Trailer 342",
     "category": "building",
     "material": "Metal"
   },
-  "S129D2100": {
+  "S129D2400": {
     "layer": "S129_Marine Science Institute Trailer 342",
     "category": "building",
     "material": "Glass"
   },
-  "S129D2200": {
+  "S129D2500": {
     "layer": "S129_Marine Science Institute Trailer 342",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S129D2300": {
+  "S129D2600": {
     "layer": "S129_Marine Science Institute Trailer 342",
     "category": "building",
     "material": "Frame"
@@ -4824,37 +4904,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S130M0700": {
+  "S130M1000": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "Foundation"
   },
-  "S130M1400": {
+  "S130M1700": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "LightStone"
   },
-  "S130M1800": {
+  "S130M2100": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "Concrete"
   },
-  "S130M2000": {
+  "S130M2300": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "Metal"
   },
-  "S130D2100": {
+  "S130D2400": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "Glass"
   },
-  "S130D2200": {
+  "S130D2500": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S130D2300": {
+  "S130D2600": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "Frame"
@@ -4864,32 +4944,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S131M0700": {
+  "S131M1000": {
     "layer": "S131_Marine Science Institute Trailer 338",
     "category": "building",
     "material": "Foundation"
   },
-  "S131M1400": {
+  "S131M1700": {
     "layer": "S131_Marine Science Institute Trailer 338",
     "category": "building",
     "material": "LightStone"
   },
-  "S131M2000": {
+  "S131M2300": {
     "layer": "S131_Marine Science Institute Trailer 338",
     "category": "building",
     "material": "Metal"
   },
-  "S131D2100": {
+  "S131D2400": {
     "layer": "S131_Marine Science Institute Trailer 338",
     "category": "building",
     "material": "Glass"
   },
-  "S131D2200": {
+  "S131D2500": {
     "layer": "S131_Marine Science Institute Trailer 338",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S131D2300": {
+  "S131D2600": {
     "layer": "S131_Marine Science Institute Trailer 338",
     "category": "building",
     "material": "Frame"
@@ -4899,32 +4979,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S132M0700": {
+  "S132M1000": {
     "layer": "S132_Marine Science Institute Trailer 334",
     "category": "building",
     "material": "Foundation"
   },
-  "S132M1400": {
+  "S132M1700": {
     "layer": "S132_Marine Science Institute Trailer 334",
     "category": "building",
     "material": "LightStone"
   },
-  "S132M2000": {
+  "S132M2300": {
     "layer": "S132_Marine Science Institute Trailer 334",
     "category": "building",
     "material": "Metal"
   },
-  "S132D2100": {
+  "S132D2400": {
     "layer": "S132_Marine Science Institute Trailer 334",
     "category": "building",
     "material": "Glass"
   },
-  "S132D2200": {
+  "S132D2500": {
     "layer": "S132_Marine Science Institute Trailer 334",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S132D2300": {
+  "S132D2600": {
     "layer": "S132_Marine Science Institute Trailer 334",
     "category": "building",
     "material": "Frame"
@@ -4934,37 +5014,37 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S133M0700": {
+  "S133M1000": {
     "layer": "S133_Aquarium Facility",
     "category": "building",
     "material": "Foundation"
   },
-  "S133M1400": {
+  "S133M1700": {
     "layer": "S133_Aquarium Facility",
     "category": "building",
     "material": "LightStone"
   },
-  "S133M1800": {
+  "S133M2100": {
     "layer": "S133_Aquarium Facility",
     "category": "building",
     "material": "Concrete"
   },
-  "S133M2000": {
+  "S133M2300": {
     "layer": "S133_Aquarium Facility",
     "category": "building",
     "material": "Metal"
   },
-  "S133D2100": {
+  "S133D2400": {
     "layer": "S133_Aquarium Facility",
     "category": "building",
     "material": "Glass"
   },
-  "S133D2200": {
+  "S133D2500": {
     "layer": "S133_Aquarium Facility",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S133D2300": {
+  "S133D2600": {
     "layer": "S133_Aquarium Facility",
     "category": "building",
     "material": "Frame"
@@ -4974,32 +5054,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S134M0700": {
+  "S134M1000": {
     "layer": "S134_The Reef",
     "category": "building",
     "material": "Foundation"
   },
-  "S134M1400": {
+  "S134M1700": {
     "layer": "S134_The Reef",
     "category": "building",
     "material": "LightStone"
   },
-  "S134M2000": {
+  "S134M2300": {
     "layer": "S134_The Reef",
     "category": "building",
     "material": "Metal"
   },
-  "S134D2100": {
+  "S134D2400": {
     "layer": "S134_The Reef",
     "category": "building",
     "material": "Glass"
   },
-  "S134D2200": {
+  "S134D2500": {
     "layer": "S134_The Reef",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S134D2300": {
+  "S134D2600": {
     "layer": "S134_The Reef",
     "category": "building",
     "material": "Frame"
@@ -5014,32 +5094,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S135M0700": {
+  "S135M1000": {
     "layer": "S135_Filter / Reservoir House",
     "category": "building",
     "material": "Foundation"
   },
-  "S135M1400": {
+  "S135M1700": {
     "layer": "S135_Filter / Reservoir House",
     "category": "building",
     "material": "LightStone"
   },
-  "S135M2000": {
+  "S135M2300": {
     "layer": "S135_Filter / Reservoir House",
     "category": "building",
     "material": "Metal"
   },
-  "S135D2100": {
+  "S135D2400": {
     "layer": "S135_Filter / Reservoir House",
     "category": "building",
     "material": "Glass"
   },
-  "S135D2200": {
+  "S135D2500": {
     "layer": "S135_Filter / Reservoir House",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S135D2300": {
+  "S135D2600": {
     "layer": "S135_Filter / Reservoir House",
     "category": "building",
     "material": "Frame"
@@ -5049,27 +5129,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S136M0700": {
+  "S136M1000": {
     "layer": "S136_Beach Pump House",
     "category": "building",
     "material": "Foundation"
   },
-  "S136M1400": {
+  "S136M1700": {
     "layer": "S136_Beach Pump House",
     "category": "building",
     "material": "LightStone"
   },
-  "S136M2000": {
+  "S136M2300": {
     "layer": "S136_Beach Pump House",
     "category": "building",
     "material": "Metal"
   },
-  "S136D2100": {
+  "S136D2400": {
     "layer": "S136_Beach Pump House",
     "category": "building",
     "material": "Glass"
   },
-  "S136D2300": {
+  "S136D2600": {
     "layer": "S136_Beach Pump House",
     "category": "building",
     "material": "Frame"
@@ -5079,27 +5159,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S137M0700": {
+  "S137M1000": {
     "layer": "S137_Beach Pump",
     "category": "building",
     "material": "Foundation"
   },
-  "S137M1400": {
+  "S137M1700": {
     "layer": "S137_Beach Pump",
     "category": "building",
     "material": "LightStone"
   },
-  "S137M2000": {
+  "S137M2300": {
     "layer": "S137_Beach Pump",
     "category": "building",
     "material": "Metal"
   },
-  "S137D2100": {
+  "S137D2400": {
     "layer": "S137_Beach Pump",
     "category": "building",
     "material": "Glass"
   },
-  "S137D2300": {
+  "S137D2600": {
     "layer": "S137_Beach Pump",
     "category": "building",
     "material": "Frame"
@@ -5109,27 +5189,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S138M0700": {
+  "S138M1000": {
     "layer": "S138_Facilities Management Building 340",
     "category": "building",
     "material": "Foundation"
   },
-  "S138M1400": {
+  "S138M1700": {
     "layer": "S138_Facilities Management Building 340",
     "category": "building",
     "material": "LightStone"
   },
-  "S138M2000": {
+  "S138M2300": {
     "layer": "S138_Facilities Management Building 340",
     "category": "building",
     "material": "Metal"
   },
-  "S138D2100": {
+  "S138D2400": {
     "layer": "S138_Facilities Management Building 340",
     "category": "building",
     "material": "Glass"
   },
-  "S138D2300": {
+  "S138D2600": {
     "layer": "S138_Facilities Management Building 340",
     "category": "building",
     "material": "Frame"
@@ -5144,27 +5224,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S139M0700": {
+  "S139M1000": {
     "layer": "S139_Storage Bunker 802",
     "category": "building",
     "material": "Foundation"
   },
-  "S139M1400": {
+  "S139M1700": {
     "layer": "S139_Storage Bunker 802",
     "category": "building",
     "material": "LightStone"
   },
-  "S139M2000": {
+  "S139M2300": {
     "layer": "S139_Storage Bunker 802",
     "category": "building",
     "material": "Metal"
   },
-  "S139D2100": {
+  "S139D2400": {
     "layer": "S139_Storage Bunker 802",
     "category": "building",
     "material": "Glass"
   },
-  "S139D2300": {
+  "S139D2600": {
     "layer": "S139_Storage Bunker 802",
     "category": "building",
     "material": "Frame"
@@ -5174,27 +5254,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S140M0700": {
+  "S140M1000": {
     "layer": "S140_Building 341",
     "category": "building",
     "material": "Foundation"
   },
-  "S140M1400": {
+  "S140M1700": {
     "layer": "S140_Building 341",
     "category": "building",
     "material": "LightStone"
   },
-  "S140M2000": {
+  "S140M2300": {
     "layer": "S140_Building 341",
     "category": "building",
     "material": "Metal"
   },
-  "S140D2100": {
+  "S140D2400": {
     "layer": "S140_Building 341",
     "category": "building",
     "material": "Glass"
   },
-  "S140D2300": {
+  "S140D2600": {
     "layer": "S140_Building 341",
     "category": "building",
     "material": "Frame"
@@ -5204,27 +5284,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S141M0700": {
+  "S141M1000": {
     "layer": "S141_Communication Trailer 2",
     "category": "building",
     "material": "Foundation"
   },
-  "S141M1400": {
+  "S141M1700": {
     "layer": "S141_Communication Trailer 2",
     "category": "building",
     "material": "LightStone"
   },
-  "S141M2000": {
+  "S141M2300": {
     "layer": "S141_Communication Trailer 2",
     "category": "building",
     "material": "Metal"
   },
-  "S141D2100": {
+  "S141D2400": {
     "layer": "S141_Communication Trailer 2",
     "category": "building",
     "material": "Glass"
   },
-  "S141D2300": {
+  "S141D2600": {
     "layer": "S141_Communication Trailer 2",
     "category": "building",
     "material": "Frame"
@@ -5234,27 +5314,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S142M0700": {
+  "S142M1000": {
     "layer": "S142_Communication Trailer",
     "category": "building",
     "material": "Foundation"
   },
-  "S142M1400": {
+  "S142M1700": {
     "layer": "S142_Communication Trailer",
     "category": "building",
     "material": "LightStone"
   },
-  "S142M2000": {
+  "S142M2300": {
     "layer": "S142_Communication Trailer",
     "category": "building",
     "material": "Metal"
   },
-  "S142D2100": {
+  "S142D2400": {
     "layer": "S142_Communication Trailer",
     "category": "building",
     "material": "Glass"
   },
-  "S142D2300": {
+  "S142D2600": {
     "layer": "S142_Communication Trailer",
     "category": "building",
     "material": "Frame"
@@ -5264,27 +5344,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S143M0700": {
+  "S143M1000": {
     "layer": "S143_Campus Facility 187",
     "category": "building",
     "material": "Foundation"
   },
-  "S143M1400": {
+  "S143M1700": {
     "layer": "S143_Campus Facility 187",
     "category": "building",
     "material": "LightStone"
   },
-  "S143M2000": {
+  "S143M2300": {
     "layer": "S143_Campus Facility 187",
     "category": "building",
     "material": "Metal"
   },
-  "S143D2100": {
+  "S143D2400": {
     "layer": "S143_Campus Facility 187",
     "category": "building",
     "material": "Glass"
   },
-  "S143D2300": {
+  "S143D2600": {
     "layer": "S143_Campus Facility 187",
     "category": "building",
     "material": "Frame"
@@ -5294,27 +5374,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S144M0700": {
+  "S144M1000": {
     "layer": "S144_Campus Facility 186",
     "category": "building",
     "material": "Foundation"
   },
-  "S144M1400": {
+  "S144M1700": {
     "layer": "S144_Campus Facility 186",
     "category": "building",
     "material": "LightStone"
   },
-  "S144M2000": {
+  "S144M2300": {
     "layer": "S144_Campus Facility 186",
     "category": "building",
     "material": "Metal"
   },
-  "S144D2100": {
+  "S144D2400": {
     "layer": "S144_Campus Facility 186",
     "category": "building",
     "material": "Glass"
   },
-  "S144D2300": {
+  "S144D2600": {
     "layer": "S144_Campus Facility 186",
     "category": "building",
     "material": "Frame"
@@ -5324,27 +5404,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S145M0700": {
+  "S145M1000": {
     "layer": "S145_Campus Facility 188",
     "category": "building",
     "material": "Foundation"
   },
-  "S145M1400": {
+  "S145M1700": {
     "layer": "S145_Campus Facility 188",
     "category": "building",
     "material": "LightStone"
   },
-  "S145M2000": {
+  "S145M2300": {
     "layer": "S145_Campus Facility 188",
     "category": "building",
     "material": "Metal"
   },
-  "S145D2100": {
+  "S145D2400": {
     "layer": "S145_Campus Facility 188",
     "category": "building",
     "material": "Glass"
   },
-  "S145D2300": {
+  "S145D2600": {
     "layer": "S145_Campus Facility 188",
     "category": "building",
     "material": "Frame"
@@ -5354,27 +5434,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S146M0700": {
+  "S146M1000": {
     "layer": "S146_Police Trailer",
     "category": "building",
     "material": "Foundation"
   },
-  "S146M1400": {
+  "S146M1700": {
     "layer": "S146_Police Trailer",
     "category": "building",
     "material": "LightStone"
   },
-  "S146M2000": {
+  "S146M2300": {
     "layer": "S146_Police Trailer",
     "category": "building",
     "material": "Metal"
   },
-  "S146D2100": {
+  "S146D2400": {
     "layer": "S146_Police Trailer",
     "category": "building",
     "material": "Glass"
   },
-  "S146D2300": {
+  "S146D2600": {
     "layer": "S146_Police Trailer",
     "category": "building",
     "material": "Frame"
@@ -5384,27 +5464,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S147M0700": {
+  "S147M1000": {
     "layer": "S147_Police 317",
     "category": "building",
     "material": "Foundation"
   },
-  "S147M1400": {
+  "S147M1700": {
     "layer": "S147_Police 317",
     "category": "building",
     "material": "LightStone"
   },
-  "S147M2000": {
+  "S147M2300": {
     "layer": "S147_Police 317",
     "category": "building",
     "material": "Metal"
   },
-  "S147D2100": {
+  "S147D2400": {
     "layer": "S147_Police 317",
     "category": "building",
     "material": "Glass"
   },
-  "S147D2300": {
+  "S147D2600": {
     "layer": "S147_Police 317",
     "category": "building",
     "material": "Frame"
@@ -5414,32 +5494,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S148M0700": {
+  "S148M1000": {
     "layer": "S148_Public Safety",
     "category": "building",
     "material": "Foundation"
   },
-  "S148M1400": {
+  "S148M1700": {
     "layer": "S148_Public Safety",
     "category": "building",
     "material": "LightStone"
   },
-  "S148M1800": {
+  "S148M2100": {
     "layer": "S148_Public Safety",
     "category": "building",
     "material": "Concrete"
   },
-  "S148M2000": {
+  "S148M2300": {
     "layer": "S148_Public Safety",
     "category": "building",
     "material": "Metal"
   },
-  "S148D2100": {
+  "S148D2400": {
     "layer": "S148_Public Safety",
     "category": "building",
     "material": "Glass"
   },
-  "S148D2300": {
+  "S148D2600": {
     "layer": "S148_Public Safety",
     "category": "building",
     "material": "Frame"
@@ -5449,27 +5529,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S149M0700": {
+  "S149M1000": {
     "layer": "S149_North Water Pump Station",
     "category": "building",
     "material": "Foundation"
   },
-  "S149M1400": {
+  "S149M1700": {
     "layer": "S149_North Water Pump Station",
     "category": "building",
     "material": "LightStone"
   },
-  "S149M2000": {
+  "S149M2300": {
     "layer": "S149_North Water Pump Station",
     "category": "building",
     "material": "Metal"
   },
-  "S149D2100": {
+  "S149D2400": {
     "layer": "S149_North Water Pump Station",
     "category": "building",
     "material": "Glass"
   },
-  "S149D2300": {
+  "S149D2600": {
     "layer": "S149_North Water Pump Station",
     "category": "building",
     "material": "Frame"
@@ -5479,47 +5559,47 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S150M0700": {
+  "S150M1000": {
     "layer": "S150_North Sewer Pump Station",
     "category": "building",
     "material": "Foundation"
   },
-  "S150M1400": {
+  "S150M1700": {
     "layer": "S150_North Sewer Pump Station",
     "category": "building",
     "material": "LightStone"
   },
-  "S150M1800": {
+  "S150M2100": {
     "layer": "S150_North Sewer Pump Station",
     "category": "building",
     "material": "Concrete"
   },
-  "S150M2000": {
+  "S150M2300": {
     "layer": "S150_North Sewer Pump Station",
     "category": "building",
     "material": "Metal"
   },
-  "S150D2100": {
+  "S150D2400": {
     "layer": "S150_North Sewer Pump Station",
     "category": "building",
     "material": "Glass"
   },
-  "S150D2300": {
+  "S150D2600": {
     "layer": "S150_North Sewer Pump Station",
     "category": "building",
     "material": "Frame"
   },
-  "S151M0700": {
+  "S151M1000": {
     "layer": "S151_Harder Stadium",
     "category": "building",
     "material": "Foundation"
   },
-  "S151M1800": {
+  "S151M2100": {
     "layer": "S151_Harder Stadium",
     "category": "building",
     "material": "Concrete"
   },
-  "S151M4200": {
+  "S151M4500": {
     "layer": "S151_Harder Stadium",
     "category": "building",
     "material": "Seat"
@@ -5529,47 +5609,47 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S152M0700": {
+  "S152M1000": {
     "layer": "S152_Environmental Health and Safety (EHS)",
     "category": "building",
     "material": "Foundation"
   },
-  "S152M1400": {
+  "S152M1700": {
     "layer": "S152_Environmental Health and Safety (EHS)",
     "category": "building",
     "material": "LightStone"
   },
-  "S152M1800": {
+  "S152M2100": {
     "layer": "S152_Environmental Health and Safety (EHS)",
     "category": "building",
     "material": "Concrete"
   },
-  "S152M2000": {
+  "S152M2300": {
     "layer": "S152_Environmental Health and Safety (EHS)",
     "category": "building",
     "material": "Metal"
   },
-  "S152D2100": {
+  "S152D2400": {
     "layer": "S152_Environmental Health and Safety (EHS)",
     "category": "building",
     "material": "Glass"
   },
-  "S152D2300": {
+  "S152D2600": {
     "layer": "S152_Environmental Health and Safety (EHS)",
     "category": "building",
     "material": "Frame"
   },
-  "S153M0700": {
+  "S153M1000": {
     "layer": "S153_Harder Office",
     "category": "building",
     "material": "Foundation"
   },
-  "S153M1800": {
+  "S153M2100": {
     "layer": "S153_Harder Office",
     "category": "building",
     "material": "Concrete"
   },
-  "S153M4200": {
+  "S153M4500": {
     "layer": "S153_Harder Office",
     "category": "building",
     "material": "Seat"
@@ -5579,27 +5659,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S154M0700": {
+  "S154M1000": {
     "layer": "S154_Ticket Booth",
     "category": "building",
     "material": "Foundation"
   },
-  "S154M1400": {
+  "S154M1700": {
     "layer": "S154_Ticket Booth",
     "category": "building",
     "material": "LightStone"
   },
-  "S154M2000": {
+  "S154M2300": {
     "layer": "S154_Ticket Booth",
     "category": "building",
     "material": "Metal"
   },
-  "S154D2100": {
+  "S154D2400": {
     "layer": "S154_Ticket Booth",
     "category": "building",
     "material": "Glass"
   },
-  "S154D2300": {
+  "S154D2600": {
     "layer": "S154_Ticket Booth",
     "category": "building",
     "material": "Frame"
@@ -5609,27 +5689,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S155M0700": {
+  "S155M1000": {
     "layer": "S155_Colegio Substation",
     "category": "building",
     "material": "Foundation"
   },
-  "S155M1400": {
+  "S155M1700": {
     "layer": "S155_Colegio Substation",
     "category": "building",
     "material": "LightStone"
   },
-  "S155M2000": {
+  "S155M2300": {
     "layer": "S155_Colegio Substation",
     "category": "building",
     "material": "Metal"
   },
-  "S155D2100": {
+  "S155D2400": {
     "layer": "S155_Colegio Substation",
     "category": "building",
     "material": "Glass"
   },
-  "S155D2300": {
+  "S155D2600": {
     "layer": "S155_Colegio Substation",
     "category": "building",
     "material": "Frame"
@@ -5639,27 +5719,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S156M0700": {
+  "S156M1000": {
     "layer": "S156_Switch House",
     "category": "building",
     "material": "Foundation"
   },
-  "S156M1400": {
+  "S156M1700": {
     "layer": "S156_Switch House",
     "category": "building",
     "material": "LightStone"
   },
-  "S156M2000": {
+  "S156M2300": {
     "layer": "S156_Switch House",
     "category": "building",
     "material": "Metal"
   },
-  "S156D2100": {
+  "S156D2400": {
     "layer": "S156_Switch House",
     "category": "building",
     "material": "Glass"
   },
-  "S156D2300": {
+  "S156D2600": {
     "layer": "S156_Switch House",
     "category": "building",
     "material": "Frame"
@@ -5669,27 +5749,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S157M0700": {
+  "S157M1000": {
     "layer": "S157_Electrical Utility Storage Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S157M1400": {
+  "S157M1700": {
     "layer": "S157_Electrical Utility Storage Building",
     "category": "building",
     "material": "LightStone"
   },
-  "S157M2000": {
+  "S157M2300": {
     "layer": "S157_Electrical Utility Storage Building",
     "category": "building",
     "material": "Metal"
   },
-  "S157D2100": {
+  "S157D2400": {
     "layer": "S157_Electrical Utility Storage Building",
     "category": "building",
     "material": "Glass"
   },
-  "S157D2300": {
+  "S157D2600": {
     "layer": "S157_Electrical Utility Storage Building",
     "category": "building",
     "material": "Frame"
@@ -5704,32 +5784,32 @@
     "category": "building",
     "material": "Concrete"
   },
-  "S158M0700": {
+  "S158M1000": {
     "layer": "S158_Multi-Activity Center (MAC)",
     "category": "building",
     "material": "Foundation"
   },
-  "S158M1400": {
+  "S158M1700": {
     "layer": "S158_Multi-Activity Center (MAC)",
     "category": "building",
     "material": "LightStone"
   },
-  "S158M2000": {
+  "S158M2300": {
     "layer": "S158_Multi-Activity Center (MAC)",
     "category": "building",
     "material": "Metal"
   },
-  "S158D2100": {
+  "S158D2400": {
     "layer": "S158_Multi-Activity Center (MAC)",
     "category": "building",
     "material": "Glass"
   },
-  "S158D2200": {
+  "S158D2500": {
     "layer": "S158_Multi-Activity Center (MAC)",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S158D2300": {
+  "S158D2600": {
     "layer": "S158_Multi-Activity Center (MAC)",
     "category": "building",
     "material": "Frame"
@@ -5739,27 +5819,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S159M0700": {
+  "S159M1000": {
     "layer": "S159_Baseball Lockers",
     "category": "building",
     "material": "Foundation"
   },
-  "S159M1400": {
+  "S159M1700": {
     "layer": "S159_Baseball Lockers",
     "category": "building",
     "material": "LightStone"
   },
-  "S159M2000": {
+  "S159M2300": {
     "layer": "S159_Baseball Lockers",
     "category": "building",
     "material": "Metal"
   },
-  "S159D2100": {
+  "S159D2400": {
     "layer": "S159_Baseball Lockers",
     "category": "building",
     "material": "Glass"
   },
-  "S159D2300": {
+  "S159D2600": {
     "layer": "S159_Baseball Lockers",
     "category": "building",
     "material": "Frame"
@@ -5769,27 +5849,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S160M0700": {
+  "S160M1000": {
     "layer": "S160_Campus Facility 202",
     "category": "building",
     "material": "Foundation"
   },
-  "S160M1400": {
+  "S160M1700": {
     "layer": "S160_Campus Facility 202",
     "category": "building",
     "material": "LightStone"
   },
-  "S160M2000": {
+  "S160M2300": {
     "layer": "S160_Campus Facility 202",
     "category": "building",
     "material": "Metal"
   },
-  "S160D2100": {
+  "S160D2400": {
     "layer": "S160_Campus Facility 202",
     "category": "building",
     "material": "Glass"
   },
-  "S160D2300": {
+  "S160D2600": {
     "layer": "S160_Campus Facility 202",
     "category": "building",
     "material": "Frame"
@@ -5799,27 +5879,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S161M0700": {
+  "S161M1000": {
     "layer": "S161_Campus Facility 201",
     "category": "building",
     "material": "Foundation"
   },
-  "S161M1400": {
+  "S161M1700": {
     "layer": "S161_Campus Facility 201",
     "category": "building",
     "material": "LightStone"
   },
-  "S161M2000": {
+  "S161M2300": {
     "layer": "S161_Campus Facility 201",
     "category": "building",
     "material": "Metal"
   },
-  "S161D2100": {
+  "S161D2400": {
     "layer": "S161_Campus Facility 201",
     "category": "building",
     "material": "Glass"
   },
-  "S161D2300": {
+  "S161D2600": {
     "layer": "S161_Campus Facility 201",
     "category": "building",
     "material": "Frame"
@@ -5829,27 +5909,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S162M0700": {
+  "S162M1000": {
     "layer": "S162_Batting Cage",
     "category": "building",
     "material": "Foundation"
   },
-  "S162M1400": {
+  "S162M1700": {
     "layer": "S162_Batting Cage",
     "category": "building",
     "material": "LightStone"
   },
-  "S162M2000": {
+  "S162M2300": {
     "layer": "S162_Batting Cage",
     "category": "building",
     "material": "Metal"
   },
-  "S162D2100": {
+  "S162D2400": {
     "layer": "S162_Batting Cage",
     "category": "building",
     "material": "Glass"
   },
-  "S162D2300": {
+  "S162D2600": {
     "layer": "S162_Batting Cage",
     "category": "building",
     "material": "Frame"
@@ -5859,27 +5939,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S163M0700": {
+  "S163M1000": {
     "layer": "S163_Campus Facility 203",
     "category": "building",
     "material": "Foundation"
   },
-  "S163M1400": {
+  "S163M1700": {
     "layer": "S163_Campus Facility 203",
     "category": "building",
     "material": "LightStone"
   },
-  "S163M2000": {
+  "S163M2300": {
     "layer": "S163_Campus Facility 203",
     "category": "building",
     "material": "Metal"
   },
-  "S163D2100": {
+  "S163D2400": {
     "layer": "S163_Campus Facility 203",
     "category": "building",
     "material": "Glass"
   },
-  "S163D2300": {
+  "S163D2600": {
     "layer": "S163_Campus Facility 203",
     "category": "building",
     "material": "Frame"
@@ -5899,27 +5979,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S164M0700": {
+  "S164M1000": {
     "layer": "S164_Building 522",
     "category": "building",
     "material": "Foundation"
   },
-  "S164M1400": {
+  "S164M1700": {
     "layer": "S164_Building 522",
     "category": "building",
     "material": "LightStone"
   },
-  "S164M2000": {
+  "S164M2300": {
     "layer": "S164_Building 522",
     "category": "building",
     "material": "Metal"
   },
-  "S164D2100": {
+  "S164D2400": {
     "layer": "S164_Building 522",
     "category": "building",
     "material": "Glass"
   },
-  "S164D2300": {
+  "S164D2600": {
     "layer": "S164_Building 522",
     "category": "building",
     "material": "Frame"
@@ -5929,27 +6009,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S165M0700": {
+  "S165M1000": {
     "layer": "S165_Campus Facility 204",
     "category": "building",
     "material": "Foundation"
   },
-  "S165M1400": {
+  "S165M1700": {
     "layer": "S165_Campus Facility 204",
     "category": "building",
     "material": "LightStone"
   },
-  "S165M2000": {
+  "S165M2300": {
     "layer": "S165_Campus Facility 204",
     "category": "building",
     "material": "Metal"
   },
-  "S165D2100": {
+  "S165D2400": {
     "layer": "S165_Campus Facility 204",
     "category": "building",
     "material": "Glass"
   },
-  "S165D2300": {
+  "S165D2600": {
     "layer": "S165_Campus Facility 204",
     "category": "building",
     "material": "Frame"
@@ -5979,37 +6059,37 @@
     "category": "building",
     "material": "Concrete"
   },
-  "S166M0700": {
+  "S166M1000": {
     "layer": "S166_Recreation Center (Rec Cen)",
     "category": "building",
     "material": "Foundation"
   },
-  "S166M1400": {
+  "S166M1700": {
     "layer": "S166_Recreation Center (Rec Cen)",
     "category": "building",
     "material": "LightStone"
   },
-  "S166M2000": {
+  "S166M2300": {
     "layer": "S166_Recreation Center (Rec Cen)",
     "category": "building",
     "material": "Metal"
   },
-  "S166D2100": {
+  "S166D2400": {
     "layer": "S166_Recreation Center (Rec Cen)",
     "category": "building",
     "material": "Glass"
   },
-  "S166D2200": {
+  "S166D2500": {
     "layer": "S166_Recreation Center (Rec Cen)",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S166D2300": {
+  "S166D2600": {
     "layer": "S166_Recreation Center (Rec Cen)",
     "category": "building",
     "material": "Frame"
   },
-  "S166D3700": {
+  "S166D4000": {
     "layer": "S166_Recreation Center (Rec Cen)",
     "category": "building",
     "material": "Solar"
@@ -6019,27 +6099,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S167M0700": {
+  "S167M1000": {
     "layer": "S167_First Aid Hostel",
     "category": "building",
     "material": "Foundation"
   },
-  "S167M1400": {
+  "S167M1700": {
     "layer": "S167_First Aid Hostel",
     "category": "building",
     "material": "LightStone"
   },
-  "S167M2000": {
+  "S167M2300": {
     "layer": "S167_First Aid Hostel",
     "category": "building",
     "material": "Metal"
   },
-  "S167D2100": {
+  "S167D2400": {
     "layer": "S167_First Aid Hostel",
     "category": "building",
     "material": "Glass"
   },
-  "S167D2300": {
+  "S167D2600": {
     "layer": "S167_First Aid Hostel",
     "category": "building",
     "material": "Frame"
@@ -6064,27 +6144,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S168M0700": {
+  "S168M1000": {
     "layer": "S168_Softball Facility",
     "category": "building",
     "material": "Foundation"
   },
-  "S168M1400": {
+  "S168M1700": {
     "layer": "S168_Softball Facility",
     "category": "building",
     "material": "LightStone"
   },
-  "S168M2000": {
+  "S168M2300": {
     "layer": "S168_Softball Facility",
     "category": "building",
     "material": "Metal"
   },
-  "S168D2100": {
+  "S168D2400": {
     "layer": "S168_Softball Facility",
     "category": "building",
     "material": "Glass"
   },
-  "S168D2300": {
+  "S168D2600": {
     "layer": "S168_Softball Facility",
     "category": "building",
     "material": "Frame"
@@ -6094,27 +6174,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S169M0700": {
+  "S169M1000": {
     "layer": "S169_Campus Facility 200",
     "category": "building",
     "material": "Foundation"
   },
-  "S169M1400": {
+  "S169M1700": {
     "layer": "S169_Campus Facility 200",
     "category": "building",
     "material": "LightStone"
   },
-  "S169M2000": {
+  "S169M2300": {
     "layer": "S169_Campus Facility 200",
     "category": "building",
     "material": "Metal"
   },
-  "S169D2100": {
+  "S169D2400": {
     "layer": "S169_Campus Facility 200",
     "category": "building",
     "material": "Glass"
   },
-  "S169D2300": {
+  "S169D2600": {
     "layer": "S169_Campus Facility 200",
     "category": "building",
     "material": "Frame"
@@ -6124,27 +6204,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S170M0700": {
+  "S170M1000": {
     "layer": "S170_Recreation Restrooms and Storage",
     "category": "building",
     "material": "Foundation"
   },
-  "S170M1400": {
+  "S170M1700": {
     "layer": "S170_Recreation Restrooms and Storage",
     "category": "building",
     "material": "LightStone"
   },
-  "S170M2000": {
+  "S170M2300": {
     "layer": "S170_Recreation Restrooms and Storage",
     "category": "building",
     "material": "Metal"
   },
-  "S170D2100": {
+  "S170D2400": {
     "layer": "S170_Recreation Restrooms and Storage",
     "category": "building",
     "material": "Glass"
   },
-  "S170D2300": {
+  "S170D2600": {
     "layer": "S170_Recreation Restrooms and Storage",
     "category": "building",
     "material": "Frame"
@@ -6154,27 +6234,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S171M0700": {
+  "S171M1000": {
     "layer": "S171_Electric Sub-Station",
     "category": "building",
     "material": "Foundation"
   },
-  "S171M1400": {
+  "S171M1700": {
     "layer": "S171_Electric Sub-Station",
     "category": "building",
     "material": "LightStone"
   },
-  "S171M2000": {
+  "S171M2300": {
     "layer": "S171_Electric Sub-Station",
     "category": "building",
     "material": "Metal"
   },
-  "S171D2100": {
+  "S171D2400": {
     "layer": "S171_Electric Sub-Station",
     "category": "building",
     "material": "Glass"
   },
-  "S171D2300": {
+  "S171D2600": {
     "layer": "S171_Electric Sub-Station",
     "category": "building",
     "material": "Frame"
@@ -6184,32 +6264,32 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S172M0700": {
+  "S172M1000": {
     "layer": "S172_Mesa Parking (aka Parking 18)",
     "category": "building",
     "material": "Foundation"
   },
-  "S172M1400": {
+  "S172M1700": {
     "layer": "S172_Mesa Parking (aka Parking 18)",
     "category": "building",
     "material": "LightStone"
   },
-  "S172M1800": {
+  "S172M2100": {
     "layer": "S172_Mesa Parking (aka Parking 18)",
     "category": "building",
     "material": "Concrete"
   },
-  "S172M2000": {
+  "S172M2300": {
     "layer": "S172_Mesa Parking (aka Parking 18)",
     "category": "building",
     "material": "Metal"
   },
-  "S172D2100": {
+  "S172D2400": {
     "layer": "S172_Mesa Parking (aka Parking 18)",
     "category": "building",
     "material": "Glass"
   },
-  "S172D2300": {
+  "S172D2600": {
     "layer": "S172_Mesa Parking (aka Parking 18)",
     "category": "building",
     "material": "Frame"
@@ -6224,37 +6304,37 @@
     "category": "building",
     "material": "WhitePanel"
   },
-  "S173M0700": {
+  "S173M1000": {
     "layer": "S173_Mosher Alumni House",
     "category": "building",
     "material": "Foundation"
   },
-  "S173M1400": {
+  "S173M1700": {
     "layer": "S173_Mosher Alumni House",
     "category": "building",
     "material": "LightStone"
   },
-  "S173M2000": {
+  "S173M2300": {
     "layer": "S173_Mosher Alumni House",
     "category": "building",
     "material": "Metal"
   },
-  "S173D2100": {
+  "S173D2400": {
     "layer": "S173_Mosher Alumni House",
     "category": "building",
     "material": "Glass"
   },
-  "S173D2200": {
+  "S173D2500": {
     "layer": "S173_Mosher Alumni House",
     "category": "building",
     "material": "DarkGlass"
   },
-  "S173D2300": {
+  "S173D2600": {
     "layer": "S173_Mosher Alumni House",
     "category": "building",
     "material": "Frame"
   },
-  "S173M2900": {
+  "S173M3200": {
     "layer": "S173_Mosher Alumni House",
     "category": "building",
     "material": "Garden"
@@ -6274,27 +6354,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S174M0700": {
+  "S174M1000": {
     "layer": "S174_Arnhold Tennis Center",
     "category": "building",
     "material": "Foundation"
   },
-  "S174M1400": {
+  "S174M1700": {
     "layer": "S174_Arnhold Tennis Center",
     "category": "building",
     "material": "LightStone"
   },
-  "S174M2000": {
+  "S174M2300": {
     "layer": "S174_Arnhold Tennis Center",
     "category": "building",
     "material": "Metal"
   },
-  "S174D2100": {
+  "S174D2400": {
     "layer": "S174_Arnhold Tennis Center",
     "category": "building",
     "material": "Glass"
   },
-  "S174D2300": {
+  "S174D2600": {
     "layer": "S174_Arnhold Tennis Center",
     "category": "building",
     "material": "Frame"
@@ -6304,27 +6384,27 @@
     "category": "building",
     "material": "Limestone"
   },
-  "S175M0700": {
+  "S175M1000": {
     "layer": "S175_Recreation Storage 537",
     "category": "building",
     "material": "Foundation"
   },
-  "S175M1400": {
+  "S175M1700": {
     "layer": "S175_Recreation Storage 537",
     "category": "building",
     "material": "LightStone"
   },
-  "S175M2000": {
+  "S175M2300": {
     "layer": "S175_Recreation Storage 537",
     "category": "building",
     "material": "Metal"
   },
-  "S175D2100": {
+  "S175D2400": {
     "layer": "S175_Recreation Storage 537",
     "category": "building",
     "material": "Glass"
   },
-  "S175D2300": {
+  "S175D2600": {
     "layer": "S175_Recreation Storage 537",
     "category": "building",
     "material": "Frame"
@@ -6332,269 +6412,274 @@
   "E0000": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Earth"
-  },
-  "E0001": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Earth"
-  },
-  "E0100": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "OceanDepth"
-  },
-  "E0200": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "LagoonDepth"
+    "material": "WetSand"
   },
   "E0300": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Cycleway"
+    "material": "Earth"
+  },
+  "E0301": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Earth"
   },
   "E0400": {
     "layer": "Environment",
     "category": "environment",
+    "material": "OceanDepth"
+  },
+  "E0500": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "LagoonDepth"
+  },
+  "E0600": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Cycleway"
+  },
+  "E0700": {
+    "layer": "Environment",
+    "category": "environment",
     "material": "Ocean"
-  },
-  "E0800": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Bank"
-  },
-  "E0900": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Sage"
-  },
-  "E1000": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "DryGrass"
   },
   "E1100": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Bluff"
+    "material": "Bank"
   },
   "E1200": {
     "layer": "Environment",
     "category": "environment",
+    "material": "Sage"
+  },
+  "E1300": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "DryGrass"
+  },
+  "E1400": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Bluff"
+  },
+  "E1500": {
+    "layer": "Environment",
+    "category": "environment",
     "material": "Boardwalk"
   },
-  "E1800": {
+  "E2100": {
     "layer": "Environment",
     "category": "environment",
     "material": "Concrete"
   },
-  "E1801": {
+  "E2101": {
     "layer": "Environment",
     "category": "environment",
     "material": "Concrete"
   },
-  "E1802": {
+  "E2102": {
     "layer": "Environment",
     "category": "environment",
     "material": "Concrete"
-  },
-  "E2300": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Frame"
-  },
-  "E2400": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Ground"
-  },
-  "E2401": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Ground"
-  },
-  "E2500": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Road"
   },
   "E2600": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Paving"
+    "material": "Frame"
   },
   "E2700": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Walk"
+    "material": "Ground"
   },
   "E2701": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Walk"
+    "material": "Ground"
   },
   "E2800": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Grass"
-  },
-  "E2801": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Grass"
+    "material": "Road"
   },
   "E2900": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Garden"
+    "material": "Paving"
   },
   "E3000": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Water"
+    "material": "Walk"
+  },
+  "E3001": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Walk"
   },
   "E3100": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Track"
+    "material": "Grass"
+  },
+  "E3101": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Grass"
   },
   "E3200": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Court"
+    "material": "Garden"
   },
   "E3300": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Marking"
-  },
-  "E3301": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Marking"
-  },
-  "E3302": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Marking"
-  },
-  "E3303": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Marking"
+    "material": "Water"
   },
   "E3400": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Leaves"
-  },
-  "E3401": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3402": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3403": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3404": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3405": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3406": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3407": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3408": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3409": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3410": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3411": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
-  },
-  "E3412": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Leaves"
+    "material": "Track"
   },
   "E3500": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Trunk"
-  },
-  "E3501": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Trunk"
-  },
-  "E3502": {
-    "layer": "Environment",
-    "category": "environment",
-    "material": "Trunk"
+    "material": "Court"
   },
   "E3600": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Furniture"
+    "material": "Marking"
   },
   "E3601": {
     "layer": "Environment",
     "category": "environment",
-    "material": "Furniture"
+    "material": "Marking"
+  },
+  "E3602": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Marking"
+  },
+  "E3603": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Marking"
   },
   "E3700": {
     "layer": "Environment",
     "category": "environment",
+    "material": "Leaves"
+  },
+  "E3701": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3702": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3703": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3704": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3705": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3706": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3707": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3708": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3709": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3710": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3711": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3712": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Leaves"
+  },
+  "E3800": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Trunk"
+  },
+  "E3801": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Trunk"
+  },
+  "E3802": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Trunk"
+  },
+  "E3900": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Furniture"
+  },
+  "E3901": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Furniture"
+  },
+  "E4000": {
+    "layer": "Environment",
+    "category": "environment",
     "material": "Solar"
   },
-  "E4100": {
+  "E4400": {
     "layer": "Environment",
     "category": "environment",
     "material": "Sand"
   },
-  "E4900": {
+  "E5200": {
     "layer": "Environment",
     "category": "environment",
     "material": "StoneJoint"
   },
-  "E5200": {
+  "E5500": {
     "layer": "Environment",
     "category": "environment",
     "material": "PoolWater"
   },
-  "E5300": {
+  "E5600": {
     "layer": "Environment",
     "category": "environment",
     "material": "Foam"

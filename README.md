@@ -77,3 +77,11 @@ Source snapshots are retained, so rebuilding requires no live map access. Fetch 
 Domain: **https://ucsb.arch.songming.org/**. Repository: **https://github.com/sd800/ucsb-3d-arch**. Canonical, Open Graph/Twitter, bilingual building content, structured 3DModel data, sitemap, robots and CNAME are included. Publishing and DNS must point the domain to the static host; a CNAME file alone does not configure the domain provider.
 
 Work on `main`. `VERSION` records `YY.M.D.NUM`, with America/Chicago dates; every commit message is `Release YY.M.D.NUM`. The English changelog records user-facing changes. `.DS_Store` is ignored at every depth and retained locally. Filenames are English. Non-root implementation and provenance files are grouped under `scripts`, `config`, `docs`, `assets`, `sources` and `output`.
+
+## Library and teaching-pavilion refinement
+
+UCSB Library uses individual two-, three-, four- and eight-storey wings from current mapped part outlines and university floor plans, with a corrected narrow tower, glazed Paseo, entry portal and graded west approach. The Mountain courtyard and surrounding paths meet the existing landscape. See `sources/ARCHITECTURE_REFERENCES.md` and `output/library_detail.png`.
+
+Interactive Learning Pavilion has curved inner terraces, an open paseo, connecting bridges, supported switchback stairs and narrow vertical glazing instead of unsupported full-height rods. See `output/interactive_learning_pavilion_detail.png`. These are public-source exterior reconstructions, with approximate component heights and member dimensions.
+
+Where available, primary university CAD stripe geometry replaces interpreted parking rows, after comparison with satellite imagery and exclusion of garages, current buildings, planting and obsolete parking. Added coastal sand joins the campus parcel to the mapped waterline, with continuous grade and a closed underside.

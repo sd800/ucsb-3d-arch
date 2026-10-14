@@ -2,12 +2,12 @@
   "buildings": 175,
   "layers": 176,
   "environment_layer": "Environment",
-  "native_closed_solids": 224,
-  "objects_3ds": 1320,
-  "vertices": 1496674,
-  "triangles": 2570340,
-  "trees": 4525,
-  "mapped_flora_positions": 4654,
+  "native_closed_solids": 240,
+  "objects_3ds": 1337,
+  "vertices": 1501178,
+  "triangles": 2580660,
+  "trees": 4519,
+  "mapped_flora_positions": 4648,
   "palms": 917,
   "coastal_shrubs": 576,
   "landmarks": 24,
@@ -25,7 +25,7 @@
   "bounds": [
     -700.0,
     -1130.0,
-    1075.3254594738285,
+    1109.997573064422,
     1150.0
   ],
   "district_bounds": {

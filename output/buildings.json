@@ -1923,7 +1923,7 @@
     "layer": "S040_UCSB Library",
     "zone": "central",
     "landmark": true,
-    "height": 32.5,
+    "height": 32.88,
     "height_status": "estimated",
     "levels": 8,
     "area": 11468.9,
@@ -1935,36 +1935,64 @@
     ],
     "ground_m": 16.563,
     "bottom_m": 16.563,
-    "peak_m": 49.643,
+    "peak_m": 49.443,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Separate eight-storey research tower, four-storey southern wing, low original library and three-storey northern addition, with glazed passage. Part boundaries and heights are approximate.",
-    "partition": "分别表达八层研究塔楼、南侧四层翼楼、原低层馆舍与北侧三层扩建，设玻璃连接空间；分段位置和标高为近似。",
+    "partition_en": "Rebuilt using official floor plans, mapped part outlines and Pfeiffer exterior photographs: a narrow eight-storey tower, four-storey ocean wing, two-storey original library, three-storey Mountain addition, glazed Paseo, west portal and courtyard. Heights and facade member sizes are approximate.",
+    "partition": "依据官方楼层图、分栋轮廓与建筑师照片，重建窄进深八层塔楼、海侧四层翼楼、原二层馆舍、山侧三层扩建、玻璃步行廊、西入口门廊和庭院；高度与立面构件尺寸为近似。",
     "volume_parts": [
       {
-        "area_m2": 1956.03,
-        "height_m": 12.0,
-        "storeys": 3
-      },
-      {
-        "area_m2": 3956.31,
-        "height_m": 8.0,
-        "storeys": 2
-      },
-      {
-        "area_m2": 3026.82,
+        "name": "tower",
+        "area_m2": 1503.72,
         "height_m": 32.5,
         "storeys": 8
       },
       {
-        "area_m2": 2529.88,
+        "name": "addition",
+        "area_m2": 1679.36,
+        "height_m": 12.4,
+        "storeys": 3
+      },
+      {
+        "name": "ocean",
+        "area_m2": 3090.75,
         "height_m": 16.0,
         "storeys": 4
+      },
+      {
+        "name": "paseo",
+        "area_m2": 947.38,
+        "height_m": 9.6,
+        "storeys": 2
+      },
+      {
+        "name": "original",
+        "area_m2": 4162.53,
+        "height_m": 8.6,
+        "storeys": 2
+      },
+      {
+        "name": "original",
+        "area_m2": 82.05,
+        "height_m": 8.6,
+        "storeys": 2
+      },
+      {
+        "name": "original",
+        "area_m2": 2.0,
+        "height_m": 8.6,
+        "storeys": 2
+      },
+      {
+        "name": "original",
+        "area_m2": 1.24,
+        "height_m": 8.6,
+        "storeys": 2
       }
     ],
-    "source": "https://www.library.ucsb.edu/events-exhibitions/exhibitions/construction-reinvention-ucsb-library-photo-history-1954-2016",
+    "source": "https://www.library.ucsb.edu/visit/floor-plans-locations",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": "https://www.library.ucsb.edu/events-exhibitions/exhibitions/construction-reinvention-ucsb-library-photo-history-1954-2016",
+    "architecture_reference": "https://www.library.ucsb.edu/visit/floor-plans-locations",
     "gis_height_raw": 112,
     "gis_floorcount_raw": 10,
     "construction_status": "Mapped in 2026 public layer"
@@ -3018,7 +3046,7 @@
     "layer": "S063_Interactive Learning Pavilion",
     "zone": "central",
     "landmark": true,
-    "height": 22.0,
+    "height": 18.18,
     "height_status": "estimated",
     "levels": 4,
     "area": 2459.92,
@@ -3030,11 +3058,11 @@
     ],
     "ground_m": 15.183,
     "bottom_m": 15.183,
-    "peak_m": 36.883,
+    "peak_m": 33.363,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped separate lecture-room volumes, open central circulation, elevated bridges, exterior stairs, railings and sun fins. Member sizes and floor heights are approximate.",
-    "partition": "保留映射的独立教学体块、开放交通空间，并表达上层连桥、室外楼梯、栏杆和遮阳构件；构件尺寸及层高为近似。",
+    "partition_en": "Four-storey concrete-panel teaching volumes around an open paseo, with curved inner terraces, three bridge levels and supported switchback stairs. Rebuilt from LMN exterior photographs and official footprints; member sizes and floor heights remain approximate.",
+    "partition": "依据 LMN 建筑师外观照片与学校轮廓，重建四层混凝土教学体块、开放步行廊、内侧曲线露台、三层连桥和折返楼梯；构件尺寸与层高仍为近似。",
     "volume_parts": [
       {
         "area_m2": 88.32,
@@ -3043,23 +3071,23 @@
       },
       {
         "area_m2": 796.58,
-        "height_m": 17.5,
+        "height_m": 17.8,
         "storeys": 4
       },
       {
         "area_m2": 995.88,
-        "height_m": 21.0,
+        "height_m": 17.8,
         "storeys": 4
       },
       {
         "area_m2": 579.12,
-        "height_m": 17.5,
+        "height_m": 17.8,
         "storeys": 4
       }
     ],
-    "source": "https://classrooms.ucsb.edu/interactive-learning-pavilion",
+    "source": "https://lmnarchitects.com/project/classroom-building-university-of-california",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": "https://classrooms.ucsb.edu/interactive-learning-pavilion",
+    "architecture_reference": "https://lmnarchitects.com/project/classroom-building-university-of-california",
     "gis_height_raw": 82,
     "gis_floorcount_raw": null,
     "construction_status": "Mapped in 2026 public layer"

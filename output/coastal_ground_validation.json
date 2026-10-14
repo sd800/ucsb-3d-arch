@@ -1,8 +1,8 @@
 {
-  "land_area_m2": 1730717.6860815156,
-  "mass_plan_area_m2": 1730766.6502986716,
+  "land_area_m2": 1742135.5183160712,
+  "mass_plan_area_m2": 1742183.9894132449,
   "closed_mass_meshes": 2,
-  "visible_wall_and_underside_faces": 25335,
+  "visible_wall_and_underside_faces": 25406,
   "bottom_m": -3,
   "passed": true
 }
