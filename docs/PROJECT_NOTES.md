@@ -47,3 +47,7 @@ See `sources/ARCHITECTURE_REFERENCES.md`. The Library uses mapped individual win
 ## Coastal parcel/waterline join
 
 The campus parcel polygon follows the bluff and differs from the public water polygon. A narrow land context now joins those boundaries, using the mapped waterline and a continuous grade blend to a 0.18 m toe. Sand and wet sand cover the added strip; it shares the closed earth mass, preventing white background gaps and floating sheets. `output/shore_join_validation.json` records the completed area.
+
+## Roof material correction
+
+Library wings no longer share one pale material. Specific roof colors, perimeter bands and observed PV patches follow `sources/library_roof_reference.json`. Nearby clay roof ranges, Kerr arrays and the pale Bioengineering roof are also differentiated. Existing lighting and navigation are retained; the pavilion material is moderated to avoid a washed-out roof plane.

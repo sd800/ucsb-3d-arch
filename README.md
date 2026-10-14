@@ -85,3 +85,5 @@ UCSB Library uses individual two-, three-, four- and eight-storey wings from cur
 Interactive Learning Pavilion has curved inner terraces, an open paseo, connecting bridges, supported switchback stairs and narrow vertical glazing instead of unsupported full-height rods. See `output/interactive_learning_pavilion_detail.png`. These are public-source exterior reconstructions, with approximate component heights and member dimensions.
 
 Where available, primary university CAD stripe geometry replaces interpreted parking rows, after comparison with satellite imagery and exclusion of garages, current buildings, planting and obsolete parking. Added coastal sand joins the campus parcel to the mapped waterline, with continuous grade and a closed underside.
+
+Library roof finishes are differentiated by wing, with satellite-visible photovoltaic patches on the original/Mountain wings and Kerr Hall. Nearby clay roof ranges and pale membrane roofs retain their individual materials. See `sources/library_roof_reference.json` for the reviewed image extent and approximate array outlines.

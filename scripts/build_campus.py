@@ -3,6 +3,7 @@ from cad_core import *
 from campus_detail import *
 from ilp_architecture import pavilion_parts,pavilion_detail,pavilion_facade
 from library_architecture import library_parts,library_detail,library_landscape
+from roof_finishes import nearby_roof,ROOF_PROFILE
 from curation import *
 from scipy.interpolate import RegularGridInterpolator
 from shapely import segmentize,points,distance,contains
@@ -125,7 +126,8 @@ for j,f in enumerate(buildings,1):
             for q in polygons(volume):
                 native_extrude(q,base,hh,code+'_Volume',lay,mat,info);push(code+'B'+f'{body_index:02d}',extrusion(q,base,hh),mat,lay,native=False,info=info);body_index+=1;partitions.append({'area_m2':round(q.area,2),'height_m':hh,'storeys':n})
                 facade(ms,q,base,hh,n,continuous=id in {218,280,284,227,291},spacing=3.6 if id in {218,277,288,291} else 4.2)
-                roof(ms,q,base+hh,tile);bands(ms,q,base,hh,max(1,n),mat='LightStone' if mat!='Limestone' else 'Concrete')
+                if not nearby_roof(ms,q,base+hh,id):roof(ms,q,base+hh,tile)
+                bands(ms,q,base,hh,max(1,n),mat='LightStone' if mat!='Limestone' else 'Concrete')
         # Screens follow each wing's eaves. Unverified whole-building rods are omitted.
         if id in {218,288}:
             for volume,hh,n in split_volumes(id,p,height,levels):
@@ -141,7 +143,7 @@ for j,f in enumerate(buildings,1):
 
         if id==303:
             center=p.centroid;m=trimesh.creation.cone(radius=21.3,height=1.6,sections=64);m.apply_translation([center.x,center.y,base+height+.24]);ms['Metal'].append(m)
-        if id in {288,280,274,283}:
+        if id in {288,274,283}:
             q=p.buffer(-4);aa,bb,cc,dd=q.bounds
             for xx in np.arange(aa+2,cc-2,5):
                 for yy in np.arange(bb+2,dd-2,5):
@@ -162,6 +164,7 @@ for j,f in enumerate(buildings,1):
     # Body and roof groups remain visible when small facade details are switched off.
     for k,(mm,parts) in enumerate(ms.items()):
         if parts:chunk_meshes(code+('D' if mm in ['Glass','DarkGlass','Frame','Solar'] else 'M')+f'{k:02d}',parts,mm,lay,info)
+    if ROOF_PROFILE.get(id)=='tile':height=max(height,max((m.bounds[1,2]-base for pp in ms.values()for m in pp),default=height))
     en,zh=DETAIL_NOTES.get(id,('Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.','保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。'))
     r={'code':code,'facility_id':str(id),'official_number':t.get('BuildingNumber'),'name':f['name'],'name_zh':f['name_zh'],'official_name':t.get('LONGNAME'),'short':SHORT.get(str(id),f['name']),'short_zh':'校园图书馆' if id==291 else f['name_zh'],'aliases_zh':[str(t.get('BuildingNumber') or ''),t.get('SHORTNAME') or ''],'layer':lay,'zone':f['zone'],'landmark':str(id)in LANDMARKS,'height':round(height,3),'height_status':'published' if id==353 else 'estimated','levels':0 if id==353 else levels,'area':round(p.area,2),'width':round(c-a,2),'depth':round(d-b,2),'center':[round(x,3),round(y,3)],'ground_m':round(base,3),'bottom_m':round(base,3),'peak_m':round(max((m.bounds[1,2]for pp in ms.values()for m in pp),default=base+height),3),'basis_en':'Overall height 175 ft (53.34 m), published by UCSB.' if id==353 else 'Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.','basis':'总高采用UCSB官方公布的175英尺（53.34米）。' if id==353 else '采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。','partition_en':en,'partition':zh,'volume_parts':partitions,'source':REFS.get(str(id),GIS),'footprint_source':GIS,'architecture_reference':REFS.get(str(id)),'gis_height_raw':t.get('BLDGHEIGHT'),'gis_floorcount_raw':t.get('FLOORCOUNT'),'construction_status':'Mapped in 2026 public layer'}
     records.append(r);f['record']=r

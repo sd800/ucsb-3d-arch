@@ -90,7 +90,7 @@ export function stabilizeBuildingMaterial(material,detail=false) {
 export function prepareBuildingRoofs(mesh,groundZ=0,detail=false,uniformFlatRoof=false) {
   const multi=Array.isArray(mesh.material),materials=multi?mesh.material:[mesh.material];
   const finishedRoof=material=>['Metal','Slate'].includes(material.name)||material.name.startsWith('Roof')||material.name.endsWith('Roof');
-  const eligible=material=>!(material.name in SURFACE_ORDER)&&!['Purple','Gold','Seat'].includes(material.name)&&!material.transparent&&material.name!=='Glass'&&(finishedRoof(material)?uniformFlatRoof:(!detail||material.name==='Concrete'));
+  const eligible=material=>!(material.name in SURFACE_ORDER)&&!['Purple','Gold','Seat','Solar','SolarLibrary'].includes(material.name)&&!material.transparent&&material.name!=='Glass'&&(finishedRoof(material)?uniformFlatRoof:(!detail||material.name==='Concrete'));
   if(!materials.some(eligible))return [mesh];
   mesh.updateWorldMatrix(true,false);
   const source=mesh.geometry,position=source.attributes.position,index=source.index;

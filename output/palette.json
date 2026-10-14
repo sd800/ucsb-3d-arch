@@ -4,10 +4,45 @@
     157,
     113
   ],
+  "RoofLibraryGray": [
+    123,
+    130,
+    126
+  ],
+  "RoofLibraryWarm": [
+    172,
+    164,
+    142
+  ],
+  "RoofLibraryLight": [
+    180,
+    178,
+    162
+  ],
+  "RoofClay": [
+    151,
+    106,
+    83
+  ],
+  "RoofBallast": [
+    149,
+    135,
+    120
+  ],
+  "RoofGlass": [
+    93,
+    124,
+    133
+  ],
+  "SolarLibrary": [
+    46,
+    52,
+    55
+  ],
   "RoofPavilion": [
-    202,
-    205,
-    200
+    184,
+    188,
+    184
   ],
   "ConcreteBlock": [
     178,

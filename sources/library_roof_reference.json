@@ -1,0 +1,228 @@
+{
+  "export_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.8472%2C34.4118%2C-119.8430%2C34.4150&bboxSR=4326&size=1000%2C900&imageSR=3857&format=jpg&f=json",
+  "image_url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-119.8472%2C34.4118%2C-119.8430%2C34.4150&bboxSR=4326&size=1000%2C900&imageSR=3857&format=jpg&f=image",
+  "extent": {
+    "xmin": -13341335.391877672,
+    "ymin": 4084231.649444961,
+    "xmax": -13340855.620260235,
+    "ymax": 4084663.4439006546,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+    }
+  },
+  "width": 1000,
+  "height": 900,
+  "provider": "Esri World Imagery",
+  "review_date": "2026-10-14",
+  "imagery_acquisition_date": "Not asserted by export endpoint",
+  "attribution": "Esri World Imagery; imagery is inspected as reference and is not redistributed.",
+  "registration_note": "Orthorectified high roofs have residual parallax. Arrays are approximately registered to each official footprint and clipped to inset roof boundaries; panel modules are illustrative.",
+  "arrays": [
+    {
+      "building_id": 291,
+      "wing": "addition",
+      "name": "Mountain west array",
+      "pixels": [
+        [
+          327,
+          91
+        ],
+        [
+          350,
+          91
+        ],
+        [
+          350,
+          83
+        ],
+        [
+          386,
+          83
+        ],
+        [
+          386,
+          150
+        ],
+        [
+          327,
+          150
+        ]
+      ],
+      "offset_local_m": [
+        0,
+        -3
+      ]
+    },
+    {
+      "building_id": 291,
+      "wing": "addition",
+      "name": "Mountain east array",
+      "pixels": [
+        [
+          467,
+          96
+        ],
+        [
+          507,
+          96
+        ],
+        [
+          507,
+          145
+        ],
+        [
+          467,
+          145
+        ]
+      ],
+      "offset_local_m": [
+        0,
+        -3
+      ]
+    },
+    {
+      "building_id": 291,
+      "wing": "original",
+      "name": "Original west array",
+      "pixels": [
+        [
+          354,
+          207
+        ],
+        [
+          375,
+          207
+        ],
+        [
+          375,
+          318
+        ],
+        [
+          354,
+          318
+        ]
+      ],
+      "offset_local_m": [
+        0,
+        -2
+      ]
+    },
+    {
+      "building_id": 291,
+      "wing": "original",
+      "name": "Original north array",
+      "pixels": [
+        [
+          354,
+          207
+        ],
+        [
+          449,
+          207
+        ],
+        [
+          449,
+          228
+        ],
+        [
+          354,
+          228
+        ]
+      ],
+      "offset_local_m": [
+        0,
+        -2
+      ]
+    },
+    {
+      "building_id": 291,
+      "wing": "original",
+      "name": "Original east array",
+      "pixels": [
+        [
+          424,
+          224
+        ],
+        [
+          449,
+          224
+        ],
+        [
+          449,
+          307
+        ],
+        [
+          424,
+          307
+        ]
+      ],
+      "offset_local_m": [
+        0,
+        -2
+      ]
+    },
+    {
+      "building_id": 355,
+      "wing": "main",
+      "name": "Kerr west array",
+      "pixels": [
+        [
+          11,
+          102
+        ],
+        [
+          63,
+          102
+        ],
+        [
+          63,
+          173
+        ],
+        [
+          11,
+          173
+        ]
+      ],
+      "offset_local_m": [
+        0,
+        -2
+      ]
+    },
+    {
+      "building_id": 355,
+      "wing": "main",
+      "name": "Kerr east array",
+      "pixels": [
+        [
+          111,
+          91
+        ],
+        [
+          171,
+          91
+        ],
+        [
+          188,
+          104
+        ],
+        [
+          188,
+          151
+        ],
+        [
+          172,
+          170
+        ],
+        [
+          111,
+          170
+        ]
+      ],
+      "offset_local_m": [
+        0,
+        -2
+      ]
+    }
+  ]
+}

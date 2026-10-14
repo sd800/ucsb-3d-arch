@@ -3,6 +3,7 @@ The university footprint controls the outer boundary. Member sizes are estimates
 """
 from cad_core import *
 from shapely import segmentize
+from roof_finishes import array_mask,solar_arrays
 
 REFERENCE='https://www.perkinseastman.com/projects/university-of-california-santa-barbara-library-addition-and-renewal/'
 PART_IDS={'way/221409865':('tower',32.5,8),'way/987524011':('addition',12.4,3),'way/221409859':('ocean',16.0,4)}
@@ -56,12 +57,31 @@ def skin(ms,p,z,h,n,kind,parts):
 
 def library_detail(ms,p,z,parts):
     for name,q,h,n in parts:
+        # Roof finishes are specific to the observed wing: gray tower, warm
+        # original membrane with clay perimeter, and the tan Ocean-side roof.
+        material={'tower':'RoofLibraryGray','addition':'RoofLibraryLight','original':'RoofLibraryWarm','ocean':'RoofBallast','paseo':'RoofLibraryGray'}[name]
         for part in polygons(q):
             roof=part.buffer(-.12,join_style=2)
-            for a in polygons(roof):ms['RoofPavilion'].append(extrusion(a,z+h,.16))
-            # Lower roof edges are not wrapped across the adjoining taller wing.
+            if name in ['original','ocean']:
+                # The broad colored perimeter is part of the roof, not wall trim.
+                center=roof.buffer(-4.6 if name=='original' else -7.0,join_style=2)
+                band=roof.difference(center)
+                for a in polygons(band):ms['RoofClay' if name=='original' else 'RoofBallast'].append(extrusion(a,z+h,.16))
+                for a in polygons(center):ms['RoofLibraryLight'].append(extrusion(a,z+h,.16))
+            else:
+                for a in polygons(roof):ms[material].append(extrusion(a,z+h,.16))
             edge=part.boundary.buffer(.10,cap_style=2).difference(p.difference(part).buffer(.18))
-            for a in polygons(edge):ms['WhitePanel'].append(extrusion(a,z+h+.16,.22))
+            for a in polygons(edge):ms['RoofLibraryGray' if name=='tower' else 'RoofLibraryLight'].append(extrusion(a,z+h+.16,.22))
+        if name in ['addition','original']:
+            solar_arrays(ms,array_mask(291,name).intersection(q.buffer(-1.0)),z+h+.16)
+        if name=='tower':
+            # Long shallow inset shown on the tower roof; no invented machinery.
+            aa,bb,cc,dd=q.bounds;inset=box(aa+5,(bb+dd)/2-3.1,cc-5,(bb+dd)/2+3.1).intersection(q.buffer(-1.1))
+            for a in polygons(inset):ms['RoofLibraryLight'].append(extrusion(a,z+h+.18,.06))
+        if name=='ocean':
+            # The Ocean-side skylight is a small central roof opening.
+            c=q.centroid;skylight=box(c.x-3.0,c.y-3.0,c.x+3.0,c.y+3.0).intersection(q.buffer(-5))
+            for a in polygons(skylight):ms['RoofGlass'].append(extrusion(a,z+h+.18,.10))
         skin(ms,q,z,h,n,name,parts)
     # Full-height glass at the east and west Paseo ends and at the new Mountain
     # entry: doors and mullions, not repeated storeys on a solid wall.
@@ -81,7 +101,7 @@ def library_detail(ms,p,z,parts):
     for y in [10.8,19.5]:ms['Frame'].append(cylinder((149.2,y,z+.1),(149.2,y,z+4.05),.085,8))
     # Roof overhang on the three-storey north addition is shallow, as built.
     addition=next(q for name,q,h,n in parts if name=='addition')
-    for q in polygons(addition.buffer(.7,join_style=2)):ms['RoofPavilion'].append(extrusion(q,z+12.36,.22))
+    for q in polygons(addition.buffer(.7,join_style=2).difference(addition)):ms['RoofLibraryLight'].append(extrusion(q,z+12.36,.22))
 
 def library_landscape(eg,p,base,ground,walkarea,bikearea,footprints):
     # A continuous approach follows the photographed west entrance. The coarse

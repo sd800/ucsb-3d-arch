@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.14.3 — 2026-10-14
+
+- Replace the Library’s shared near-white roof with separate gray tower, warm membrane, clay perimeter and tan Ocean-side finishes, including its small skylight and shallow tower inset.
+- Restore satellite-visible photovoltaic patches on the Library’s Mountain/original wings and Kerr Hall, keeping panels clear of roof edges.
+- Restore local clay roof ranges on Girvetz, Webb, Noble, Music and Psychology buildings; remove unsupported generic solar arrays on Bioengineering and retain its pale roof.
+- Reduce the pavilion roof material brightness while preserving its observed pale finish, matte lighting and stable depth ordering.
+
 ## 26.10.14.2 — 2026-10-14
 
 - Rebuild Interactive Learning Pavilion with four-storey teaching volumes, an open paseo, curved inner terraces, supported switchback stairs, shallow guard panels, narrow vertical glazing and a pale membrane roof.
