@@ -78,9 +78,24 @@
       "sha256": "229016b1ae8939b3abc07f9f1accf6e343d9fc44a5b1ea6f3659bedfbda94496"
     },
     {
+      "file": "neighbor_terrain_dem.tif",
+      "bytes": 1246465,
+      "sha256": "2992f8d78fea2ef11f987a42d59e4e7b8fdce5389d44c85540432af21bfaafd4"
+    },
+    {
+      "file": "neighbor_terrain_metadata.json",
+      "bytes": 360,
+      "sha256": "5fa47eaab072d2ee2b528e641b7aa020822b46846ae44816e1ba91363a76e9b2"
+    },
+    {
+      "file": "neighboring_source_manifest.json",
+      "bytes": 1444,
+      "sha256": "651ff0b2da346e85428182a1d09b1347e9f17affac13f7a52e8751381bc56a1e"
+    },
+    {
       "file": "osm_features.geojson",
-      "bytes": 2919416,
-      "sha256": "b7d7b61c4233fa246221fdbefc09bd08f56e076ce8766b92f4d305809a88e59b"
+      "bytes": 6666059,
+      "sha256": "f5a79911842e4cd8d531985420cf77f40206dfc3fd01be18ac8008b6b4b30e6a"
     },
     {
       "file": "osm_map_east.xml.gz",
@@ -88,9 +103,24 @@
       "sha256": "6738d22a42687f367d1b274eb45e35a568485d8e8c48cf12106fcdc8cfce89d7"
     },
     {
+      "file": "osm_map_iv_east.xml.gz",
+      "bytes": 785298,
+      "sha256": "a8f485828b04368ee4d9da90caeea9c4603ec2bd27076b96691425d82ac9c4c6"
+    },
+    {
+      "file": "osm_map_iv_west.xml.gz",
+      "bytes": 518267,
+      "sha256": "9d05f5540492296756e2883af07fd19b2a0d7a48bce3a0e5f45d400b5c3f158e"
+    },
+    {
       "file": "osm_map_west.xml.gz",
       "bytes": 745422,
       "sha256": "56b7c79d44fc58d9c42a5cd6802905e195d4764224dc178ad35b93ba75d982b8"
+    },
+    {
+      "file": "refinement_photo_index.json",
+      "bytes": 29013,
+      "sha256": "c0f1332543a0a10668e48fb9936e7bf9468488f48fd6da08600038948d0bb73e"
     },
     {
       "file": "retrieval_manifest.json",
@@ -122,5 +152,6 @@
       "bytes": 420759,
       "sha256": "7eb11ce418601eb891bbc631f8af07e623d5086b9450b14d3da2a631db8e58a9"
     }
-  ]
+  ],
+  "refinement_review_date_chicago": "2026-10-14"
 }

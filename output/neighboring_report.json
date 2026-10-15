@@ -1,0 +1,14 @@
+{
+  "buildings": 1462,
+  "bounds": [
+    -2850.0,
+    -669.7559695681557,
+    -550.02,
+    739.3804222656545
+  ],
+  "area_m2": 2779895.5818433287,
+  "source": "OSM snapshot, expanded USGS 3DEP DEM",
+  "selection": "Mapped Isla Vista and adjacent coastal streets west of the main campus, including Pardall, the Embarcaderos, Del Playa and mapped parks. Clipping bounds are recorded here; this is not the entire Goleta municipality.",
+  "trees": 4009,
+  "accuracy": "OSM outlines and tagged levels retained. Other low-rise heights, facade bays, materials, width estimates and supplementary planting approximate. No satellite survey or parcel measurement is claimed."
+}

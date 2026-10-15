@@ -1,11 +1,18 @@
 {
+  "neighbor_buildings": 1462,
+  "neighbor_bounds": [
+    -2850.0,
+    -669.7559695681557,
+    -550.02,
+    739.3804222656545
+  ],
   "buildings": 175,
-  "layers": 176,
+  "layers": 1639,
   "environment_layer": "Environment",
-  "native_closed_solids": 231,
-  "objects_3ds": 1336,
-  "vertices": 1506202,
-  "triangles": 2587148,
+  "native_closed_solids": 1734,
+  "objects_3ds": 5797,
+  "vertices": 2696984,
+  "triangles": 4689580,
   "trees": 4519,
   "mapped_flora_positions": 4648,
   "palms": 917,

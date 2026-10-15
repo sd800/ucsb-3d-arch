@@ -3,11 +3,11 @@
   "domain": "ucsb.arch.songming.org",
   "repository": "https://github.com/sd800/ucsb-3d-arch",
   "title": "UC Santa Barbara Campus 3D Model",
-  "description": "Explore UC Santa Barbara in 3D: Storke Tower, UCSB Library, the Interactive Learning Pavilion, Campus Lagoon, coastal bluffs, beaches and Pacific shoreline. Bilingual map, individual building layers, offline viewing and metric Rhino / 3DS downloads.",
+  "description": "Explore UC Santa Barbara and Isla Vista in 3D: campus landmarks, detailed residence halls, UCEN, athletics, Campus Lagoon and Pacific coast. Bilingual layers, optional neighboring areas, offline viewing and metric Rhino / 3DS downloads.",
   "imageAlt": "UC Santa Barbara coastal campus 3D model, with Storke Tower, academic buildings, Campus Lagoon, beaches and the Pacific Ocean.",
   "zh": {
-    "title": "加州大学圣塔芭芭拉分校 · 三维校区",
-    "description": "加州大学圣塔芭芭拉分校临海主校区三维地图：斯托克钟塔、图书馆、互动教学馆、校园泻湖、海岸岬角、沙滩与太平洋近海。建筑逐栋分层，支持离线浏览及米制Rhino、3DS下载。",
-    "imageAlt": "加州大学圣塔芭芭拉分校临海主校区三维模型，展示教学建筑、斯托克钟塔、校园泻湖、沙滩和太平洋近海。"
+    "title": "加州大学圣巴巴拉分校 · 三维校区",
+    "description": "加州大学圣巴巴拉分校临海校区与伊斯拉维斯塔周边三维模型：宿舍、大学中心、体育设施、图书馆、校园泻湖及太平洋海岸。周边可整体隐藏，建筑逐栋分层，支持离线浏览及米制Rhino、3DS下载。",
+    "imageAlt": "加州大学圣巴巴拉分校临海主校区三维模型，展示教学建筑、斯托克钟塔、校园泻湖、沙滩和太平洋近海。"
   }
 }

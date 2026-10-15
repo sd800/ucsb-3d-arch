@@ -1,0 +1,29 @@
+{
+  "retrieved_utc": "2026-10-15T04:14:49.248634+00:00",
+  "items": [
+    {
+      "file": "osm_map_iv_west.xml.gz",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-119.881,34.403,-119.869,34.424",
+      "sha256": "9d05f5540492296756e2883af07fd19b2a0d7a48bce3a0e5f45d400b5c3f158e",
+      "bytes": 518267
+    },
+    {
+      "file": "osm_map_iv_east.xml.gz",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-119.869,34.403,-119.858,34.424",
+      "sha256": "a8f485828b04368ee4d9da90caeea9c4603ec2bd27076b96691425d82ac9c4c6",
+      "bytes": 785298
+    },
+    {
+      "file": "neighbor_terrain_metadata.json",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?f=json&bbox=234974.85156676633%2C3810277.5840668967%2C239662.548317041%2C3813365.0161205023&bboxSR=32611&imageSR=32611&size=560%2C400&format=tiff&pixelType=F32&interpolation=RSP_BilinearInterpolation&noDataInterpretation=esriNoDataMatchAny&adjustAspectRatio=false",
+      "sha256": "5fa47eaab072d2ee2b528e641b7aa020822b46846ae44816e1ba91363a76e9b2",
+      "bytes": 360
+    },
+    {
+      "file": "neighbor_terrain_dem.tif",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/directories/elevation_output/3DEPElevation_ImageServer/_ags_7210c6d3_4847_41c0_8c79_d28ad08ab3cf.tif",
+      "sha256": "2992f8d78fea2ef11f987a42d59e4e7b8fdce5389d44c85540432af21bfaafd4",
+      "bytes": 1246465
+    }
+  ]
+}

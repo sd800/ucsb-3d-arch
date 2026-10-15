@@ -1048,6 +1048,13 @@
       "paint_area_m2": 7.53
     },
     {
+      "source_id": "node/12880448602",
+      "crossing": "unmarked",
+      "markings": "no",
+      "painted": false,
+      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
+    },
+    {
       "source_id": "node/351098830",
       "crossing": "unmarked",
       "markings": "no",
@@ -1618,13 +1625,6 @@
     },
     {
       "source_id": "node/12880357695",
-      "crossing": "unmarked",
-      "markings": "no",
-      "painted": false,
-      "reason": "Unmarked, non-paint surface treatment, or unspecified paint pattern"
-    },
-    {
-      "source_id": "node/12880448602",
       "crossing": "unmarked",
       "markings": "no",
       "painted": false,

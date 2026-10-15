@@ -5,6 +5,8 @@ from ilp_architecture import DECK,pavilion_parts,pavilion_detail,pavilion_facade
 from library_architecture import library_parts,library_detail,library_landscape
 from roof_finishes import nearby_roof,ROOF_PROFILE
 from curation import *
+from campus_refinement import TARGETS,REFINEMENT_REFS,NOTES,refined_building,refined_outdoors
+REFS.update({str(k):v for k,v in REFINEMENT_REFS.items()});DETAIL_NOTES.update(NOTES)
 from coastal_geometry import open_sea_domain
 from scipy.interpolate import RegularGridInterpolator
 from shapely import segmentize,points,distance,contains
@@ -24,7 +26,7 @@ def features(file):
         if not q.is_empty:result.append({'properties':f['properties'],'poly':q})
     return result
 osm=features('osm_features.geojson');raw=features('ucsb_buildings.geojson');mapped_entries=features('icm_11.geojson')
-# The coastal Main Campus; Isla Vista and the separate San Clemente complex are outside scope.
+# Campus selection remains stable; Isla Vista is added separately by build_neighbors.
 scope=Polygon([(-570,-1130),(700,-1130),(1080,200),(850,540),(480,1150),(-560,1150),(-700,650),(-550,350),(-550,-600)])
 waterfs=features('icm_30.geojson');ocean=next(f['poly'] for f in waterfs if f['properties'].get('Name')=='Pacific Ocean')
 lagoon=next(f['poly'] for f in osm if f['properties'].get('name')=='Campus Lagoon' and f['poly'].geom_type=='Polygon')
@@ -111,15 +113,8 @@ for j,f in enumerate(buildings,1):
                     pavilion_facade(ms,part,base+z0,h0,n0)
             partitions.append({'area_m2':round(q.area,2),'height_m':hh,'storeys':n})
         pavilion_detail(ms,p,base,ground)
-    elif id in {343,345}:
-        # Each mapped stand is its own layer. Stepped seating follows the real long axis.
-        for q in polygons(p):
-            ah,bh,ch,dh=q.bounds
-            rows=18 if id==343 else 14
-            for n in range(rows):
-                strip=q.intersection(box(ah+(ch-ah)*n/rows,bh,ch,dh)) if id==345 else q.intersection(box(ah,bh,ch-(ch-ah)*n/rows,dh))
-                for pp in polygons(strip):ms['Seat'].append(extrusion(pp,base+n*.46,.48))
-            for yy in np.arange(bh+5,dh-3,20):ms['Concrete'].append(boxmesh((ah+ch)/2,yy,base,1.0,1.0,5.2))
+    elif id in TARGETS:
+        height,levels,partitions=refined_building(ms,id,p,base,code,lay,info)
     else:
         for volume,hh,n in split_volumes(id,p,height,levels):
             if volume.is_empty:continue
@@ -414,6 +409,9 @@ for canopy in parking_layout['solar_carports']:
 # building parts; all other public routes retain their mapped plan geometry.
 library=next(f for f in buildings if f['id']==291)
 library_approach=library_landscape(eg,library['poly'],library['ground'],ground,walkarea,bikearea,footprints)
+refined_outdoors(eg,buildings,osm,ground,env,place,footprints,walkarea,bikearea)
+from athletics_refinement import athletics_details
+athletics_details(eg,osm,ground,env,place,footprints,scope)
 # Existing mapped trees: public flora inventory is historical, not a live census.
 clear=unary_union([footprints.buffer(.7),library_approach.buffer(.5)]);trees=palmtree=0;used=[]
 for f in features('icm_14.geojson'):
@@ -457,10 +455,12 @@ place('Campus beaches','校园沙滩',beaches)
 for k,(mat,parts) in enumerate(eg.items()):
     if parts:chunk_meshes(f'E{k:02d}',parts,mat,'Environment',{'Source':ICM+'; OSM; USGS 3DEP','Approximation':'Vegetation shapes, facade detail, street widths and ocean surface styling are illustrative','Units':'meters'})
 print('Landscape:',trees,'mapped trees,',palmtree,'palms,',shrubs,'illustrative coastal shrubs',flush=True)
+from neighboring_areas import build_neighbors
+neighbors,neighbor_report=build_neighbors(osm,scope,footprints,ocean,ground)
 zone_shapes={z:unary_union([f['poly']for f in buildings if f['zone']==z]).envelope.buffer(20)for z in ['central','west','south','north']}
 for name,g in [('Campus',scope),*zone_shapes.items()]:
     aa,bb,cc,dd=g.bounds;xx=(aa+cc)/2;yy=(bb+dd)/2;size=max(cc-aa,dd-bb)*.7;v=rh.ViewInfo();v.Name=name;v.Viewport.SetCameraLocation(rh.Point3d(xx-1200,yy-1700,1700));v.Viewport.SetCameraDirection(rh.Vector3d(1200,1700,-1600));v.Viewport.SetCameraUp(rh.Vector3d(0,0,1));v.Viewport.TargetPoint=rh.Point3d(xx,yy,12);v.Viewport.ChangeToParallelProjection(True);v.Viewport.SetFrustum(-size,size,-size,size,1,40000);model.NamedViews.Add(v)
-model.Strings['ModelNotes']='Independent UCSB coastal Main Campus exterior study. Official 2026 footprints, historical public outdoor mapping, OSM shore and paths, USGS terrain. Storke height published; remaining heights and details approximate. One layer per mapped structure; all outdoor and sea geometry on Environment. Not official BIM or a measured survey.'
+model.Strings['ModelNotes']='Independent UCSB coastal Main Campus exterior study. Official 2026 footprints, historical public outdoor mapping, OSM shore and paths, USGS terrain. Storke height published; remaining heights and details approximate. One layer per mapped campus and neighboring structure; campus outdoor and sea geometry on Environment, surrounding streets and landscape on Neighboring_Environment. Not official BIM or a measured survey.'
 assert model.Write(str(OUT/'UCSB_MainCampus_Layered.3dm'),7)
 def chunk(tag,data=b''):return struct.pack('<HI',tag,len(data)+6)+data
 def zs(s):return s.encode('ascii')+b'\0'
@@ -488,5 +488,5 @@ for f in buildings:
 av=[];af=[];co=[];offset=0
 for m,mat in meshdata:av.append(m.vertices);af.append(m.faces+offset);co.extend([COLORS[mat]]*len(m.faces));offset+=len(m.vertices)
 np.savez_compressed(OUT/'preview_mesh_data.npz',vertices=np.vstack(av),faces=np.vstack(af),colors=np.asarray(co,dtype=np.uint8))
-summary={'buildings':len(records),'layers':len(model.Layers),'environment_layer':'Environment','native_closed_solids':sum(isinstance(o.Geometry,rh.Extrusion)for o in model.Objects),'objects_3ds':len(objects),'vertices':offset,'triangles':sum(len(m.faces)for m,_ in meshdata),'trees':trees,'mapped_flora_positions':sum(1 for f in features('icm_14.geojson')if f['poly'].geom_type=='Point'and land.contains(f['poly'])and not clear.contains(f['poly'])and not lagoon.contains(f['poly'])),'palms':palmtree,'coastal_shrubs':shrubs,'landmarks':sum(r['landmark']for r in records),'unit':'meters','crs':'EPSG:32611 local offsets','origin_wgs84':[LON,LAT],'origin_utm':[OX,OY],'local_z_zero_m':0,'bounds':scope.bounds,'district_bounds':{z:list(g.bounds)for z,g in zone_shapes.items()},'overview_center':[130,-90],'terrain':'USGS 3DEP F32 bare-earth DEM, about 8m sampling; segmented landscape, locally flattened building pads','terrain_source':'https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer','sectors':{z:sum(r['zone']==z for r in records)for z in zone_shapes},'accuracy':'Official 2026 building outlines, historical public landscape and flora positions, OSM and USGS DEM. Storke overall height published; remaining heights, components, vegetation sizes, wave styling and width estimates approximate.'}
+summary={'neighbor_buildings':len(neighbors),'neighbor_bounds':neighbor_report['bounds'],'buildings':len(records),'layers':len(model.Layers),'environment_layer':'Environment','native_closed_solids':sum(isinstance(o.Geometry,rh.Extrusion)for o in model.Objects),'objects_3ds':len(objects),'vertices':offset,'triangles':sum(len(m.faces)for m,_ in meshdata),'trees':trees,'mapped_flora_positions':sum(1 for f in features('icm_14.geojson')if f['poly'].geom_type=='Point'and land.contains(f['poly'])and not clear.contains(f['poly'])and not lagoon.contains(f['poly'])),'palms':palmtree,'coastal_shrubs':shrubs,'landmarks':sum(r['landmark']for r in records),'unit':'meters','crs':'EPSG:32611 local offsets','origin_wgs84':[LON,LAT],'origin_utm':[OX,OY],'local_z_zero_m':0,'bounds':scope.bounds,'district_bounds':{z:list(g.bounds)for z,g in zone_shapes.items()},'overview_center':[130,-90],'terrain':'USGS 3DEP F32 bare-earth DEM, about 8m sampling; segmented landscape, locally flattened building pads','terrain_source':'https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer','sectors':{z:sum(r['zone']==z for r in records)for z in zone_shapes},'accuracy':'Official 2026 building outlines, historical public landscape and flora positions, OSM and USGS DEM. Storke overall height published; remaining heights, components, vegetation sizes, wave styling and width estimates approximate.'}
 (OUT/'model_summary.json').write_text(json.dumps(summary,indent=2));(OUT/'excluded_records.json').write_text(json.dumps(excluded,ensure_ascii=False,indent=2));print(json.dumps(summary,indent=2),flush=True)

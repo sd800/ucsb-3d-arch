@@ -1,8 +1,8 @@
 # Model notes
 
 - Snapshot: 13 October 2026, America/Chicago. UCSB Buildings2026 describes a DFSS extraction dated 3 February 2026.
-- The selected scope is the coastal Main Campus, including its northern athletic facilities, southern residences, Manzanita Village, Campus Lagoon, Lagoon Island and Campus Point. Separate San Clemente / West / North Campus properties and Isla Vista buildings are excluded.
-- Every included public building polygon has its own Rhino layer. Disconnected parts of one polygon share that layer. Environment contains land, water, streets, paths, outdoor facilities, planting, furniture and ocean context.
+- The selected scope is the coastal Main Campus, including its northern athletic facilities, southern residences, Manzanita Village, Campus Lagoon, Lagoon Island and Campus Point. An independently switchable Isla Vista context extends west along Pardall, the Embarcaderos, Del Playa and adjacent mapped streets/parks. Separate remote West/North Campus properties are outside this study.
+- Every included public building polygon has its own Rhino layer. Disconnected parts of one polygon share that layer. Environment contains campus land, water, streets, paths, outdoor facilities, planting, furniture and ocean context. Neighboring_Environment contains surrounding streets, parks, planting and closed ground; each neighboring building has its own N-prefixed layer.
 - UCSB public paths, lawn, parking, water and flora mapping is historical; it is not claimed to be a live vegetation census. Trees that conflict with the current mapped building outlines are filtered out. Plant sizes and shapes are approximate. Coastal shrubs are illustrative habitat clusters.
 - Original geographic coordinates use WGS84. Metric geometry uses local offsets in UTM zone 11N (EPSG:32611). Z follows the sampled USGS DEM meter datum; building pads are flattened. Sea and lagoon levels are approximate display levels, not tidal or flood predictions.
 - Storke Tower overall height follows UCSB's published 175 ft (53.34 m). GIS BLDGHEIGHT has no explicit unit in the public field definition; raw values remain in metadata, but are not used as certified heights. FLOORCOUNT may include subterranean levels. Other external heights, storeys, facade openings, member sizes and roof partitions are approximate.
@@ -60,3 +60,6 @@ Curved terrace edge segments are merged before buffering so their deck strips fo
 ## Continuous offshore context
 
 The water GIS closes at a rectangular data extent. Its three long offshore closure edges are excluded from shoreline-distance calculation. An extended closed water volume is clipped to the 4.2 km viewing context; actual shoreline vertices remain unchanged. Surface and side-wall shaders share top colors and offshore/radial fade, with aligned top elevations. Depth shading is illustrative, not bathymetry.
+
+- Residential, UCEN/MCC, Mosher, athletics, Eternal Flame, Henley Gate and Isla Vista refinements are documented in `RESIDENTIAL_AND_NEIGHBORHOOD_SOURCES.md`. Context has 1,462 building layers, a default-on group and independent search. Neighbor roof detail avoids fabricated equipment; supplementary context planting, facade bays and unrecorded heights remain exterior interpretations.
+- Chinese place naming uses 圣巴巴拉; the university name is 加州大学圣巴巴拉分校. The default interface language remains English on every device.

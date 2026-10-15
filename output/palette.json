@@ -1,4 +1,64 @@
 {
+  "ContextGround": [
+    155,
+    155,
+    130
+  ],
+  "ContextRoad": [
+    88,
+    91,
+    92
+  ],
+  "ContextWalk": [
+    181,
+    177,
+    160
+  ],
+  "ContextPaving": [
+    176,
+    166,
+    143
+  ],
+  "ContextGrass": [
+    126,
+    148,
+    104
+  ],
+  "ContextLeaves": [
+    82,
+    117,
+    80
+  ],
+  "ContextStucco": [
+    197,
+    186,
+    158
+  ],
+  "ContextStone": [
+    183,
+    180,
+    160
+  ],
+  "ContextBrick": [
+    147,
+    109,
+    85
+  ],
+  "ContextRoof": [
+    132,
+    137,
+    128
+  ],
+  "ContextTile": [
+    151,
+    111,
+    83
+  ],
+  "ContextGlass": [
+    103,
+    139,
+    147
+  ],
   "WetSand": [
     177,
     157,

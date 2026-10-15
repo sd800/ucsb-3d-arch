@@ -1,4 +1,4 @@
-"""Normalize the two public OSM map extracts without modifying source positions."""
+"""Normalize the retained campus and Isla Vista public OSM map extracts without modifying source positions."""
 from pathlib import Path
 import json,xml.etree.ElementTree as ET,gzip
 from shapely.geometry import Point,LineString,Polygon,box,mapping
@@ -13,9 +13,9 @@ for p in inputs:
     for w in root.findall('way'):ways[w.attrib['id']]=w
     for rel in root.findall('relation'):relations[rel.attrib['id']]=rel
     if p.suffix!='.gz':(s/(p.name+'.gz')).write_bytes(gzip.compress(raw,mtime=0))
-area=box(-119.86,34.402,-119.836,34.426);features=[];geoms={}
+area=box(-119.881,34.402,-119.836,34.426);features=[];geoms={}
 def tags(e):return {t.attrib['k']:t.attrib['v'] for t in e.findall('tag')}
-def relevant(t):return bool(set(t)&{'building','building:part','highway','landuse','leisure','natural','water','man_made'}) or t.get('amenity') in {'fountain','parking','university'}
+def relevant(t):return bool(set(t)&{'building','building:part','highway','landuse','leisure','natural','water','man_made','historic','barrier','tourism'}) or t.get('amenity') in {'fountain','parking','university'}
 for id,w in ways.items():
     t=tags(w);ids=[n.attrib['ref'] for n in w.findall('nd')]
     if not all(i in nodes for i in ids) or len(ids)<2:continue
@@ -36,7 +36,7 @@ for id,e in relations.items():
     features.append({'type':'Feature','properties':{'osm_id':'relation/'+id,**t},'geometry':mapping(g)})
 for id,n in node_elements.items():
     t=tags(n)
-    if t.get('highway')=='crossing' or t.get('natural')=='tree' or t.get('amenity') in ['bench','fountain'] or t.get('tourism')=='artwork':
+    if t.get('highway')=='crossing' or t.get('natural')=='tree' or t.get('amenity') in ['bench','fountain'] or t.get('tourism')=='artwork' or t.get('historic') or t.get('name') in ['Henley Gate','Eternal Flame']:
         features.append({'type':'Feature','properties':{'osm_id':'node/'+id,**t},'geometry':mapping(Point(nodes[id]))})
-(s/'osm_features.geojson').write_text(json.dumps({'type':'FeatureCollection','source':'© OpenStreetMap contributors, ODbL 1.0; API snapshot 2026-10-13','features':features},ensure_ascii=False,separators=(',',':')))
+(s/'osm_features.geojson').write_text(json.dumps({'type':'FeatureCollection','source':'© OpenStreetMap contributors, ODbL 1.0; campus snapshot 2026-10-13; Isla Vista snapshot 2026-10-14','features':features},ensure_ascii=False,separators=(',',':')))
 print('Normalized',len(features),'features')

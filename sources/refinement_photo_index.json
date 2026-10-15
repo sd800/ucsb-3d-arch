@@ -1,0 +1,654 @@
+{
+  "anacapa": {
+    "url": "https://www.housing.ucsb.edu/housing-options/options-filter/anacapa",
+    "images": [
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa%20Grounds_IMG_5409_ceh.jpg?itok=WhIPrhdT",
+        "alt": "Anacapa residence hall entrance"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa%20ResHall%20%281%29_0.jpg?itok=ASbJ4Ei-",
+        "alt": "students walking along the Anacapa Green Space"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa%20ResHall%20%284%29_0.jpg?itok=02vNF7kV",
+        "alt": "students retrieving their bikes in  the Anacapa racks"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa_ceh_DSC03090_0.jpg?itok=6fN35-8e",
+        "alt": "Anacapa Front Desk"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa%20ResHall%20%282%29.jpg?itok=rydWrzpy",
+        "alt": "Anacapa Volleyball Courts with an ocean view"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/2-AnacapaGallery_0.jpg?itok=VFUVKtRm",
+        "alt": "volleyball courts at Anacapa Residence Hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/5-AnacapaGallery.jpg?itok=2fNy0v1Q",
+        "alt": "outdoor patio furniture at Anacapa Residence Hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/ANA_MainLounge_01.jpg?itok=sMq0takw",
+        "alt": "Anacapa Main Lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa%20ResHall%20%283%29_0.jpg?itok=Jc3f68-m",
+        "alt": "students lounge inside Anacapa Hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa_ceh_DSC03082_0.jpg?itok=fcAIS1vb",
+        "alt": "vending machines in recreation room inside Anacapa Residence Hall "
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa_ceh_DSC03083_0.jpg?itok=Du5th2oy",
+        "alt": "recreation room inside Anacapa Hall with media room and gaming tables"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Anacapa-Gallery-6509_2_0.jpg?itok=JUCwHm0R",
+        "alt": "Anacapa Residence Hall Triple example"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Triple-Iso-FINAL.png?itok=_iFU84-d",
+        "alt": "view of a low-rise triple room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Triple-Top-FINAL.png?itok=l_CQN_qA",
+        "alt": "view of a low-rise triple room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Double-Iso-FINAL.png?itok=mBLU9qx8",
+        "alt": "view of a low-rise double room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Double-Top-FINAL.png?itok=9DWQVZr4",
+        "alt": "view of a low-rise double room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/low_rise_bath_iso_sm.png?itok=_7BKEDN_",
+        "alt": "view of a low-rise bathroom"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/low_rise_bath_top_sm.png?itok=FQbdmBof",
+        "alt": "top view of a low-rise bathroom"
+      }
+    ]
+  },
+  "santa_cruz": {
+    "url": "https://www.housing.ucsb.edu/housing-options/options-filter/santa-cruz",
+    "images": [
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/1-SantaCruzGallery.jpg?itok=H5WhLTjU",
+        "alt": "Santa Cruz lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/2-SantaCruzGallery.jpg?itok=lIJX9Wb9",
+        "alt": "exterior of Santa Cruz residence hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/Santa%20Cruz_Vball_0.jpg?itok=V78nXTo-",
+        "alt": "Santa Cruz Residence Hall Volleyball"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/3-SantaCruzGallery_0.jpg?itok=4RV4po4M",
+        "alt": "students playing basketball "
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/HousingServices_2340x1560px.jpg?itok=gALfxTa2",
+        "alt": "Santa Cruz Surf Racks"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/5-SantaCruzGallery.jpg?itok=ATuTe-3i",
+        "alt": "Santa Cruz front desk"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/6-SantaCruzGallery.jpg?itok=gLcABO8R",
+        "alt": "Santa Cruz triple"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/7-SantaCruzGallery.JPG?itok=NaTgJfFv",
+        "alt": "Santa Cruz roommates"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/8-SantaCruzGallery.jpg?itok=2fQ7CCzX",
+        "alt": "Santa Cruz main lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/9-SantaCruzGallery.jpg?itok=ThCQ1JuI",
+        "alt": "movie theater inside Santa Cruz residence hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/10-SantaCruzGallery.jpg?itok=1xplX5hR",
+        "alt": "main lounge inside Santa Cruz "
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/11-SantaCruzGallery.jpg?itok=tGpT9PFd",
+        "alt": "study room inside a Santa Cruz lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/12-SantaCruzGallery.jpg?itok=vdr1jq5f",
+        "alt": "Santa Cruz lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/13-SantaCruzGallery.jpg?itok=Qf-kfnXy",
+        "alt": "Santa Cruz lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/14-SantaCruzGallery.jpg?itok=aG1Jt9YB",
+        "alt": "Santa Cruz study lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/15-SantaCruzGallery.jpg?itok=UBe-Ww_0",
+        "alt": "kitchen inside Santa Cruz residence hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/16-SantaCruzGallery.jpg?itok=QPIrn9nl",
+        "alt": "Santa Cruz recreation room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Triple-Iso-FINAL.png?itok=_iFU84-d",
+        "alt": "view of a low-rise triple room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Triple-Top-FINAL.png?itok=l_CQN_qA",
+        "alt": "view of a low-rise triple room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Double-Iso-FINAL.png?itok=mBLU9qx8",
+        "alt": "view of a low-rise double room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Double-Top-FINAL.png?itok=9DWQVZr4",
+        "alt": "view of a low-rise double room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/low_rise_bath_iso_sm.png?itok=_7BKEDN_",
+        "alt": "view of a low-rise bathroom"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/low_rise_bath_top_sm.png?itok=FQbdmBof",
+        "alt": "top view of a low-rise bathroom"
+      }
+    ]
+  },
+  "santa_rosa": {
+    "url": "https://www.housing.ucsb.edu/housing-options/options-filter/santa-rosa",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "san_miguel": {
+    "url": "https://www.housing.ucsb.edu/housing-options/options-filter/san-miguel",
+    "images": [
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/San%20Miguel%20ResHall%20Entrance_0.jpg?itok=3sZDSuxW",
+        "alt": "San Miguel Residence Hall Entrance"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/SanMiguel%20Lobby_0.jpg?itok=y8TIKwzO",
+        "alt": "San Miguel Hall front desk."
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/San-Miguel-Classroom.JPG?itok=aLZwxmsC",
+        "alt": "San Miguel Study Room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/DSC02793_SanMigRec%20Room%20_CH.jpg?itok=S1JHGEUo",
+        "alt": "San Miguel Hall recreation room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/IMG_4639_San%20Miguel%20Fireplace_0.jpg?itok=fTyFtA0_",
+        "alt": "Fireplace lounge at the San Miguel Hall."
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/SanMiguel-Lounge.JPG?itok=xVVqxUvK",
+        "alt": "San Miguel Lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/SanMiguel-2_3_0.jpg?itok=Nh-W6oD4",
+        "alt": "San Miguel Hall Double Room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/SanMiguel-6541_2_0.jpg?itok=nOVLgpXd",
+        "alt": "Example of San Miguel Hall double with loft style bed."
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/SanMiguel-6536._2_0.jpg?itok=EQIKWvfU",
+        "alt": "San Miguel Hall double bedroom example"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/san-miguel-stage-2026-1680x1120-slideshow.jpg?itok=Jkd1O4Ps",
+        "alt": "San Miguel Residence Hall stage murals 2026"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/San%20Miguel_ZobelsGarden_0.jpg?itok=FUnZxP_1",
+        "alt": "Zobel's Zen Garden"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/San%20Miguel%20Lawn%20Event.jpg?itok=nVYkCKB6",
+        "alt": "San Miguel lawn event"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/3-SanMiguelGallery_0.jpg?itok=RhpkFT0i",
+        "alt": "patio furniture at San Miguel residence hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-triple.png?itok=k55NCmUB",
+        "alt": "view of a high-rise triple room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-triple-top.png?itok=zdqaCmeh",
+        "alt": "view of a high-rise triple room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Double.png?itok=tFB0-l2k",
+        "alt": "high-rise double room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/High-Rise-Double-Top.png?itok=0kdyBQe7",
+        "alt": "view of a high-rise double room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/High-Rise-Single.png?itok=toYcfe8W",
+        "alt": "view of a high-rise single room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/High-Rise-Single-Top.png?itok=6GFuVZBd",
+        "alt": "view of a high-rise single room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-bath-resize-2.png?itok=dpvQ28IX",
+        "alt": "view of a high-rise bathroom"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-bath-top-resize.png?itok=HWRz81gl",
+        "alt": "view of a high-rise bathroom from the top"
+      }
+    ]
+  },
+  "san_nicolas": {
+    "url": "https://www.housing.ucsb.edu/housing-options/options-filter/san-nicolas",
+    "images": [
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/1-SanNicolasGallery_0.jpg?itok=pAAStvk_",
+        "alt": "students playing volleyball outside San Nicolas residence hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/2-SanNicolasGallery.JPG?itok=NHy5Jt_B",
+        "alt": "patio furniture overlooking the lagoon"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/3-SanNicolasGallery_0.jpg?itok=CsrBZ86Z",
+        "alt": "students kayaking in the lagoon"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/DSC02787_SanNic%20Lobby_CH_0.jpg?itok=4jlEYGF4",
+        "alt": "San Nicolas front desk"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/DSC02790_San%20Nic%20Rec%20Room%20_CH.jpg?itok=1-I4Zwil",
+        "alt": "San Nicolas Rec Room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/DSC02781_SanNic%20Lounge_CH_0.jpg?itok=H-tZPaOt",
+        "alt": "San Nicolas Lounge"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/9-SanNicolasGallery.jpg?itok=sXH0d5X1",
+        "alt": "study room inside San Nicolas"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/10-SanNicolasGallery_0.jpg?itok=2ydcha4H",
+        "alt": "inside San Nicolas residence hall"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/11-SanNicolasGallery.jpg?itok=6e1iO064",
+        "alt": "San Nicolas bathroom"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/gallery/5-SanNicolasGallery_0.jpg?itok=c6LPrBGD",
+        "alt": "Two Students Studying in a San Nicolas Residence Hall Room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-triple.png?itok=k55NCmUB",
+        "alt": "view of a high-rise triple room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-triple-top.png?itok=zdqaCmeh",
+        "alt": "view of a high-rise triple room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/Low-Rise-Double.png?itok=tFB0-l2k",
+        "alt": "high-rise double room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/High-Rise-Double-Top.png?itok=0kdyBQe7",
+        "alt": "view of a high-rise double room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/High-Rise-Single.png?itok=toYcfe8W",
+        "alt": "view of a high-rise single room"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/High-Rise-Single-Top.png?itok=6GFuVZBd",
+        "alt": "view of a high-rise single room from the top"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-bath-resize-2.png?itok=dpvQ28IX",
+        "alt": "view of a high-rise bathroom"
+      },
+      {
+        "src": "/sites/default/files/styles/slide_image/public/images/residences/floorplans/high-rise-bath-top-resize.png?itok=HWRz81gl",
+        "alt": "view of a high-rise bathroom from the top"
+      }
+    ]
+  },
+  "mosher": {
+    "url": "https://www.alumni.ucsb.edu/about/mosher-house",
+    "images": [
+      {
+        "src": "/sites/default/files/images/mosher-house/about-mah-skyterrace-thumb.jpg",
+        "alt": "Whalen Plaza"
+      },
+      {
+        "src": "/sites/default/files/images/mosher-house/about-mah-whalen-thumb.jpg",
+        "alt": "Rose Miller Sky Terrace"
+      },
+      {
+        "src": "/sites/default/files/images/mosher-house/about-mah-alumnihall-thumb.jpg",
+        "alt": "Alumni Hall"
+      },
+      {
+        "src": "/sites/default/files/images/mosher-house/about-mah-boardroom-thumb.jpg",
+        "alt": "The Jeff and Judy Henley Board Room"
+      },
+      {
+        "src": "/sites/default/files/images/mosher-house/about-mah-livingroom-thumb.jpg",
+        "alt": "The Roger and Judy Haughton Haughton Living Room "
+      },
+      {
+        "src": "/sites/default/files/images/mosher-house/about-mah-library-thumb.jpg",
+        "alt": "Sara Miller McCune Library"
+      }
+    ]
+  },
+  "ucen": {
+    "url": "https://www.ucen.ucsb.edu/meet/meetings-events/spaces",
+    "images": [
+      {
+        "src": "/sites/default/files/images/DSC_0661_2340x1560px.jpg",
+        "alt": "A conference room setup with rows of chairs, a UCSB podium, a panel table with mics, and a large screen showing food skewers."
+      },
+      {
+        "src": "/sites/default/files/images/DSC_0586_2430x1560px.JPG",
+        "alt": "An empty classroom or seminar room with rows of tables, a podium, and large windows letting in bright natural light."
+      },
+      {
+        "src": "/sites/default/files/images/019_2340x1560px.jpg",
+        "alt": "A semi-circular stage setup with rows of wooden and blue cushioned chairs, and a lone yellow stool on the stage."
+      },
+      {
+        "src": "/sites/default/files/images/DSC_0666_2340x1560px.jpg",
+        "alt": "Outdoor patio with blue tablecloth-covered tables, mesh chairs, and a scenic lagoon view under clear blue skies."
+      }
+    ]
+  },
+  "mcc": {
+    "url": "https://mcc.sa.ucsb.edu/contact",
+    "images": [
+      {
+        "src": "/sites/default/files/inline-images/mcc_logo_1.png",
+        "alt": "UCSB Multicultural Center Logo"
+      },
+      {
+        "src": "../../../sites/default/files/inline-images/down-arrow.svg",
+        "alt": "scroll up icon"
+      },
+      {
+        "src": "/sites/default/files/inline-images/facebook-icon.png",
+        "alt": "facebook logo"
+      },
+      {
+        "src": "/sites/default/files/inline-images/twitter-icon.png",
+        "alt": "twitter logo"
+      },
+      {
+        "src": "/sites/default/files/inline-images/insta-icon.png",
+        "alt": "instagram logo"
+      },
+      {
+        "src": "/sites/default/files/inline-images/snapchat-icon.png",
+        "alt": "snapchat logo"
+      }
+    ]
+  },
+  "flame": {
+    "url": "https://news.ucsb.edu/2016/016268/walk-us",
+    "images": [
+      {
+        "src": "/themes/currenttheme/src/assets/images/the-current-2-logo-09.svg",
+        "alt": "The Current logo"
+      },
+      {
+        "src": "/sites/default/files/social_icons/UC-Santa-Barbara-Social-Icons-Facebook.png",
+        "alt": "Facebook"
+      },
+      {
+        "src": "/sites/default/files/social_icons/UC-Santa-Barbara-Social-Icons-X.png",
+        "alt": "X"
+      },
+      {
+        "src": "https://static.addtoany.com/buttons/custom/addtoany-icon-long-shadow.png",
+        "alt": "Share"
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/Campus-point-May-ucsb.jpg?itok=nV6Falec",
+        "alt": "An arial view of Campus Point looking toward the university and the mountains behind it."
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/ALO-gauchofest-hero-uc-santa-barbara.jpg?itok=XRdIf4ry",
+        "alt": "A partially blurred image of four men posed on a rooftop holding a large colorful light"
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/perko_ERK4451.jpg?itok=O7zXHEnK",
+        "alt": "A UCSB student stands at a whiteboard and works on an equation while consulting her computer"
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/ocean-shore-rock-sunset-hero-uc-santa-barbara.jpg?itok=yW5JRjnr",
+        "alt": "Waves roll up the shoreline at sunrise, horizon is orange in the distance"
+      }
+    ]
+  },
+  "gate": {
+    "url": "https://news.ucsb.edu/2023/020880/safer-217",
+    "images": [
+      {
+        "src": "/themes/currenttheme/src/assets/images/the-current-2-logo-09.svg",
+        "alt": "The Current logo"
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2023-04/unnamed%20%282%29.jpg?itok=GbOQ2eLc",
+        "alt": "Alexa Bertola in a CalTrans hard hat inset in a circle above Henley Gate, UC Santa Barbara"
+      },
+      {
+        "src": "/sites/default/files/social_icons/UC-Santa-Barbara-Social-Icons-Facebook.png",
+        "alt": "Facebook"
+      },
+      {
+        "src": "/sites/default/files/social_icons/UC-Santa-Barbara-Social-Icons-X.png",
+        "alt": "X"
+      },
+      {
+        "src": "https://static.addtoany.com/buttons/custom/addtoany-icon-long-shadow.png",
+        "alt": "Share"
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/Campus-point-May-ucsb.jpg?itok=nV6Falec",
+        "alt": "An arial view of Campus Point looking toward the university and the mountains behind it."
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/ALO-gauchofest-hero-uc-santa-barbara.jpg?itok=XRdIf4ry",
+        "alt": "A partially blurred image of four men posed on a rooftop holding a large colorful light"
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/perko_ERK4451.jpg?itok=O7zXHEnK",
+        "alt": "A UCSB student stands at a whiteboard and works on an equation while consulting her computer"
+      },
+      {
+        "src": "/sites/default/files/styles/large_2340x1212/public/2026-10/ocean-shore-rock-sunset-hero-uc-santa-barbara.jpg?itok=yW5JRjnr",
+        "alt": "Waves roll up the shoreline at sunrise, horizon is orange in the distance"
+      }
+    ]
+  },
+  "dlg": {
+    "url": "https://dining.ucsb.edu/dining-commons/de-la-guerra",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "additional_reviewed_images": [
+    {
+      "name": "san_miguel",
+      "url": "https://www.housing.ucsb.edu/sites/default/files/styles/slide_image/public/images/residences/gallery/San%20Miguel%20ResHall%20Entrance_0.jpg?itok=3sZDSuxW",
+      "caption": "San Miguel Residence Hall Entrance"
+    },
+    {
+      "name": "san_miguel",
+      "url": "https://www.housing.ucsb.edu/sites/default/files/styles/slide_image/public/images/residences/san-miguel-stage-2026-1680x1120-slideshow.jpg?itok=Jkd1O4Ps",
+      "caption": "San Miguel Residence Hall stage murals 2026"
+    },
+    {
+      "name": "san_miguel",
+      "url": "https://www.housing.ucsb.edu/sites/default/files/styles/slide_image/public/images/residences/gallery/San%20Miguel_ZobelsGarden_0.jpg?itok=FUnZxP_1",
+      "caption": "Zobel's Zen Garden"
+    },
+    {
+      "name": "san_miguel",
+      "url": "https://www.housing.ucsb.edu/sites/default/files/styles/slide_image/public/images/residences/gallery/3-SanMiguelGallery_0.jpg?itok=RhpkFT0i",
+      "caption": "patio furniture at San Miguel residence hall"
+    },
+    {
+      "name": "san_nicolas",
+      "url": "https://www.housing.ucsb.edu/sites/default/files/styles/slide_image/public/images/residences/gallery/2-SanNicolasGallery.JPG?itok=NHy5Jt_B",
+      "caption": "patio furniture overlooking the lagoon"
+    },
+    {
+      "name": "ucen",
+      "url": "https://www.ucen.ucsb.edu/sites/default/files/images/019_2340x1560px.jpg",
+      "caption": "A semi-circular stage setup with rows of wooden and blue cushioned chairs, and a lone yellow stool on the stage."
+    },
+    {
+      "name": "ucen",
+      "url": "https://www.ucen.ucsb.edu/sites/default/files/images/DSC_0666_2340x1560px.jpg",
+      "caption": "Outdoor patio with blue tablecloth-covered tables, mesh chairs, and a scenic lagoon view under clear blue skies."
+    },
+    {
+      "name": "gate",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2023-04/unnamed%20%282%29.jpg?itok=GbOQ2eLc",
+      "caption": "Alexa Bertola in a CalTrans hard hat inset in a circle above Henley Gate, UC Santa Barbara"
+    },
+    {
+      "name": "dlg",
+      "url": "https://dining.ucsb.edu/sites/default/files/styles/slid/public/images/dining-commons/dlg1.jpg?itok=ovQMoPAW",
+      "caption": ""
+    },
+    {
+      "name": "dlg",
+      "url": "https://dining.ucsb.edu/sites/default/files/styles/slid/public/images/dining-commons/dlg2_0.jpg?itok=_BI49Igd",
+      "caption": ""
+    },
+    {
+      "name": "dlg",
+      "url": "https://dining.ucsb.edu/sites/default/files/styles/slid/public/images/dining-commons/dlg3.jpg?itok=GqPZ6W03",
+      "caption": ""
+    },
+    {
+      "name": "dlg",
+      "url": "https://dining.ucsb.edu/sites/default/files/styles/slid/public/images/dining-commons/dlg4_0.jpg?itok=hDBeSDe-",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/slideshow_images/2016/Claudine%20Michel.jpg",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/slideshow_images/2016/Jeffrey%20Stewart.jpg",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/slideshow_images/2016/HTY%20marching.jpg",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/slideshow_images/2016/Pastor%20David%20Moore.jpg",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/images/2016/plaque3.jpg",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/social_icons/UC-Santa-Barbara-Social-Icons-Facebook.png",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/social_icons/UC-Santa-Barbara-Social-Icons-X.png",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/Campus-point-May-ucsb.jpg?itok=nV6Falec",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/ALO-gauchofest-hero-uc-santa-barbara.jpg?itok=XRdIf4ry",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/perko_ERK4451.jpg?itok=O7zXHEnK",
+      "caption": ""
+    },
+    {
+      "name": "flame",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/ocean-shore-rock-sunset-hero-uc-santa-barbara.jpg?itok=yW5JRjnr",
+      "caption": ""
+    },
+    {
+      "name": "gate",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2023-04/unnamed%20%282%29.jpg?itok=GbOQ2eLc",
+      "caption": ""
+    },
+    {
+      "name": "gate",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/Campus-point-May-ucsb.jpg?itok=nV6Falec",
+      "caption": ""
+    },
+    {
+      "name": "gate",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/ALO-gauchofest-hero-uc-santa-barbara.jpg?itok=XRdIf4ry",
+      "caption": ""
+    },
+    {
+      "name": "gate",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/perko_ERK4451.jpg?itok=O7zXHEnK",
+      "caption": ""
+    },
+    {
+      "name": "gate",
+      "url": "https://news.ucsb.edu/sites/default/files/styles/large_2340x1212/public/2026-10/ocean-shore-rock-sunset-hero-uc-santa-barbara.jpg?itok=yW5JRjnr",
+      "caption": ""
+    },
+    {
+      "name": "sanmigmap",
+      "url": "https://www.housing.ucsb.edu/sites/default/files/images/Maps/san-mig-hall-layout.jpg",
+      "caption": "layout"
+    }
+  ]
+}

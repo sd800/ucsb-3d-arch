@@ -2,7 +2,7 @@ import {BufferAttribute,BufferGeometry,Float32BufferAttribute,MeshBasicMaterial,
 
 // Map surfaces are a cartographic stack. Independently draped CAD triangles
 // can cross by meters; no depth bias can repair those crossings reliably.
-export const SURFACE_ORDER=Object.freeze({Ground:-100,Ocean:-99,CoastalWater:-98,ShallowWater:-97,Sand:-95,WetSand:-94.5,Grass:-94,Garden:-93,Road:-80,Walk:-75,Cycleway:-74,Concrete:-72,Boardwalk:-73,Paving:-70,Tile:-69,BrickPath:-68,BrickPale:-67,BrickWarm:-67,BrickBand:-66,Court:-65,Track:-64,Water:-60,PoolWater:-60,Marking:-50});
+export const SURFACE_ORDER=Object.freeze({ContextGround:-100,ContextGrass:-94,ContextRoad:-80,ContextWalk:-75,ContextPaving:-70,Ground:-100,Ocean:-99,CoastalWater:-98,ShallowWater:-97,Sand:-95,WetSand:-94.5,Grass:-94,Garden:-93,Road:-80,Walk:-75,Cycleway:-74,Concrete:-72,Boardwalk:-73,Paving:-70,Tile:-69,BrickPath:-68,BrickPale:-67,BrickWarm:-67,BrickBand:-66,Court:-65,Track:-64,Water:-60,PoolWater:-60,Marking:-50});
 /** Smooth only upward landscape skins; closed sides must not affect lighting. */
 export function smoothLandscapeNormals(geometry) {
   const position=geometry.attributes.position,index=geometry.index,records=new Map(),byVertex=new Array(position.count);
@@ -146,7 +146,7 @@ export function stabilizeBuildingMaterial(material,detail=false) {
 /** Color roof caps separately from walls, stone trim and ground-level concrete. */
 export function prepareBuildingRoofs(mesh,groundZ=0,detail=false,uniformFlatRoof=false) {
   const multi=Array.isArray(mesh.material),materials=multi?mesh.material:[mesh.material];
-  const finishedRoof=material=>['Metal','Slate'].includes(material.name)||material.name.startsWith('Roof')||material.name.endsWith('Roof');
+  const finishedRoof=material=>['Metal','Slate','ContextTile'].includes(material.name)||material.name.startsWith('Roof')||material.name.endsWith('Roof');
   const eligible=material=>!(material.name in SURFACE_ORDER)&&!['Purple','Gold','Seat','Solar','SolarLibrary'].includes(material.name)&&!material.transparent&&material.name!=='Glass'&&(finishedRoof(material)?uniformFlatRoof:(!detail||material.name==='Concrete'));
   if(!materials.some(eligible))return [mesh];
   mesh.updateWorldMatrix(true,false);

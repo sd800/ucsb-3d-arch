@@ -1,5 +1,17 @@
 # Changelog
 
+## 26.10.15.1 — 2026-10-15
+
+- Rebuild Anacapa, Santa Cruz and Santa Rosa with their mapped bent wings, open courtyards, low eaves, masonry ends and grouped window bays.
+- Separate San Miguel and San Nicolas into eight-storey tower bars and lower community wings; refine their entrances, reveals, roofs and surrounding patios.
+- Rebuild De La Guerra's dining/entry volumes, glazed pavilion and supported canopy; refine UCEN's lagoon-facing rooms, terraces and shade structures, and distinguish the Multi-Cultural Center's theater and entrance volumes.
+- Refine Mosher Alumni House with terraced levels, glazed meeting spaces, plaza approach and an open circular Sky Terrace pergola.
+- Add the mapped Eternal Flame memorial and Henley Gate, with connected bases, commemorative features and outdoor hover names.
+- Refine Harder grandstands, recreation buildings, mapped track lanes, courts, baseball/softball diamonds, swimming lanes and connected sports equipment.
+- Add 1,462 individually layered Isla Vista buildings, mapped streets, sidewalks, parks, coastal land and an expanded terrain sample. Provide a default-on ⁺Campus neighboring areas group, prefixed names, building search and a campus-only toggle.
+- Keep context windows lightweight, lossless worker decoding, separate closed terrain and level building pads; retain stable roofs, hidden initial landmark labels and English by default.
+- Standardize the Chinese translation of Santa Barbara and the university name across the website, sharing metadata and exports.
+
 ## 26.10.14.6 — 2026-10-14
 
 - Exclude the legacy thin Earth backing from the browser scene now that Ground provides a continuous physical shell, preventing duplicate coplanar cliff/underside faces at low angles. Keep the original Rhino/3DS data and the modeled coastal bluffs.

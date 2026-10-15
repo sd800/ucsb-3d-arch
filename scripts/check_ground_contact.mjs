@@ -8,10 +8,10 @@ const root=new URL('../',import.meta.url),path=process.argv[2]||'output/UCSB_Mai
 const bytes=readFileSync(new URL(path,root)),model=new TDSLoader().parse(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength),'');model.updateMatrixWorld(true);
 const cells=new Map(),size=20;let triangles=0;
 model.traverse(m=>{
- if(!m.isMesh||!m.name.startsWith('E'))return;
+ if(!m.isMesh||!m.name.startsWith('E')&&!m.name.startsWith('NE'))return;
  const mats=Array.isArray(m.material)?m.material:[m.material],p=m.geometry.attributes.position,idx=m.geometry.index;
  for(const group of m.geometry.groups.length?m.geometry.groups:[{start:0,count:idx.count,materialIndex:0}]){
-  if(mats[group.materialIndex]?.name!=='Ground')continue;
+  if(mats[group.materialIndex]?.name!=='Ground'&&mats[group.materialIndex]?.name!=='ContextGround')continue;
   for(let i=group.start;i<group.start+group.count;i+=3){
    const vs=[0,1,2].map(k=>new Vector3().fromBufferAttribute(p,idx.getX(i+k)).applyMatrix4(m.matrixWorld)),[a,b,c]=vs;
    const det=(b.x-a.x)*(c.y-a.y)-(b.y-a.y)*(c.x-a.x);if(det<1e-7)continue;
@@ -22,7 +22,7 @@ model.traverse(m=>{
   }
  }
 });
-const samples=JSON.parse(readFileSync(new URL('output/ground_contact_samples.json',root),'utf8'));let worstGap=0,worstIntrusion=0,missing=0;const failures=[];
+const samples=[...JSON.parse(readFileSync(new URL('output/ground_contact_samples.json',root),'utf8')),...JSON.parse(readFileSync(new URL('output/neighboring_contact_samples.json',root),'utf8'))];let worstGap=0,worstIntrusion=0,missing=0;const failures=[];
 for(const sample of samples){
  const [x,y,z]=sample.position;let ground=-Infinity;
  for(const {a,b,c,det}of cells.get(Math.floor(x/size)+','+Math.floor(y/size))||[]){
@@ -39,7 +39,7 @@ console.log(JSON.stringify(result,null,2));if(!result.passed)process.exitCode=1;
 
 if(!process.argv[2]){
  const html=readFileSync(new URL('index.html',root),'utf8'),data=JSON.parse(html.match(/<script id="campus-data"[^>]*>(.*?)<\/script>/s)[1]);
- assert.equal(data.groundPads.length,175);
+ assert.equal(data.groundPads.length,175);data.groundPads.push(...data.neighborPads);
  for(const sample of samples){const [x,y,z]=sample.position;assert.ok(Math.abs(groundHeight(data,x,y)-z)<.025,'Camera and hover use the same flat building grade: '+sample.code);}
  console.log('Camera/hover pad lookup matches all exported building samples.');
 }
