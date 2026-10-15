@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.14.6 — 2026-10-14
+
+- Exclude the legacy thin Earth backing from the browser scene now that Ground provides a continuous physical shell, preventing duplicate coplanar cliff/underside faces at low angles. Keep the original Rhino/3DS data and the modeled coastal bluffs.
+
 ## 26.10.14.5 — 2026-10-14
 
 - Extend shallow terrain-tile undersides to a shared display datum and softly fade their unlit earth sides downward, removing the exposed faceted wedges in downhill horizontal views. Preserve the original CAD elevations and files.

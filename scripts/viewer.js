@@ -1,7 +1,7 @@
 import {createOutdoorPicker,groundPoint,installCampusHover} from './outdoor_hover.js';
 import {createViewportRenderLoop} from './viewport_rendering.js';
 import {createTerrainLighting,applyTerrainLighting} from './terrain_lighting.js';
-import {prepareTerrainMass,createTerrainMass,prepareLandscape,prepareBuildingRoofs,stabilizeBuildingMaterial,updateCampusDepthRange,setCampusClipping,updateCampusDetailDepth,stabilizeCampusShadows,fitCampusSun} from './surface_rendering.js';
+import {createTerrainMass,prepareLandscape,prepareBuildingRoofs,stabilizeBuildingMaterial,updateCampusDepthRange,setCampusClipping,updateCampusDetailDepth,stabilizeCampusShadows,fitCampusSun} from './surface_rendering.js';
 import {groundHeight} from './ground_height.js';
 import {installMapSelection} from './map_selection.js';
 import {CampusMapControls,setRotationMode,frameCampusBox} from './campus_controls.js';
@@ -181,9 +181,12 @@ try{
  for(const m of meshes){
   const old=Array.isArray(m.material)?m.material:[m.material];const materials=old.map(mm=>{const mat=mm.clone();const co=data.palette[mat.name];if(co)mat.color.setRGB(co[0]/255,co[1]/255,co[2]/255,THREE.SRGBColorSpace);mat.shininess=mat.name==='Glass'?25:0;mat.specular.set(mat.name==='Glass'?0x222222:0);mat.flatShading=true;mat.emissiveIntensity=0;if(['OceanDepth','LagoonDepth','Ocean','CoastalWater','ShallowWater','Water','PoolWater','Foam'].includes(mat.name)){const water=new THREE.MeshBasicMaterial({color:mat.color,name:mat.name});if(['OceanDepth','LagoonDepth'].includes(mat.name))styleWaterDepth(water,coastalFields);else styleCoastalWater(water,coastalFields);return water;}stabilizeBuildingMaterial(mat,m.name.includes('D'));stabilizeCampusShadows(mat);return mat;});
   m.material=Array.isArray(m.material)?materials:materials[0];m.receiveShadow=true;
+  // The continuous Ground shell replaces the legacy thin Earth backing.
+  // Keep the original CAD object, but avoid coplanar double walls in the viewer.
+  if(materials.every(mat=>mat.name==='Earth')){m.removeFromParent();prepared++;continue;}
   const r=byLayer.get(data.layers[m.name]?.layer);
   if(r){let g=buildings.get(r.code);if(!g){g=new THREE.Group();g.name=r.code;buildings.set(r.code,g);campus.add(g);}const center=new THREE.Box3().setFromObject(m).getCenter(new THREE.Vector3());for(const part of prepareBuildingRoofs(m,groundHeight(data,center.x,center.y),m.name.includes('D'),true)){g.attach(part);part.castShadow=true;part.userData.code=r.code;pickMeshes.push(part);if(part.name.includes('D'))details.push(part);}}
-  else{if(materials.some(mat=>['OceanDepth','LagoonDepth'].includes(mat.name))){m.renderOrder=-110;m.receiveShadow=false;}if(materials.some(mat=>mat.name==='Earth'))prepareTerrainMass(m,data.landBoundary);m.castShadow=materials.some(mat=>['Leaves','Trunk','Furniture'].includes(mat.name));const parts=prepareLandscape(m,terrainMass);for(const part of parts)if(part.renderOrder<0)applyTerrainLighting(part.material,terrainLighting);envMeshes.push(...parts);}
+  else{if(materials.some(mat=>['OceanDepth','LagoonDepth'].includes(mat.name))){m.renderOrder=-110;m.receiveShadow=false;}m.castShadow=materials.some(mat=>['Leaves','Trunk','Furniture'].includes(mat.name));const parts=prepareLandscape(m,terrainMass);for(const part of parts)if(part.renderOrder<0)applyTerrainLighting(part.material,terrainLighting);envMeshes.push(...parts);}
   prepared++;if(performance.now()-lastPrepared>8){reportLoad({phase:'scene',loaded:meshes.length+prepared,total:meshes.length*2});await nextPaint();lastPrepared=performance.now();}
  }
  reportLoad({phase:'scene',loaded:1,total:1});
