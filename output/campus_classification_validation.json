@@ -1,0 +1,21 @@
+{
+  "release": "26.10.15.2",
+  "campus_buildings": 438,
+  "campus_extensions": 263,
+  "neighbor_buildings": 1199,
+  "retained_campus_ground_objects": 8,
+  "positive_facilities": [
+    "Embarcadero Hall",
+    "Isla Vista Theater",
+    "Pardall Center"
+  ],
+  "independent_context_controls": [
+    "Zeta Beta Tau",
+    "Santa Barbara Hillel"
+  ],
+  "passed": true,
+  "building_geometry": {
+    "objects": 5708,
+    "all_unchanged": true
+  }
+}

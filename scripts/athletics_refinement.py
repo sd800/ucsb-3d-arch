@@ -9,6 +9,8 @@ def athletics_details(eg,osm,ground,env,place,footprints,scope):
         t=f['properties'];g=f['poly'];sport=t.get('sport','')
         if g.geom_type not in ['Polygon','MultiPolygon']or not g.intersects(scope):continue
         if not(t.get('leisure')in ['pitch','swimming_pool']or t.get('osm_id')=='relation/5298065'):continue
+        # Do not fit new equipment to a clipped fragment of a remote facility.
+        if g.intersection(scope).area<g.area*.995:continue
         for q in polygons(g.intersection(scope).difference(footprints)):
             c=np.array(q.centroid.coords[0]);rr=np.array(q.minimum_rotated_rectangle.exterior.coords)[:4];vectors=np.roll(rr,-1,axis=0)-rr;lengths=np.linalg.norm(vectors,axis=1);u=vectors[np.argmax(lengths)]/max(lengths);v=np.array([-u[1],u[0]]);L=max(lengths);W=min(lengths)
             def paint(geom,mat='Marking',z=.40):env(geom.intersection(q),z,.015,mat)
@@ -43,10 +45,11 @@ def athletics_details(eg,osm,ground,env,place,footprints,scope):
                     segment(end-v*20.16,back-v*20.16);segment(back-v*20.16,back+v*20.16);segment(back+v*20.16,end+v*20.16)
                     # Goal net is an open back frame, with sparse horizontal cords
                     # instead of a translucent coplanar sheet that shimmers.
-                    z=float(ground(*end))+.30
+                    z=float(ground(*end))+.27
+                    eg['Frame'].append(cylinder((*(end-v*3.66),z+2.44),(*(end+v*3.66),z+2.44),.055,6))
                     for side in [-1,1]:
                         p=end+v*3.66*side;b=p+u*sign*1.8
-                        eg['Frame'].append(cylinder((*p,z),(*p,z+2.44),.055,6));eg['Frame'].append(cylinder((*p,z+2.44),(*b,z+2.0),.035,5));eg['Frame'].append(cylinder((*b,z),(*b,z+2.0),.035,5))
+                        eg['Frame'].append(cylinder((*p,z-.45),(*p,z+2.44),.055,6));eg['Frame'].append(cylinder((*p,z+2.44),(*b,z+2.0),.035,5));eg['Frame'].append(cylinder((*b,z-.45),(*b,z+2.0),.035,5))
                     for h in [.5,1.,1.5,2.]:eg['Marking'].append(cylinder((*(end-v*3.66+u*sign*1.8),z+h),(*(end+v*3.66+u*sign*1.8),z+h),.015,4))
             if sport=='basketball':
                 segment(c-v*W/2,c+v*W/2);paint(Point(*c).buffer(1.8,quad_segs=24).boundary.buffer(.06))

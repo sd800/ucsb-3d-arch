@@ -6,10 +6,12 @@
 
 列表可按中英文名称、建筑编号或模型代码搜索。建筑可独立显示、隐藏、定位或单独查看；选中后显示尺寸、形态与来源。高程剖切采用绝对模型Z高程，不表示室内楼层。保存视图可导出当前模型PNG。
 
-Rhino优先打开 output/UCSB_MainCampus_Layered.3dm，单位为米，175个校园建筑图层、1462个周边建筑图层，以及Environment和Neighboring_Environment环境图层已设置。3DS格式本身不保存Rhino原生图层；导入 output/UCSB_MainCampus.3ds 时选米，再运行 scripts/apply_layers_rhino.py，按 output/layer_map.json 恢复图层。
+Rhino优先打开 output/UCSB_MainCampus_Layered.3dm，单位为米，438个校园建筑图层、1199个周边建筑图层，以及Environment、Campus_Extensions_Environment和Neighboring_Environment环境图层已设置。3DS格式本身不保存Rhino原生图层；导入 output/UCSB_MainCampus.3ds 时选米，再运行 scripts/apply_layers_rhino.py，按 output/layer_map.json 恢复图层。
 
 建筑轮廓采用学校2026年公开数据；步道、入口、草坪和植物位置采用历史校园地图，并结合OpenStreetMap。地形采用约8米采样的USGS数据。斯托克钟塔总高采用校方公布的175英尺，其他高度、构件和景观细节为近似，未经过实测。海面渐变、浅水和浪线是示意，不表示实测水深。模型为独立室外研究作品，并非校方官方BIM。
 
 「全部」分类首项为「⁺校园周边区域」，默认勾选；取消后隐藏整个伊斯拉维斯塔周边，保留校园本身且视角不跳动。点击该项名称可查看周边全景。搜索时不置顶显示该项，匹配的周边建筑可逐栋选择。周边名称前加⁺以作区分。
 
 中文校名统一采用「加州大学圣巴巴拉分校」，Santa Barbara 统一译为「圣巴巴拉」。
+
+校园分类依据学校官方设施与住房资料，而非仅按地理边界划分。恩巴卡德罗楼、伊斯拉维斯塔剧院、帕多尔中心及模型范围内经核实的大学住房归入校园，名称不加⁺；关闭周边区域后，建筑及其地面、入口仍保留。原有模型编号保持不变。

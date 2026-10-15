@@ -6,8 +6,8 @@ r=Path(__file__).resolve().parents[1];out=r/'output'
 summary=json.loads((out/'model_summary.json').read_text());records=json.loads((out/'buildings.json').read_text())+json.loads((out/'neighboring_records.json').read_text())
 m=rh.File3dm.Read(str(out/'UCSB_MainCampus_Layered.3dm'))
 assert m and m.Settings.ModelUnitSystem==rh.UnitSystem.Meters
-assert len(m.Layers)==len(records)+2==summary['layers']
-assert {l.Name for l in m.Layers}=={r['layer'] for r in records}|{'Environment','Neighboring_Environment'}
+assert len(m.Layers)==len(records)+3==summary['layers']
+assert {l.Name for l in m.Layers}=={r['layer'] for r in records}|{'Environment','Neighboring_Environment','Campus_Extensions_Environment'}
 counts=collections.Counter(o.Attributes.LayerIndex for o in m.Objects)
 assert set(counts)==set(range(len(m.Layers)))
 solids=meshes=curves=0

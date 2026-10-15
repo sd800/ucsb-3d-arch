@@ -1,0 +1,2110 @@
+{
+  "rule": "Official UCSB building-footprint overlap, or a verified university facility/housing area. No inference from student occupancy, OSM building=university or email domain alone.",
+  "review_date": "2026-10-15",
+  "buildings": [
+    {
+      "osm_id": "way/38269217",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269209",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269236",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/462469183",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269203",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648638",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648631",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269218",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269202",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/145625096",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269219",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181798",
+      "original_name": "RA",
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181797",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181796",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181795",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143138",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181803",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143139",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269235",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190370",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181806",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143144",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181807",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181808",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181810",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181809",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190369",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648675",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181811",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190374",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190366",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190367",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190368",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269205",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648659",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181801",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/758039714",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190378",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190377",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190376",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190371",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269229",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648591",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181804",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143128",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190375",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269204",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143143",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269201",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269222",
+      "original_name": "Jameson Community Center",
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181793",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181800",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190372",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181788",
+      "original_name": "Calaveras Lounge",
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190360",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190373",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648622",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269200",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181805",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190363",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181787",
+      "original_name": "Ramona Lounge",
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181792",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648620",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190380",
+      "original_name": "Study",
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181799",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190361",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/556409139",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190364",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648657",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558181794",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269228",
+      "original_name": "Santa Ynez Laundry Room",
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190381",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648606",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190382",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190383",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190357",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190384",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190358",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190359",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269181",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190385",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190362",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190387",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190388",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190386",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190365",
+      "original_name": null,
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648596",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190379",
+      "original_name": "Rec",
+      "site": "San Joaquin North Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648698",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269232",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269198",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269182",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/82456456",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143136",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269199",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269197",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269227",
+      "original_name": "Office of Apartment Living",
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648569",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190390",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190392",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190393",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143142",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269179",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558190391",
+      "original_name": "Tenaya Market & Eatery",
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/582428584",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269180",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269178",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49436986",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143132",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143137",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143129",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269175",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143133",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143150",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269196",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/82456467",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269194",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269176",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269226",
+      "original_name": "Cachuma Community Center",
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49127018",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269195",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269177",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269184",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143135",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648581",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269233",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143221",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198080",
+      "original_name": "Rec",
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198077",
+      "original_name": "Study",
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143131",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269183",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269185",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198066",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269174",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198089",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143141",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198087",
+      "original_name": "Study",
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751739",
+      "original_name": "Donner",
+      "site": "San Clemente Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269193",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49127008",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/556264681",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751734",
+      "original_name": "Castaic",
+      "site": "San Clemente Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751733",
+      "original_name": "San Clemente Center",
+      "site": "San Clemente Castaic Apartments",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 509
+    },
+    {
+      "osm_id": "way/49648557",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269173",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143161",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269225",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751730",
+      "original_name": "Bradbury",
+      "site": "San Clemente Bradbury Apartments",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 510
+    },
+    {
+      "osm_id": "way/38269192",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198070",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198072",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198068",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198074",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143140",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558198075",
+      "original_name": null,
+      "site": "San Joaquin Tower Villages",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269223",
+      "original_name": "Gibralter Community Center",
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269349",
+      "original_name": null,
+      "site": "San Clemente Parking IV",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 500
+    },
+    {
+      "osm_id": "way/49648584",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/539936496",
+      "original_name": "Portola Dining Commons",
+      "site": "Portola Dining Commons",
+      "source": "https://dining.ucsb.edu/dining-commons/portola-dining-commons",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49127011",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49648561",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49127005",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269171",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143163",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269188",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269190",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/145625095",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/642143134",
+      "original_name": null,
+      "site": "West Campus Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269172",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751737",
+      "original_name": "Encino",
+      "site": "San Clemente Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751736",
+      "original_name": "Encino",
+      "site": "San Clemente Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269189",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38269191",
+      "original_name": null,
+      "site": "Santa Ynez Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751732",
+      "original_name": "Castaic",
+      "site": "San Clemente Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751735",
+      "original_name": "Donner",
+      "site": "San Clemente Donner Apartments",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 505
+    },
+    {
+      "osm_id": "way/42751729",
+      "original_name": "Bradbury",
+      "site": "San Clemente Bradbury Apartments",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 503
+    },
+    {
+      "osm_id": "relation/11653456",
+      "original_name": "Arrowhead Village",
+      "site": "San Clemente Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42751731",
+      "original_name": "Castaic",
+      "site": "San Clemente Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/410104638",
+      "original_name": "Charles T. Munger Physics Residence",
+      "site": "Charles T. Munger Physics Residence",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 499
+    },
+    {
+      "osm_id": "relation/296086",
+      "original_name": "Tropicana del Norte",
+      "site": "Tropicana Del Norte",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 95
+    },
+    {
+      "osm_id": "way/38414902",
+      "original_name": "Westgate Apartments",
+      "site": "Westgate Apartments",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 547
+    },
+    {
+      "osm_id": "relation/11232389",
+      "original_name": "Tropicana Gardens",
+      "site": "Tropicana Gardens",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 65
+    },
+    {
+      "osm_id": "relation/7893890",
+      "original_name": "El Dorado Apartments",
+      "site": "El Dorado Apartments",
+      "source": "https://tap.ucsb.edu/parking-permits/student/university-owned-apartments-epermits",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49745354",
+      "original_name": null,
+      "site": "Orfalea Family Children's Center — 352",
+      "source": "https://childrenscenter.sa.ucsb.edu/programs-curriculum/ofcc",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49745343",
+      "original_name": null,
+      "site": "Orfalea Family Children's Center — 353",
+      "source": "https://childrenscenter.sa.ucsb.edu/programs-curriculum/ofcc",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49745346",
+      "original_name": "Orfalea Family Children's Center",
+      "site": "Orfalea Family Children's Center",
+      "source": "https://childrenscenter.sa.ucsb.edu/programs-curriculum/ofcc",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/49745347",
+      "original_name": null,
+      "site": "Orfalea Family Children's Center — 354",
+      "source": "https://childrenscenter.sa.ucsb.edu/programs-curriculum/ofcc",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "relation/8082670",
+      "original_name": "Tropicana Villas",
+      "site": "Tropicana Villas",
+      "source": "https://news.ucsb.edu/2015/015764/tropicana-be-integrated-university-student-housing",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665843",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665867",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665841",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665827",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42754953",
+      "original_name": "Pardall Center",
+      "site": "Pardall Center",
+      "source": "https://pardallcenter.as.ucsb.edu/about/history/",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665832",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665851",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665805",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665861",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665848",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665804",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665808",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665826",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665814",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665858",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665862",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665810",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665828",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/651482146",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558220101",
+      "original_name": null,
+      "site": "UCSB facility 551",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 551
+    },
+    {
+      "osm_id": "way/218665860",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665833",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/558220102",
+      "original_name": null,
+      "site": "UCSB facility 551",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 551
+    },
+    {
+      "osm_id": "way/218665818",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665817",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665813",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665834",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665849",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665829",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665820",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665845",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665859",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665854",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665844",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665823",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665838",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665830",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665868",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665839",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665857",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665819",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665864",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665815",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665855",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665863",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/38171414",
+      "original_name": "Embarcadero Hall",
+      "site": "Embarcadero Hall",
+      "source": "https://aait.ucsb.edu/event-av-services/embarcadero-hall",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665840",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665806",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665821",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218666033",
+      "original_name": "West Campus Conference Center",
+      "site": "West Campus Conference Center",
+      "source": "https://conferences.ucsb.edu/accommodations/visitors/overview",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665809",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665811",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665803",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665824",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665837",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665812",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665847",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665835",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665831",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665869",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665807",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665852",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665816",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665850",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665822",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665825",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665865",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665853",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665866",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665836",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665842",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/218665846",
+      "original_name": null,
+      "site": "West Campus Point Faculty Housing",
+      "source": "https://www.housing.ucsb.edu/housing-options/options-filter/west-campus-point",
+      "basis": "verified-university-housing",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/42754422",
+      "original_name": null,
+      "site": "Isla Vista Community Resources Building",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 550
+    },
+    {
+      "osm_id": "way/38171690",
+      "original_name": "Isla Vista Theater",
+      "site": "Isla Vista Theater",
+      "source": "https://aait.ucsb.edu/event-av-services/isla-vista-theaters",
+      "basis": "verified-facility",
+      "official_gis_id": null
+    },
+    {
+      "osm_id": "way/221406716",
+      "original_name": "Isla Vista Foot Patrol",
+      "site": "IV Foot Patrol",
+      "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+      "basis": "official-campus-footprint",
+      "official_gis_id": 557
+    }
+  ]
+}

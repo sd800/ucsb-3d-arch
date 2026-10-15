@@ -1,25 +1,69 @@
 {
-  "release": "26.10.15.1",
-  "campus_buildings": 175,
-  "neighboring_buildings": 1462,
+  "release": "26.10.15.2",
+  "campus_buildings": 438,
+  "campus_extension_buildings": 263,
+  "neighboring_buildings": 1199,
   "checks": {
-    "cad_readback": "All Rhino geometry valid and closed; 1639 nonempty layers; metric units.",
+    "cad_readback": "All Rhino geometry valid and closed; 1640 nonempty metric layers.",
     "ground_contact": {
       "source": "output/UCSB_MainCampus.3ds",
       "buildings": 1637,
       "samples": 8873,
-      "ground_top_triangles": 68580,
+      "ground_top_triangles": 71815,
       "missing_ground_samples": 0,
       "max_floating_gap_m": 0.00049340820312338,
       "max_intrusion_m": 0.0004896850585929258,
       "passed": true,
-      "failures": []
+      "failures": [],
+      "campus_only": {
+        "buildings": 438,
+        "samples": 2823,
+        "missing_ground_samples": 0,
+        "max_absolute_gap_m": 0.00049340820312338,
+        "passed": true
+      }
     },
-    "web_compression": "5797 exact meshes; source CAD SHA-256 round trip; worker and cooperative fallback paths passed.",
-    "navigation": "Existing pan, pointer zoom, explicit rotation, horizontal view and resize checks passed.",
-    "metadata": "Bilingual directory, canonical domain, sharing metadata, model digest and release checks passed.",
-    "browser": "Local HTTP model rendered without console errors. Checked Anacapa, San Miguel, Mosher, De La Guerra, UCEN, context framing/toggle, context search prefix and hidden group during search, horizontal view and Chinese university heading.",
+    "campus_affiliation": {
+      "release": "26.10.15.2",
+      "campus_buildings": 438,
+      "campus_extensions": 263,
+      "neighbor_buildings": 1199,
+      "retained_campus_ground_objects": 8,
+      "positive_facilities": [
+        "Embarcadero Hall",
+        "Isla Vista Theater",
+        "Pardall Center"
+      ],
+      "independent_context_controls": [
+        "Zeta Beta Tau",
+        "Santa Barbara Hillel"
+      ],
+      "passed": true,
+      "building_geometry": {
+        "objects": 5708,
+        "all_unchanged": true
+      }
+    },
+    "sports_scope": {
+      "mapped_surfaces": 62,
+      "complete_west_soccer_pitches": 5,
+      "added_ground_m2": 25470.642,
+      "missing_surface_area_m2": 0.0,
+      "passed": true
+    },
+    "closed_land": {
+      "land_area_m2": 1767606.1600632074,
+      "mass_plan_area_m2": 1767655.0488140343,
+      "closed_mass_meshes": 2,
+      "visible_wall_and_underside_faces": 25731,
+      "bottom_m": -3,
+      "passed": true
+    },
+    "low_angle_occlusion": "294284 physical faces preserved, 222476 shell faces, 71808 depth faces; 24 horizontal/low-angle directions passed.",
+    "web_compression": "5803 exact meshes; lossless source CAD SHA-256 round trip, worker and cooperative fallback paths passed.",
+    "metadata": "438 bilingual directory records, canonical domain, local/offline payload integrity and calendar release checks passed.",
+    "browser": "Local HTTP model rendered without console errors. All five west soccer pitches, goals and tennis-court join checked after pan/zoom with neighboring areas disabled. Embarcadero Hall remains listed without the neighboring prefix and retains its building, ground and approach when the context is disabled.",
     "offline": "Local classic-script and standalone payloads passed byte-integrity/loading checks. Actual file:// navigation was blocked by the browser testing tool protocol policy; a physical double-click was not tested."
   },
-  "model_sha256": "f64a377c6df8852b774c0b28ac99cf8f90607a91942e9441bb09e702bbdfcd2f"
+  "model_sha256": "327027497315d96e05099c67fa3810bee56de10d1b7c0abd9ed7e91d8ddb7579"
 }

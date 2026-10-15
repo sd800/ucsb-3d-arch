@@ -6809,6 +6809,11 @@
     "category": "environment",
     "material": "Marking"
   },
+  "E5504": {
+    "layer": "Environment",
+    "category": "environment",
+    "material": "Marking"
+  },
   "E5600": {
     "layer": "Environment",
     "category": "environment",
@@ -6960,17 +6965,17 @@
     "material": "ContextGlass"
   },
   "N0002M0600": {
-    "layer": "N0002_Isla Vista building 38269217",
+    "layer": "N0002_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0002M0900": {
-    "layer": "N0002_Isla Vista building 38269217",
+    "layer": "N0002_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0002D1100": {
-    "layer": "N0002_Isla Vista building 38269217",
+    "layer": "N0002_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7020,17 +7025,17 @@
     "material": "ContextGlass"
   },
   "N0006M0600": {
-    "layer": "N0006_Isla Vista building 38269209",
+    "layer": "N0006_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0006M0900": {
-    "layer": "N0006_Isla Vista building 38269209",
+    "layer": "N0006_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0006D1100": {
-    "layer": "N0006_Isla Vista building 38269209",
+    "layer": "N0006_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7065,17 +7070,17 @@
     "material": "ContextGlass"
   },
   "N0009M0600": {
-    "layer": "N0009_Isla Vista building 38269236",
+    "layer": "N0009_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0009M0900": {
-    "layer": "N0009_Isla Vista building 38269236",
+    "layer": "N0009_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0009D1100": {
-    "layer": "N0009_Isla Vista building 38269236",
+    "layer": "N0009_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7110,47 +7115,47 @@
     "material": "ContextGlass"
   },
   "N0012M0600": {
-    "layer": "N0012_Isla Vista building 462469183",
+    "layer": "N0012_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0012M0900": {
-    "layer": "N0012_Isla Vista building 462469183",
+    "layer": "N0012_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0012D1100": {
-    "layer": "N0012_Isla Vista building 462469183",
+    "layer": "N0012_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0013M0600": {
-    "layer": "N0013_Isla Vista building 38269203",
+    "layer": "N0013_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0013M0900": {
-    "layer": "N0013_Isla Vista building 38269203",
+    "layer": "N0013_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0013D1100": {
-    "layer": "N0013_Isla Vista building 38269203",
+    "layer": "N0013_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0014M0600": {
-    "layer": "N0014_735 Storke Road",
+    "layer": "N0014_West Campus Apartments · 735 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0014M0900": {
-    "layer": "N0014_735 Storke Road",
+    "layer": "N0014_West Campus Apartments · 735 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0014D1100": {
-    "layer": "N0014_735 Storke Road",
+    "layer": "N0014_West Campus Apartments · 735 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7170,17 +7175,17 @@
     "material": "ContextGlass"
   },
   "N0016M0600": {
-    "layer": "N0016_728 Storke Road",
+    "layer": "N0016_West Campus Apartments · 728 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0016M0900": {
-    "layer": "N0016_728 Storke Road",
+    "layer": "N0016_West Campus Apartments · 728 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0016D1100": {
-    "layer": "N0016_728 Storke Road",
+    "layer": "N0016_West Campus Apartments · 728 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7200,62 +7205,62 @@
     "material": "ContextGlass"
   },
   "N0018M0600": {
-    "layer": "N0018_Isla Vista building 38269218",
+    "layer": "N0018_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0018M0900": {
-    "layer": "N0018_Isla Vista building 38269218",
+    "layer": "N0018_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0018D1100": {
-    "layer": "N0018_Isla Vista building 38269218",
+    "layer": "N0018_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0019M0600": {
-    "layer": "N0019_Isla Vista building 38269202",
+    "layer": "N0019_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0019M0900": {
-    "layer": "N0019_Isla Vista building 38269202",
+    "layer": "N0019_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0019D1100": {
-    "layer": "N0019_Isla Vista building 38269202",
+    "layer": "N0019_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0020M0600": {
-    "layer": "N0020_Isla Vista building 145625096",
+    "layer": "N0020_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0020M0900": {
-    "layer": "N0020_Isla Vista building 145625096",
+    "layer": "N0020_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0020D1100": {
-    "layer": "N0020_Isla Vista building 145625096",
+    "layer": "N0020_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0021M0600": {
-    "layer": "N0021_Isla Vista building 38269219",
+    "layer": "N0021_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0021M0900": {
-    "layer": "N0021_Isla Vista building 38269219",
+    "layer": "N0021_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0021D1100": {
-    "layer": "N0021_Isla Vista building 38269219",
+    "layer": "N0021_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7305,332 +7310,332 @@
     "material": "ContextGlass"
   },
   "N0025M0600": {
-    "layer": "N0025_1866",
+    "layer": "N0025_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0025M0900": {
-    "layer": "N0025_1866",
+    "layer": "N0025_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0025D1100": {
-    "layer": "N0025_1866",
+    "layer": "N0025_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0026M0600": {
-    "layer": "N0026_1866",
+    "layer": "N0026_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0026M0900": {
-    "layer": "N0026_1866",
+    "layer": "N0026_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0026D1100": {
-    "layer": "N0026_1866",
+    "layer": "N0026_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0027M0600": {
-    "layer": "N0027_1866",
+    "layer": "N0027_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0027M0900": {
-    "layer": "N0027_1866",
+    "layer": "N0027_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0027D1100": {
-    "layer": "N0027_1866",
+    "layer": "N0027_San Joaquin North Villages · 1866",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0028M0600": {
-    "layer": "N0028_712 Storke Road",
+    "layer": "N0028_West Campus Apartments · 712 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0028M0900": {
-    "layer": "N0028_712 Storke Road",
+    "layer": "N0028_West Campus Apartments · 712 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0028D1100": {
-    "layer": "N0028_712 Storke Road",
+    "layer": "N0028_West Campus Apartments · 712 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0029M0600": {
-    "layer": "N0029_2103",
+    "layer": "N0029_San Joaquin North Villages · 2103",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0029M0900": {
-    "layer": "N0029_2103",
+    "layer": "N0029_San Joaquin North Villages · 2103",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0029D1100": {
-    "layer": "N0029_2103",
+    "layer": "N0029_San Joaquin North Villages · 2103",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0030M0600": {
-    "layer": "N0030_711 Storke Road",
+    "layer": "N0030_West Campus Apartments · 711 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0030M0900": {
-    "layer": "N0030_711 Storke Road",
+    "layer": "N0030_West Campus Apartments · 711 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0030D1100": {
-    "layer": "N0030_711 Storke Road",
+    "layer": "N0030_West Campus Apartments · 711 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0031M0700": {
-    "layer": "N0031_Isla Vista building 38269235",
+    "layer": "N0031_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStone"
   },
   "N0031M0900": {
-    "layer": "N0031_Isla Vista building 38269235",
+    "layer": "N0031_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0031D1100": {
-    "layer": "N0031_Isla Vista building 38269235",
+    "layer": "N0031_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0032M0700": {
-    "layer": "N0032_3112",
+    "layer": "N0032_San Joaquin North Villages · 3112",
     "category": "building",
     "material": "ContextStone"
   },
   "N0032M0900": {
-    "layer": "N0032_3112",
+    "layer": "N0032_San Joaquin North Villages · 3112",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0032D1100": {
-    "layer": "N0032_3112",
+    "layer": "N0032_San Joaquin North Villages · 3112",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0033M0600": {
-    "layer": "N0033_2105",
+    "layer": "N0033_San Joaquin North Villages · 2105",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0033M0900": {
-    "layer": "N0033_2105",
+    "layer": "N0033_San Joaquin North Villages · 2105",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0033D1100": {
-    "layer": "N0033_2105",
+    "layer": "N0033_San Joaquin North Villages · 2105",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0034M0600": {
-    "layer": "N0034_734 Storke Road",
+    "layer": "N0034_West Campus Apartments · 734 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0034M0900": {
-    "layer": "N0034_734 Storke Road",
+    "layer": "N0034_West Campus Apartments · 734 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0034D1100": {
-    "layer": "N0034_734 Storke Road",
+    "layer": "N0034_West Campus Apartments · 734 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0035M0600": {
-    "layer": "N0035_2106",
+    "layer": "N0035_San Joaquin North Villages · 2106",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0035M0900": {
-    "layer": "N0035_2106",
+    "layer": "N0035_San Joaquin North Villages · 2106",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0035D1100": {
-    "layer": "N0035_2106",
+    "layer": "N0035_San Joaquin North Villages · 2106",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0036M0600": {
-    "layer": "N0036_2107",
+    "layer": "N0036_San Joaquin North Villages · 2107",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0036M0900": {
-    "layer": "N0036_2107",
+    "layer": "N0036_San Joaquin North Villages · 2107",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0036D1100": {
-    "layer": "N0036_2107",
+    "layer": "N0036_San Joaquin North Villages · 2107",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0037M0700": {
-    "layer": "N0037_Isla Vista building 558181810",
+    "layer": "N0037_San Joaquin North Villages",
     "category": "building",
     "material": "ContextStone"
   },
   "N0037M0900": {
-    "layer": "N0037_Isla Vista building 558181810",
+    "layer": "N0037_San Joaquin North Villages",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0037D1100": {
-    "layer": "N0037_Isla Vista building 558181810",
+    "layer": "N0037_San Joaquin North Villages",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0038M0700": {
-    "layer": "N0038_2111",
+    "layer": "N0038_San Joaquin North Villages · 2111",
     "category": "building",
     "material": "ContextStone"
   },
   "N0038M0900": {
-    "layer": "N0038_2111",
+    "layer": "N0038_San Joaquin North Villages · 2111",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0038D1100": {
-    "layer": "N0038_2111",
+    "layer": "N0038_San Joaquin North Villages · 2111",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0039M0700": {
-    "layer": "N0039_Isla Vista building 558190369",
+    "layer": "N0039_San Joaquin North Villages",
     "category": "building",
     "material": "ContextStone"
   },
   "N0039M0900": {
-    "layer": "N0039_Isla Vista building 558190369",
+    "layer": "N0039_San Joaquin North Villages",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0039D1100": {
-    "layer": "N0039_Isla Vista building 558190369",
+    "layer": "N0039_San Joaquin North Villages",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0040M0600": {
-    "layer": "N0040_720 Storke Road",
+    "layer": "N0040_West Campus Apartments · 720 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0040M0900": {
-    "layer": "N0040_720 Storke Road",
+    "layer": "N0040_West Campus Apartments · 720 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0040D1100": {
-    "layer": "N0040_720 Storke Road",
+    "layer": "N0040_West Campus Apartments · 720 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0041M0700": {
-    "layer": "N0041_Isla Vista building 558181811",
+    "layer": "N0041_San Joaquin North Villages",
     "category": "building",
     "material": "ContextStone"
   },
   "N0041M0900": {
-    "layer": "N0041_Isla Vista building 558181811",
+    "layer": "N0041_San Joaquin North Villages",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0041D1100": {
-    "layer": "N0041_Isla Vista building 558181811",
+    "layer": "N0041_San Joaquin North Villages",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0042M0600": {
-    "layer": "N0042_4103",
+    "layer": "N0042_San Joaquin North Villages · 4103",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0042M0900": {
-    "layer": "N0042_4103",
+    "layer": "N0042_San Joaquin North Villages · 4103",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0042D1100": {
-    "layer": "N0042_4103",
+    "layer": "N0042_San Joaquin North Villages · 4103",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0043M0600": {
-    "layer": "N0043_3107",
+    "layer": "N0043_San Joaquin North Villages · 3107",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0043M0900": {
-    "layer": "N0043_3107",
+    "layer": "N0043_San Joaquin North Villages · 3107",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0043D1100": {
-    "layer": "N0043_3107",
+    "layer": "N0043_San Joaquin North Villages · 3107",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0044M0600": {
-    "layer": "N0044_3108",
+    "layer": "N0044_San Joaquin North Villages · 3108",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0044M0900": {
-    "layer": "N0044_3108",
+    "layer": "N0044_San Joaquin North Villages · 3108",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0044D1100": {
-    "layer": "N0044_3108",
+    "layer": "N0044_San Joaquin North Villages · 3108",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0045M0600": {
-    "layer": "N0045_3109",
+    "layer": "N0045_San Joaquin North Villages · 3109",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0045M0900": {
-    "layer": "N0045_3109",
+    "layer": "N0045_San Joaquin North Villages · 3109",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0045D1100": {
-    "layer": "N0045_3109",
+    "layer": "N0045_San Joaquin North Villages · 3109",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0046M0600": {
-    "layer": "N0046_Isla Vista building 38269205",
+    "layer": "N0046_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0046M0900": {
-    "layer": "N0046_Isla Vista building 38269205",
+    "layer": "N0046_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0046D1100": {
-    "layer": "N0046_Isla Vista building 38269205",
+    "layer": "N0046_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7650,47 +7655,47 @@
     "material": "ContextGlass"
   },
   "N0048M0600": {
-    "layer": "N0048_710 Storke Road",
+    "layer": "N0048_West Campus Apartments · 710 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0048M0900": {
-    "layer": "N0048_710 Storke Road",
+    "layer": "N0048_West Campus Apartments · 710 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0048D1100": {
-    "layer": "N0048_710 Storke Road",
+    "layer": "N0048_West Campus Apartments · 710 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0049M0600": {
-    "layer": "N0049_1115",
+    "layer": "N0049_San Joaquin North Villages · 1115",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0049M0900": {
-    "layer": "N0049_1115",
+    "layer": "N0049_San Joaquin North Villages · 1115",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0049D1100": {
-    "layer": "N0049_1115",
+    "layer": "N0049_San Joaquin North Villages · 1115",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0050M0600": {
-    "layer": "N0050_Isla Vista building 758039714",
+    "layer": "N0050_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0050M0900": {
-    "layer": "N0050_Isla Vista building 758039714",
+    "layer": "N0050_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0050D1100": {
-    "layer": "N0050_Isla Vista building 758039714",
+    "layer": "N0050_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7710,182 +7715,182 @@
     "material": "ContextGlass"
   },
   "N0052M0600": {
-    "layer": "N0052_4106",
+    "layer": "N0052_San Joaquin North Villages · 4106",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0052M0900": {
-    "layer": "N0052_4106",
+    "layer": "N0052_San Joaquin North Villages · 4106",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0052D1100": {
-    "layer": "N0052_4106",
+    "layer": "N0052_San Joaquin North Villages · 4106",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0053M0600": {
-    "layer": "N0053_4107",
+    "layer": "N0053_San Joaquin North Villages · 4107",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0053M0900": {
-    "layer": "N0053_4107",
+    "layer": "N0053_San Joaquin North Villages · 4107",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0053D1100": {
-    "layer": "N0053_4107",
+    "layer": "N0053_San Joaquin North Villages · 4107",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0054M0600": {
-    "layer": "N0054_4108",
+    "layer": "N0054_San Joaquin North Villages · 4108",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0054M0900": {
-    "layer": "N0054_4108",
+    "layer": "N0054_San Joaquin North Villages · 4108",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0054D1100": {
-    "layer": "N0054_4108",
+    "layer": "N0054_San Joaquin North Villages · 4108",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0055M0600": {
-    "layer": "N0055_3113",
+    "layer": "N0055_San Joaquin North Villages · 3113",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0055M0900": {
-    "layer": "N0055_3113",
+    "layer": "N0055_San Joaquin North Villages · 3113",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0055D1100": {
-    "layer": "N0055_3113",
+    "layer": "N0055_San Joaquin North Villages · 3113",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0056M0600": {
-    "layer": "N0056_Isla Vista building 38269229",
+    "layer": "N0056_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0056M0900": {
-    "layer": "N0056_Isla Vista building 38269229",
+    "layer": "N0056_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0056D1100": {
-    "layer": "N0056_Isla Vista building 38269229",
+    "layer": "N0056_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0057M0600": {
-    "layer": "N0057_733",
+    "layer": "N0057_West Campus Apartments · 733",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0057M0900": {
-    "layer": "N0057_733",
+    "layer": "N0057_West Campus Apartments · 733",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0057D1100": {
-    "layer": "N0057_733",
+    "layer": "N0057_West Campus Apartments · 733",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0058M0600": {
-    "layer": "N0058_2102",
+    "layer": "N0058_San Joaquin North Villages · 2102",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0058M0900": {
-    "layer": "N0058_2102",
+    "layer": "N0058_San Joaquin North Villages · 2102",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0058D1100": {
-    "layer": "N0058_2102",
+    "layer": "N0058_San Joaquin North Villages · 2102",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0059M0600": {
-    "layer": "N0059_727 Storke Road",
+    "layer": "N0059_West Campus Apartments · 727 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0059M0900": {
-    "layer": "N0059_727 Storke Road",
+    "layer": "N0059_West Campus Apartments · 727 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0059D1100": {
-    "layer": "N0059_727 Storke Road",
+    "layer": "N0059_West Campus Apartments · 727 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0060M0600": {
-    "layer": "N0060_4102",
+    "layer": "N0060_San Joaquin North Villages · 4102",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0060M0900": {
-    "layer": "N0060_4102",
+    "layer": "N0060_San Joaquin North Villages · 4102",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0060D1100": {
-    "layer": "N0060_4102",
+    "layer": "N0060_San Joaquin North Villages · 4102",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0061M0600": {
-    "layer": "N0061_Isla Vista building 38269204",
+    "layer": "N0061_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0061M0900": {
-    "layer": "N0061_Isla Vista building 38269204",
+    "layer": "N0061_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0061D1100": {
-    "layer": "N0061_Isla Vista building 38269204",
+    "layer": "N0061_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0062M0600": {
-    "layer": "N0062_734 Storke Road",
+    "layer": "N0062_West Campus Apartments · 734 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0062M0900": {
-    "layer": "N0062_734 Storke Road",
+    "layer": "N0062_West Campus Apartments · 734 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0062D1100": {
-    "layer": "N0062_734 Storke Road",
+    "layer": "N0062_West Campus Apartments · 734 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0063M0600": {
-    "layer": "N0063_Isla Vista building 38269201",
+    "layer": "N0063_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0063M0900": {
-    "layer": "N0063_Isla Vista building 38269201",
+    "layer": "N0063_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0063D1100": {
-    "layer": "N0063_Isla Vista building 38269201",
+    "layer": "N0063_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7905,47 +7910,47 @@
     "material": "ContextGlass"
   },
   "N0065M0600": {
-    "layer": "N0065_1865",
+    "layer": "N0065_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0065M0900": {
-    "layer": "N0065_1865",
+    "layer": "N0065_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0065D1100": {
-    "layer": "N0065_1865",
+    "layer": "N0065_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0066M0600": {
-    "layer": "N0066_1116",
+    "layer": "N0066_San Joaquin North Villages · 1116",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0066M0900": {
-    "layer": "N0066_1116",
+    "layer": "N0066_San Joaquin North Villages · 1116",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0066D1100": {
-    "layer": "N0066_1116",
+    "layer": "N0066_San Joaquin North Villages · 1116",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0067M0600": {
-    "layer": "N0067_3114",
+    "layer": "N0067_San Joaquin North Villages · 3114",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0067M0900": {
-    "layer": "N0067_3114",
+    "layer": "N0067_San Joaquin North Villages · 3114",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0067D1100": {
-    "layer": "N0067_3114",
+    "layer": "N0067_San Joaquin North Villages · 3114",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -7965,92 +7970,92 @@
     "material": "ContextGlass"
   },
   "N0069M0600": {
-    "layer": "N0069_2115",
+    "layer": "N0069_San Joaquin North Villages · 2115",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0069M0900": {
-    "layer": "N0069_2115",
+    "layer": "N0069_San Joaquin North Villages · 2115",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0069D1100": {
-    "layer": "N0069_2115",
+    "layer": "N0069_San Joaquin North Villages · 2115",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0070M0600": {
-    "layer": "N0070_4101",
+    "layer": "N0070_San Joaquin North Villages · 4101",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0070M0900": {
-    "layer": "N0070_4101",
+    "layer": "N0070_San Joaquin North Villages · 4101",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0070D1100": {
-    "layer": "N0070_4101",
+    "layer": "N0070_San Joaquin North Villages · 4101",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0071M0600": {
-    "layer": "N0071_719 Storke Road",
+    "layer": "N0071_West Campus Apartments · 719 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0071M0900": {
-    "layer": "N0071_719 Storke Road",
+    "layer": "N0071_West Campus Apartments · 719 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0071D1100": {
-    "layer": "N0071_719 Storke Road",
+    "layer": "N0071_West Campus Apartments · 719 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0072M0600": {
-    "layer": "N0072_Isla Vista building 38269200",
+    "layer": "N0072_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0072M0900": {
-    "layer": "N0072_Isla Vista building 38269200",
+    "layer": "N0072_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0072D1100": {
-    "layer": "N0072_Isla Vista building 38269200",
+    "layer": "N0072_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0073M0600": {
-    "layer": "N0073_2101",
+    "layer": "N0073_San Joaquin North Villages · 2101",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0073M0900": {
-    "layer": "N0073_2101",
+    "layer": "N0073_San Joaquin North Villages · 2101",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0073D1100": {
-    "layer": "N0073_2101",
+    "layer": "N0073_San Joaquin North Villages · 2101",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0074M0600": {
-    "layer": "N0074_3104",
+    "layer": "N0074_San Joaquin North Villages · 3104",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0074M0900": {
-    "layer": "N0074_3104",
+    "layer": "N0074_San Joaquin North Villages · 3104",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0074D1100": {
-    "layer": "N0074_3104",
+    "layer": "N0074_San Joaquin North Villages · 3104",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8070,32 +8075,32 @@
     "material": "ContextGlass"
   },
   "N0076M0600": {
-    "layer": "N0076_1865",
+    "layer": "N0076_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0076M0900": {
-    "layer": "N0076_1865",
+    "layer": "N0076_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0076D1100": {
-    "layer": "N0076_1865",
+    "layer": "N0076_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0077M0600": {
-    "layer": "N0077_Isla Vista building 49648620",
+    "layer": "N0077_West Campus Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0077M0900": {
-    "layer": "N0077_Isla Vista building 49648620",
+    "layer": "N0077_West Campus Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0077D1100": {
-    "layer": "N0077_Isla Vista building 49648620",
+    "layer": "N0077_West Campus Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8115,92 +8120,92 @@
     "material": "ContextGlass"
   },
   "N0079M0600": {
-    "layer": "N0079_1117",
+    "layer": "N0079_San Joaquin North Villages · 1117",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0079M0900": {
-    "layer": "N0079_1117",
+    "layer": "N0079_San Joaquin North Villages · 1117",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0079D1100": {
-    "layer": "N0079_1117",
+    "layer": "N0079_San Joaquin North Villages · 1117",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0080M0600": {
-    "layer": "N0080_2116",
+    "layer": "N0080_San Joaquin North Villages · 2116",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0080M0900": {
-    "layer": "N0080_2116",
+    "layer": "N0080_San Joaquin North Villages · 2116",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0080D1100": {
-    "layer": "N0080_2116",
+    "layer": "N0080_San Joaquin North Villages · 2116",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0081M0700": {
-    "layer": "N0081_Isla Vista building 556409139",
+    "layer": "N0081_West Campus Apartments",
     "category": "building",
     "material": "ContextStone"
   },
   "N0081M0900": {
-    "layer": "N0081_Isla Vista building 556409139",
+    "layer": "N0081_West Campus Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0081D1100": {
-    "layer": "N0081_Isla Vista building 556409139",
+    "layer": "N0081_West Campus Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0082M0600": {
-    "layer": "N0082_3103",
+    "layer": "N0082_San Joaquin North Villages · 3103",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0082M0900": {
-    "layer": "N0082_3103",
+    "layer": "N0082_San Joaquin North Villages · 3103",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0082D1100": {
-    "layer": "N0082_3103",
+    "layer": "N0082_San Joaquin North Villages · 3103",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0083M0600": {
-    "layer": "N0083_709 Storke Road",
+    "layer": "N0083_West Campus Apartments · 709 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0083M0900": {
-    "layer": "N0083_709 Storke Road",
+    "layer": "N0083_West Campus Apartments · 709 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0083D1100": {
-    "layer": "N0083_709 Storke Road",
+    "layer": "N0083_West Campus Apartments · 709 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0084M0600": {
-    "layer": "N0084_1865",
+    "layer": "N0084_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0084M0900": {
-    "layer": "N0084_1865",
+    "layer": "N0084_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0084D1100": {
-    "layer": "N0084_1865",
+    "layer": "N0084_San Joaquin North Villages · 1865",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8220,242 +8225,242 @@
     "material": "ContextGlass"
   },
   "N0086M0700": {
-    "layer": "N0086_Isla Vista building 558190381",
+    "layer": "N0086_San Joaquin North Villages",
     "category": "building",
     "material": "ContextStone"
   },
   "N0086M0900": {
-    "layer": "N0086_Isla Vista building 558190381",
+    "layer": "N0086_San Joaquin North Villages",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0086D1100": {
-    "layer": "N0086_Isla Vista building 558190381",
+    "layer": "N0086_San Joaquin North Villages",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0087M0600": {
-    "layer": "N0087_732 Storke Road",
+    "layer": "N0087_West Campus Apartments · 732 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0087M0900": {
-    "layer": "N0087_732 Storke Road",
+    "layer": "N0087_West Campus Apartments · 732 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0087D1100": {
-    "layer": "N0087_732 Storke Road",
+    "layer": "N0087_West Campus Apartments · 732 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0088M0600": {
-    "layer": "N0088_4113",
+    "layer": "N0088_San Joaquin North Villages · 4113",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0088M0900": {
-    "layer": "N0088_4113",
+    "layer": "N0088_San Joaquin North Villages · 4113",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0088D1100": {
-    "layer": "N0088_4113",
+    "layer": "N0088_San Joaquin North Villages · 4113",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0089M0600": {
-    "layer": "N0089_4111",
+    "layer": "N0089_San Joaquin North Villages · 4111",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0089M0900": {
-    "layer": "N0089_4111",
+    "layer": "N0089_San Joaquin North Villages · 4111",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0089D1100": {
-    "layer": "N0089_4111",
+    "layer": "N0089_San Joaquin North Villages · 4111",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0090M0600": {
-    "layer": "N0090_2124",
+    "layer": "N0090_San Joaquin North Villages · 2124",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0090M0900": {
-    "layer": "N0090_2124",
+    "layer": "N0090_San Joaquin North Villages · 2124",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0090D1100": {
-    "layer": "N0090_2124",
+    "layer": "N0090_San Joaquin North Villages · 2124",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0091M0600": {
-    "layer": "N0091_4110",
+    "layer": "N0091_San Joaquin North Villages · 4110",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0091M0900": {
-    "layer": "N0091_4110",
+    "layer": "N0091_San Joaquin North Villages · 4110",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0091D1100": {
-    "layer": "N0091_4110",
+    "layer": "N0091_San Joaquin North Villages · 4110",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0092M0600": {
-    "layer": "N0092_2122",
+    "layer": "N0092_San Joaquin North Villages · 2122",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0092M0900": {
-    "layer": "N0092_2122",
+    "layer": "N0092_San Joaquin North Villages · 2122",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0092D1100": {
-    "layer": "N0092_2122",
+    "layer": "N0092_San Joaquin North Villages · 2122",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0093M0600": {
-    "layer": "N0093_2121",
+    "layer": "N0093_San Joaquin North Villages · 2121",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0093M0900": {
-    "layer": "N0093_2121",
+    "layer": "N0093_San Joaquin North Villages · 2121",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0093D1100": {
-    "layer": "N0093_2121",
+    "layer": "N0093_San Joaquin North Villages · 2121",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0094M0600": {
-    "layer": "N0094_Isla Vista building 38269181",
+    "layer": "N0094_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0094M0900": {
-    "layer": "N0094_Isla Vista building 38269181",
+    "layer": "N0094_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0094D1100": {
-    "layer": "N0094_Isla Vista building 38269181",
+    "layer": "N0094_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0095M0700": {
-    "layer": "N0095_Isla Vista building 558190385",
+    "layer": "N0095_San Joaquin North Villages",
     "category": "building",
     "material": "ContextStone"
   },
   "N0095M0900": {
-    "layer": "N0095_Isla Vista building 558190385",
+    "layer": "N0095_San Joaquin North Villages",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0095D1100": {
-    "layer": "N0095_Isla Vista building 558190385",
+    "layer": "N0095_San Joaquin North Villages",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0096M0600": {
-    "layer": "N0096_2117",
+    "layer": "N0096_San Joaquin North Villages · 2117",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0096M0900": {
-    "layer": "N0096_2117",
+    "layer": "N0096_San Joaquin North Villages · 2117",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0096D1100": {
-    "layer": "N0096_2117",
+    "layer": "N0096_San Joaquin North Villages · 2117",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0097M0600": {
-    "layer": "N0097_3117",
+    "layer": "N0097_San Joaquin North Villages · 3117",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0097M0900": {
-    "layer": "N0097_3117",
+    "layer": "N0097_San Joaquin North Villages · 3117",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0097D1100": {
-    "layer": "N0097_3117",
+    "layer": "N0097_San Joaquin North Villages · 3117",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0098M0600": {
-    "layer": "N0098_3118",
+    "layer": "N0098_San Joaquin North Villages · 3118",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0098M0900": {
-    "layer": "N0098_3118",
+    "layer": "N0098_San Joaquin North Villages · 3118",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0098D1100": {
-    "layer": "N0098_3118",
+    "layer": "N0098_San Joaquin North Villages · 3118",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0099M0700": {
-    "layer": "N0099_3116",
+    "layer": "N0099_San Joaquin North Villages · 3116",
     "category": "building",
     "material": "ContextStone"
   },
   "N0099M0900": {
-    "layer": "N0099_3116",
+    "layer": "N0099_San Joaquin North Villages · 3116",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0099D1100": {
-    "layer": "N0099_3116",
+    "layer": "N0099_San Joaquin North Villages · 3116",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0100M0600": {
-    "layer": "N0100_3101",
+    "layer": "N0100_San Joaquin North Villages · 3101",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0100M0900": {
-    "layer": "N0100_3101",
+    "layer": "N0100_San Joaquin North Villages · 3101",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0100D1100": {
-    "layer": "N0100_3101",
+    "layer": "N0100_San Joaquin North Villages · 3101",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0101M0600": {
-    "layer": "N0101_726 Storke Road",
+    "layer": "N0101_West Campus Apartments · 726 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0101M0900": {
-    "layer": "N0101_726 Storke Road",
+    "layer": "N0101_West Campus Apartments · 726 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0101D1100": {
-    "layer": "N0101_726 Storke Road",
+    "layer": "N0101_West Campus Apartments · 726 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8475,122 +8480,122 @@
     "material": "ContextGlass"
   },
   "N0103M0600": {
-    "layer": "N0103_718 Storke Road",
+    "layer": "N0103_West Campus Apartments · 718 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0103M0900": {
-    "layer": "N0103_718 Storke Road",
+    "layer": "N0103_West Campus Apartments · 718 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0103D1100": {
-    "layer": "N0103_718 Storke Road",
+    "layer": "N0103_West Campus Apartments · 718 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0104M0600": {
-    "layer": "N0104_Isla Vista building 38269232",
+    "layer": "N0104_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0104M0900": {
-    "layer": "N0104_Isla Vista building 38269232",
+    "layer": "N0104_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0104D1100": {
-    "layer": "N0104_Isla Vista building 38269232",
+    "layer": "N0104_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0105M0600": {
-    "layer": "N0105_Isla Vista building 38269198",
+    "layer": "N0105_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0105M0900": {
-    "layer": "N0105_Isla Vista building 38269198",
+    "layer": "N0105_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0105D1100": {
-    "layer": "N0105_Isla Vista building 38269198",
+    "layer": "N0105_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0106M0600": {
-    "layer": "N0106_Isla Vista building 38269182",
+    "layer": "N0106_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0106M0900": {
-    "layer": "N0106_Isla Vista building 38269182",
+    "layer": "N0106_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0106D1100": {
-    "layer": "N0106_Isla Vista building 38269182",
+    "layer": "N0106_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0107M0600": {
-    "layer": "N0107_Isla Vista building 82456456",
+    "layer": "N0107_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0107M0900": {
-    "layer": "N0107_Isla Vista building 82456456",
+    "layer": "N0107_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0107D1100": {
-    "layer": "N0107_Isla Vista building 82456456",
+    "layer": "N0107_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0108M0600": {
-    "layer": "N0108_708 Storke Road",
+    "layer": "N0108_West Campus Apartments · 708 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0108M0900": {
-    "layer": "N0108_708 Storke Road",
+    "layer": "N0108_West Campus Apartments · 708 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0108D1100": {
-    "layer": "N0108_708 Storke Road",
+    "layer": "N0108_West Campus Apartments · 708 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0109M0600": {
-    "layer": "N0109_Isla Vista building 38269199",
+    "layer": "N0109_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0109M0900": {
-    "layer": "N0109_Isla Vista building 38269199",
+    "layer": "N0109_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0109D1100": {
-    "layer": "N0109_Isla Vista building 38269199",
+    "layer": "N0109_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0110M0600": {
-    "layer": "N0110_Isla Vista building 38269197",
+    "layer": "N0110_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0110M0900": {
-    "layer": "N0110_Isla Vista building 38269197",
+    "layer": "N0110_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0110D1100": {
-    "layer": "N0110_Isla Vista building 38269197",
+    "layer": "N0110_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8610,92 +8615,92 @@
     "material": "ContextGlass"
   },
   "N0112M0600": {
-    "layer": "N0112_725 Storke Road",
+    "layer": "N0112_West Campus Apartments · 725 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0112M0900": {
-    "layer": "N0112_725 Storke Road",
+    "layer": "N0112_West Campus Apartments · 725 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0112D1100": {
-    "layer": "N0112_725 Storke Road",
+    "layer": "N0112_West Campus Apartments · 725 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0113M0600": {
-    "layer": "N0113_7101",
+    "layer": "N0113_San Joaquin Tower Villages · 7101",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0113M0900": {
-    "layer": "N0113_7101",
+    "layer": "N0113_San Joaquin Tower Villages · 7101",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0113D1100": {
-    "layer": "N0113_7101",
+    "layer": "N0113_San Joaquin Tower Villages · 7101",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0114M0600": {
-    "layer": "N0114_7102",
+    "layer": "N0114_San Joaquin Tower Villages · 7102",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0114M0900": {
-    "layer": "N0114_7102",
+    "layer": "N0114_San Joaquin Tower Villages · 7102",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0114D1100": {
-    "layer": "N0114_7102",
+    "layer": "N0114_San Joaquin Tower Villages · 7102",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0115M0600": {
-    "layer": "N0115_7103",
+    "layer": "N0115_San Joaquin Tower Villages · 7103",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0115M0900": {
-    "layer": "N0115_7103",
+    "layer": "N0115_San Joaquin Tower Villages · 7103",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0115D1100": {
-    "layer": "N0115_7103",
+    "layer": "N0115_San Joaquin Tower Villages · 7103",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0116M0600": {
-    "layer": "N0116_717 Storke Road",
+    "layer": "N0116_West Campus Apartments · 717 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0116M0900": {
-    "layer": "N0116_717 Storke Road",
+    "layer": "N0116_West Campus Apartments · 717 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0116D1100": {
-    "layer": "N0116_717 Storke Road",
+    "layer": "N0116_West Campus Apartments · 717 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0117M0600": {
-    "layer": "N0117_Isla Vista building 38269179",
+    "layer": "N0117_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0117M0900": {
-    "layer": "N0117_Isla Vista building 38269179",
+    "layer": "N0117_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0117D1100": {
-    "layer": "N0117_Isla Vista building 38269179",
+    "layer": "N0117_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8715,92 +8720,92 @@
     "material": "ContextGlass"
   },
   "N0119M0600": {
-    "layer": "N0119_Isla Vista building 582428584",
+    "layer": "N0119_San Joaquin Tower Villages",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0119M0900": {
-    "layer": "N0119_Isla Vista building 582428584",
+    "layer": "N0119_San Joaquin Tower Villages",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0119D1100": {
-    "layer": "N0119_Isla Vista building 582428584",
+    "layer": "N0119_San Joaquin Tower Villages",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0120M0600": {
-    "layer": "N0120_Isla Vista building 38269180",
+    "layer": "N0120_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0120M0900": {
-    "layer": "N0120_Isla Vista building 38269180",
+    "layer": "N0120_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0120D1100": {
-    "layer": "N0120_Isla Vista building 38269180",
+    "layer": "N0120_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0121M0600": {
-    "layer": "N0121_Isla Vista building 38269178",
+    "layer": "N0121_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0121M0900": {
-    "layer": "N0121_Isla Vista building 38269178",
+    "layer": "N0121_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0121D1100": {
-    "layer": "N0121_Isla Vista building 38269178",
+    "layer": "N0121_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0122M0600": {
-    "layer": "N0122_716 Storke Road",
+    "layer": "N0122_West Campus Apartments · 716 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0122M0900": {
-    "layer": "N0122_716 Storke Road",
+    "layer": "N0122_West Campus Apartments · 716 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0122D1100": {
-    "layer": "N0122_716 Storke Road",
+    "layer": "N0122_West Campus Apartments · 716 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0123M0600": {
-    "layer": "N0123_724 Storke Road",
+    "layer": "N0123_West Campus Apartments · 724 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0123M0900": {
-    "layer": "N0123_724 Storke Road",
+    "layer": "N0123_West Campus Apartments · 724 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0123D1100": {
-    "layer": "N0123_724 Storke Road",
+    "layer": "N0123_West Campus Apartments · 724 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0124M0600": {
-    "layer": "N0124_707 Storke Road",
+    "layer": "N0124_West Campus Apartments · 707 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0124M0900": {
-    "layer": "N0124_707 Storke Road",
+    "layer": "N0124_West Campus Apartments · 707 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0124D1100": {
-    "layer": "N0124_707 Storke Road",
+    "layer": "N0124_West Campus Apartments · 707 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8835,122 +8840,122 @@
     "material": "ContextGlass"
   },
   "N0127M0600": {
-    "layer": "N0127_723 Kroeber Walk",
+    "layer": "N0127_West Campus Apartments · 723 Kroeber Walk",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0127M0900": {
-    "layer": "N0127_723 Kroeber Walk",
+    "layer": "N0127_West Campus Apartments · 723 Kroeber Walk",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0127D1100": {
-    "layer": "N0127_723 Kroeber Walk",
+    "layer": "N0127_West Campus Apartments · 723 Kroeber Walk",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0128M0600": {
-    "layer": "N0128_Isla Vista building 38269175",
+    "layer": "N0128_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0128M0900": {
-    "layer": "N0128_Isla Vista building 38269175",
+    "layer": "N0128_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0128D1100": {
-    "layer": "N0128_Isla Vista building 38269175",
+    "layer": "N0128_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0129M0600": {
-    "layer": "N0129_724 Storke Road",
+    "layer": "N0129_West Campus Apartments · 724 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0129M0900": {
-    "layer": "N0129_724 Storke Road",
+    "layer": "N0129_West Campus Apartments · 724 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0129D1100": {
-    "layer": "N0129_724 Storke Road",
+    "layer": "N0129_West Campus Apartments · 724 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0130M0600": {
-    "layer": "N0130_715 Storke Road",
+    "layer": "N0130_West Campus Apartments · 715 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0130M0900": {
-    "layer": "N0130_715 Storke Road",
+    "layer": "N0130_West Campus Apartments · 715 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0130D1100": {
-    "layer": "N0130_715 Storke Road",
+    "layer": "N0130_West Campus Apartments · 715 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0131M0600": {
-    "layer": "N0131_Isla Vista building 38269196",
+    "layer": "N0131_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0131M0900": {
-    "layer": "N0131_Isla Vista building 38269196",
+    "layer": "N0131_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0131D1100": {
-    "layer": "N0131_Isla Vista building 38269196",
+    "layer": "N0131_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0132M0600": {
-    "layer": "N0132_Isla Vista building 82456467",
+    "layer": "N0132_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0132M0900": {
-    "layer": "N0132_Isla Vista building 82456467",
+    "layer": "N0132_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0132D1100": {
-    "layer": "N0132_Isla Vista building 82456467",
+    "layer": "N0132_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0133M0600": {
-    "layer": "N0133_Isla Vista building 38269194",
+    "layer": "N0133_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0133M0900": {
-    "layer": "N0133_Isla Vista building 38269194",
+    "layer": "N0133_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0133D1100": {
-    "layer": "N0133_Isla Vista building 38269194",
+    "layer": "N0133_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0134M0600": {
-    "layer": "N0134_Isla Vista building 38269176",
+    "layer": "N0134_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0134M0900": {
-    "layer": "N0134_Isla Vista building 38269176",
+    "layer": "N0134_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0134D1100": {
-    "layer": "N0134_Isla Vista building 38269176",
+    "layer": "N0134_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -8970,122 +8975,122 @@
     "material": "ContextGlass"
   },
   "N0136M0600": {
-    "layer": "N0136_706 Storke Road",
+    "layer": "N0136_West Campus Apartments · 706 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0136M0900": {
-    "layer": "N0136_706 Storke Road",
+    "layer": "N0136_West Campus Apartments · 706 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0136D1100": {
-    "layer": "N0136_706 Storke Road",
+    "layer": "N0136_West Campus Apartments · 706 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0137M0600": {
-    "layer": "N0137_Isla Vista building 38269195",
+    "layer": "N0137_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0137M0900": {
-    "layer": "N0137_Isla Vista building 38269195",
+    "layer": "N0137_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0137D1100": {
-    "layer": "N0137_Isla Vista building 38269195",
+    "layer": "N0137_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0138M0600": {
-    "layer": "N0138_Isla Vista building 38269177",
+    "layer": "N0138_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0138M0900": {
-    "layer": "N0138_Isla Vista building 38269177",
+    "layer": "N0138_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0138D1100": {
-    "layer": "N0138_Isla Vista building 38269177",
+    "layer": "N0138_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0139M0600": {
-    "layer": "N0139_Isla Vista building 38269184",
+    "layer": "N0139_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0139M0900": {
-    "layer": "N0139_Isla Vista building 38269184",
+    "layer": "N0139_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0139D1100": {
-    "layer": "N0139_Isla Vista building 38269184",
+    "layer": "N0139_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0140M0600": {
-    "layer": "N0140_704 Storke Road",
+    "layer": "N0140_West Campus Apartments · 704 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0140M0900": {
-    "layer": "N0140_704 Storke Road",
+    "layer": "N0140_West Campus Apartments · 704 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0140D1100": {
-    "layer": "N0140_704 Storke Road",
+    "layer": "N0140_West Campus Apartments · 704 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0141M0600": {
-    "layer": "N0141_722 Storke Road",
+    "layer": "N0141_West Campus Apartments · 722 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0141M0900": {
-    "layer": "N0141_722 Storke Road",
+    "layer": "N0141_West Campus Apartments · 722 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0141D1100": {
-    "layer": "N0141_722 Storke Road",
+    "layer": "N0141_West Campus Apartments · 722 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0142M0600": {
-    "layer": "N0142_Isla Vista building 38269233",
+    "layer": "N0142_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0142M0900": {
-    "layer": "N0142_Isla Vista building 38269233",
+    "layer": "N0142_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0142D1100": {
-    "layer": "N0142_Isla Vista building 38269233",
+    "layer": "N0142_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0143M0700": {
-    "layer": "N0143_741 Storke Road",
+    "layer": "N0143_West Campus Apartments · 741 Storke Road",
     "category": "building",
     "material": "ContextStone"
   },
   "N0143M0900": {
-    "layer": "N0143_741 Storke Road",
+    "layer": "N0143_West Campus Apartments · 741 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0143D1100": {
-    "layer": "N0143_741 Storke Road",
+    "layer": "N0143_West Campus Apartments · 741 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9120,62 +9125,62 @@
     "material": "ContextGlass"
   },
   "N0146M0600": {
-    "layer": "N0146_714 Storke Road",
+    "layer": "N0146_West Campus Apartments · 714 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0146M0900": {
-    "layer": "N0146_714 Storke Road",
+    "layer": "N0146_West Campus Apartments · 714 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0146D1100": {
-    "layer": "N0146_714 Storke Road",
+    "layer": "N0146_West Campus Apartments · 714 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0147M0600": {
-    "layer": "N0147_Isla Vista building 38269183",
+    "layer": "N0147_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0147M0900": {
-    "layer": "N0147_Isla Vista building 38269183",
+    "layer": "N0147_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0147D1100": {
-    "layer": "N0147_Isla Vista building 38269183",
+    "layer": "N0147_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0148M0600": {
-    "layer": "N0148_Isla Vista building 38269185",
+    "layer": "N0148_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0148M0900": {
-    "layer": "N0148_Isla Vista building 38269185",
+    "layer": "N0148_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0148D1100": {
-    "layer": "N0148_Isla Vista building 38269185",
+    "layer": "N0148_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0149M0600": {
-    "layer": "N0149_Isla Vista building 558198066",
+    "layer": "N0149_San Joaquin Tower Villages",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0149M0900": {
-    "layer": "N0149_Isla Vista building 558198066",
+    "layer": "N0149_San Joaquin Tower Villages",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0149D1100": {
-    "layer": "N0149_Isla Vista building 558198066",
+    "layer": "N0149_San Joaquin Tower Villages",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9195,47 +9200,47 @@
     "material": "ContextGlass"
   },
   "N0151M0600": {
-    "layer": "N0151_Isla Vista building 38269174",
+    "layer": "N0151_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0151M0900": {
-    "layer": "N0151_Isla Vista building 38269174",
+    "layer": "N0151_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0151D1100": {
-    "layer": "N0151_Isla Vista building 38269174",
+    "layer": "N0151_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0152M0700": {
-    "layer": "N0152_6108",
+    "layer": "N0152_San Joaquin Tower Villages · 6108",
     "category": "building",
     "material": "ContextStone"
   },
   "N0152M0900": {
-    "layer": "N0152_6108",
+    "layer": "N0152_San Joaquin Tower Villages · 6108",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0152D1100": {
-    "layer": "N0152_6108",
+    "layer": "N0152_San Joaquin Tower Villages · 6108",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0153M0600": {
-    "layer": "N0153_703 Storke Road",
+    "layer": "N0153_West Campus Apartments · 703 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0153M0900": {
-    "layer": "N0153_703 Storke Road",
+    "layer": "N0153_West Campus Apartments · 703 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0153D1100": {
-    "layer": "N0153_703 Storke Road",
+    "layer": "N0153_West Campus Apartments · 703 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9270,47 +9275,47 @@
     "material": "ContextGlass"
   },
   "N0156M0600": {
-    "layer": "N0156_Isla Vista building 38269193",
+    "layer": "N0156_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0156M0900": {
-    "layer": "N0156_Isla Vista building 38269193",
+    "layer": "N0156_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0156D1100": {
-    "layer": "N0156_Isla Vista building 38269193",
+    "layer": "N0156_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0157M0600": {
-    "layer": "N0157_704 Storke Road",
+    "layer": "N0157_West Campus Apartments · 704 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0157M0900": {
-    "layer": "N0157_704 Storke Road",
+    "layer": "N0157_West Campus Apartments · 704 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0157D1100": {
-    "layer": "N0157_704 Storke Road",
+    "layer": "N0157_West Campus Apartments · 704 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0158M0700": {
-    "layer": "N0158_Isla Vista building 556264681",
+    "layer": "N0158_West Campus Apartments",
     "category": "building",
     "material": "ContextStone"
   },
   "N0158M0900": {
-    "layer": "N0158_Isla Vista building 556264681",
+    "layer": "N0158_West Campus Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0158D1100": {
-    "layer": "N0158_Isla Vista building 556264681",
+    "layer": "N0158_West Campus Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9345,62 +9350,62 @@
     "material": "ContextGlass"
   },
   "N0161M0600": {
-    "layer": "N0161_Isla Vista building 49648557",
+    "layer": "N0161_West Campus Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0161M0900": {
-    "layer": "N0161_Isla Vista building 49648557",
+    "layer": "N0161_West Campus Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0161D1100": {
-    "layer": "N0161_Isla Vista building 49648557",
+    "layer": "N0161_West Campus Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0162M0600": {
-    "layer": "N0162_Isla Vista building 38269173",
+    "layer": "N0162_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0162M0900": {
-    "layer": "N0162_Isla Vista building 38269173",
+    "layer": "N0162_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0162D1100": {
-    "layer": "N0162_Isla Vista building 38269173",
+    "layer": "N0162_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0163M0600": {
-    "layer": "N0163_731 Storke Road",
+    "layer": "N0163_West Campus Apartments · 731 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0163M0900": {
-    "layer": "N0163_731 Storke Road",
+    "layer": "N0163_West Campus Apartments · 731 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0163D1100": {
-    "layer": "N0163_731 Storke Road",
+    "layer": "N0163_West Campus Apartments · 731 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0164M0600": {
-    "layer": "N0164_Isla Vista building 38269225",
+    "layer": "N0164_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0164M0900": {
-    "layer": "N0164_Isla Vista building 38269225",
+    "layer": "N0164_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0164D1100": {
-    "layer": "N0164_Isla Vista building 38269225",
+    "layer": "N0164_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9420,107 +9425,107 @@
     "material": "ContextGlass"
   },
   "N0166M0600": {
-    "layer": "N0166_Isla Vista building 38269192",
+    "layer": "N0166_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0166M0900": {
-    "layer": "N0166_Isla Vista building 38269192",
+    "layer": "N0166_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0166D1100": {
-    "layer": "N0166_Isla Vista building 38269192",
+    "layer": "N0166_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0167M0600": {
-    "layer": "N0167_6102",
+    "layer": "N0167_San Joaquin Tower Villages · 6102",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0167M0900": {
-    "layer": "N0167_6102",
+    "layer": "N0167_San Joaquin Tower Villages · 6102",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0167D1100": {
-    "layer": "N0167_6102",
+    "layer": "N0167_San Joaquin Tower Villages · 6102",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0168M0600": {
-    "layer": "N0168_6103",
+    "layer": "N0168_San Joaquin Tower Villages · 6103",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0168M0900": {
-    "layer": "N0168_6103",
+    "layer": "N0168_San Joaquin Tower Villages · 6103",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0168D1100": {
-    "layer": "N0168_6103",
+    "layer": "N0168_San Joaquin Tower Villages · 6103",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0169M0600": {
-    "layer": "N0169_6101",
+    "layer": "N0169_San Joaquin Tower Villages · 6101",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0169M0900": {
-    "layer": "N0169_6101",
+    "layer": "N0169_San Joaquin Tower Villages · 6101",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0169D1100": {
-    "layer": "N0169_6101",
+    "layer": "N0169_San Joaquin Tower Villages · 6101",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0170M0600": {
-    "layer": "N0170_6104",
+    "layer": "N0170_San Joaquin Tower Villages · 6104",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0170M0900": {
-    "layer": "N0170_6104",
+    "layer": "N0170_San Joaquin Tower Villages · 6104",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0170D1100": {
-    "layer": "N0170_6104",
+    "layer": "N0170_San Joaquin Tower Villages · 6104",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0171M0600": {
-    "layer": "N0171_703 Storke Road",
+    "layer": "N0171_West Campus Apartments · 703 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0171M0900": {
-    "layer": "N0171_703 Storke Road",
+    "layer": "N0171_West Campus Apartments · 703 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0171D1100": {
-    "layer": "N0171_703 Storke Road",
+    "layer": "N0171_West Campus Apartments · 703 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0172M0600": {
-    "layer": "N0172_6105",
+    "layer": "N0172_San Joaquin Tower Villages · 6105",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0172M0900": {
-    "layer": "N0172_6105",
+    "layer": "N0172_San Joaquin Tower Villages · 6105",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0172D1100": {
-    "layer": "N0172_6105",
+    "layer": "N0172_San Joaquin Tower Villages · 6105",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9540,32 +9545,32 @@
     "material": "ContextGlass"
   },
   "N0174M0700": {
-    "layer": "N0174_Isla Vista building 38269349",
+    "layer": "N0174_San Clemente Parking IV",
     "category": "building",
     "material": "ContextStone"
   },
   "N0174M0900": {
-    "layer": "N0174_Isla Vista building 38269349",
+    "layer": "N0174_San Clemente Parking IV",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0174D1100": {
-    "layer": "N0174_Isla Vista building 38269349",
+    "layer": "N0174_San Clemente Parking IV",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0175M0600": {
-    "layer": "N0175_721 Storke Road",
+    "layer": "N0175_West Campus Apartments · 721 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0175M0900": {
-    "layer": "N0175_721 Storke Road",
+    "layer": "N0175_West Campus Apartments · 721 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0175D1100": {
-    "layer": "N0175_721 Storke Road",
+    "layer": "N0175_West Campus Apartments · 721 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9600,152 +9605,152 @@
     "material": "ContextGlass"
   },
   "N0178M0600": {
-    "layer": "N0178_713 Storke Road",
+    "layer": "N0178_West Campus Apartments · 713 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0178M0900": {
-    "layer": "N0178_713 Storke Road",
+    "layer": "N0178_West Campus Apartments · 713 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0178D1100": {
-    "layer": "N0178_713 Storke Road",
+    "layer": "N0178_West Campus Apartments · 713 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0179M0600": {
-    "layer": "N0179_729 Storke Road",
+    "layer": "N0179_West Campus Apartments · 729 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0179M0900": {
-    "layer": "N0179_729 Storke Road",
+    "layer": "N0179_West Campus Apartments · 729 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0179D1100": {
-    "layer": "N0179_729 Storke Road",
+    "layer": "N0179_West Campus Apartments · 729 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0180M0600": {
-    "layer": "N0180_702 Storke Road",
+    "layer": "N0180_West Campus Apartments · 702 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0180M0900": {
-    "layer": "N0180_702 Storke Road",
+    "layer": "N0180_West Campus Apartments · 702 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0180D1100": {
-    "layer": "N0180_702 Storke Road",
+    "layer": "N0180_West Campus Apartments · 702 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0181M0600": {
-    "layer": "N0181_Isla Vista building 38269171",
+    "layer": "N0181_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0181M0900": {
-    "layer": "N0181_Isla Vista building 38269171",
+    "layer": "N0181_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0181D1100": {
-    "layer": "N0181_Isla Vista building 38269171",
+    "layer": "N0181_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0182M0600": {
-    "layer": "N0182_730 Storke Road",
+    "layer": "N0182_West Campus Apartments · 730 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0182M0900": {
-    "layer": "N0182_730 Storke Road",
+    "layer": "N0182_West Campus Apartments · 730 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0182D1100": {
-    "layer": "N0182_730 Storke Road",
+    "layer": "N0182_West Campus Apartments · 730 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0183M0600": {
-    "layer": "N0183_Isla Vista building 38269188",
+    "layer": "N0183_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0183M0900": {
-    "layer": "N0183_Isla Vista building 38269188",
+    "layer": "N0183_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0183D1100": {
-    "layer": "N0183_Isla Vista building 38269188",
+    "layer": "N0183_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0184M0600": {
-    "layer": "N0184_Isla Vista building 38269190",
+    "layer": "N0184_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0184M0900": {
-    "layer": "N0184_Isla Vista building 38269190",
+    "layer": "N0184_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0184D1100": {
-    "layer": "N0184_Isla Vista building 38269190",
+    "layer": "N0184_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0185M0600": {
-    "layer": "N0185_Isla Vista building 145625095",
+    "layer": "N0185_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0185M0900": {
-    "layer": "N0185_Isla Vista building 145625095",
+    "layer": "N0185_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0185D1100": {
-    "layer": "N0185_Isla Vista building 145625095",
+    "layer": "N0185_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0186M0600": {
-    "layer": "N0186_701 Storke Road",
+    "layer": "N0186_West Campus Apartments · 701 Storke Road",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0186M0900": {
-    "layer": "N0186_701 Storke Road",
+    "layer": "N0186_West Campus Apartments · 701 Storke Road",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0186D1100": {
-    "layer": "N0186_701 Storke Road",
+    "layer": "N0186_West Campus Apartments · 701 Storke Road",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0187M0600": {
-    "layer": "N0187_Isla Vista building 38269172",
+    "layer": "N0187_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0187M0900": {
-    "layer": "N0187_Isla Vista building 38269172",
+    "layer": "N0187_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0187D1100": {
-    "layer": "N0187_Isla Vista building 38269172",
+    "layer": "N0187_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -9780,32 +9785,32 @@
     "material": "ContextGlass"
   },
   "N0190M0600": {
-    "layer": "N0190_Isla Vista building 38269189",
+    "layer": "N0190_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0190M0900": {
-    "layer": "N0190_Isla Vista building 38269189",
+    "layer": "N0190_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0190D1100": {
-    "layer": "N0190_Isla Vista building 38269189",
+    "layer": "N0190_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0191M0600": {
-    "layer": "N0191_Isla Vista building 38269191",
+    "layer": "N0191_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0191M0900": {
-    "layer": "N0191_Isla Vista building 38269191",
+    "layer": "N0191_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0191D1100": {
-    "layer": "N0191_Isla Vista building 38269191",
+    "layer": "N0191_Santa Ynez Apartments",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -10365,17 +10370,17 @@
     "material": "ContextGlass"
   },
   "N0229M0700": {
-    "layer": "N0229_352 West Campus Point Lane",
+    "layer": "N0229_Orfalea Family Children's Center — 352 · 352 West Campus Point Lane",
     "category": "building",
     "material": "ContextStone"
   },
   "N0229M1000": {
-    "layer": "N0229_352 West Campus Point Lane",
+    "layer": "N0229_Orfalea Family Children's Center — 352 · 352 West Campus Point Lane",
     "category": "building",
     "material": "ContextTile"
   },
   "N0229D1100": {
-    "layer": "N0229_352 West Campus Point Lane",
+    "layer": "N0229_Orfalea Family Children's Center — 352 · 352 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -11055,17 +11060,17 @@
     "material": "ContextGlass"
   },
   "N0275M0700": {
-    "layer": "N0275_353 West Campus Point Lane",
+    "layer": "N0275_Orfalea Family Children's Center — 353 · 353 West Campus Point Lane",
     "category": "building",
     "material": "ContextStone"
   },
   "N0275M1000": {
-    "layer": "N0275_353 West Campus Point Lane",
+    "layer": "N0275_Orfalea Family Children's Center — 353 · 353 West Campus Point Lane",
     "category": "building",
     "material": "ContextTile"
   },
   "N0275D1100": {
-    "layer": "N0275_353 West Campus Point Lane",
+    "layer": "N0275_Orfalea Family Children's Center — 353 · 353 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -11325,17 +11330,17 @@
     "material": "ContextGlass"
   },
   "N0293M0700": {
-    "layer": "N0293_354 West Campus Point Lane",
+    "layer": "N0293_Orfalea Family Children's Center — 354 · 354 West Campus Point Lane",
     "category": "building",
     "material": "ContextStone"
   },
   "N0293M1000": {
-    "layer": "N0293_354 West Campus Point Lane",
+    "layer": "N0293_Orfalea Family Children's Center — 354 · 354 West Campus Point Lane",
     "category": "building",
     "material": "ContextTile"
   },
   "N0293D1100": {
-    "layer": "N0293_354 West Campus Point Lane",
+    "layer": "N0293_Orfalea Family Children's Center — 354 · 354 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -13590,17 +13595,17 @@
     "material": "ContextGlass"
   },
   "N0444M0600": {
-    "layer": "N0444_931 West Campus Point Lane",
+    "layer": "N0444_West Campus Point Faculty Housing · 931 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0444M0900": {
-    "layer": "N0444_931 West Campus Point Lane",
+    "layer": "N0444_West Campus Point Faculty Housing · 931 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0444D1100": {
-    "layer": "N0444_931 West Campus Point Lane",
+    "layer": "N0444_West Campus Point Faculty Housing · 931 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -13680,17 +13685,17 @@
     "material": "ContextGlass"
   },
   "N0450M0600": {
-    "layer": "N0450_932 West Campus Point Lane",
+    "layer": "N0450_West Campus Point Faculty Housing · 932 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0450M0900": {
-    "layer": "N0450_932 West Campus Point Lane",
+    "layer": "N0450_West Campus Point Faculty Housing · 932 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0450D1100": {
-    "layer": "N0450_932 West Campus Point Lane",
+    "layer": "N0450_West Campus Point Faculty Housing · 932 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -13845,17 +13850,17 @@
     "material": "ContextGlass"
   },
   "N0461M0600": {
-    "layer": "N0461_933 West Campus Point Lane",
+    "layer": "N0461_West Campus Point Faculty Housing · 933 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0461M0900": {
-    "layer": "N0461_933 West Campus Point Lane",
+    "layer": "N0461_West Campus Point Faculty Housing · 933 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0461D1100": {
-    "layer": "N0461_933 West Campus Point Lane",
+    "layer": "N0461_West Campus Point Faculty Housing · 933 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -13980,17 +13985,17 @@
     "material": "ContextGlass"
   },
   "N0470M0600": {
-    "layer": "N0470_941 West Campus Point Lane",
+    "layer": "N0470_West Campus Point Faculty Housing · 941 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0470M0900": {
-    "layer": "N0470_941 West Campus Point Lane",
+    "layer": "N0470_West Campus Point Faculty Housing · 941 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0470D1100": {
-    "layer": "N0470_941 West Campus Point Lane",
+    "layer": "N0470_West Campus Point Faculty Housing · 941 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14085,17 +14090,17 @@
     "material": "ContextGlass"
   },
   "N0477M0600": {
-    "layer": "N0477_938 West Campus Point Lane",
+    "layer": "N0477_West Campus Point Faculty Housing · 938 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0477M0900": {
-    "layer": "N0477_938 West Campus Point Lane",
+    "layer": "N0477_West Campus Point Faculty Housing · 938 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0477D1100": {
-    "layer": "N0477_938 West Campus Point Lane",
+    "layer": "N0477_West Campus Point Faculty Housing · 938 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14265,17 +14270,17 @@
     "material": "ContextGlass"
   },
   "N0489M0600": {
-    "layer": "N0489_942 West Campus Point Lane",
+    "layer": "N0489_West Campus Point Faculty Housing · 942 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0489M0900": {
-    "layer": "N0489_942 West Campus Point Lane",
+    "layer": "N0489_West Campus Point Faculty Housing · 942 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0489D1100": {
-    "layer": "N0489_942 West Campus Point Lane",
+    "layer": "N0489_West Campus Point Faculty Housing · 942 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14370,17 +14375,17 @@
     "material": "ContextGlass"
   },
   "N0496M0600": {
-    "layer": "N0496_947 West Campus Point Lane",
+    "layer": "N0496_West Campus Point Faculty Housing · 947 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0496M0900": {
-    "layer": "N0496_947 West Campus Point Lane",
+    "layer": "N0496_West Campus Point Faculty Housing · 947 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0496D1100": {
-    "layer": "N0496_947 West Campus Point Lane",
+    "layer": "N0496_West Campus Point Faculty Housing · 947 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14415,17 +14420,17 @@
     "material": "ContextGlass"
   },
   "N0499M0600": {
-    "layer": "N0499_934 West Campus Point Lane",
+    "layer": "N0499_West Campus Point Faculty Housing · 934 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0499M0900": {
-    "layer": "N0499_934 West Campus Point Lane",
+    "layer": "N0499_West Campus Point Faculty Housing · 934 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0499D1100": {
-    "layer": "N0499_934 West Campus Point Lane",
+    "layer": "N0499_West Campus Point Faculty Housing · 934 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14625,17 +14630,17 @@
     "material": "ContextGlass"
   },
   "N0513M0600": {
-    "layer": "N0513_937 West Campus Point Lane",
+    "layer": "N0513_West Campus Point Faculty Housing · 937 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0513M0900": {
-    "layer": "N0513_937 West Campus Point Lane",
+    "layer": "N0513_West Campus Point Faculty Housing · 937 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0513D1100": {
-    "layer": "N0513_937 West Campus Point Lane",
+    "layer": "N0513_West Campus Point Faculty Housing · 937 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14655,17 +14660,17 @@
     "material": "ContextGlass"
   },
   "N0515M0700": {
-    "layer": "N0515_957 West Campus Lane",
+    "layer": "N0515_West Campus Point Faculty Housing · 957 West Campus Lane",
     "category": "building",
     "material": "ContextStone"
   },
   "N0515M0900": {
-    "layer": "N0515_957 West Campus Lane",
+    "layer": "N0515_West Campus Point Faculty Housing · 957 West Campus Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0515D1100": {
-    "layer": "N0515_957 West Campus Lane",
+    "layer": "N0515_West Campus Point Faculty Housing · 957 West Campus Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14700,17 +14705,17 @@
     "material": "ContextGlass"
   },
   "N0518M0600": {
-    "layer": "N0518_935 West Campus Point Lane",
+    "layer": "N0518_West Campus Point Faculty Housing · 935 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0518M0900": {
-    "layer": "N0518_935 West Campus Point Lane",
+    "layer": "N0518_West Campus Point Faculty Housing · 935 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0518D1100": {
-    "layer": "N0518_935 West Campus Point Lane",
+    "layer": "N0518_West Campus Point Faculty Housing · 935 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14745,32 +14750,32 @@
     "material": "ContextGlass"
   },
   "N0521M0700": {
-    "layer": "N0521_951 West Campus Point Lane",
+    "layer": "N0521_West Campus Point Faculty Housing · 951 West Campus Point Lane",
     "category": "building",
     "material": "ContextStone"
   },
   "N0521M0900": {
-    "layer": "N0521_951 West Campus Point Lane",
+    "layer": "N0521_West Campus Point Faculty Housing · 951 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0521D1100": {
-    "layer": "N0521_951 West Campus Point Lane",
+    "layer": "N0521_West Campus Point Faculty Housing · 951 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0522M0600": {
-    "layer": "N0522_943 West Campus Point Lane",
+    "layer": "N0522_West Campus Point Faculty Housing · 943 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0522M0900": {
-    "layer": "N0522_943 West Campus Point Lane",
+    "layer": "N0522_West Campus Point Faculty Housing · 943 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0522D1100": {
-    "layer": "N0522_943 West Campus Point Lane",
+    "layer": "N0522_West Campus Point Faculty Housing · 943 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14805,17 +14810,17 @@
     "material": "ContextGlass"
   },
   "N0525M0600": {
-    "layer": "N0525_936 West Campus Point Lane",
+    "layer": "N0525_West Campus Point Faculty Housing · 936 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0525M0900": {
-    "layer": "N0525_936 West Campus Point Lane",
+    "layer": "N0525_West Campus Point Faculty Housing · 936 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0525D1100": {
-    "layer": "N0525_936 West Campus Point Lane",
+    "layer": "N0525_West Campus Point Faculty Housing · 936 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -14925,17 +14930,17 @@
     "material": "ContextGlass"
   },
   "N0533M0600": {
-    "layer": "N0533_956 West Campus Point Lane",
+    "layer": "N0533_West Campus Point Faculty Housing · 956 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0533M0900": {
-    "layer": "N0533_956 West Campus Point Lane",
+    "layer": "N0533_West Campus Point Faculty Housing · 956 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0533D1100": {
-    "layer": "N0533_956 West Campus Point Lane",
+    "layer": "N0533_West Campus Point Faculty Housing · 956 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15000,17 +15005,17 @@
     "material": "ContextGlass"
   },
   "N0538M0600": {
-    "layer": "N0538_946 West Campus Point Lane",
+    "layer": "N0538_West Campus Point Faculty Housing · 946 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0538M0900": {
-    "layer": "N0538_946 West Campus Point Lane",
+    "layer": "N0538_West Campus Point Faculty Housing · 946 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0538D1100": {
-    "layer": "N0538_946 West Campus Point Lane",
+    "layer": "N0538_West Campus Point Faculty Housing · 946 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15075,17 +15080,17 @@
     "material": "ContextGlass"
   },
   "N0543M0600": {
-    "layer": "N0543_944 West Campus Point Lane",
+    "layer": "N0543_West Campus Point Faculty Housing · 944 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0543M0900": {
-    "layer": "N0543_944 West Campus Point Lane",
+    "layer": "N0543_West Campus Point Faculty Housing · 944 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0543D1100": {
-    "layer": "N0543_944 West Campus Point Lane",
+    "layer": "N0543_West Campus Point Faculty Housing · 944 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15270,12 +15275,12 @@
     "material": "ContextGlass"
   },
   "N0556M0700": {
-    "layer": "N0556_Isla Vista building 651482146",
+    "layer": "N0556_West Campus Point Faculty Housing",
     "category": "building",
     "material": "ContextStone"
   },
   "N0556M0900": {
-    "layer": "N0556_Isla Vista building 651482146",
+    "layer": "N0556_West Campus Point Faculty Housing",
     "category": "building",
     "material": "ContextRoof"
   },
@@ -15295,32 +15300,32 @@
     "material": "ContextGlass"
   },
   "N0558M0700": {
-    "layer": "N0558_910 Embarcadero del Norte",
+    "layer": "N0558_UCSB facility 551 · 910 Embarcadero del Norte",
     "category": "building",
     "material": "ContextStone"
   },
   "N0558M0900": {
-    "layer": "N0558_910 Embarcadero del Norte",
+    "layer": "N0558_UCSB facility 551 · 910 Embarcadero del Norte",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0558D1100": {
-    "layer": "N0558_910 Embarcadero del Norte",
+    "layer": "N0558_UCSB facility 551 · 910 Embarcadero del Norte",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0559M0600": {
-    "layer": "N0559_945 West Campus Point Lane",
+    "layer": "N0559_West Campus Point Faculty Housing · 945 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0559M0900": {
-    "layer": "N0559_945 West Campus Point Lane",
+    "layer": "N0559_West Campus Point Faculty Housing · 945 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0559D1100": {
-    "layer": "N0559_945 West Campus Point Lane",
+    "layer": "N0559_West Campus Point Faculty Housing · 945 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15490,17 +15495,17 @@
     "material": "ContextGlass"
   },
   "N0571M0700": {
-    "layer": "N0571_952 West Campus Point Lane",
+    "layer": "N0571_West Campus Point Faculty Housing · 952 West Campus Point Lane",
     "category": "building",
     "material": "ContextStone"
   },
   "N0571M0900": {
-    "layer": "N0571_952 West Campus Point Lane",
+    "layer": "N0571_West Campus Point Faculty Housing · 952 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0571D1100": {
-    "layer": "N0571_952 West Campus Point Lane",
+    "layer": "N0571_West Campus Point Faculty Housing · 952 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15670,17 +15675,17 @@
     "material": "ContextGlass"
   },
   "N0583M0700": {
-    "layer": "N0583_910 Embarcadero del Norte",
+    "layer": "N0583_UCSB facility 551 · 910 Embarcadero del Norte",
     "category": "building",
     "material": "ContextStone"
   },
   "N0583M0900": {
-    "layer": "N0583_910 Embarcadero del Norte",
+    "layer": "N0583_UCSB facility 551 · 910 Embarcadero del Norte",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0583D1100": {
-    "layer": "N0583_910 Embarcadero del Norte",
+    "layer": "N0583_UCSB facility 551 · 910 Embarcadero del Norte",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15715,17 +15720,17 @@
     "material": "ContextGlass"
   },
   "N0586M0600": {
-    "layer": "N0586_955 West Campus Point Lane",
+    "layer": "N0586_West Campus Point Faculty Housing · 955 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0586M0900": {
-    "layer": "N0586_955 West Campus Point Lane",
+    "layer": "N0586_West Campus Point Faculty Housing · 955 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0586D1100": {
-    "layer": "N0586_955 West Campus Point Lane",
+    "layer": "N0586_West Campus Point Faculty Housing · 955 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15745,32 +15750,32 @@
     "material": "ContextGlass"
   },
   "N0588M0600": {
-    "layer": "N0588_926 West Campus Point Lane",
+    "layer": "N0588_West Campus Point Faculty Housing · 926 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0588M0900": {
-    "layer": "N0588_926 West Campus Point Lane",
+    "layer": "N0588_West Campus Point Faculty Housing · 926 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0588D1100": {
-    "layer": "N0588_926 West Campus Point Lane",
+    "layer": "N0588_West Campus Point Faculty Housing · 926 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0589M0600": {
-    "layer": "N0589_953 West Campus Point Lane",
+    "layer": "N0589_West Campus Point Faculty Housing · 953 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0589M0900": {
-    "layer": "N0589_953 West Campus Point Lane",
+    "layer": "N0589_West Campus Point Faculty Housing · 953 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0589D1100": {
-    "layer": "N0589_953 West Campus Point Lane",
+    "layer": "N0589_West Campus Point Faculty Housing · 953 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -15790,47 +15795,47 @@
     "material": "ContextGlass"
   },
   "N0591M0600": {
-    "layer": "N0591_925 West Campus Point Lane",
+    "layer": "N0591_West Campus Point Faculty Housing · 925 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0591M0900": {
-    "layer": "N0591_925 West Campus Point Lane",
+    "layer": "N0591_West Campus Point Faculty Housing · 925 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0591D1100": {
-    "layer": "N0591_925 West Campus Point Lane",
+    "layer": "N0591_West Campus Point Faculty Housing · 925 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0592M0700": {
-    "layer": "N0592_954 West Campus Point Lane",
+    "layer": "N0592_West Campus Point Faculty Housing · 954 West Campus Point Lane",
     "category": "building",
     "material": "ContextStone"
   },
   "N0592M0900": {
-    "layer": "N0592_954 West Campus Point Lane",
+    "layer": "N0592_West Campus Point Faculty Housing · 954 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0592D1100": {
-    "layer": "N0592_954 West Campus Point Lane",
+    "layer": "N0592_West Campus Point Faculty Housing · 954 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0593M0600": {
-    "layer": "N0593_927 West Campus Point Lane",
+    "layer": "N0593_West Campus Point Faculty Housing · 927 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0593M0900": {
-    "layer": "N0593_927 West Campus Point Lane",
+    "layer": "N0593_West Campus Point Faculty Housing · 927 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0593D1100": {
-    "layer": "N0593_927 West Campus Point Lane",
+    "layer": "N0593_West Campus Point Faculty Housing · 927 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -16015,17 +16020,17 @@
     "material": "ContextGlass"
   },
   "N0606M0600": {
-    "layer": "N0606_924 West Campus Point Lane",
+    "layer": "N0606_West Campus Point Faculty Housing · 924 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0606M0900": {
-    "layer": "N0606_924 West Campus Point Lane",
+    "layer": "N0606_West Campus Point Faculty Housing · 924 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0606D1100": {
-    "layer": "N0606_924 West Campus Point Lane",
+    "layer": "N0606_West Campus Point Faculty Housing · 924 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -16375,17 +16380,17 @@
     "material": "ContextGlass"
   },
   "N0630M0600": {
-    "layer": "N0630_928 West Campus Point Lane",
+    "layer": "N0630_West Campus Point Faculty Housing · 928 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0630M0900": {
-    "layer": "N0630_928 West Campus Point Lane",
+    "layer": "N0630_West Campus Point Faculty Housing · 928 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0630D1100": {
-    "layer": "N0630_928 West Campus Point Lane",
+    "layer": "N0630_West Campus Point Faculty Housing · 928 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -16405,32 +16410,32 @@
     "material": "ContextGlass"
   },
   "N0632M0600": {
-    "layer": "N0632_963 West Campus Point Lane",
+    "layer": "N0632_West Campus Point Faculty Housing · 963 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0632M0900": {
-    "layer": "N0632_963 West Campus Point Lane",
+    "layer": "N0632_West Campus Point Faculty Housing · 963 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0632D1100": {
-    "layer": "N0632_963 West Campus Point Lane",
+    "layer": "N0632_West Campus Point Faculty Housing · 963 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0633M0600": {
-    "layer": "N0633_962 West Campus Point Lane",
+    "layer": "N0633_West Campus Point Faculty Housing · 962 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0633M0900": {
-    "layer": "N0633_962 West Campus Point Lane",
+    "layer": "N0633_West Campus Point Faculty Housing · 962 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0633D1100": {
-    "layer": "N0633_962 West Campus Point Lane",
+    "layer": "N0633_West Campus Point Faculty Housing · 962 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -16450,17 +16455,17 @@
     "material": "ContextGlass"
   },
   "N0635M0600": {
-    "layer": "N0635_961 West Campus Point Lane",
+    "layer": "N0635_West Campus Point Faculty Housing · 961 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0635M0900": {
-    "layer": "N0635_961 West Campus Point Lane",
+    "layer": "N0635_West Campus Point Faculty Housing · 961 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0635D1100": {
-    "layer": "N0635_961 West Campus Point Lane",
+    "layer": "N0635_West Campus Point Faculty Housing · 961 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -16720,17 +16725,17 @@
     "material": "ContextGlass"
   },
   "N0653M0600": {
-    "layer": "N0653_923 West Campus Point Lane",
+    "layer": "N0653_West Campus Point Faculty Housing · 923 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0653M0900": {
-    "layer": "N0653_923 West Campus Point Lane",
+    "layer": "N0653_West Campus Point Faculty Housing · 923 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0653D1100": {
-    "layer": "N0653_923 West Campus Point Lane",
+    "layer": "N0653_West Campus Point Faculty Housing · 923 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -17050,17 +17055,17 @@
     "material": "ContextGlass"
   },
   "N0675M0600": {
-    "layer": "N0675_922 West Campus Point Lane",
+    "layer": "N0675_West Campus Point Faculty Housing · 922 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0675M0900": {
-    "layer": "N0675_922 West Campus Point Lane",
+    "layer": "N0675_West Campus Point Faculty Housing · 922 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0675D1100": {
-    "layer": "N0675_922 West Campus Point Lane",
+    "layer": "N0675_West Campus Point Faculty Housing · 922 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -17080,17 +17085,17 @@
     "material": "ContextGlass"
   },
   "N0677M0600": {
-    "layer": "N0677_964 West Campus Point Lane",
+    "layer": "N0677_West Campus Point Faculty Housing · 964 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0677M0900": {
-    "layer": "N0677_964 West Campus Point Lane",
+    "layer": "N0677_West Campus Point Faculty Housing · 964 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0677D1100": {
-    "layer": "N0677_964 West Campus Point Lane",
+    "layer": "N0677_West Campus Point Faculty Housing · 964 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -17245,17 +17250,17 @@
     "material": "ContextGlass"
   },
   "N0688M0600": {
-    "layer": "N0688_921 West Campus Point Lane",
+    "layer": "N0688_West Campus Point Faculty Housing · 921 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0688M0900": {
-    "layer": "N0688_921 West Campus Point Lane",
+    "layer": "N0688_West Campus Point Faculty Housing · 921 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0688D1100": {
-    "layer": "N0688_921 West Campus Point Lane",
+    "layer": "N0688_West Campus Point Faculty Housing · 921 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -17290,12 +17295,12 @@
     "material": "ContextGlass"
   },
   "N0691M0700": {
-    "layer": "N0691_Isla Vista building 218665839",
+    "layer": "N0691_West Campus Point Faculty Housing",
     "category": "building",
     "material": "ContextStone"
   },
   "N0691M0900": {
-    "layer": "N0691_Isla Vista building 218665839",
+    "layer": "N0691_West Campus Point Faculty Housing",
     "category": "building",
     "material": "ContextRoof"
   },
@@ -17375,17 +17380,17 @@
     "material": "ContextGlass"
   },
   "N0697M0600": {
-    "layer": "N0697_965 West Campus Point Lane",
+    "layer": "N0697_West Campus Point Faculty Housing · 965 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0697M0900": {
-    "layer": "N0697_965 West Campus Point Lane",
+    "layer": "N0697_West Campus Point Faculty Housing · 965 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0697D1100": {
-    "layer": "N0697_965 West Campus Point Lane",
+    "layer": "N0697_West Campus Point Faculty Housing · 965 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -17405,17 +17410,17 @@
     "material": "ContextGlass"
   },
   "N0699M0600": {
-    "layer": "N0699_968 West Campus Point Lane",
+    "layer": "N0699_West Campus Point Faculty Housing · 968 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0699M0900": {
-    "layer": "N0699_968 West Campus Point Lane",
+    "layer": "N0699_West Campus Point Faculty Housing · 968 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0699D1100": {
-    "layer": "N0699_968 West Campus Point Lane",
+    "layer": "N0699_West Campus Point Faculty Housing · 968 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -17825,32 +17830,32 @@
     "material": "ContextGlass"
   },
   "N0727M0600": {
-    "layer": "N0727_966 West Campus Point Lane",
+    "layer": "N0727_West Campus Point Faculty Housing · 966 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0727M0900": {
-    "layer": "N0727_966 West Campus Point Lane",
+    "layer": "N0727_West Campus Point Faculty Housing · 966 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0727D1100": {
-    "layer": "N0727_966 West Campus Point Lane",
+    "layer": "N0727_West Campus Point Faculty Housing · 966 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0728M0600": {
-    "layer": "N0728_967 West Campus Point Lane",
+    "layer": "N0728_West Campus Point Faculty Housing · 967 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0728M0900": {
-    "layer": "N0728_967 West Campus Point Lane",
+    "layer": "N0728_West Campus Point Faculty Housing · 967 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0728D1100": {
-    "layer": "N0728_967 West Campus Point Lane",
+    "layer": "N0728_West Campus Point Faculty Housing · 967 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -17870,17 +17875,17 @@
     "material": "ContextGlass"
   },
   "N0730M0600": {
-    "layer": "N0730_909 West Campus Point Lane",
+    "layer": "N0730_West Campus Point Faculty Housing · 909 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0730M0900": {
-    "layer": "N0730_909 West Campus Point Lane",
+    "layer": "N0730_West Campus Point Faculty Housing · 909 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0730D1100": {
-    "layer": "N0730_909 West Campus Point Lane",
+    "layer": "N0730_West Campus Point Faculty Housing · 909 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18050,17 +18055,17 @@
     "material": "ContextGlass"
   },
   "N0742M0600": {
-    "layer": "N0742_918 West Campus Point Lane",
+    "layer": "N0742_West Campus Point Faculty Housing · 918 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0742M0900": {
-    "layer": "N0742_918 West Campus Point Lane",
+    "layer": "N0742_West Campus Point Faculty Housing · 918 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0742D1100": {
-    "layer": "N0742_918 West Campus Point Lane",
+    "layer": "N0742_West Campus Point Faculty Housing · 918 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18095,17 +18100,17 @@
     "material": "ContextGlass"
   },
   "N0745M0600": {
-    "layer": "N0745_917 West Campus Point Lane",
+    "layer": "N0745_West Campus Point Faculty Housing · 917 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0745M0900": {
-    "layer": "N0745_917 West Campus Point Lane",
+    "layer": "N0745_West Campus Point Faculty Housing · 917 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0745D1100": {
-    "layer": "N0745_917 West Campus Point Lane",
+    "layer": "N0745_West Campus Point Faculty Housing · 917 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18275,17 +18280,17 @@
     "material": "ContextGlass"
   },
   "N0757M0600": {
-    "layer": "N0757_908 West Campus Point Lane",
+    "layer": "N0757_West Campus Point Faculty Housing · 908 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0757M0900": {
-    "layer": "N0757_908 West Campus Point Lane",
+    "layer": "N0757_West Campus Point Faculty Housing · 908 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0757D1100": {
-    "layer": "N0757_908 West Campus Point Lane",
+    "layer": "N0757_West Campus Point Faculty Housing · 908 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18395,17 +18400,17 @@
     "material": "ContextGlass"
   },
   "N0765M0600": {
-    "layer": "N0765_901 West Campus Point Lane",
+    "layer": "N0765_West Campus Point Faculty Housing · 901 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0765M0900": {
-    "layer": "N0765_901 West Campus Point Lane",
+    "layer": "N0765_West Campus Point Faculty Housing · 901 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0765D1100": {
-    "layer": "N0765_901 West Campus Point Lane",
+    "layer": "N0765_West Campus Point Faculty Housing · 901 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18530,17 +18535,17 @@
     "material": "ContextGlass"
   },
   "N0774M0600": {
-    "layer": "N0774_919 West Campus Point Lane",
+    "layer": "N0774_West Campus Point Faculty Housing · 919 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0774M0900": {
-    "layer": "N0774_919 West Campus Point Lane",
+    "layer": "N0774_West Campus Point Faculty Housing · 919 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0774D1100": {
-    "layer": "N0774_919 West Campus Point Lane",
+    "layer": "N0774_West Campus Point Faculty Housing · 919 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18590,17 +18595,17 @@
     "material": "ContextGlass"
   },
   "N0778M0600": {
-    "layer": "N0778_973 West Campus Point Lane",
+    "layer": "N0778_West Campus Point Faculty Housing · 973 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0778M0900": {
-    "layer": "N0778_973 West Campus Point Lane",
+    "layer": "N0778_West Campus Point Faculty Housing · 973 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0778D1100": {
-    "layer": "N0778_973 West Campus Point Lane",
+    "layer": "N0778_West Campus Point Faculty Housing · 973 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18635,32 +18640,32 @@
     "material": "ContextGlass"
   },
   "N0781M0600": {
-    "layer": "N0781_972 West Campus Point Lane",
+    "layer": "N0781_West Campus Point Faculty Housing · 972 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0781M0900": {
-    "layer": "N0781_972 West Campus Point Lane",
+    "layer": "N0781_West Campus Point Faculty Housing · 972 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0781D1100": {
-    "layer": "N0781_972 West Campus Point Lane",
+    "layer": "N0781_West Campus Point Faculty Housing · 972 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0782M0600": {
-    "layer": "N0782_916 West Campus Point Lane",
+    "layer": "N0782_West Campus Point Faculty Housing · 916 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0782M0900": {
-    "layer": "N0782_916 West Campus Point Lane",
+    "layer": "N0782_West Campus Point Faculty Housing · 916 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0782D1100": {
-    "layer": "N0782_916 West Campus Point Lane",
+    "layer": "N0782_West Campus Point Faculty Housing · 916 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18740,17 +18745,17 @@
     "material": "ContextGlass"
   },
   "N0788M0600": {
-    "layer": "N0788_902 West Campus Point Lane",
+    "layer": "N0788_West Campus Point Faculty Housing · 902 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0788M0900": {
-    "layer": "N0788_902 West Campus Point Lane",
+    "layer": "N0788_West Campus Point Faculty Housing · 902 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0788D1100": {
-    "layer": "N0788_902 West Campus Point Lane",
+    "layer": "N0788_West Campus Point Faculty Housing · 902 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18830,17 +18835,17 @@
     "material": "ContextGlass"
   },
   "N0794M0600": {
-    "layer": "N0794_907 West Campus Point Lane",
+    "layer": "N0794_West Campus Point Faculty Housing · 907 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0794M0900": {
-    "layer": "N0794_907 West Campus Point Lane",
+    "layer": "N0794_West Campus Point Faculty Housing · 907 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0794D1100": {
-    "layer": "N0794_907 West Campus Point Lane",
+    "layer": "N0794_West Campus Point Faculty Housing · 907 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18860,32 +18865,32 @@
     "material": "ContextGlass"
   },
   "N0796M0600": {
-    "layer": "N0796_974 West Campus Point Lane",
+    "layer": "N0796_West Campus Point Faculty Housing · 974 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0796M0900": {
-    "layer": "N0796_974 West Campus Point Lane",
+    "layer": "N0796_West Campus Point Faculty Housing · 974 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0796D1100": {
-    "layer": "N0796_974 West Campus Point Lane",
+    "layer": "N0796_West Campus Point Faculty Housing · 974 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0797M0600": {
-    "layer": "N0797_915 West Campus Point Lane",
+    "layer": "N0797_West Campus Point Faculty Housing · 915 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0797M0900": {
-    "layer": "N0797_915 West Campus Point Lane",
+    "layer": "N0797_West Campus Point Faculty Housing · 915 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0797D1100": {
-    "layer": "N0797_915 West Campus Point Lane",
+    "layer": "N0797_West Campus Point Faculty Housing · 915 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -18935,17 +18940,17 @@
     "material": "ContextGlass"
   },
   "N0801M0600": {
-    "layer": "N0801_903 West Campus Point Lane",
+    "layer": "N0801_West Campus Point Faculty Housing · 903 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0801M0900": {
-    "layer": "N0801_903 West Campus Point Lane",
+    "layer": "N0801_West Campus Point Faculty Housing · 903 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0801D1100": {
-    "layer": "N0801_903 West Campus Point Lane",
+    "layer": "N0801_West Campus Point Faculty Housing · 903 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19025,17 +19030,17 @@
     "material": "ContextGlass"
   },
   "N0807M0600": {
-    "layer": "N0807_971 West Campus Point Lane",
+    "layer": "N0807_West Campus Point Faculty Housing · 971 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0807M0900": {
-    "layer": "N0807_971 West Campus Point Lane",
+    "layer": "N0807_West Campus Point Faculty Housing · 971 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0807D1100": {
-    "layer": "N0807_971 West Campus Point Lane",
+    "layer": "N0807_West Campus Point Faculty Housing · 971 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19055,17 +19060,17 @@
     "material": "ContextGlass"
   },
   "N0809M0600": {
-    "layer": "N0809_906 West Campus Point Lane",
+    "layer": "N0809_West Campus Point Faculty Housing · 906 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0809M0900": {
-    "layer": "N0809_906 West Campus Point Lane",
+    "layer": "N0809_West Campus Point Faculty Housing · 906 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0809D1100": {
-    "layer": "N0809_906 West Campus Point Lane",
+    "layer": "N0809_West Campus Point Faculty Housing · 906 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19085,17 +19090,17 @@
     "material": "ContextGlass"
   },
   "N0811M0600": {
-    "layer": "N0811_911 West Campus Point Lane",
+    "layer": "N0811_West Campus Point Faculty Housing · 911 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0811M0900": {
-    "layer": "N0811_911 West Campus Point Lane",
+    "layer": "N0811_West Campus Point Faculty Housing · 911 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0811D1100": {
-    "layer": "N0811_911 West Campus Point Lane",
+    "layer": "N0811_West Campus Point Faculty Housing · 911 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19145,17 +19150,17 @@
     "material": "ContextGlass"
   },
   "N0815M0600": {
-    "layer": "N0815_912 West Campus Point Lane",
+    "layer": "N0815_West Campus Point Faculty Housing · 912 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0815M0900": {
-    "layer": "N0815_912 West Campus Point Lane",
+    "layer": "N0815_West Campus Point Faculty Housing · 912 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0815D1100": {
-    "layer": "N0815_912 West Campus Point Lane",
+    "layer": "N0815_West Campus Point Faculty Housing · 912 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19175,47 +19180,47 @@
     "material": "ContextGlass"
   },
   "N0817M0600": {
-    "layer": "N0817_975 West Campus Point Lane",
+    "layer": "N0817_West Campus Point Faculty Housing · 975 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0817M0900": {
-    "layer": "N0817_975 West Campus Point Lane",
+    "layer": "N0817_West Campus Point Faculty Housing · 975 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0817D1100": {
-    "layer": "N0817_975 West Campus Point Lane",
+    "layer": "N0817_West Campus Point Faculty Housing · 975 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0818M0600": {
-    "layer": "N0818_913 West Campus Point Lane",
+    "layer": "N0818_West Campus Point Faculty Housing · 913 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0818M0900": {
-    "layer": "N0818_913 West Campus Point Lane",
+    "layer": "N0818_West Campus Point Faculty Housing · 913 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0818D1100": {
-    "layer": "N0818_913 West Campus Point Lane",
+    "layer": "N0818_West Campus Point Faculty Housing · 913 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
   "N0819M0600": {
-    "layer": "N0819_914 West Campus Point Lane",
+    "layer": "N0819_West Campus Point Faculty Housing · 914 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0819M0900": {
-    "layer": "N0819_914 West Campus Point Lane",
+    "layer": "N0819_West Campus Point Faculty Housing · 914 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0819D1100": {
-    "layer": "N0819_914 West Campus Point Lane",
+    "layer": "N0819_West Campus Point Faculty Housing · 914 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19370,17 +19375,17 @@
     "material": "ContextGlass"
   },
   "N0830M0600": {
-    "layer": "N0830_904 West Campus Point Lane",
+    "layer": "N0830_West Campus Point Faculty Housing · 904 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0830M0900": {
-    "layer": "N0830_904 West Campus Point Lane",
+    "layer": "N0830_West Campus Point Faculty Housing · 904 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0830D1100": {
-    "layer": "N0830_904 West Campus Point Lane",
+    "layer": "N0830_West Campus Point Faculty Housing · 904 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19460,17 +19465,17 @@
     "material": "ContextGlass"
   },
   "N0836M0600": {
-    "layer": "N0836_905 West Campus Point Lane",
+    "layer": "N0836_West Campus Point Faculty Housing · 905 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0836M0900": {
-    "layer": "N0836_905 West Campus Point Lane",
+    "layer": "N0836_West Campus Point Faculty Housing · 905 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0836D1100": {
-    "layer": "N0836_905 West Campus Point Lane",
+    "layer": "N0836_West Campus Point Faculty Housing · 905 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19790,17 +19795,17 @@
     "material": "ContextGlass"
   },
   "N0858M0600": {
-    "layer": "N0858_976 West Campus Point Lane",
+    "layer": "N0858_West Campus Point Faculty Housing · 976 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0858M0900": {
-    "layer": "N0858_976 West Campus Point Lane",
+    "layer": "N0858_West Campus Point Faculty Housing · 976 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0858D1100": {
-    "layer": "N0858_976 West Campus Point Lane",
+    "layer": "N0858_West Campus Point Faculty Housing · 976 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -19910,17 +19915,17 @@
     "material": "ContextGlass"
   },
   "N0866M0600": {
-    "layer": "N0866_977 West Campus Point Lane",
+    "layer": "N0866_West Campus Point Faculty Housing · 977 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0866M0900": {
-    "layer": "N0866_977 West Campus Point Lane",
+    "layer": "N0866_West Campus Point Faculty Housing · 977 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0866D1100": {
-    "layer": "N0866_977 West Campus Point Lane",
+    "layer": "N0866_West Campus Point Faculty Housing · 977 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -20030,17 +20035,17 @@
     "material": "ContextGlass"
   },
   "N0874M0600": {
-    "layer": "N0874_978 West Campus Point Lane",
+    "layer": "N0874_West Campus Point Faculty Housing · 978 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0874M0900": {
-    "layer": "N0874_978 West Campus Point Lane",
+    "layer": "N0874_West Campus Point Faculty Housing · 978 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0874D1100": {
-    "layer": "N0874_978 West Campus Point Lane",
+    "layer": "N0874_West Campus Point Faculty Housing · 978 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -20120,17 +20125,17 @@
     "material": "ContextGlass"
   },
   "N0880M0600": {
-    "layer": "N0880_979 West Campus Point Lane",
+    "layer": "N0880_West Campus Point Faculty Housing · 979 West Campus Point Lane",
     "category": "building",
     "material": "ContextStucco"
   },
   "N0880M0900": {
-    "layer": "N0880_979 West Campus Point Lane",
+    "layer": "N0880_West Campus Point Faculty Housing · 979 West Campus Point Lane",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0880D1100": {
-    "layer": "N0880_979 West Campus Point Lane",
+    "layer": "N0880_West Campus Point Faculty Housing · 979 West Campus Point Lane",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -20735,17 +20740,17 @@
     "material": "ContextGlass"
   },
   "N0921M0700": {
-    "layer": "N0921_976 Embarcadero del Mar",
+    "layer": "N0921_Isla Vista Community Resources Building · 976 Embarcadero del Mar",
     "category": "building",
     "material": "ContextStone"
   },
   "N0921M0900": {
-    "layer": "N0921_976 Embarcadero del Mar",
+    "layer": "N0921_Isla Vista Community Resources Building · 976 Embarcadero del Mar",
     "category": "building",
     "material": "ContextRoof"
   },
   "N0921D1100": {
-    "layer": "N0921_976 Embarcadero del Mar",
+    "layer": "N0921_Isla Vista Community Resources Building · 976 Embarcadero del Mar",
     "category": "building",
     "material": "ContextGlass"
   },
@@ -28874,11 +28879,6 @@
     "category": "neighbor-environment",
     "material": "ContextGround"
   },
-  "NE0003": {
-    "layer": "Neighboring_Environment",
-    "category": "neighbor-environment",
-    "material": "ContextGround"
-  },
   "NE0100": {
     "layer": "Neighboring_Environment",
     "category": "neighbor-environment",
@@ -28910,11 +28910,6 @@
     "material": "ContextPaving"
   },
   "NE0301": {
-    "layer": "Neighboring_Environment",
-    "category": "neighbor-environment",
-    "material": "ContextPaving"
-  },
-  "NE0302": {
     "layer": "Neighboring_Environment",
     "category": "neighbor-environment",
     "material": "ContextPaving"
@@ -28959,11 +28954,6 @@
     "category": "neighbor-environment",
     "material": "ContextLeaves"
   },
-  "NE0505": {
-    "layer": "Neighboring_Environment",
-    "category": "neighbor-environment",
-    "material": "ContextLeaves"
-  },
   "NE5200": {
     "layer": "Neighboring_Environment",
     "category": "neighbor-environment",
@@ -28983,5 +28973,45 @@
     "layer": "Neighboring_Environment",
     "category": "neighbor-environment",
     "material": "Sand"
+  },
+  "CE0000": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "ContextGround"
+  },
+  "CE0100": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "ContextRoad"
+  },
+  "CE0200": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "ContextWalk"
+  },
+  "CE0300": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "ContextPaving"
+  },
+  "CE0400": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "ContextGrass"
+  },
+  "CE0500": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "ContextLeaves"
+  },
+  "CE0501": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "ContextLeaves"
+  },
+  "CE5700": {
+    "layer": "Campus_Extensions_Environment",
+    "category": "campus-environment",
+    "material": "Trunk"
   }
 }

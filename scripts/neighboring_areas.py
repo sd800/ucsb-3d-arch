@@ -8,10 +8,13 @@ from shapely import segmentize,points
 from shapely.strtree import STRtree
 from scipy.interpolate import RegularGridInterpolator
 from PIL import Image
+from campus_affiliation import classify_campus
 
-NAMES={'Isla Vista Theater':'伊斯拉维斯塔剧院','Pardall Center':'帕多尔中心','Embarcadero Hall':'恩巴卡德罗楼','St. Michael’s University Church':'圣米迦勒大学教堂','St. Mark’s University Parish':'圣马可大学堂区','Isla Vista Community Center':'伊斯拉维斯塔社区中心','Pardall Gardens':'帕多尔花园','Anisq’Oyo’ Park':'Anisq’Oyo’ 公园','Anisq\'Oyo\' Park':'Anisq’Oyo’ 公园','Little Acorn Park':'小橡果公园','People’s Park':'人民公园','Perfect Park':'Perfect 公园','Estero Park':'埃斯特罗公园','Sea Lookout Park':'海景公园','Window-to-the-Sea Park':'海之窗公园','Pelican Park':'鹈鹕公园','Trigo-Pasado Park':'特里戈—帕萨多公园','Del Playa Open Space':'德尔普拉亚开放空间'}
+EXTENSION_NAMES={'West Campus Apartments':'西校区家庭学生公寓','West Campus Point Faculty Housing':'西校区角教职工住宅','Santa Ynez Apartments':'圣伊内斯公寓','San Joaquin North Villages':'圣华金北村公寓','San Joaquin Tower Villages':'圣华金塔楼区公寓','San Clemente Apartments':'圣克莱门特公寓','San Clemente Parking IV':'圣克莱门特停车楼','Isla Vista Community Resources Building':'伊斯拉维斯塔社区资源楼'}
+NAMES={'San Clemente Center':'圣克莱门特中心','Bradbury':'布拉德伯里公寓','Donner':'唐纳公寓','Portola Dining Commons':'波托拉餐饮中心',"Orfalea Family Children's Center":'奥法利亚家庭儿童中心','West Campus Conference Center':'西校区会议中心','Charles T. Munger Physics Residence':'查尔斯·T.芒格物理学者公寓','Westgate Apartments':'西门公寓','Tropicana del Norte':'特罗皮卡纳北区','Tropicana Gardens':'特罗皮卡纳花园','Tropicana Villas':'特罗皮卡纳别墅区','El Dorado Apartments':'埃尔多拉多公寓','Isla Vista Foot Patrol':'伊斯拉维斯塔巡逻站','Isla Vista Theater':'伊斯拉维斯塔剧院','Pardall Center':'帕多尔中心','Embarcadero Hall':'恩巴卡德罗楼','St. Michael’s University Church':'圣米迦勒大学教堂','St. Mark’s University Parish':'圣马可大学堂区','Isla Vista Community Center':'伊斯拉维斯塔社区中心','Pardall Gardens':'帕多尔花园','Anisq’Oyo’ Park':'Anisq’Oyo’ 公园','Anisq\'Oyo\' Park':'Anisq’Oyo’ 公园','Little Acorn Park':'小橡果公园','People’s Park':'人民公园','Perfect Park':'Perfect 公园','Estero Park':'埃斯特罗公园','Sea Lookout Park':'海景公园','Window-to-the-Sea Park':'海之窗公园','Pelican Park':'鹈鹕公园','Trigo-Pasado Park':'特里戈—帕萨多公园','Del Playa Open Space':'德尔普拉亚开放空间'}
 
-def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
+def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground,grade_join_scope=None):
+    if grade_join_scope is None:grade_join_scope=campus_scope
     selection=box(-2850,-760,-490,720)
     extent=selection.difference(ocean).difference(campus_scope.buffer(.02)).buffer(0)
     candidates=[]
@@ -32,6 +35,8 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
     # Include complete selected buildings at the scope edge; do not slice a
     # neighbor house into a floating fragment along the context selection box.
     extent=unary_union([extent,*[f['poly'].buffer(2)for f in accepted]]).difference(ocean).difference(campus_scope.buffer(.02)).buffer(0)
+    campus_sites=classify_campus(osm,accepted).intersection(extent).buffer(0)
+    extension_records=[];extension_features=[];extension_pads=[];extension_samples=[]
     ex=json.loads((ROOT/'sources/neighbor_terrain_metadata.json').read_text())['extent'];dem=np.asarray(Image.open(ROOT/'sources/neighbor_terrain_dem.tif'),dtype=float)
     xs=np.linspace(ex['xmin'],ex['xmax'],dem.shape[1],endpoint=False)+(ex['xmax']-ex['xmin'])/dem.shape[1]/2-OX
     ys=np.linspace(ex['ymin'],ex['ymax'],dem.shape[0],endpoint=False)+(ex['ymax']-ex['ymin'])/dem.shape[0]/2-OY
@@ -40,7 +45,7 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
         x,y=np.broadcast_arrays(x,y);z=np.maximum(.18,interp(np.column_stack([y.ravel(),x.ravel()])).reshape(x.shape))
         # At the old scope edge blend only elevations (not coordinates), so the
         # public DEM snapshots meet without a step in roads and sidewalks.
-        ds=np.array([campus_scope.distance(Point(xx,yy))for xx,yy in zip(x.ravel(),y.ravel())]).reshape(x.shape)
+        ds=np.array([grade_join_scope.distance(Point(xx,yy))for xx,yy in zip(x.ravel(),y.ravel())]).reshape(x.shape)
         blend=np.clip(ds/25,0,1)
         return z*blend+campus_ground(x,y)*(1-blend)
     pads=[];samples=[]
@@ -68,19 +73,21 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
     residential=unary_union([f['poly'].buffer(3.8,join_style=2)for f in accepted if f['properties'].get('building')in ['house','detached','apartments','residential']])
     greens=unary_union([greens,residential]).intersection(extent).difference(roads.buffer(.25)).difference(walks).difference(allfoot).buffer(0)
     paved=unary_union([f['poly'].buffer(1.0,join_style=2)for f in accepted]).intersection(extent).difference(greens).difference(roads).difference(walks).difference(allfoot)
-    msenv={m:[]for m in COLORS};context=[]
+    msenv={m:[]for m in COLORS};campenv={m:[]for m in COLORS};context=[]
     layer('Neighboring_Environment','ContextGrass')
+    layer('Campus_Extensions_Environment','ContextGrass')
     def env(g,z,h,mat,drape=True):
         g=g.intersection(extent).buffer(0)
-        for p in polygons(g):
-            a,b,c,d=p.bounds
-            for xx in np.arange(math.floor(a/90)*90,c,90):
-                for yy in np.arange(math.floor(b/90)*90,d,90):
-                    for q in polygons(p.intersection(box(xx,yy,xx+90,yy+90))):
-                        if drape:q=segmentize(q,8)
-                        m=extrusion(q,z,h)
-                        if drape:m.vertices[:,2]+=ground(m.vertices[:,0],m.vertices[:,1])
-                        msenv[mat].append(m)
+        for region,target in [(g.intersection(campus_sites),campenv),(g.difference(campus_sites),msenv)]:
+            for p in polygons(region):
+                a,b,c,d=p.bounds
+                for xx in np.arange(math.floor(a/90)*90,c,90):
+                    for yy in np.arange(math.floor(b/90)*90,d,90):
+                        for q in polygons(p.intersection(box(xx,yy,xx+90,yy+90))):
+                            if drape:q=segmentize(q,8)
+                            m=extrusion(q,z,h)
+                            if drape:m.vertices[:,2]+=ground(m.vertices[:,0],m.vertices[:,1])
+                            target[mat].append(m)
     env(extent.difference(allfoot),-3,3,'ContextGround')
     env(roads,.10,.05,'ContextRoad');env(walks,.18,.045,'ContextWalk');env(greens,.14,.04,'ContextGrass');env(paved,.22,.04,'ContextPaving')
     beach=extent.intersection(ocean.buffer(11)).difference(allfoot).difference(roads).difference(walks);env(beach,.26,.04,'Sand')
@@ -89,9 +96,11 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
         tt=feature['properties'];gg=feature['poly']
         if gg.geom_type in ['Polygon','MultiPolygon']and tt.get('natural')=='water'and gg.intersects(extent):env(gg,.26,.04,'Water')
     for j,f in enumerate(accepted,1):
-        p=f['poly'];t=f['properties'];c=p.centroid;z=f['grade'];code=f'N{j:04d}';kind=t.get('building');res=kind in ['house','apartments','residential','dormitory','detached']
+        p=f['poly'];t=f['properties'];c=p.centroid;z=f['grade'];affiliation=f['campus_affiliation'];campus_member=affiliation is not None;target_env=campenv if campus_member else msenv;target_samples=extension_samples if campus_member else samples;code=f'N{j:04d}';kind=t.get('building');res=kind in ['house','apartments','residential','dormitory','detached']
         address=' '.join(filter(None,[t.get('addr:housenumber'),t.get('addr:street')]))
         name=t.get('name')or address or 'Isla Vista building '+t['osm_id'].split('/')[-1]
+        if campus_member and not t.get('name'):
+            name=affiliation['site']+(' · '+address if address else '')
         try:n=max(1,min(8,int(float(t.get('building:levels','')))))
         except ValueError:n=2 if p.area<600 else 3 if res else 1
         try:h=max(3,min(32,float(t.get('height',''))))
@@ -102,7 +111,7 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
         wall='ContextBrick'if t.get('building:material')=='brick'else 'ContextStucco'if res else 'ContextStone'
         roofmat='ContextTile'if t.get('roof:material')in ['roof_tiles','tile']or t.get('roof:colour')in ['red','#A52A2A']else 'ContextRoof'
         source='https://www.openstreetmap.org/'+t['osm_id'];lay=code+'_'+name.replace(':',' ').replace('/',' ');layer(lay,wall);ms={m:[]for m in COLORS}
-        info={'NameEN':name,'Source':source,'Scope':'Campus neighboring areas','HeightStatus':'OSM tagged height or exterior estimate','Units':'meters'}
+        info={'NameEN':name,'Source':source,'Scope':'Campus'if campus_member else 'Campus neighboring areas','HeightStatus':'OSM tagged height or exterior estimate','Units':'meters'}
         for q in polygons(p):
             native_extrude(q,z,body,code+'_Volume',lay,wall,info);ms[wall].append(extrusion(q,z,body))
             support=extrusion(segmentize(q,5),z-1.5,1.51);bottom=support.vertices[:,2]<z-.7;support.vertices[bottom,2]=np.minimum(z-1,raw(support.vertices[bottom,0],support.vertices[bottom,1])-1.2);ms[wall].append(support)
@@ -132,13 +141,23 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
             if meshes:chunk_meshes(code+('D'if mat=='ContextGlass'else 'M')+f'{k:02d}',meshes,mat,lay,info)
         # Full level pad closes terrain below the complete building footprint.
         for q in polygons(p):
-            m=extrusion(q,z-.18,.18);msenv['ContextGround'].append(m)
+            m=extrusion(q,z-.18,.18);target_env['ContextGround'].append(m)
             pq=q.buffer(-.15)
             if pq.is_empty:pq=q
             if pq.geom_type!='Polygon':pq=max(pq.geoms,key=lambda a:a.area)
-            for pt in [pq.representative_point()]+[pq.exterior.interpolate(pq.exterior.length*k/4)for k in range(4)]:samples.append({'code':code,'name':name,'position':[pt.x,pt.y,z]})
+            for pt in [pq.representative_point()]+[pq.exterior.interpolate(pq.exterior.length*k/4)for k in range(4)]:target_samples.append({'code':code,'name':name,'position':[pt.x,pt.y,z]})
         record={'code':code,'facility_id':'neighbor-'+t['osm_id'],'neighbor':True,'name':name,'name_zh':NAMES.get(name,name if t.get('name')else ('伊斯拉维斯塔建筑 '+t['osm_id'].split('/')[-1]if not address else address)),'short':name,'short_zh':NAMES.get(name,name),'aliases_zh':['Isla Vista','伊斯拉维斯塔',address],'layer':lay,'zone':'neighbors','landmark':False,'height':round(h,3),'height_status':'estimated','levels':n,'area':round(p.area,2),'width':round(p.bounds[2]-p.bounds[0],2),'depth':round(p.bounds[3]-p.bounds[1],2),'center':[round(c.x,3),round(c.y,3)],'ground_m':round(z,3),'bottom_m':round(z,3),'peak_m':round(z+h+.2,3),'partition_en':'Mapped building outline, courtyard voids, grouped window bays, shallow eaves and a distinct roof finish. Unrecorded facade members and materials are approximate.','partition':'采用映射建筑轮廓，保留庭院孔洞，细化成组窗、浅檐和屋面；未记录的立面构件及材质为近似表达。','basis_en':'OSM tagged height or storeys where present; otherwise a conservative low-rise exterior estimate. Ground uses expanded USGS 3DEP sampling and a closed level building pad.','basis':'优先采用OpenStreetMap所记高度或层数；缺失时采用保守的低层建筑外部估算。地面依据扩展的USGS 3DEP采样，建筑下方采用闭合平整基座。','source':source,'footprint_source':source}
-        context.append(record);pads.append({'code':code,'height':z,'bounds':p.bounds,'geometry':mapping(p)})
+        pad={'code':code,'height':z,'bounds':p.bounds,'geometry':mapping(p)}
+        if campus_member:
+            record.update(neighbor=False,zone='west',campus_extension=True,campus_affiliation=affiliation,facility_id='campus-'+t['osm_id'])
+            if not t.get('name'):
+                short_zh=NAMES.get(affiliation['site'],EXTENSION_NAMES.get(affiliation['site'],affiliation['site']))
+                record.update(name_zh=short_zh+(' · '+address if address else ''),short=name,short_zh=short_zh)
+            record['basis_en']+=' Campus membership: '+affiliation['site']+'; verified against official university facilities or housing sources.'
+            record['basis']+=' 校园归属依据：学校官方设施或住房资料。'
+            record['aliases_zh'] += [affiliation['site'],'UCSB','Campus']
+            extension_records.append(record);extension_pads.append(pad);extension_features.append({'type':'Feature','properties':record,'geometry':mapping(p)})
+        else:context.append(record);pads.append(pad)
         if j%250==0:print('Neighbor buildings',j,flush=True)
     # Retain mapped trees. Parks and residential planting get restrained,
     # explicitly illustrative canopies with deterministic sizes on actual green.
@@ -152,11 +171,13 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
     for pt in treepoints:
         if treeclear.contains(pt)or any(pt.distance(other)<4.0 for other in used):continue
         used.append(pt);x,y=pt.x,pt.y;z=float(ground(x,y));hh=float(rng.uniform(4.5,8.5));r=float(rng.uniform(1.5,2.8))
-        msenv['Trunk'].append(cylinder((x,y,z-.5),(x,y,z+hh*.7),.12,5));m=trimesh.creation.icosphere(subdivisions=1);m.apply_scale([r,r*.85,hh*.35]);m.apply_translation([x,y,z+hh*.72]);msenv['ContextLeaves'].append(m)
-    for k,(mat,meshes)in enumerate(msenv.items()):
-        if meshes:
-            before=len(objects);chunk_meshes(f'NE{k:02d}',meshes,mat,'Neighboring_Environment',{'Source':'OSM; USGS 3DEP','Scope':'Campus neighboring areas','Approximation':'Unrecorded widths, heights, facade members, materials and supplementary planting approximate'})
-            for obj in objects[before:]:layer_map[obj['name']]['category']='neighbor-environment'
+        tree_env=campenv if campus_sites.covers(pt)else msenv
+        tree_env['Trunk'].append(cylinder((x,y,z-.5),(x,y,z+hh*.7),.12,5));m=trimesh.creation.icosphere(subdivisions=1);m.apply_scale([r,r*.85,hh*.35]);m.apply_translation([x,y,z+hh*.72]);tree_env['ContextLeaves'].append(m)
+    for collection,prefix,lay,category in [(msenv,'NE','Neighboring_Environment','neighbor-environment'),(campenv,'CE','Campus_Extensions_Environment','campus-environment')]:
+        for k,(mat,meshes)in enumerate(collection.items()):
+            if meshes:
+                before=len(objects);chunk_meshes(f'{prefix}{k:02d}',meshes,mat,lay,{'Source':'OSM; UCSB facilities/housing sources; USGS 3DEP','Scope':category,'Approximation':'Unrecorded widths, heights, facade members, materials and supplementary planting approximate'})
+                for obj in objects[before:]:layer_map[obj['name']]['category']=category
     places=[]
     for f in osm:
         t=f['properties'];g=f['poly'];name=t.get('name','')
@@ -164,10 +185,14 @@ def build_neighbors(osm,campus_scope,campus_footprints,ocean,campus_ground):
         if t.get('leisure')not in ['park','garden','nature_reserve']:continue
         q=g.intersection(extent)
         if q.area<15:continue
-        c=q.representative_point();places.append({'id':'neighbor-place-'+t['osm_id'],'name':name,'name_zh':NAMES.get(name,name),'neighbor':True,'position':[c.x,c.y,float(ground(c.x,c.y))+.5],'hitArea':mapping(q),'label':False})
-    report={'buildings':len(context),'bounds':list(extent.bounds),'area_m2':extent.area,'source':'OSM snapshot, expanded USGS 3DEP DEM','selection':'Mapped Isla Vista and adjacent coastal streets west of the main campus, including Pardall, the Embarcaderos, Del Playa and mapped parks. Clipping bounds are recorded here; this is not the entire Goleta municipality.','trees':len(used),'accuracy':'OSM outlines and tagged levels retained. Other low-rise heights, facade bays, materials, width estimates and supplementary planting approximate. No satellite survey or parcel measurement is claimed.'}
+        c=q.representative_point();places.append({'id':'neighbor-place-'+t['osm_id'],'name':name,'name_zh':NAMES.get(name,name),'neighbor':q.intersection(campus_sites).area<q.area*.80,'position':[c.x,c.y,float(ground(c.x,c.y))+.5],'hitArea':mapping(q),'label':False})
+    report={'campus_extension_buildings':len(extension_records),'buildings':len(context),'bounds':list(extent.bounds),'area_m2':extent.area,'source':'OSM snapshot, expanded USGS 3DEP DEM','selection':'Mapped Isla Vista and adjacent coastal streets west of the main campus, including Pardall, the Embarcaderos, Del Playa and mapped parks. Clipping bounds are recorded here; this is not the entire Goleta municipality.','trees':len(used),'accuracy':'OSM outlines and tagged levels retained. Other low-rise heights, facade bays, materials, width estimates and supplementary planting approximate. No satellite survey or parcel measurement is claimed.'}
     (OUT/'neighboring_records.json').write_text(json.dumps(context,ensure_ascii=False,indent=2)+'\n');(OUT/'neighboring_report.json').write_text(json.dumps(report,indent=2)+'\n');(OUT/'neighboring_pads.json').write_text(json.dumps(pads,separators=(',',':')));(OUT/'neighboring_contact_samples.json').write_text(json.dumps(samples,separators=(',',':')));(OUT/'neighboring_places.json').write_text(json.dumps(places,ensure_ascii=False,separators=(',',':')))
-    (OUT/'neighboring_footprints_local_meters.geojson').write_text(json.dumps({'type':'FeatureCollection','features':[{'type':'Feature','properties':r,'geometry':mapping(f['poly'])}for r,f in zip(context,accepted)]},ensure_ascii=False,separators=(',',':')))
+    (OUT/'neighboring_footprints_local_meters.geojson').write_text(json.dumps({'type':'FeatureCollection','features':[{'type':'Feature','properties':rr,'geometry':mapping(f['poly'])}for rr,f in zip([*extension_records,*context],[*[f for f in accepted if f['campus_affiliation']],*[f for f in accepted if not f['campus_affiliation']]])if not rr.get('campus_extension')]},ensure_ascii=False,separators=(',',':')))
     with (OUT/'neighboring_building_dimensions_and_sources.csv').open('w',encoding='utf-8-sig',newline='')as fd:
         w=csv.DictWriter(fd,fieldnames=list(context[0]));w.writeheader();w.writerows(context)
-    return context,report
+    (OUT/'campus_extension_records.json').write_text(json.dumps(extension_records,ensure_ascii=False,indent=2)+'\n')
+    (OUT/'campus_extension_footprints_local_meters.geojson').write_text(json.dumps({'type':'FeatureCollection','features':extension_features},ensure_ascii=False,separators=(',',':')))
+    (OUT/'campus_extension_contact_samples.json').write_text(json.dumps(extension_samples,separators=(',',':')))
+    (OUT/'campus_extension_sites_local_meters.geojson').write_text(json.dumps(mapping(campus_sites),separators=(',',':')))
+    return context,report,extension_records,extension_features,extension_samples

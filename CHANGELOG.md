@@ -1,5 +1,15 @@
 # Changelog
 
+## 26.10.15.2 — 2026-10-15
+
+- Classify verified university facilities and housing as Campus regardless of their location in Isla Vista or beyond the main campus boundary, including Embarcadero Hall, Isla Vista Theater, Pardall Center and modeled university housing.
+- Move 263 mapped structures into the campus directory, leaving 1,199 independent neighboring structures. Remove their neighboring-name prefix and retain individual visibility, search and stable object codes.
+- Keep verified campus extension ground, entrances, university parking and planting visible when neighboring areas are disabled, using a separate closed environment layer.
+- Include the modeled campus extensions in Campus/Plan overview framing while retaining the initial core view.
+- Record official affiliation sources and preserve existing building mesh geometry.
+- Restore the complete five-pitch west recreation soccer group and surrounding ground beside Arrowhead Village; remove the diagonal campus crop and keep them visible with neighboring areas disabled.
+- Consolidate duplicate soccer goal frames, connect their crossbars and anchor the net posts into the playing surface; omit fittings on cropped fragments of remote facilities.
+
 ## 26.10.15.1 — 2026-10-15
 
 - Rebuild Anacapa, Santa Cruz and Santa Rosa with their mapped bent wings, open courtyards, low eaves, masonry ends and grouped window bays.

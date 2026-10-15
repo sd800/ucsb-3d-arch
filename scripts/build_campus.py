@@ -55,6 +55,33 @@ scope=unary_union([scope.intersection(campus_property.buffer(8)),scope.intersect
 parcel_extent=scope
 coastal_completion=model_extent.buffer(30).intersection(ocean.buffer(45)).difference(ocean).difference(scope).buffer(0)
 scope=unary_union([scope,coastal_completion]).buffer(0)
+# Complete mapped playing surfaces before generating ground or equipment. Keep
+# building selection and the original terrain-snapshot join fixed, so extending
+# the outdoor scope cannot move existing houses or change their object codes.
+grade_join_scope=scope
+sports_candidates=[f for f in osm if f['poly'].geom_type in ['Polygon','MultiPolygon']
+    and f['properties'].get('leisure') in ['pitch','track']
+    and campus_property.buffer(.1).covers(f['poly'])]
+sports_scope_sources=[]
+# Walk the adjacent pitch group to a fixed point. A single expansion can touch
+# the next field and create another clipped sliver (and misoriented goal frame).
+while True:
+    adjacent=[f for f in sports_candidates if f['poly'].intersects(scope)]
+    if not adjacent:break
+    sports_scope_sources.extend(adjacent)
+    sports_candidates=[f for f in sports_candidates if all(f is not other for other in adjacent)]
+    sports_runoff=unary_union([f['poly'].buffer(6,join_style=2)for f in adjacent]).intersection(campus_property)
+    scope=unary_union([scope,sports_runoff]).buffer(0)
+(OUT/'sports_scope_validation.json').write_text(json.dumps({
+    'source':'sources/osm_features.geojson',
+    'rule':'Complete connected groups of mapped campus pitches and tracks; retain 6 m of surrounding ground within the campus parcel.',
+    'added_land_m2':round(scope.difference(grade_join_scope).area,3),
+    'surfaces':[{'osm_id':f['properties']['osm_id'],'sport':f['properties'].get('sport'),
+        'source_area_m2':round(f['poly'].area,3),
+        'previously_clipped_m2':round(f['poly'].difference(grade_join_scope).area,3),
+        'missing_area_m2':round(f['poly'].difference(scope).area,6)}for f in sports_scope_sources],
+    'passed':all(f['poly'].difference(scope).area<.001 for f in sports_scope_sources)
+},indent=2)+'\n')
 land=scope.difference(ocean).difference(lagoon).buffer(0);meta=json.loads((ROOT/'sources/terrain_export_metadata.json').read_text());ex=meta['extent'];dem=np.asarray(Image.open(ROOT/'sources/terrain_dem.tif'),dtype=float)
 assert np.isfinite(dem).all() and dem.min()>-100 and dem.max()<200
 xs=np.linspace(ex['xmin'],ex['xmax'],dem.shape[1],endpoint=False)+(ex['xmax']-ex['xmin'])/dem.shape[1]/2-OX
@@ -326,11 +353,7 @@ for f in osm:
                 zz=float(ground(*c0));eg['Frame'].append(cylinder((*(c0-v*halfwidth),zz+.95),(*(c0+v*halfwidth),zz+.95),.025,4))
             if t.get('sport') in ['soccer','football']:
                 env(LineString([c0-v*r0/2,c0+v*r0/2]).buffer(.10).intersection(g),.32,.02,'Marking');env(Point(*c0).buffer(9.15,quad_segs=24).boundary.buffer(.10).intersection(g),.32,.02,'Marking')
-                for sign in [-1,1]:
-                    ends=[p0@u for p0 in np.asarray(g.exterior.coords)];end=max(ends)if sign>0 else min(ends);goal=c0+u*(end-c0@u-sign*.5)
-                    for offset in [-3.66,3.66]:
-                        a0=goal+v*offset;eg['Furniture'].append(cylinder((*a0,float(ground(*a0))),(*a0,float(ground(*a0))+2.44),.06,6))
-                    eg['Furniture'].append(cylinder((*(goal-v*3.66),float(ground(*goal))+2.44),(*(goal+v*3.66),float(ground(*goal))+2.44),.06,6))
+                # Connected goal frames and nets are generated once below.
     if t.get('leisure')=='garden':env(g.difference(footprints).difference(walkarea),.15,.04,'Garden')
     if t.get('leisure')=='swimming_pool':env(g,.32,.04,'PoolWater');place(name or 'Campus swimming pool','校园泳池',g)
     if name in ['Storke Plaza','Library Plaza','Marie Rogers Lowry Museum Plaza']:
@@ -456,11 +479,12 @@ for k,(mat,parts) in enumerate(eg.items()):
     if parts:chunk_meshes(f'E{k:02d}',parts,mat,'Environment',{'Source':ICM+'; OSM; USGS 3DEP','Approximation':'Vegetation shapes, facade detail, street widths and ocean surface styling are illustrative','Units':'meters'})
 print('Landscape:',trees,'mapped trees,',palmtree,'palms,',shrubs,'illustrative coastal shrubs',flush=True)
 from neighboring_areas import build_neighbors
-neighbors,neighbor_report=build_neighbors(osm,scope,footprints,ocean,ground)
+neighbors,neighbor_report,extension_records,extension_features,extension_samples=build_neighbors(osm,scope,footprints,ocean,ground,grade_join_scope=grade_join_scope)
+records.extend(extension_records)
 zone_shapes={z:unary_union([f['poly']for f in buildings if f['zone']==z]).envelope.buffer(20)for z in ['central','west','south','north']}
 for name,g in [('Campus',scope),*zone_shapes.items()]:
     aa,bb,cc,dd=g.bounds;xx=(aa+cc)/2;yy=(bb+dd)/2;size=max(cc-aa,dd-bb)*.7;v=rh.ViewInfo();v.Name=name;v.Viewport.SetCameraLocation(rh.Point3d(xx-1200,yy-1700,1700));v.Viewport.SetCameraDirection(rh.Vector3d(1200,1700,-1600));v.Viewport.SetCameraUp(rh.Vector3d(0,0,1));v.Viewport.TargetPoint=rh.Point3d(xx,yy,12);v.Viewport.ChangeToParallelProjection(True);v.Viewport.SetFrustum(-size,size,-size,size,1,40000);model.NamedViews.Add(v)
-model.Strings['ModelNotes']='Independent UCSB coastal Main Campus exterior study. Official 2026 footprints, historical public outdoor mapping, OSM shore and paths, USGS terrain. Storke height published; remaining heights and details approximate. One layer per mapped campus and neighboring structure; campus outdoor and sea geometry on Environment, surrounding streets and landscape on Neighboring_Environment. Not official BIM or a measured survey.'
+model.Strings['ModelNotes']='Independent UCSB coastal Main Campus exterior study. Official 2026 footprints, historical public outdoor mapping, OSM shore and paths, USGS terrain. Storke height published; remaining heights and details approximate. One layer per mapped campus and neighboring structure; campus outdoor and sea geometry on Environment, verified university extension grounds on Campus_Extensions_Environment, surrounding streets and landscape on Neighboring_Environment. Not official BIM or a measured survey.'
 assert model.Write(str(OUT/'UCSB_MainCampus_Layered.3dm'),7)
 def chunk(tag,data=b''):return struct.pack('<HI',tag,len(data)+6)+data
 def zs(s):return s.encode('ascii')+b'\0'
@@ -474,8 +498,8 @@ for o in objects:
 for name,data in [('layer_map',layer_map),('palette',COLORS),('buildings',records),('viewer_records',records),('places',places)]:
     (OUT/(name+'.json')).write_text(json.dumps(data,ensure_ascii=False,indent=2))
 with (OUT/'building_dimensions_and_sources.csv').open('w',encoding='utf-8-sig',newline='')as fd:
-    w=csv.DictWriter(fd,fieldnames=list(records[0]));w.writeheader();w.writerows(records)
-(OUT/'footprints_local_meters.geojson').write_text(json.dumps({'type':'FeatureCollection','coordinate_system':{'epsg':32611,'origin_easting':OX,'origin_northing':OY,'origin_wgs84':[LON,LAT],'unit':'m','note':'Local projected meters, not RFC7946 lon/lat'},'features':[{'type':'Feature','properties':f['record'],'geometry':mapping(f['poly'])}for f in buildings]},ensure_ascii=False,separators=(',',':')))
+    w=csv.DictWriter(fd,fieldnames=list(dict.fromkeys(k for row in records for k in row)));w.writeheader();w.writerows(records)
+(OUT/'footprints_local_meters.geojson').write_text(json.dumps({'type':'FeatureCollection','coordinate_system':{'epsg':32611,'origin_easting':OX,'origin_northing':OY,'origin_wgs84':[LON,LAT],'unit':'m','note':'Local projected meters, not RFC7946 lon/lat'},'features':[{'type':'Feature','properties':f['record'],'geometry':mapping(f['poly'])}for f in buildings]+extension_features},ensure_ascii=False,separators=(',',':')))
 samples=[]
 for f in buildings:
     for part in polygons(f['poly']):
@@ -484,9 +508,10 @@ for f in buildings:
         if q.geom_type!='Polygon':q=max(q.geoms,key=lambda p:p.area)
         probes=[q.representative_point()]+[q.exterior.interpolate(q.exterior.length*k/6)for k in range(6)]
         for pt in probes:samples.append({'code':f['record']['code'],'name':f['name'],'position':[pt.x,pt.y,f['record']['ground_m']]})
+samples.extend(extension_samples)
 (OUT/'ground_contact_samples.json').write_text(json.dumps(samples,separators=(',',':')))
 av=[];af=[];co=[];offset=0
 for m,mat in meshdata:av.append(m.vertices);af.append(m.faces+offset);co.extend([COLORS[mat]]*len(m.faces));offset+=len(m.vertices)
 np.savez_compressed(OUT/'preview_mesh_data.npz',vertices=np.vstack(av),faces=np.vstack(af),colors=np.asarray(co,dtype=np.uint8))
-summary={'neighbor_buildings':len(neighbors),'neighbor_bounds':neighbor_report['bounds'],'buildings':len(records),'layers':len(model.Layers),'environment_layer':'Environment','native_closed_solids':sum(isinstance(o.Geometry,rh.Extrusion)for o in model.Objects),'objects_3ds':len(objects),'vertices':offset,'triangles':sum(len(m.faces)for m,_ in meshdata),'trees':trees,'mapped_flora_positions':sum(1 for f in features('icm_14.geojson')if f['poly'].geom_type=='Point'and land.contains(f['poly'])and not clear.contains(f['poly'])and not lagoon.contains(f['poly'])),'palms':palmtree,'coastal_shrubs':shrubs,'landmarks':sum(r['landmark']for r in records),'unit':'meters','crs':'EPSG:32611 local offsets','origin_wgs84':[LON,LAT],'origin_utm':[OX,OY],'local_z_zero_m':0,'bounds':scope.bounds,'district_bounds':{z:list(g.bounds)for z,g in zone_shapes.items()},'overview_center':[130,-90],'terrain':'USGS 3DEP F32 bare-earth DEM, about 8m sampling; segmented landscape, locally flattened building pads','terrain_source':'https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer','sectors':{z:sum(r['zone']==z for r in records)for z in zone_shapes},'accuracy':'Official 2026 building outlines, historical public landscape and flora positions, OSM and USGS DEM. Storke overall height published; remaining heights, components, vegetation sizes, wave styling and width estimates approximate.'}
+summary={'core_buildings':len(buildings),'campus_extension_buildings':len(extension_records),'campus_display_bounds':list(unary_union([scope,*[shape(f['geometry'])for f in extension_features]]).bounds),'neighbor_buildings':len(neighbors),'neighbor_bounds':neighbor_report['bounds'],'buildings':len(records),'layers':len(model.Layers),'environment_layer':'Environment','native_closed_solids':sum(isinstance(o.Geometry,rh.Extrusion)for o in model.Objects),'objects_3ds':len(objects),'vertices':offset,'triangles':sum(len(m.faces)for m,_ in meshdata),'trees':trees,'mapped_flora_positions':sum(1 for f in features('icm_14.geojson')if f['poly'].geom_type=='Point'and land.contains(f['poly'])and not clear.contains(f['poly'])and not lagoon.contains(f['poly'])),'palms':palmtree,'coastal_shrubs':shrubs,'landmarks':sum(r['landmark']for r in records),'unit':'meters','crs':'EPSG:32611 local offsets','origin_wgs84':[LON,LAT],'origin_utm':[OX,OY],'local_z_zero_m':0,'bounds':scope.bounds,'district_bounds':{z:list(g.bounds)for z,g in zone_shapes.items()},'overview_center':[130,-90],'terrain':'USGS 3DEP F32 bare-earth DEM, about 8m sampling; segmented landscape, locally flattened building pads','terrain_source':'https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer','sectors':{z:sum(r['zone']==z for r in records)for z in zone_shapes},'accuracy':'Official 2026 building outlines, historical public landscape and flora positions, OSM and USGS DEM. Storke overall height published; remaining heights, components, vegetation sizes, wave styling and width estimates approximate.'}
 (OUT/'model_summary.json').write_text(json.dumps(summary,indent=2));(OUT/'excluded_records.json').write_text(json.dumps(excluded,ensure_ascii=False,indent=2));print(json.dumps(summary,indent=2),flush=True)

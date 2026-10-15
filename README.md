@@ -10,7 +10,7 @@ An independent, bilingual exterior study of the **University of California, Sant
 | --- | --- |
 | `index.html` | Root website, supporting HTTP and double-click viewing |
 | `output/UCSB_MainCampus.3ds` | Metric exterior meshes; 1 unit = 1 meter |
-| `output/UCSB_MainCampus_Layered.3dm` | Rhino v7, native building solids, one layer per mapped campus/context structure, Environment and Neighboring_Environment layers |
+| `output/UCSB_MainCampus_Layered.3dm` | Rhino v7, native building solids, one layer per mapped campus/context structure, Environment, Campus_Extensions_Environment and Neighboring_Environment layers |
 | `output/UCSB_Campus_Offline.html` | Generated self-contained offline edition, included in the local delivery ZIP |
 | `output/building_dimensions_and_sources.csv` | Bilingual building directory, mapped extents, height certainty and source notes |
 | `output/neighboring_building_dimensions_and_sources.csv` | Individually layered Isla Vista building directory and source notes |
@@ -19,7 +19,7 @@ An independent, bilingual exterior study of the **University of California, Sant
 | `output/campus_aerial.png` | Rendered preview and social-sharing image |
 | `output/usage_guide.md` | Chinese usage instructions |
 
-The model contains **175 campus building layers, 1,462 neighboring building layers and two environment layers** and 24 architectural highlights. Separate mapped structures remain separate; disconnected pieces of a single polygon share their building layer. Excluded peripheral facilities are documented in `output/excluded_records.json`.
+The model contains **438 campus building layers (175 core and 263 verified extensions), 1,199 neighboring building layers and three environment layers** and 24 architectural highlights. Separate mapped structures remain separate; disconnected pieces of a single polygon share their building layer. Excluded peripheral facilities are documented in `output/excluded_records.json`.
 
 Refinements include Storke Tower's open frame, belfry and clocks; the library's stepped wings and tower; the Interactive Learning Pavilion's separate volumes and bridges; Henley shading fins; Bren courtyard, terraces and solar arrays; housing roof forms; stadium seating and field markings. Campus outdoor work includes mapped entrances, paths and cycle routes, route dashes, road edges, explicitly mapped crossing paint, parking areas, bicycle racks, plazas, paving joints, lawns and a historical flora inventory with distinct palms.
 
@@ -29,7 +29,7 @@ The coastal setting includes the full point, offshore rock islets, terrain down 
 
 Left-drag pans; right-drag rotates; the wheel zooms at the pointer. On touch screens one finger pans, two fingers pan or pinch; Rotate enables one-finger rotation. Arrow keys pan and +/− zoom when the map has keyboard focus. Controls keep a grounded pivot and stop without inertia. Campus, core, arts/west, lagoon/coast, athletics and Plan presets frame different areas. Reset restores the core view. No Level toolbar option is shown.
 
-The first All row, **⁺Campus neighboring areas**, starts checked and switches the entire surrounding context. Its name frames Isla Vista; unchecking it restores the campus-only display without moving the camera. The group row is omitted while searching. Context names use a ⁺ prefix and individual context buildings appear in All search results.
+The first All row, **⁺Campus neighboring areas**, starts checked and switches the entire surrounding context. Its name frames Isla Vista; unchecking it restores the campus-only display without moving the camera. The group row is omitted while searching. Context names use a ⁺ prefix and individual context buildings appear in All search results. Verified university facilities and housing belong to Campus even when geographically inside Isla Vista: Embarcadero Hall, Isla Vista Theater, Pardall Center and modeled university housing retain their grounds and remain visible when the surrounding context is hidden. Their names have no ⁺ prefix. Existing object codes remain stable. See `docs/CAMPUS_AFFILIATION.md`.
 
 Select, hide, isolate or locate individual buildings. Search either language, the model code or official building number. Outdoor hover names work independently of the hidden-by-default persistent labels. The viewer includes percentage loading, metric scale, elevation slicing, shadow/detail toggles, original CAD downloads and PNG export. WebGL 2 and browser Compression Streams are needed for interactive viewing; a preview and crawlable directory remain available otherwise.
 

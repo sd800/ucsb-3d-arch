@@ -1,0 +1,442 @@
+{
+  "source": "sources/osm_features.geojson",
+  "rule": "Complete connected groups of mapped campus pitches and tracks; retain 6 m of surrounding ground within the campus parcel.",
+  "added_land_m2": 25470.642,
+  "surfaces": [
+    {
+      "osm_id": "way/38140526",
+      "sport": "beachvolleyball",
+      "source_area_m2": 209.887,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/38140527",
+      "sport": "beachvolleyball",
+      "source_area_m2": 273.405,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/38140923",
+      "sport": "volleyball",
+      "source_area_m2": 195.555,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/218613176",
+      "sport": "beachvolleyball",
+      "source_area_m2": 371.023,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1494699964",
+      "sport": "basketball",
+      "source_area_m2": 280.151,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1494699965",
+      "sport": "basketball",
+      "source_area_m2": 280.348,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/38165194",
+      "sport": "baseball",
+      "source_area_m2": 10974.44,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/42968270",
+      "sport": "softball",
+      "source_area_m2": 4083.957,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/144070706",
+      "sport": "beachvolleyball",
+      "source_area_m2": 273.984,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/218543446",
+      "sport": "soccer;lacrosse",
+      "source_area_m2": 6750.968,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274115",
+      "sport": "tennis",
+      "source_area_m2": 267.478,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274116",
+      "sport": "tennis",
+      "source_area_m2": 267.478,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274117",
+      "sport": "tennis",
+      "source_area_m2": 267.477,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274118",
+      "sport": "tennis",
+      "source_area_m2": 267.54,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274119",
+      "sport": "tennis",
+      "source_area_m2": 267.589,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274121",
+      "sport": "tennis",
+      "source_area_m2": 267.59,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274122",
+      "sport": "tennis",
+      "source_area_m2": 267.59,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274268",
+      "sport": "field_hockey;soccer",
+      "source_area_m2": 5435.668,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274269",
+      "sport": "soccer",
+      "source_area_m2": 5464.299,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274594",
+      "sport": "tennis",
+      "source_area_m2": 267.609,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274595",
+      "sport": "tennis",
+      "source_area_m2": 267.301,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274596",
+      "sport": "tennis",
+      "source_area_m2": 267.322,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274597",
+      "sport": "tennis",
+      "source_area_m2": 267.398,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274598",
+      "sport": "tennis",
+      "source_area_m2": 267.629,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274599",
+      "sport": "tennis",
+      "source_area_m2": 267.397,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274642",
+      "sport": "tennis",
+      "source_area_m2": 267.473,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274643",
+      "sport": "tennis",
+      "source_area_m2": 267.473,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274644",
+      "sport": "tennis",
+      "source_area_m2": 267.473,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274645",
+      "sport": "tennis",
+      "source_area_m2": 267.474,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274646",
+      "sport": "tennis",
+      "source_area_m2": 267.472,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274647",
+      "sport": "tennis",
+      "source_area_m2": 267.474,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274968",
+      "sport": "soccer",
+      "source_area_m2": 5544.508,
+      "previously_clipped_m2": 5392.468,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274969",
+      "sport": "soccer",
+      "source_area_m2": 5593.639,
+      "previously_clipped_m2": 903.139,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453275410",
+      "sport": "soccer",
+      "source_area_m2": 7485.779,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/466470277",
+      "sport": "basketball",
+      "source_area_m2": 389.363,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/466470278",
+      "sport": "basketball",
+      "source_area_m2": 414.579,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/466470279",
+      "sport": "basketball",
+      "source_area_m2": 389.77,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/466470280",
+      "sport": "basketball",
+      "source_area_m2": 414.501,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/466475850",
+      "sport": "beachvolleyball",
+      "source_area_m2": 291.235,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/466475851",
+      "sport": "beachvolleyball",
+      "source_area_m2": 304.997,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/466477078",
+      "sport": "soccer",
+      "source_area_m2": 3622.313,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/565261116",
+      "sport": "golf",
+      "source_area_m2": 699.141,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222460993",
+      "sport": "athletics",
+      "source_area_m2": 95.635,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222460996",
+      "sport": "athletics",
+      "source_area_m2": 144.564,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222460998",
+      "sport": "athletics",
+      "source_area_m2": 196.367,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222460999",
+      "sport": "athletics",
+      "source_area_m2": 141.415,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461000",
+      "sport": "athletics",
+      "source_area_m2": 225.182,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461001",
+      "sport": "athletics",
+      "source_area_m2": 16.962,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461002",
+      "sport": "athletics",
+      "source_area_m2": 35.364,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461003",
+      "sport": "athletics",
+      "source_area_m2": 35.3,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461004",
+      "sport": "athletics",
+      "source_area_m2": 35.247,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461005",
+      "sport": "athletics",
+      "source_area_m2": 35.294,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461006",
+      "sport": "athletics",
+      "source_area_m2": 95.17,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461007",
+      "sport": "athletics",
+      "source_area_m2": 75.169,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461008",
+      "sport": "athletics",
+      "source_area_m2": 60.407,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461009",
+      "sport": "athletics",
+      "source_area_m2": 56.94,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1222461011",
+      "sport": "tennis",
+      "source_area_m2": 268.357,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/1411021592",
+      "sport": "basketball",
+      "source_area_m2": 379.238,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "relation/5298065",
+      "sport": "running",
+      "source_area_m2": 4373.603,
+      "previously_clipped_m2": 0.0,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274967",
+      "sport": "soccer",
+      "source_area_m2": 4692.336,
+      "previously_clipped_m2": 4692.336,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274966",
+      "sport": "soccer",
+      "source_area_m2": 4668.626,
+      "previously_clipped_m2": 4668.626,
+      "missing_area_m2": 0.0
+    },
+    {
+      "osm_id": "way/453274965",
+      "sport": "soccer",
+      "source_area_m2": 4667.382,
+      "previously_clipped_m2": 4667.382,
+      "missing_area_m2": 0.0
+    }
+  ],
+  "passed": true
+}

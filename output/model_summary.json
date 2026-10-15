@@ -1,18 +1,26 @@
 {
-  "neighbor_buildings": 1462,
+  "core_buildings": 175,
+  "campus_extension_buildings": 263,
+  "campus_display_bounds": [
+    -2686.037560908444,
+    -1130.0,
+    1109.997573064422,
+    1150.0
+  ],
+  "neighbor_buildings": 1199,
   "neighbor_bounds": [
     -2850.0,
     -669.7559695681557,
     -550.02,
     739.3804222656545
   ],
-  "buildings": 175,
-  "layers": 1639,
+  "buildings": 438,
+  "layers": 1640,
   "environment_layer": "Environment",
   "native_closed_solids": 1734,
-  "objects_3ds": 5797,
-  "vertices": 2696984,
-  "triangles": 4689580,
+  "objects_3ds": 5803,
+  "vertices": 2715590,
+  "triangles": 4724264,
   "trees": 4519,
   "mapped_flora_positions": 4648,
   "palms": 917,
@@ -30,7 +38,7 @@
   ],
   "local_z_zero_m": 0,
   "bounds": [
-    -700.0,
+    -934.3637728250585,
     -1130.0,
     1109.997573064422,
     1150.0
@@ -69,7 +77,7 @@
   "terrain_source": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
   "sectors": {
     "central": 77,
-    "west": 17,
+    "west": 280,
     "south": 43,
     "north": 38
   },

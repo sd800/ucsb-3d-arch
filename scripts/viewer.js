@@ -43,7 +43,8 @@ const byLayer=new Map(allRecords.map(r=>[r.layer,r]));const byCode=new Map(allRe
 const buildings=new Map(), envMeshes=[], pickMeshes=[], details=[];
 let neighborsVisible=true,neighborGroup=null;
 const contextGround={...data,groundGrid:data.neighborGrid||data.groundGrid,groundPads:[...(data.groundPads||[]),...(data.neighborPads||[])]};
-const mapGround=(x,y)=>groundHeight(neighborsVisible?contextGround:data,x,y);
+const campusGround={...data,groundGrid:data.neighborGrid||data.groundGrid};
+const mapGround=(x,y)=>groundHeight(neighborsVisible?contextGround:campusGround,x,y);
 function setNeighbors(value){neighborsVisible=value;if(neighborGroup)neighborGroup.visible=value;if(!value&&byCode.get(selected)?.neighbor)selectBuilding(null);refreshList();render();}
 let selected=null,category='all',renderer=null,scene,camera,controls,campus,sun,campusDiagonal=1,modelReady=false,pendingFocus=null,renderBounds=null,depthBits=24,frameHeight=1500,viewMode='aerial',staticMode=false;
 const sidebar=$('sidebar'),host=$('viewport'),compact=matchMedia('(max-width:760px)');

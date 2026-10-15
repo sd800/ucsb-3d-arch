@@ -1,10 +1,10 @@
 {
-  "land_m2": 1742135.5183160712,
-  "mapped_lawn_m2": 198339.82961408017,
-  "roads_and_parking_m2": 278925.58780233446,
+  "land_m2": 1767606.1600632074,
+  "mapped_lawn_m2": 223667.28125068196,
+  "roads_and_parking_m2": 278973.2008084656,
   "walks_m2": 174344.53966373316,
   "cycleways_m2": 49270.021968112414,
-  "supplementary_mapped_cover_m2": 171682.90695210747,
+  "supplementary_mapped_cover_m2": 171685.01933799565,
   "fallback": "Muted dry-earth material for unclassified land; not an assertion of parcel-level land cover.",
   "parking_stall_grid_generated": false,
   "parking_layout_source": "Satellite-interpreted row paths; sources/parking_layouts.json"
