@@ -48,9 +48,15 @@ def storke(ms,p,z,h):
     for zz in [h-10.5,h-6.5,h-1.4]:rect(0,0,6.8,6.6,zz,.48)
     for k in range(8):
         zz=h-9+k*.85;rect(0,0,5.5,.13,zz,.16,'Frame')
-    for x in [-1.6,0,1.6]:
-        for y in [-1.5,0,1.5]:
-            center=np.array([c.x,c.y])+u*x+v*y;bell=trimesh.creation.cone(radius=.42,height=.65,sections=10);bell.apply_transform(trimesh.transformations.rotation_matrix(math.pi,[1,0,0]));bell.apply_translation([*center,z+h-7.0]);ms['Gold'].append(bell)
+    from highlight_finish import bell_mesh
+    # Owner documents 61 bells. Their size sequence and mounts are interpreted,
+    # with open skirts and two supported tiers rather than solid cone markers.
+    for k,count in enumerate([25,36]):
+        side=5 if k==0 else 6
+        for j in range(count):
+            xx=(j%side-(side-1)/2)*.74;yy=(j//side-(side-1)/2)*.72;center=np.array([c.x,c.y])+u*xx+v*yy
+            ms['Gold'].append(bell_mesh([*center,z+h-6.7+k*2.1],.28-.0017*j,.55-.002*j))
+        rect(0,0,4.5,4.4,h-6.05+k*2.1,.12,'Frame')
     # Four clock discs in vertical planes, with clear radial hour markers.
     for normal in [u,-u,v,-v]:
         tangent=np.array([-normal[1],normal[0]]);center=np.array([c.x,c.y])+normal*3.53;cz=z+h-12

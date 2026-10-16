@@ -21,7 +21,8 @@
     "build:terrain-check": "esbuild scripts/check_terrain_gpu.js --bundle --format=iife --target=es2020 --outfile=tmp/terrain-check.js && python3 scripts/package_terrain_check.py",
     "check:touch": "node scripts/check_touch.mjs",
     "build:stream": "python3 scripts/build_stream_model.py",
-    "check:stream": "node scripts/check_stream.mjs"
+    "check:stream": "node scripts/check_stream.mjs",
+    "check:highlights": "python3 scripts/check_highlights.py"
   },
   "dependencies": {
     "three": "0.186.1",

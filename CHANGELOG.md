@@ -1,5 +1,12 @@
 # Changelog
 
+## 26.10.16.4 — 2026-10-16
+
+- Refine all 24 architectural highlights with window joinery, shaped roof edges and supported components.
+- Rebuild Campbell Hall with its folded-plate roof and glazed plaza frontage; distinguish Kohn Hall’s warm tower, two-level wings and supported courtyard awning using public owner references.
+- Correct Bioengineering to three storeys, model Storke’s 61 hollow bells and add grandstand guardrails at Harder Stadium.
+- Keep regional LOD limited to Isla Vista and neighboring areas; retain the campus renderer and coastal effects.
+
 ## 26.10.16.3 — 2026-10-16
 
 - Apply regional loading and screen-space detail levels only to Isla Vista and campus neighboring areas, with lightweight distant context and budgeted near-detail tiles that are released when no longer needed.

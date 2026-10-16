@@ -215,7 +215,7 @@ try{
  if(data.regions){
   const pads=new Map((data.neighborPads||[]).map(p=>[p.code,p]));
   for(const r of data.neighbors){const g=new THREE.Group(),pad=pads.get(r.code),b=pad?.bounds||[r.center[0]-r.width/2,r.center[1]-r.depth/2,r.center[0]+r.width/2,r.center[1]+r.depth/2];g.name=r.code;g.userData.bounds=new THREE.Box3(new THREE.Vector3(b[0]-1,b[1]-1,r.ground_m),new THREE.Vector3(b[2]+1,b[3]+1,r.peak_m));buildings.set(r.code,g);}
-  streaming=createRegionStream({data:{...data,groundGrid:data.neighborGrid},parent:campus,renderer,camera,host,report:reportLoad,onChange:()=>render(false)});await streaming.initialize();
+  streaming=createRegionStream({data:{...data,groundGrid:data.neighborGrid},parent:campus,renderer,camera,host,viewTarget:()=>controls?.target,report:reportLoad,onChange:()=>render(false)});await streaming.initialize();
  }
  reportLoad({phase:'scene',loaded:1,total:1});
  scene.add(campus);renderBounds=new THREE.Box3().setFromObject(campus);const campusBounds=new THREE.Box3(new THREE.Vector3(-730,-1160,-3),new THREE.Vector3(1100,1170,95));fitCampusSun(sun,campusBounds);renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;campusDiagonal=campusBounds.getSize(new THREE.Vector3()).length();envMeshes.forEach(m=>m.visible=$('environment').checked);details.forEach(m=>m.visible=$('details').checked);renderer.shadowMap.enabled=$('shadows').checked;sun.castShadow=$('shadows').checked;updateCut();controls=new CampusMapControls(camera,renderer.domElement);controls.groundHeight=mapGround;controls.addEventListener('change',()=>render(false));controls.listenToKeyEvents(renderer.domElement);syncRotationButton();

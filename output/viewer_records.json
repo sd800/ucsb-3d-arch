@@ -39,6 +39,13 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 132,
+      "transoms": 129,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 5772
+    },
     "source": "https://www.dfss.ucsb.edu/design-construction-services/major-capital-projects/jeff-and-judy-henley-hall-institute-energy-efficiency",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.dfss.ucsb.edu/design-construction-services/major-capital-projects/jeff-and-judy-henley-hall-institute-energy-efficiency",
@@ -86,6 +93,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -133,6 +141,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -180,6 +189,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -227,6 +237,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -284,6 +295,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -331,6 +343,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -354,7 +367,7 @@
     "layer": "S008_Campbell Hall",
     "zone": "central",
     "landmark": true,
-    "height": 10.2,
+    "height": 10.22,
     "height_status": "estimated",
     "levels": 1,
     "area": 1665.99,
@@ -366,21 +379,35 @@
     ],
     "ground_m": 16.092,
     "bottom_m": 16.092,
-    "peak_m": 28.132,
+    "peak_m": 26.327,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "Circular lecture-hall drum and low entrance/service wings are separated. The folded-plate roof has connected alternating radial ridges; glazed lobby bays and roof edges replace a generic full-footprint cap.",
+    "partition": "区分圆形讲堂与较低入口及配套翼楼；折板屋顶具有连续交替的径向屋脊，细化玻璃门厅、屋檐，替换通用全轮廓顶盖。",
     "volume_parts": [
       {
-        "area_m2": 1665.99,
-        "height_m": 10.2,
+        "name": "ConcreteBlock",
+        "area_m2": 1618.44,
+        "height_m": 8.55,
+        "storeys": 1
+      },
+      {
+        "name": "ConcreteBlock",
+        "area_m2": 47.55,
+        "height_m": 4.7,
         "storeys": 1
       }
     ],
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "highlight_joinery": {
+      "framed_openings": 16,
+      "transoms": 15,
+      "roof_coping_m": 32.96,
+      "hollow_bells": 0,
+      "added_triangles": 984
+    },
+    "source": "https://aait.ucsb.edu/event-av-services/campbell-hall/gallery",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://aait.ucsb.edu/event-av-services/campbell-hall/gallery",
     "gis_height_raw": 34.9,
     "gis_floorcount_raw": 2,
     "construction_status": "Mapped in 2026 public layer"
@@ -430,6 +457,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -477,6 +505,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -524,6 +553,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -571,6 +601,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -618,6 +649,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -665,6 +697,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -712,6 +745,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -769,6 +803,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -816,6 +851,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -868,6 +904,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -915,6 +952,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -962,6 +1000,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1009,6 +1048,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1066,6 +1106,13 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 308,
+      "transoms": 308,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 13552
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1113,6 +1160,7 @@
         "storeys": 5
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1160,6 +1208,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1207,6 +1256,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1254,6 +1304,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1301,6 +1352,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1348,6 +1400,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1395,6 +1448,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1418,7 +1472,7 @@
     "layer": "S030_Kohn Hall",
     "zone": "central",
     "landmark": true,
-    "height": 8.0,
+    "height": 11.56,
     "height_status": "estimated",
     "levels": 2,
     "area": 1863.24,
@@ -1430,21 +1484,35 @@
     ],
     "ground_m": 16.014,
     "bottom_m": 16.014,
-    "peak_m": 24.134,
+    "peak_m": 27.574,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "Enclosed mapped courtyard, low tile-roofed wings, warm orange flat-topped entrance tower and supported, partly open courtyard awning. Local member dimensions are approximate.",
+    "partition": "保留映射内庭与低层瓦屋顶翼楼，区分暖橙色平顶入口塔，细化有支撑且局部开敞的庭院遮阳架；构件尺寸为近似。",
     "volume_parts": [
       {
-        "area_m2": 1863.22,
-        "height_m": 6.4,
+        "name": "KohnWall",
+        "area_m2": 1794.08,
+        "height_m": 7.1,
+        "storeys": 2
+      },
+      {
+        "name": "KohnStucco",
+        "area_m2": 69.14,
+        "height_m": 11.4,
         "storeys": 2
       }
     ],
-    "source": "https://www.kitp.ucsb.edu/",
+    "highlight_joinery": {
+      "framed_openings": 110,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 3520
+    },
+    "source": "https://www.kitp.ucsb.edu/news/new-kohn-hall",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": "https://www.kitp.ucsb.edu/",
+    "architecture_reference": "https://www.kitp.ucsb.edu/news/new-kohn-hall",
     "gis_height_raw": 36.7,
     "gis_floorcount_raw": 2,
     "construction_status": "Mapped in 2026 public layer"
@@ -1489,6 +1557,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1536,6 +1605,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1583,6 +1653,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1630,6 +1701,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1677,6 +1749,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1729,6 +1802,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1791,6 +1865,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1838,6 +1913,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1900,6 +1976,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -1990,6 +2067,13 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 657,
+      "transoms": 342,
+      "roof_coping_m": 849.44,
+      "hollow_bells": 0,
+      "added_triangles": 25692
+    },
     "source": "https://www.library.ucsb.edu/visit/floor-plans-locations",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.library.ucsb.edu/visit/floor-plans-locations",
@@ -2037,6 +2121,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2084,6 +2169,13 @@
         "storeys": 5
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 419,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 13408
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2131,6 +2223,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2178,6 +2271,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2225,6 +2319,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2272,6 +2367,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2319,6 +2415,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2366,6 +2463,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2413,6 +2511,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2460,6 +2559,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2507,6 +2607,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2554,6 +2655,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2601,6 +2703,13 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 267,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 8544
+    },
     "source": "https://classrooms.ucsb.edu/classroom-inventory/bren",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://classrooms.ucsb.edu/classroom-inventory/bren",
@@ -2624,9 +2733,9 @@
     "layer": "S054_Bioengineering",
     "zone": "central",
     "landmark": true,
-    "height": 15.4,
+    "height": 13.98,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 3,
     "area": 2533.48,
     "width": 70.35,
     "depth": 52.43,
@@ -2636,21 +2745,29 @@
     ],
     "ground_m": 15.788,
     "bottom_m": 15.788,
-    "peak_m": 31.558,
+    "peak_m": 29.768,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "Three-storey glass, metal and concrete research wings, with framed glazing, a taller glazed atrium and restrained south-side shading. Three above-ground storeys follow the department facilities reference.",
+    "partition": "依据院系设施资料采用地上三层，细化玻璃、金属及混凝土研究翼楼、窗框、挑高中庭与南侧遮阳。",
     "volume_parts": [
       {
+        "name": "ConcreteBlock",
         "area_m2": 2533.59,
-        "height_m": 15.4,
-        "storeys": 4
+        "height_m": 13.4,
+        "storeys": 3
       }
     ],
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "highlight_joinery": {
+      "framed_openings": 150,
+      "transoms": 150,
+      "roof_coping_m": 268.48,
+      "hollow_bells": 0,
+      "added_triangles": 6952
+    },
+    "source": "https://bioengineering.ucsb.edu/facilities",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://bioengineering.ucsb.edu/facilities",
     "gis_height_raw": 67,
     "gis_floorcount_raw": 5,
     "construction_status": "Mapped in 2026 public layer"
@@ -2695,6 +2812,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2742,6 +2860,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2789,6 +2908,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2836,6 +2956,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2883,6 +3004,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2935,6 +3057,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -2976,6 +3099,13 @@
     "partition_en": "Open concrete piers, elevator/stair core, belfry beams, clocks and simplified bells; 175 ft published overall height. Individual members are illustrative.",
     "partition": "开敞混凝土塔柱、楼梯与电梯核心、钟室梁、钟面及简化钟组；总高采用校方公布的175英尺，构件尺寸为近似。",
     "volume_parts": [],
+    "highlight_joinery": {
+      "framed_openings": 0,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 0
+    },
     "source": "https://www.campuscalendar.ucsb.edu/storke_tower",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.campuscalendar.ucsb.edu/storke_tower",
@@ -3023,6 +3153,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3085,6 +3216,13 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 235,
+      "transoms": 0,
+      "roof_coping_m": 368.25,
+      "hollow_bells": 0,
+      "added_triangles": 8600
+    },
     "source": "https://lmnarchitects.com/project/classroom-building-university-of-california",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://lmnarchitects.com/project/classroom-building-university-of-california",
@@ -3132,6 +3270,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3179,6 +3318,13 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 152,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 4864
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3226,6 +3372,13 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 401,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 12832
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3273,6 +3426,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3320,6 +3474,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3367,6 +3522,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3419,6 +3575,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3466,6 +3623,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3513,6 +3671,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3565,6 +3724,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3612,6 +3772,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3664,6 +3825,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3724,6 +3886,13 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 296,
+      "transoms": 182,
+      "roof_coping_m": 846.46,
+      "hollow_bells": 0,
+      "added_triangles": 12536
+    },
     "source": "https://www.ucen.ucsb.edu/meet/meetings-events/outdoor-spaces",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.ucen.ucsb.edu/meet/meetings-events/outdoor-spaces",
@@ -3784,6 +3953,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://mcc.sa.ucsb.edu/",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://mcc.sa.ucsb.edu/",
@@ -3838,6 +4008,13 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 204,
+      "transoms": 167,
+      "roof_coping_m": 1278.86,
+      "hollow_bells": 0,
+      "added_triangles": 9400
+    },
     "source": "https://recreation.ucsb.edu/facilities",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://recreation.ucsb.edu/facilities",
@@ -3885,6 +4062,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3932,6 +4110,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -3979,6 +4158,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4036,6 +4216,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4083,6 +4264,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4185,6 +4367,13 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 116,
+      "transoms": 116,
+      "roof_coping_m": 282.04,
+      "hollow_bells": 0,
+      "added_triangles": 5296
+    },
     "source": "https://ucsbgauchos.com/facilities",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://ucsbgauchos.com/facilities",
@@ -4232,6 +4421,7 @@
         "storeys": 5
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4284,6 +4474,13 @@
         "storeys": 6
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 743,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 23776
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4331,6 +4528,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4378,6 +4576,13 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 183,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 5856
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4425,6 +4630,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4477,6 +4683,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4529,6 +4736,13 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 321,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 10272
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4576,6 +4790,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4628,6 +4843,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4675,6 +4891,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4722,6 +4939,13 @@
         "storeys": 7
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 321,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 10272
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4774,6 +4998,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4821,6 +5046,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4868,6 +5094,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -4916,6 +5143,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://www.housing.ucsb.edu/housing-options/options-filter/anacapa",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.housing.ucsb.edu/housing-options/options-filter/anacapa",
@@ -4964,6 +5192,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://www.housing.ucsb.edu/housing-options/options-filter/santa-rosa",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.housing.ucsb.edu/housing-options/options-filter/santa-rosa",
@@ -5016,6 +5245,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5073,6 +5303,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5120,6 +5351,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5167,6 +5399,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5219,6 +5452,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5291,6 +5525,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://www.housing.ucsb.edu/housing-options/options-filter/san-miguel/san-miguel-hall-emergency-map",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.housing.ucsb.edu/housing-options/options-filter/san-miguel/san-miguel-hall-emergency-map",
@@ -5338,6 +5573,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5385,6 +5621,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5433,6 +5670,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://www.housing.ucsb.edu/housing-options/options-filter/santa-cruz",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.housing.ucsb.edu/housing-options/options-filter/santa-cruz",
@@ -5480,6 +5718,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5527,6 +5766,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5574,6 +5814,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5640,6 +5881,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://dining.ucsb.edu/dining-commons/de-la-guerra-dining-commons",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://dining.ucsb.edu/dining-commons/de-la-guerra-dining-commons",
@@ -5706,6 +5948,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://www.housing.ucsb.edu/housing-options/options-filter/san-nicolas",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.housing.ucsb.edu/housing-options/options-filter/san-nicolas",
@@ -5753,6 +5996,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5800,6 +6044,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5847,6 +6092,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5894,6 +6140,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5941,6 +6188,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -5988,6 +6236,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6035,6 +6284,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6082,6 +6332,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6129,6 +6380,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6176,6 +6428,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6223,6 +6476,13 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 29,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 928
+    },
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6270,6 +6530,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6317,6 +6578,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6364,6 +6626,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6411,6 +6674,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6458,6 +6722,13 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 94,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "added_triangles": 3008
+    },
     "source": "https://bosl.ucsb.edu/",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://bosl.ucsb.edu/",
@@ -6505,6 +6776,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6552,6 +6824,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6599,6 +6872,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6646,6 +6920,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6698,6 +6973,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6745,6 +7021,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6792,6 +7069,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6839,6 +7117,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6891,6 +7170,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6938,6 +7218,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -6985,6 +7266,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7032,6 +7314,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7079,6 +7362,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7126,6 +7410,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7173,6 +7458,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7220,6 +7506,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7267,6 +7554,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7314,6 +7602,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7361,6 +7650,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7408,6 +7698,7 @@
         "storeys": 3
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7456,6 +7747,14 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 0,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
+      "hollow_bells": 0,
+      "guardrails_m": 122.31258825094896,
+      "added_triangles": 1056
+    },
     "source": "https://ucsbgauchos.com/facilities/harder-stadium/1",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://ucsbgauchos.com/facilities/harder-stadium/1",
@@ -7503,6 +7802,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7551,6 +7851,7 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": null,
     "source": "https://ucsbgauchos.com/facilities/harder-stadium/1",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://ucsbgauchos.com/facilities/harder-stadium/1",
@@ -7598,6 +7899,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7645,6 +7947,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7692,6 +7995,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7739,6 +8043,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7799,6 +8104,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://recreation.ucsb.edu/facilities",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://recreation.ucsb.edu/facilities",
@@ -7846,6 +8152,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7893,6 +8200,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7940,6 +8248,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -7987,6 +8296,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8034,6 +8344,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8091,6 +8402,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8138,6 +8450,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8222,6 +8535,13 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 213,
+      "transoms": 155,
+      "roof_coping_m": 389.29,
+      "hollow_bells": 0,
+      "added_triangles": 9008
+    },
     "source": "https://recreation.ucsb.edu/facilities",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://recreation.ucsb.edu/facilities",
@@ -8269,6 +8589,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8331,6 +8652,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8378,6 +8700,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8425,6 +8748,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8472,6 +8796,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8519,6 +8844,7 @@
         "storeys": 4
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8585,6 +8911,13 @@
         "storeys": 2
       }
     ],
+    "highlight_joinery": {
+      "framed_openings": 75,
+      "transoms": 70,
+      "roof_coping_m": 215.57,
+      "hollow_bells": 0,
+      "added_triangles": 3644
+    },
     "source": "https://www.alumni.ucsb.edu/about/mosher-house",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": "https://www.alumni.ucsb.edu/about/mosher-house",
@@ -8642,6 +8975,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,
@@ -8689,6 +9023,7 @@
         "storeys": 1
       }
     ],
+    "highlight_joinery": null,
     "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
     "architecture_reference": null,

@@ -1,7 +1,7 @@
-# Web model transport
+# Web model delivery
 
-The browser downloads `assets/campus-model.bin`, a gzip stream of losslessly encoded 3DS vertex and index sequences. Meshoptimizer is used without quantization, reordering or geometry simplification. Non-geometry chunks, material groups and flags are retained. Exact original CAD bytes are recoverable and checked by SHA-256.
+Initial browsing transfers the unchanged campus geometry in a **14.46 MB** lossless stream plus a **3.23 MB** lightweight neighboring-area overview. Regional LOD applies only to Isla Vista and campus neighboring areas. Campus buildings, lagoon, coastline and ocean retain the existing full campus renderer.
 
-One worker inflates bounded blocks, restores CAD and parses geometry. Compressed input and typed geometry arrays are transferred rather than copied between threads. Scene preparation yields to the browser. The fallback parser cooperatively yields between objects. Loading reports download, unpack, parse and scene progress. Offline editions use the identical compressed bytes.
+Nearby context packets load within bounded geometry budgets and are released when no longer needed. The campus-only stream restores original campus object bytes exactly; neighboring overview geometry is a simplified visual derivative. The complete lossless CAD web stream is 21.63 MB for the current 103.80 MB 3DS. Full CAD downloads remain separate, including the adjacent `.3ds.gz` archive for the standalone edition. See `docs/REGIONAL_RENDERING.md`, `output/streaming_model_report.json` and `output/web_model_report.json` for scope, limits, exact sizes and digests.
 
-`output/web_model_report.json` records original and transferred sizes and integrity hashes. Run `npm run check:compression` for geometry and original-byte integrity. Downloadable Rhino and 3DS remain unchanged.
+HTTP uses binary assets. Local double-click editions load classic-script assets; standalone HTML embeds its compressed browsing data. Parsing/decompression is cooperative or worker-based where appropriate. Geometry, framebuffers and browser storage remain additional memory costs.

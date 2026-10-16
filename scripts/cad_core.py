@@ -14,6 +14,8 @@ TF=Transformer.from_crs(4326,32611,always_xy=True)
 LON,LAT=-119.8476,34.4135;OX,OY=TF.transform(LON,LAT)
 COLORS={
  'ContextGround':(155,155,130),'ContextRoad':(88,91,92),'ContextWalk':(181,177,160),'ContextPaving':(176,166,143),'ContextGrass':(126,148,104),'ContextLeaves':(82,117,80),'ContextStucco':(197,186,158),'ContextStone':(183,180,160),'ContextBrick':(147,109,85),'ContextRoof':(132,137,128),'ContextTile':(151,111,83),'ContextGlass':(103,139,147),
+ 'KohnWall':(203,164,108),
+ 'KohnStucco':(188,112,69),
  'WetSand':(177,157,113),
  'RoofLibraryGray':(123,130,126),'RoofLibraryWarm':(172,164,142),'RoofLibraryLight':(180,178,162),
  'RoofClay':(151,106,83),'RoofBallast':(149,135,120),'RoofGlass':(93,124,133),'SolarLibrary':(46,52,55),
