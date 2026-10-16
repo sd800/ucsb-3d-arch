@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.16.5 — 2026-10-16
+
+- Keep buildings selected in Highlights Explore, previous/next and dropdown navigation while preserving their original material colors. Direct model/list clicks retain the existing selection highlight. Preserve this distinction during loading and regional-detail updates.
+
 ## 26.10.16.4 — 2026-10-16
 
 - Refine all 24 architectural highlights with window joinery, shaped roof edges and supported components.
