@@ -1,0 +1,34 @@
+{
+  "sourceSha256": "327027497315d96e05099c67fa3810bee56de10d1b7c0abd9ed7e91d8ddb7579",
+  "originalTriangles": 1589232,
+  "originalObjects": 5803,
+  "regions": 93,
+  "instancedParts": 28696,
+  "geometryTemplates": 2214,
+  "overview": {
+    "id": "overview",
+    "url": "assets/stream/overview-903d9be175d8.bin",
+    "local": "assets/stream/overview-903d9be175d8.js",
+    "sha256": "903d9be175d8251167533c09c211f71f8d8feb157c8c2b8c1bd672c484384077",
+    "transferBytes": 3230884,
+    "triangles": 458341,
+    "gpuBytes": 9440258,
+    "decodedBytes": 9198212,
+    "draws": 80,
+    "bounds": [
+      -2850.302490234375,
+      -669.75,
+      -40.0,
+      1.0,
+      739.4000244140625,
+      36.25
+    ]
+  },
+  "allRegionalTransferBytes": 6912217,
+  "preservesCAD": true,
+  "scope": "Isla Vista and neighboring areas only",
+  "campusObjectsUnchanged": 2185,
+  "neighborObjects": 3618,
+  "campusTransferBytes": 13818017,
+  "overviewApproximation": "Position-only error-bounded simplification; 20-face tree crowns at unchanged source positions. Near regions retain source building triangles and repeated facade geometry; no CAD edits."
+}

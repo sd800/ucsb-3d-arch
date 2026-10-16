@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.16.3 — 2026-10-16
+
+- Apply regional loading and screen-space detail levels only to Isla Vista and campus neighboring areas, with lightweight distant context and budgeted near-detail tiles that are released when no longer needed.
+- Keep campus building and coastal geometry in the existing renderer, retaining every campus object byte-for-byte; preserve selection, context visibility, local double-click and standalone offline editions.
+- Preserve the full original CAD download independently of browsing derivatives.
+
 ## 26.10.16.2 — 2026-10-16
 
 - Rename the English Guide source heading to Reference and add arch.Songming.org after the model download links, linking to the campus model collection.

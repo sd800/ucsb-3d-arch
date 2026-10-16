@@ -1,3 +1,4 @@
+import {createRegionStream} from './region_stream.js';
 import {installHighlightsPanel} from './highlights_panel.js';
 import {createOutdoorPicker,groundPoint,installCampusHover} from './outdoor_hover.js';
 import {createViewportRenderLoop} from './viewport_rendering.js';
@@ -72,8 +73,8 @@ $('open-help').onclick=()=>{
 $('close-help').onclick=()=>$('help-dialog').close();
 $('help-dialog').addEventListener('click',e=>{if(e.target===e.currentTarget){const b=e.target.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)e.target.close();}});
 function download(blob,name){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-let bytes=null;
-$('download-3ds').onclick=async()=>{if(!data.model){const a=document.createElement('a');a.href=data.downloadUrl;a.download='UCSB_MainCampus.3ds';a.click();return;}const button=$('download-3ds');button.disabled=true;try{const input=await loadModelBytes(data);download(await recoverCampusDownload(input,data),'UCSB_MainCampus.3ds');}catch(error){console.error(error);$('status-text').textContent=lang==='zh'?'模型下载失败，请重试':'Model download failed. Please try again.';}finally{button.disabled=false;}};
+let bytes=null,streaming=null;
+$('download-3ds').onclick=async()=>{if(data.regions||!data.model){const a=document.createElement('a');a.href=data.regions?(data.downloadArchiveUrl||data.downloadUrl):data.downloadUrl;a.download=data.regions?'UCSB_MainCampus.3ds.gz':'UCSB_MainCampus.3ds';a.click();return;}const button=$('download-3ds');button.disabled=true;try{const input=await loadModelBytes(data);download(await recoverCampusDownload(input,data),'UCSB_MainCampus.3ds');}catch(error){console.error(error);$('status-text').textContent=lang==='zh'?'模型下载失败，请重试':'Model download failed. Please try again.';}finally{button.disabled=false;}};
 $('download-image').onclick=()=>{if(!renderer||!modelReady)return;viewportLoop.drawNow();renderer.domElement.toBlob(b=>{if(b)download(b,'UCSB_MainCampus_view.png');});};
 function listRecords(){const q=$('search').value.trim().toLowerCase();return (q&&category==='all'?allRecords:records).filter(r=>(category==='all'||(category==='landmark'?r.landmark:r.zone===category))&&(!q||[r.name,r.name_zh,r.code,r.short,r.short_zh,...(r.aliases_zh||[])].some(s=>s?.toLowerCase().includes(q))));}
 function refreshList(){
@@ -164,7 +165,7 @@ function fullView(mode){
  if(mode==='core'){const c=b.getCenter(new THREE.Vector3()),[x,y]=data.overviewCenter;b.translate(new THREE.Vector3(x-c.x,y-c.y,0));}
  fitBox(b,mode==='plan'?'plan':'aerial',1.16,false,new THREE.Vector3(-.55,-1.65,1.35),mode==='aerial'?1500:50);
 }
-function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();const stadium=byCode.get(code)?.facility_id==='STD';fitBox(new THREE.Box3().setFromObject(g),'aerial',stadium?1.35:1.55,true,stadium?new THREE.Vector3(-.9,-1.5,2.1):undefined);}
+function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();const stadium=byCode.get(code)?.facility_id==='STD';fitBox(g.userData.bounds?.clone()||new THREE.Box3().setFromObject(g),'aerial',stadium?1.35:1.55,true,stadium?new THREE.Vector3(-.9,-1.5,2.1):undefined);}
 for(const id of ['west-view','south-view','north-view'])$(id).onclick=()=>fullView(id);
 $('aerial').onclick=()=>fullView('aerial');$('plan').onclick=()=>fullView('plan');$('core').onclick=()=>fullView('core');$('reset-view').onclick=()=>{resetInteraction();selectBuilding(null);$('cut-enabled').checked=false;updateCut();fullView('core');};
 function updateLabels(){
@@ -181,22 +182,22 @@ function updateLabels(){
  }
 }
 let viewportLoop=null;
-function render(updateShadows=true){if(renderer&&updateShadows!==false)renderer.shadowMap.needsUpdate=true;if(!renderer||!modelReady)return;viewportLoop?.request();}
+function render(updateShadows=true){if(streaming&&updateShadows!==false)streaming.setState({buildings,selected,environment:$('environment').checked,details:$('details').checked,neighbors:neighborsVisible,cut:$('cut-enabled').checked?clipPlane.constant:100000});if(renderer&&updateShadows!==false)renderer.shadowMap.needsUpdate=true;if(!renderer||!modelReady)return;viewportLoop?.request();}
 function drawScene(){
- if(!renderer||!modelReady)return;updateCampusDepthRange(camera,renderBounds);updateCampusDetailDepth(camera,campus,depthBits);renderer.render(scene,camera);const n=new THREE.Vector3(0,1,0).transformDirection(camera.matrixWorldInverse);$('north-arrow').style.transform='rotate('+Math.atan2(n.x,n.y)+'rad)';
+ if(!renderer||!modelReady)return;updateCampusDepthRange(camera,renderBounds);updateCampusDetailDepth(camera,campus,depthBits);streaming?.updateView();renderer.render(scene,camera);const n=new THREE.Vector3(0,1,0).transformDirection(camera.matrixWorldInverse);$('north-arrow').style.transform='rotate('+Math.atan2(n.x,n.y)+'rad)';
  const mpp=(camera.right-camera.left)/camera.zoom/Math.max(host.clientWidth,1),raw=mpp*80,pow=10**Math.floor(Math.log10(raw));const length=[1,2,5,10].map(x=>x*pow).find(x=>x>=raw)||10*pow;
  $('scale-line').style.width=(length/mpp)+'px';$('scale-text').textContent=length<1?Math.round(length*100)+' cm':length+' m';updateLabels();
 }
 applyLanguage();
 async function initializeModel(){
 try{
- bytes=await loadModelBytes(data,{},reportLoad);
+ bytes=await loadModelBytes(data.campusModel||data,{},reportLoad);
  THREE.Object3D.DEFAULT_UP.set(0,0,1);renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,1.5));renderer.setClearColor(0xe9ece3);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;depthBits=renderer.getContext().getParameter(renderer.getContext().DEPTH_BITS)||24;
  renderer.domElement.setAttribute('aria-label',t('modelLabel'));renderer.domElement.tabIndex=0;$('canvas-host').append(renderer.domElement);
  scene=new THREE.Scene();camera=new THREE.OrthographicCamera(-1000,1000,1000,-1000,.1,100000);camera.up.set(0,0,1);scene.add(new THREE.HemisphereLight(0xffffff,0x849177,2.0));
  sun=new THREE.DirectionalLight(0xffffff,2.2);const siteCenter=new THREE.Vector3(...data.siteCenter,50);sun.position.copy(siteCenter).add(new THREE.Vector3(-4000,-6000,9000));sun.target.position.copy(siteCenter);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-6500;sun.shadow.camera.right=6500;sun.shadow.camera.top=6500;sun.shadow.camera.bottom=-6500;sun.shadow.camera.near=1;sun.shadow.camera.far=30000;sun.shadow.bias=-.00015;sun.shadow.normalBias=.35;scene.add(sun,sun.target);
  const terrainBase=Math.min(-30,...(data.groundGrid?.heights||[]).flat().map(z=>z-30));
- const input=bytes;bytes=null;campus=await parseCampusModel(input,reportLoad,data);const meshes=[];campus.traverse(o=>{if(o.isMesh)meshes.push(o);});
+ const input=bytes;bytes=null;campus=await parseCampusModel(input,reportLoad,data.campusModel||data);const meshes=[];campus.traverse(o=>{if(o.isMesh)meshes.push(o);});
  neighborGroup=new THREE.Group();neighborGroup.name='Campus neighboring areas';campus.add(neighborGroup);
  const terrainMass=createTerrainMass(meshes,terrainBase);
  const coastalFields=await prepareCoastalWater(data);const terrainLighting=createTerrainLighting(data.groundGrid);let prepared=0,lastPrepared=performance.now();
@@ -211,6 +212,11 @@ try{
   else{if(materials.some(mat=>['OceanDepth','LagoonDepth'].includes(mat.name))){m.renderOrder=-110;m.receiveShadow=false;}m.castShadow=materials.some(mat=>['Leaves','ContextLeaves','Trunk','Furniture'].includes(mat.name));const parts=prepareLandscape(m,terrainMass);for(const part of parts)if(part.renderOrder<0)applyTerrainLighting(part.material,terrainLighting);if(data.layers[m.name]?.category==='neighbor-environment')for(const part of parts)neighborGroup.attach(part);envMeshes.push(...parts);}
   prepared++;if(performance.now()-lastPrepared>8){reportLoad({phase:'scene',loaded:meshes.length+prepared,total:meshes.length*2});await nextPaint();lastPrepared=performance.now();}
  }
+ if(data.regions){
+  const pads=new Map((data.neighborPads||[]).map(p=>[p.code,p]));
+  for(const r of data.neighbors){const g=new THREE.Group(),pad=pads.get(r.code),b=pad?.bounds||[r.center[0]-r.width/2,r.center[1]-r.depth/2,r.center[0]+r.width/2,r.center[1]+r.depth/2];g.name=r.code;g.userData.bounds=new THREE.Box3(new THREE.Vector3(b[0]-1,b[1]-1,r.ground_m),new THREE.Vector3(b[2]+1,b[3]+1,r.peak_m));buildings.set(r.code,g);}
+  streaming=createRegionStream({data:{...data,groundGrid:data.neighborGrid},parent:campus,renderer,camera,host,report:reportLoad,onChange:()=>render(false)});await streaming.initialize();
+ }
  reportLoad({phase:'scene',loaded:1,total:1});
  scene.add(campus);renderBounds=new THREE.Box3().setFromObject(campus);const campusBounds=new THREE.Box3(new THREE.Vector3(-730,-1160,-3),new THREE.Vector3(1100,1170,95));fitCampusSun(sun,campusBounds);renderer.shadowMap.autoUpdate=false;renderer.shadowMap.needsUpdate=true;campusDiagonal=campusBounds.getSize(new THREE.Vector3()).length();envMeshes.forEach(m=>m.visible=$('environment').checked);details.forEach(m=>m.visible=$('details').checked);renderer.shadowMap.enabled=$('shadows').checked;sun.castShadow=$('shadows').checked;updateCut();controls=new CampusMapControls(camera,renderer.domElement);controls.groundHeight=mapGround;controls.addEventListener('change',()=>render(false));controls.listenToKeyEvents(renderer.domElement);syncRotationButton();
  renderer.domElement.addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey)return;if(['+','=','-','_'].includes(e.key)){e.preventDefault();if(e.key==='+'||e.key==='=')controls.dollyIn(.9);else controls.dollyOut(.9);}if(!e.repeat&&e.key.toLowerCase()==='r'){$('rotation-mode').click();}});
@@ -219,7 +225,7 @@ try{
  reportLoad({phase:'render',loaded:0,total:1});await nextPaint();modelReady=true;
  fullView('core');if(selected)selectBuilding(selected,Boolean(pendingFocus));pendingFocus=null;refreshList();
  const ray=new THREE.Raycaster(),pointer=new THREE.Vector2();
- function pick(e){const b=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-b.left)/b.width*2-1,-(e.clientY-b.top)/b.height*2+1);ray.setFromCamera(pointer,camera);return ray.intersectObjects(pickMeshes.filter(m=>m.visible&&m.parent.visible&&(neighborsVisible||!byCode.get(m.userData.code)?.neighbor)),false).find(h=>!$('cut-enabled').checked||h.point.z<=clipPlane.constant)?.object.userData.code||null;}
+ function pick(e){const b=renderer.domElement.getBoundingClientRect();pointer.set((e.clientX-b.left)/b.width*2-1,-(e.clientY-b.top)/b.height*2+1);ray.setFromCamera(pointer,camera);return ray.intersectObjects(pickMeshes.filter(m=>m.visible&&m.parent.visible&&(neighborsVisible||!byCode.get(m.userData.code)?.neighbor)),false).find(h=>!$('cut-enabled').checked||h.point.z<=clipPlane.constant)?.object.userData.code||streaming?.pick(ray)||null;}
  installMapSelection(renderer.domElement,e=>selectBuilding(pick(e)));
  const outdoorPicker=createOutdoorPicker(data.hoverPlaces||data.places||[]);
  installCampusHover(renderer.domElement,{resolve:e=>{
@@ -229,9 +235,9 @@ try{
   if(!p||($('cut-enabled').checked&&p.z>clipPlane.constant))return null;
   const place=outdoorPicker(p.x,p.y);return place&&(!place.neighbor||neighborsVisible)?{text:nameOf(place),building:false}:null;
  },show:(value,e)=>{const tip=$('hover-tip');tip.textContent=value.text;tip.style.display='block';const b=host.getBoundingClientRect();tip.style.left=Math.min(e.clientX-b.left+14,host.clientWidth-tip.offsetWidth-10)+'px';tip.style.top=Math.min(e.clientY-b.top+14,host.clientHeight-tip.offsetHeight-38)+'px';renderer.domElement.style.cursor=value.building?'pointer':'grab';},hide:()=>{$('hover-tip').style.display='none';renderer.domElement.style.cursor='grab';}});
- renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();$('status-text').textContent=t('lost');});
+ renderer.domElement.addEventListener('webglcontextlost',e=>{e.preventDefault();streaming?.dispose();$('status-text').textContent=t('lost');});
  reportLoad({phase:'ready',loaded:1,total:1});await nextPaint();$('download-image').disabled=false;$('download-3ds').disabled=false;$('loading').remove();
-}catch(err){console.error(err);$('download-3ds').disabled=false;modelReady=false;if(controls)controls.dispose();if(renderer)renderer.dispose();renderer=null;staticMode=true;$('canvas-host').replaceChildren();$('fallback').src=data.preview;$('fallback').style.display='block';$('loading').remove();const note=document.createElement('div');note.className='error-message';note.id='render-error';note.textContent=t('error');host.append(note);$('download-image').disabled=true;updateCount();}
+}catch(err){streaming?.dispose();console.error(err);$('download-3ds').disabled=false;modelReady=false;if(controls)controls.dispose();if(renderer)renderer.dispose();renderer=null;staticMode=true;$('canvas-host').replaceChildren();$('fallback').src=data.preview;$('fallback').style.display='block';$('loading').remove();const note=document.createElement('div');note.className='error-message';note.id='render-error';note.textContent=t('error');host.append(note);$('download-image').disabled=true;updateCount();}
 
 }
 initializeModel();
