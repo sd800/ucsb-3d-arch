@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ucsb.arch.songming.org/sitemap.xml
+Sitemap: https://arch.songming.org/sitemaps/ucsb.xml

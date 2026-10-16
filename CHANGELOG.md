@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.10.16.6 — 2026-10-16
+
+- Declare the campus sitemap hosted by the Campus 3D Models collection for cross-site discovery, alongside the existing campus sitemap. Preserve both declarations when packaging future website releases.
+
 ## 26.10.16.5 — 2026-10-16
 
 - Keep buildings selected in Highlights Explore, previous/next and dropdown navigation while preserving their original material colors. Direct model/list clicks retain the existing selection highlight. Preserve this distinction during loading and regional-detail updates.
