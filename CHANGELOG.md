@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.17.2 — 2026-10-17
+
+- Rebuilt Storke Tower from university exterior photographs: a closed board-formed concrete shaft, four open base arches, twelve tall round-headed belfry slots with solid piers, recessed bronze bells and supported base railings. Removed the exposed-frame silhouette and invented clock faces.
+- Reconstructed the sunken Storke Plaza and media-center arcade, with a reflecting pool, connected stair flights, paving, palms and consistent camera/hover grades. Kept the existing Explore camera direction and the concrete tower cap color.
+- Regenerated native CAD, compressed full-campus delivery, neighboring-area packets and the offline edition. Added exported-geometry checks for architectural voids, lower-court levels and stair connections.
+
 ## 26.10.17.1 — 2026-10-17
 
 - Give 24 architectural highlights individual architectural aerial-photography cameras, choosing principal entrances, courtyard-facing elevations or characteristic volumes instead of one shared viewing direction. Use lower facade views and higher courtyard/sports-bowl views with portrait/landscape-safe framing.

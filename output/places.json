@@ -2922,7 +2922,7 @@
     "position": [
       -56.31,
       -141.07,
-      11.28
+      11.32
     ],
     "hitArea": {
       "type": "Polygon",
@@ -2987,7 +2987,7 @@
         ]
       ]
     },
-    "source": "https://map.ucsb.edu/"
+    "source": "https://www.openstreetmap.org/way/218817558"
   },
   {
     "id": "P7",

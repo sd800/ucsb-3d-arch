@@ -3096,15 +3096,24 @@
     "peak_m": 66.655,
     "basis_en": "Overall height 175 ft (53.34 m), published by UCSB.",
     "basis": "总高采用UCSB官方公布的175英尺（53.34米）。",
-    "partition_en": "Open concrete piers, elevator/stair core, belfry beams, clocks and simplified bells; 175 ft published overall height. Individual members are illustrative.",
-    "partition": "开敞混凝土塔柱、楼梯与电梯核心、钟室梁、钟面及简化钟组；总高采用校方公布的175英尺，构件尺寸为近似。",
-    "volume_parts": [],
+    "partition_en": "Photo-referenced closed board-formed concrete shaft, four real base arches, twelve narrow round-headed belfry openings, recessed carillon racks and 61 bronze bells. Lower plaza, media-center arcades, pool and connected stairs are reconstructed from public photographs and mapped plans. Overall height is published at 175 ft; member dimensions and grades remain approximate.",
+    "partition": "依据实景重建封闭模板混凝土塔身、四面塔基拱洞、十二个狭长圆拱钟室窗、内置钟架与61口铜钟；细化下沉广场、出版中心拱廊、池塘和衔接台阶。总高采用校方公布的175英尺，构件尺寸与局部标高为近似。",
+    "volume_parts": [
+      {
+        "name": "closed-concrete-shaft",
+        "height_m": 53.34,
+        "base_arches": 4,
+        "belfry_arches": 12,
+        "bells": 61
+      }
+    ],
     "highlight_joinery": {
-      "framed_openings": 0,
+      "framed_openings": 1,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 0
+      "added_triangles": 32,
+      "bespoke_architecture": "closed shaft, real base/belfry arches, 61 bronze bells"
     },
     "source": "https://www.campuscalendar.ucsb.edu/storke_tower",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
@@ -3129,7 +3138,7 @@
     "layer": "S062_Storke Publications",
     "zone": "central",
     "landmark": false,
-    "height": 4.2,
+    "height": 2.8,
     "height_status": "estimated",
     "levels": 1,
     "area": 1094.91,
@@ -3139,24 +3148,24 @@
       -63.881,
       -95.509
     ],
-    "ground_m": 13.304,
-    "bottom_m": 13.304,
-    "peak_m": 18.084,
+    "ground_m": 10.615,
+    "bottom_m": 10.615,
+    "peak_m": 13.415,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "Below-grade media rooms and south-facing round-arched arcade beneath a grade-level roof walk, following the official footprint and its courtyard void. Upper/lower grades, arch bays and paired doors are interpreted from UCSB photographs; dimensions are approximate.",
+    "partition": "保留官方建筑轮廓及内庭院，重建下沉媒体用房、南侧圆拱廊及地面层屋顶步行平台。上下标高、拱廊分格和成对门扇依据校方照片近似表达。",
     "volume_parts": [
       {
-        "area_m2": 1094.85,
-        "height_m": 4.2,
-        "storeys": 1
+        "name": "below-grade-media-rooms",
+        "below_grade_m": 2.7,
+        "roof_walk_at_grade": true
       }
     ],
     "highlight_joinery": null,
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://conferences.ucsb.edu/summer-conferences/attendee-information",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://conferences.ucsb.edu/summer-conferences/attendee-information",
     "gis_height_raw": 189,
     "gis_floorcount_raw": 4,
     "construction_status": "Mapped in 2026 public layer"

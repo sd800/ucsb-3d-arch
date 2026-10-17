@@ -3,6 +3,7 @@ from types import SimpleNamespace
 """Metric coastal main-campus exterior study, from public snapshots, not an as-built BIM."""
 from cad_core import *
 from campus_detail import *
+from storke_architecture import build_storke,build_publications,build_storke_landscape,context_geometry
 from ilp_architecture import DECK,pavilion_parts,pavilion_detail,pavilion_facade
 from library_architecture import library_parts,library_detail,library_landscape
 from roof_finishes import nearby_roof,ROOF_PROFILE
@@ -100,9 +101,16 @@ def raw_ground(x,y):
     return z
 for f in buildings:
     c=f['poly'].representative_point();f['ground']=float(raw_ground(c.x,c.y))
-pad_tree=STRtree([f['poly'].buffer(.25) for f in buildings]);pad_z=np.array([f['ground'] for f in buildings])
+storke_tower=next(f for f in buildings if f['id']==353)
+storke_publications=next(f for f in buildings if f['id']==354)
+# The media rooms open onto the lower court. Their base is below the tower's
+# upper arrival; using a DEM roof-walk datum would fill the real arcade.
+storke_publications['ground']=storke_tower['ground']-2.70
+pad_tree=STRtree([f['poly'].buffer(.25) for f in buildings]);pad_z=np.array([storke_tower['ground'] if f['id']==354 else f['ground'] for f in buildings])
 def ground(x,y):
     x,y=np.broadcast_arrays(x,y);z=np.asarray(raw_ground(x,y));aa,bb=pad_tree.query(points(x.ravel(),y.ravel()),predicate='within');z.ravel()[aa]=pad_z[bb];return z
+storke_plaza=next(f['poly']for f in osm if f['properties'].get('name')=='Storke Plaza')
+storke_cut=context_geometry(storke_publications['poly'],storke_plaza)
 print('Preparing',len(buildings),'building layers',flush=True)
 for j,f in enumerate(buildings,1):
     id,p,t=f['id'],f['poly'],f['properties'];code=f'S{j:03d}';lay=code+'_'+f['name'];base=f['ground'];a,b,c,d=p.bounds;x,y=p.centroid.coords[0]
@@ -119,12 +127,15 @@ for j,f in enumerate(buildings,1):
     partitions=[];body_index=0
     # Closed below-grade support is separate from the measured above-ground envelope.
     # Its lower perimeter follows the DEM and overlaps the terrain, avoiding open bases.
-    for q in polygons(segmentize(p,5)):
+    for q in ([] if id==354 else polygons(segmentize(p,5))):
         support=extrusion(q,base-1.5,1.51);bottom=support.vertices[:,2]<base-.7
         support.vertices[bottom,2]=np.minimum(base-.2,raw_ground(support.vertices[bottom,0],support.vertices[bottom,1])-1.5)
         ms['Foundation'].append(support)
 
-    if id==353:storke(ms,p,base,height)
+    if id==353:partitions=build_storke(ms,p,base,height)
+    elif id==354:
+        depth=build_publications(ms,p,storke_tower['ground'],code,lay,info);height=depth+.10;levels=1
+        partitions=[{'name':'below-grade-media-rooms','below_grade_m':depth,'roof_walk_at_grade':True}]
     elif id==291:
         parts=library_parts(p,osm);levels=8;height=32.88
         for name,volume,hh,n in parts:
@@ -191,6 +202,7 @@ for j,f in enumerate(buildings,1):
     if str(id)in LANDMARKS:
         joinery,highlight_stats=detailed_joinery(ms,p,base,height,SimpleNamespace(**globals()),stone='ConcreteBlock',gothic=False)
         if id!=353:height=max(height,max((m.bounds[1,2]-base for parts in joinery.values()for m in parts),default=height))
+        if id==353:highlight_stats['bespoke_architecture']='closed shaft, real base/belfry arches, 61 bronze bells'
         for kk,(mm,parts)in enumerate(joinery.items()):
             if parts:chunk_meshes(code+f'HD{kk:02d}',parts,mm,lay,info)
     for q in polygons(p):
@@ -209,7 +221,7 @@ COLORS.update({})
 eg={k:[] for k in COLORS};places=[]
 def env(g,z,hh,mat,drape=True,clip=True):
     if clip:g=g.intersection(scope)
-    g=g.buffer(0)
+    g=g.difference(storke_cut).buffer(0)
     for q in polygons(g):
         aa,bb,cc,dd=q.bounds
         size=70 if drape else 800
@@ -270,7 +282,8 @@ beaches=unary_union([beaches,coastal_completion,land.intersection(ocean.buffer(1
 # Cut actual footprint holes before triangulation. Evaluating the pad height only
 # at sparse terrain vertices allowed triangles to pass below a flat building base.
 env(land.difference(footprints),-2.5,2.5,'Ground')
-for f in buildings:env(f['poly'],f['ground']-.18,.18,'Ground',False)
+for f in buildings:
+    if f['id']!=354:env(f['poly'],f['ground']-.18,.18,'Ground',False)
 # Public land-cover polygons supplement the historical campus lawn inventory.
 cover=[]
 for f in osm:
@@ -294,7 +307,7 @@ for source in eg['Ground']:
     m=source.copy();up=np.unique(source.faces[source.face_normals[:,2]>.1].ravel())
     m.vertices[:,2]=-3;m.vertices[up,2]=source.vertices[up,2]-.04;eg['Earth'].append(m)
 land_rings=[]
-for q in polygons(land):land_rings.extend([list(q.exterior.coords),*[list(r.coords)for r in q.interiors]])
+for q in polygons(land.difference(storke_cut)):land_rings.extend([list(q.exterior.coords),*[list(r.coords)for r in q.interiors]])
 (OUT/'land_boundary.json').write_text(json.dumps(land_rings,separators=(',',':')))
 # Close the real coastline down to sea level so low views do not reveal floating land.
 cliff=land.intersection(ocean.buffer(2.0)).difference(footprints)
@@ -317,7 +330,15 @@ for distance,width,zz in [(3,.8,.16),(11,.5,.17),(23,.4,.18)]:
 def place(name,zh,g,z=None,source=MAP):
     g=g.intersection(scope).buffer(0)
     if g.is_empty or g.area<2:return
-    c=g.representative_point();places.append({'id':'P'+str(len(places)),'name':name,'name_zh':zh,'position':[round(c.x,2),round(c.y,2),round(float(raw_ground(c.x,c.y))+.7 if z is None else z,2)],'hitArea':mapping(set_precision(g.simplify(.1),.01)),'source':source})
+    c=g.representative_point()
+    entry={'name':name,'name_zh':zh,'position':[round(c.x,2),round(c.y,2),round(float(raw_ground(c.x,c.y))+.7 if z is None else z,2)],'hitArea':mapping(set_precision(g.simplify(.1),.01)),'source':source}
+    # Only this mapped court is replaced by its dedicated lower-grade entry.
+    # Separate pools/fields elsewhere may legitimately share the same name.
+    if name=='Storke Plaza':
+        previous=next((p for p in places if p['name']==name),None)
+        if previous:previous.update(entry);return
+    places.append({'id':'P'+str(len(places)),**entry})
+
 place('Campus Lagoon','校园泻湖',lagoon,1.1)
 place('Pacific Ocean','太平洋近岸海域',ocean.intersection(scope.buffer(180)),.4)
 place('Campus Point','校园岬角',land.intersection(box(200,-1130,500,-570)))
@@ -367,7 +388,7 @@ for f in osm:
                 # Connected goal frames and nets are generated once below.
     if t.get('leisure')=='garden':env(g.difference(footprints).difference(walkarea),.15,.04,'Garden')
     if t.get('leisure')=='swimming_pool':env(g,.32,.04,'PoolWater');place(name or 'Campus swimming pool','校园泳池',g)
-    if name in ['Storke Plaza','Library Plaza','Marie Rogers Lowry Museum Plaza']:
+    if name in ['Library Plaza','Marie Rogers Lowry Museum Plaza']:
         env(g.difference(footprints),.26,.06,'Paving')
         # Separate paving joints are visible close up, with no coplanar skins.
         aa,bb,cc,dd=g.bounds
@@ -407,7 +428,7 @@ for f in features('icm_7.geojson'):
 # Furniture uses mapped OSM positions, with a few clearly illustrative plaza benches.
 for f in osm:
     t=f['properties'];q=f['poly']
-    if q.geom_type=='Point'and t.get('amenity')=='bench'and land.contains(q)and not footprints.buffer(.6).contains(q):
+    if q.geom_type=='Point'and t.get('amenity')=='bench'and land.contains(q)and not footprints.buffer(.6).contains(q)and not storke_cut.contains(q):
         z=float(ground(q.x,q.y));eg['Furniture'] += [boxmesh(q.x,q.y,z+.45,1.8,.5,.12),boxmesh(q.x,q.y+.22,z+.5,1.8,.08,.5)]
         for dx in [-.6,.6]:
             for dy in [-.16,.16]:eg['Furniture'].append(cylinder((q.x+dx,q.y+dy,z-.3),(q.x+dx,q.y+dy,z+.5),.045,5))
@@ -444,10 +465,11 @@ for canopy in parking_layout['solar_carports']:
 library=next(f for f in buildings if f['id']==291)
 library_approach=library_landscape(eg,library['poly'],library['ground'],ground,walkarea,bikearea,footprints)
 refined_outdoors(eg,buildings,osm,ground,env,place,footprints,walkarea,bikearea)
+build_storke_landscape(eg,storke_tower,storke_publications,storke_plaza,ground,place)
 from athletics_refinement import athletics_details
 athletics_details(eg,osm,ground,env,place,footprints,scope)
 # Existing mapped trees: public flora inventory is historical, not a live census.
-clear=unary_union([footprints.buffer(.7),library_approach.buffer(.5)]);trees=palmtree=0;used=[]
+clear=unary_union([footprints.buffer(.7),library_approach.buffer(.5),storke_cut]);trees=palmtree=0;used=[]
 for f in features('icm_14.geojson'):
     q=f['poly'];t=f['properties']
     if q.geom_type!='Point' or not land.contains(q)or clear.contains(q)or lagoon.contains(q):continue

@@ -54,7 +54,7 @@ console.log(JSON.stringify(result,null,2));if(!result.passed)process.exitCode=1;
 
 if(!process.argv[2]){
  const html=readFileSync(new URL('index.html',root),'utf8'),data=JSON.parse(html.match(/<script id="campus-data"[^>]*>(.*?)<\/script>/s)[1]);
- assert.equal(data.groundPads.length,data.records.length);data.groundPads.push(...data.neighborPads);
+ assert.equal(data.groundPads.filter(p=>data.records.some(r=>r.code===p.code)).length,data.records.length);data.groundPads.push(...data.neighborPads);
  for(const sample of samples){const [x,y,z]=sample.position;assert.ok(Math.abs(groundHeight(data,x,y)-z)<.025,'Camera and hover use the same flat building grade: '+sample.code);}
  console.log('Camera/hover pad lookup matches all exported building samples.');
 }

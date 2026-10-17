@@ -69,6 +69,6 @@ const ordinary=highlightCamera({facility_id:'not-a-highlight'},catalogue);assert
 const delivery=read('output/web_model_report.json');
 assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),delivery.sourceSha256,'Source CAD digest changed');
 assert.equal(crypto.createHash('sha256').update(fs.readFileSync(new URL('assets/campus-model.bin',root))).digest('hex'),delivery.transferSha256,'Model packet digest changed');
-const report={highlights:records.length,new_camera_presets:Object.keys(catalogue.views).length,preserved:catalogue.preserved,aspect_ratios:[.55,1,1.8],source_mesh_framing:'pass',geometry_unchanged:true,views:results};
+const report={highlights:records.length,new_camera_presets:Object.keys(catalogue.views).length,preserved:catalogue.preserved,aspect_ratios:[.55,1,1.8],source_mesh_framing:'pass',delivery_bytes_match:true,views:results};
 fs.writeFileSync(new URL('output/highlight_view_validation.json',root),JSON.stringify(report,null,2)+'\n');
-console.log(`Highlights ${records.length}: complete coverage; actual mesh framing at 3 aspect ratios; custom cameras and CAD bytes preserved.`);
+console.log(`Highlights ${records.length}: complete coverage; actual mesh framing at 3 aspect ratios; custom cameras retained; source and web-delivery digests match.`);

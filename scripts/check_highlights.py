@@ -4,13 +4,13 @@ import json,struct
 import numpy as np
 from scipy.sparse import coo_matrix
 from scipy.sparse.csgraph import connected_components
-r=Path(__file__).resolve().parents[1];pkg=json.loads((r/'package.json').read_text())['name'];kind={'umich-ann-arbor-model':('UMich_AnnArbor',29,{'M035':('Bronze',53),'M401':('Bronze',60)}),'ucsb-campus-model':('UCSB_MainCampus',24,{'S061':('Gold',61)}),'uchicago-hydepark-model':('UChicago_HydePark',19,{})}[pkg];name,total,bells=kind
+r=Path(__file__).resolve().parents[1];pkg=json.loads((r/'package.json').read_text())['name'];kind={'umich-ann-arbor-model':('UMich_AnnArbor',29,{'M035':('Bronze',53),'M401':('Bronze',60)}),'ucsb-campus-model':('UCSB_MainCampus',24,{'S061':('BellMetal',61)}),'uchicago-hydepark-model':('UChicago_HydePark',19,{})}[pkg];name,total,bells=kind
 records=json.loads((r/'output/buildings.json').read_text());highlights=[x for x in records if x['landmark']];assert len(highlights)==total
 layers=json.loads((r/'output/layer_map.json').read_text())
 for b in highlights:
  s=b.get('highlight_joinery');assert s is not None,b['name']
  if s['added_triangles']:assert any(n.startswith(b['code']+'HD')for n in layers),b['name']
- else:assert s['hollow_bells']or b['code']in bells,b['name']
+ else:assert s.get('bespoke_architecture')or s['hollow_bells']or b['code']in bells,b['name']
 result={'highlights':total,'framed_openings':sum(b['highlight_joinery']['framed_openings']for b in highlights),'all_highlights_covered':True,'carillons':{}}
 if bells:
  blob=(r/'output'/f'{name}.3ds').read_bytes();counts={k:0 for k in bells}

@@ -22,7 +22,8 @@
     "check:touch": "node scripts/check_touch.mjs",
     "build:stream": "python3 scripts/build_stream_model.py",
     "check:stream": "node scripts/check_stream.mjs",
-    "check:highlights": "python3 scripts/check_highlights.py"
+    "check:highlights": "python3 scripts/check_highlights.py",
+    "check:storke": "node scripts/check_storke.mjs"
   },
   "dependencies": {
     "three": "0.186.1",

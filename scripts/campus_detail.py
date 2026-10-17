@@ -38,34 +38,6 @@ def fins(ms,p,z,h,spacing=2.1,mat='Tile',depth=.65):
             for along in np.arange(1,length-1,spacing):
                 c=a+u*along+n*.15;pp=Polygon([c-u*.065,c+u*.065,c+u*.065+n*depth,c-u*.065+n*depth]);ms[mat].append(extrusion(pp,z+.6,h-.9))
 
-def storke(ms,p,z,h):
-    q=max(polygons(p),key=lambda q:q.area);cc=np.asarray(q.minimum_rotated_rectangle.exterior.coords)[:4];c=q.centroid;u=cc[1]-cc[0];u/=np.linalg.norm(u);v=np.array([-u[1],u[0]])
-    def rect(x,y,sx,sy,zz,hh,mat='Concrete'):
-        center=np.array([c.x,c.y])+u*x+v*y;pp=Polygon([center+u*a+v*b for a,b in [(-sx/2,-sy/2),(sx/2,-sy/2),(sx/2,sy/2),(-sx/2,sy/2)]]);ms[mat].append(extrusion(pp,z+zz,hh))
-    for x,y in [(-2.8,-2.7),(-2.8,2.7),(2.8,-2.7),(2.8,2.7)]:rect(x,y,1.05,1.15,0,h)
-    rect(-1.6,0,1.65,4.6,0,h-8)
-    for zz in np.arange(3.6,h-8,3.8):rect(.7,0,3.2,4.8,zz,.17)
-    for zz in [h-10.5,h-6.5,h-1.4]:rect(0,0,6.8,6.6,zz,.48)
-    for k in range(8):
-        zz=h-9+k*.85;rect(0,0,5.5,.13,zz,.16,'Frame')
-    from highlight_finish import bell_mesh
-    # Owner documents 61 bells. Their size sequence and mounts are interpreted,
-    # with open skirts and two supported tiers rather than solid cone markers.
-    for k,count in enumerate([25,36]):
-        side=5 if k==0 else 6
-        for j in range(count):
-            xx=(j%side-(side-1)/2)*.74;yy=(j//side-(side-1)/2)*.72;center=np.array([c.x,c.y])+u*xx+v*yy
-            ms['Gold'].append(bell_mesh([*center,z+h-6.7+k*2.1],.28-.0017*j,.55-.002*j))
-        rect(0,0,4.5,4.4,h-6.05+k*2.1,.12,'Frame')
-    # Four clock discs in vertical planes, with clear radial hour markers.
-    for normal in [u,-u,v,-v]:
-        tangent=np.array([-normal[1],normal[0]]);center=np.array([c.x,c.y])+normal*3.53;cz=z+h-12
-        ms['LightStone'].append(cylinder((*center,cz),(*(center+normal*.13),cz),1.02,24))
-        for ang in np.arange(0,2*math.pi,math.pi/6):
-            a=center+normal*.15+tangent*(.75*math.sin(ang));b=center+normal*.15+tangent*(.88*math.sin(ang));ms['Frame'].append(cylinder((*a,cz+.75*math.cos(ang)),(*b,cz+.88*math.cos(ang)),.035,4))
-        for ang,length in [(0,.62),(math.pi/3,.45)]:
-            b=center+normal*.18+tangent*(length*math.sin(ang));ms['Frame'].append(cylinder((*(center+normal*.18),cz),(*b,cz+length*math.cos(ang)),.045,5))
-
 def split_volumes(id,p,h,levels):
     if id==277:return [(q,4.0 if q.area<150 else (21.0 if q.centroid.x>210 else 17.5),1 if q.area<150 else 4) for q in polygons(p)]
     if id in {317,329,326,294,337,336}:
