@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.17.1 — 2026-10-17
+
+- Give 24 architectural highlights individual architectural aerial-photography cameras, choosing principal entrances, courtyard-facing elevations or characteristic volumes instead of one shared viewing direction. Use lower facade views and higher courtyard/sports-bowl views with portrait/landscape-safe framing.
+- Bundle the stable-ID camera catalogue for online, local and standalone editions; preserve existing explicit record cameras, initial/district views, selection colors, source CAD and regional detail budgets.
+
 ## 26.10.16.7 — 2026-10-16
 
 - Keep the campus' own sitemap declaration and remove the retired central single-site sitemap reference from robots and future website packaging. The collection now offers one combined cross-site sitemap for verified Search Console submission.

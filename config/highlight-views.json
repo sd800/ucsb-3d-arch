@@ -1,0 +1,200 @@
+{
+  "review_date": "2026-10-17",
+  "coordinate_convention": "Camera-side azimuth clockwise from model north (+Y); elevation above ground. +X is east.",
+  "basis": "Editorial presentation choices inferred from the retained mapped plans and university/architect exterior references; not surveyed entrance bearings or a reproduction of a particular photograph.",
+  "views": {
+    "218": {
+      "name": "Henley Hall",
+      "azimuth_deg": 35,
+      "elevation_deg": 28,
+      "padding": 1.6,
+      "composition": "North curtain wall and east open-air atrium",
+      "reference": "https://www.dfss.ucsb.edu/design-construction-services/major-capital-projects/jeff-and-judy-henley-hall-institute-energy-efficiency"
+    },
+    "303": {
+      "name": "Campbell Hall",
+      "azimuth_deg": 200,
+      "elevation_deg": 27,
+      "padding": 1.6,
+      "composition": "South glazed lobby and circular folded roof",
+      "reference": "https://aait.ucsb.edu/event-av-services/campbell-hall/gallery"
+    },
+    "227": {
+      "name": "Elings Hall (CNSI)",
+      "azimuth_deg": 230,
+      "elevation_deg": 30,
+      "padding": 1.6,
+      "composition": "Southwest engineering-courtyard entrance and research wings",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "332": {
+      "name": "Kohn Hall",
+      "azimuth_deg": 75,
+      "elevation_deg": 33,
+      "padding": 1.65,
+      "composition": "East gate-facing entrance tower and open courtyard roof composition",
+      "reference": "https://www.kitp.ucsb.edu/news/new-kohn-hall"
+    },
+    "291": {
+      "name": "UCSB Library",
+      "azimuth_deg": 295,
+      "elevation_deg": 28,
+      "padding": 1.65,
+      "composition": "West entrance portal, glazed Paseo and north addition",
+      "reference": "https://www.library.ucsb.edu/visit/floor-plans-locations"
+    },
+    "321": {
+      "name": "Harold Frank Hall",
+      "azimuth_deg": 245,
+      "elevation_deg": 30,
+      "padding": 1.6,
+      "composition": "West campus-facing engineering entrance and research-wing elevation",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "288": {
+      "name": "Bren Hall",
+      "azimuth_deg": 155,
+      "elevation_deg": 28,
+      "padding": 1.6,
+      "composition": "Ocean-facing glazed office wing and shaded southeast frontage",
+      "reference": "https://classrooms.ucsb.edu/classroom-inventory/bren"
+    },
+    "280": {
+      "name": "Bioengineering",
+      "azimuth_deg": 205,
+      "elevation_deg": 28,
+      "padding": 1.6,
+      "composition": "South shading, atrium and glazed research frontage",
+      "reference": "https://bioengineering.ucsb.edu/facilities"
+    },
+    "353": {
+      "name": "Storke Tower",
+      "azimuth_deg": 55,
+      "elevation_deg": 22,
+      "padding": 1.75,
+      "composition": "Plaza-facing northeast tower elevation and open campanile",
+      "reference": "https://www.campuscalendar.ucsb.edu/storke_tower"
+    },
+    "277": {
+      "name": "Interactive Learning Pavilion",
+      "azimuth_deg": 265,
+      "elevation_deg": 36,
+      "padding": 1.6,
+      "composition": "West Paseo opening, inward-curving terraces and connected exterior stairs",
+      "reference": "https://lmnarchitects.com/project/classroom-building-university-of-california"
+    },
+    "287": {
+      "name": "Marine Science Building",
+      "azimuth_deg": 145,
+      "elevation_deg": 28,
+      "padding": 1.6,
+      "composition": "Coastal southeast office frontage and stepped laboratory roofs",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "297": {
+      "name": "Music",
+      "azimuth_deg": 220,
+      "elevation_deg": 32,
+      "padding": 1.6,
+      "composition": "Southwest music courtyard and lower performance wings",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "324": {
+      "name": "University Center (UCEN)",
+      "azimuth_deg": 200,
+      "elevation_deg": 28,
+      "padding": 1.65,
+      "composition": "Lagoon-facing south terraces, glazing and set-back upper floor",
+      "reference": "https://www.ucen.ucsb.edu/meet/meetings-events/outdoor-spaces"
+    },
+    "299": {
+      "name": "Robertson Gym",
+      "azimuth_deg": 140,
+      "elevation_deg": 28,
+      "padding": 1.6,
+      "composition": "Campus-facing southeast gym entrance and long sports-hall elevation",
+      "reference": "https://recreation.ucsb.edu/facilities"
+    },
+    "276": {
+      "name": "Events Center",
+      "azimuth_deg": 135,
+      "elevation_deg": 30,
+      "padding": 1.65,
+      "composition": "Southeast campus arrival and arena roof profile",
+      "reference": "https://ucsbgauchos.com/facilities"
+    },
+    "282": {
+      "name": "Humanities and Social Sciences Building",
+      "azimuth_deg": 140,
+      "elevation_deg": 30,
+      "padding": 1.6,
+      "composition": "Southeast planted entry court and humanities frontage",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "213": {
+      "name": "Student Resource Building",
+      "azimuth_deg": 140,
+      "elevation_deg": 28,
+      "padding": 1.6,
+      "composition": "Southeast public plaza and student-resource entrance",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "300": {
+      "name": "Arts",
+      "azimuth_deg": 110,
+      "elevation_deg": 32,
+      "padding": 1.6,
+      "composition": "Storke-facing east gallery court and low arts wings",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "350": {
+      "name": "San Rafael Tower",
+      "azimuth_deg": 135,
+      "elevation_deg": 27,
+      "padding": 1.65,
+      "composition": "Lagoon-side southeast tower and lower residential frontage",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "308": {
+      "name": "University House",
+      "azimuth_deg": 155,
+      "elevation_deg": 26,
+      "padding": 1.65,
+      "composition": "Coastal south/southeast terrace and low residential roof",
+      "reference": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0"
+    },
+    "320": {
+      "name": "Benioff Ocean Science Laboratory",
+      "azimuth_deg": 145,
+      "elevation_deg": 28,
+      "padding": 1.65,
+      "composition": "Southeast ocean-front laboratory and entry/terrace composition",
+      "reference": "https://bosl.ucsb.edu/"
+    },
+    "345": {
+      "name": "Harder Stadium",
+      "azimuth_deg": 110,
+      "elevation_deg": 42,
+      "padding": 1.65,
+      "composition": "East open-field view toward the main grandstand front",
+      "reference": "https://ucsbgauchos.com/facilities/harder-stadium/1"
+    },
+    "283": {
+      "name": "Recreation Center (Rec Cen)",
+      "azimuth_deg": 225,
+      "elevation_deg": 34,
+      "padding": 1.65,
+      "composition": "Southwest recreation arrival and outdoor aquatics/court side",
+      "reference": "https://recreation.ucsb.edu/facilities"
+    },
+    "284": {
+      "name": "Mosher Alumni House",
+      "azimuth_deg": 155,
+      "elevation_deg": 30,
+      "padding": 1.65,
+      "composition": "South plaza, glazed Vista levels and circular roof pergola",
+      "reference": "https://www.alumni.ucsb.edu/about/mosher-house"
+    }
+  },
+  "preserved": {}
+}

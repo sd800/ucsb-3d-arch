@@ -1,3 +1,5 @@
+import highlightViews from '../config/highlight-views.json';
+import {highlightCamera} from './highlight_camera.js';
 import {createRegionStream} from './region_stream.js';
 import {installHighlightsPanel} from './highlights_panel.js';
 import {createOutdoorPicker,groundPoint,installCampusHover} from './outdoor_hover.js';
@@ -167,7 +169,7 @@ function fullView(mode){
  if(mode==='core'){const c=b.getCenter(new THREE.Vector3()),[x,y]=data.overviewCenter;b.translate(new THREE.Vector3(x-c.x,y-c.y,0));}
  fitBox(b,mode==='plan'?'plan':'aerial',1.16,false,new THREE.Vector3(-.55,-1.65,1.35),mode==='aerial'?1500:50);
 }
-function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();const stadium=byCode.get(code)?.facility_id==='STD';fitBox(g.userData.bounds?.clone()||new THREE.Box3().setFromObject(g),'aerial',stadium?1.35:1.55,true,stadium?new THREE.Vector3(-.9,-1.5,2.1):undefined);}
+function focusBuilding(code){if(!modelReady){pendingFocus=code;return;}const g=buildings.get(code);if(!g||!camera)return;g.visible=true;g.updateWorldMatrix(true,true);viewMode='focus';setViewButtons();const stadium=byCode.get(code)?.facility_id==='STD';const shot=highlightCamera(byCode.get(code),highlightViews,stadium?{direction:[-.9,-1.5,2.1],pad:1.35}:{});fitBox(g.userData.bounds?.clone()||new THREE.Box3().setFromObject(g),'aerial',shot.pad,true,shot.direction);}
 for(const id of ['west-view','south-view','north-view'])$(id).onclick=()=>fullView(id);
 $('aerial').onclick=()=>fullView('aerial');$('plan').onclick=()=>fullView('plan');$('core').onclick=()=>fullView('core');$('reset-view').onclick=()=>{resetInteraction();selectBuilding(null);$('cut-enabled').checked=false;updateCut();fullView('core');};
 function updateLabels(){
