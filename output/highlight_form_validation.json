@@ -1,0 +1,13 @@
+{
+  "building_highlights": 24,
+  "reconstructed_buildings": 13,
+  "all_individual_layers_present": true,
+  "physical_checks": 4,
+  "checks": [
+    "Henley oval atrium is open to the sky",
+    "Henley atrium has an enclosing upper roof",
+    "HSSB ground arcade stays physically open",
+    "HSSB upper wing spans its ground arcade"
+  ],
+  "passed": true
+}

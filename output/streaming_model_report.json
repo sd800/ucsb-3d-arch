@@ -1,7 +1,7 @@
 {
-  "sourceSha256": "c01d983b3fdc610cbed0af7c45b3a0f383dcba52f71cb9ab925f76417990c957",
+  "sourceSha256": "6f45a72d4b0da8a1c4c2de2c72f8c097ba4ffd148607a661bc02313e35f83676",
   "originalTriangles": 1589232,
-  "originalObjects": 5844,
+  "originalObjects": 5865,
   "regions": 93,
   "instancedParts": 28696,
   "geometryTemplates": 2214,
@@ -27,8 +27,8 @@
   "allRegionalTransferBytes": 6912217,
   "preservesCAD": true,
   "scope": "Isla Vista and neighboring areas only",
-  "campusObjectsUnchanged": 2226,
+  "campusObjectsUnchanged": 2247,
   "neighborObjects": 3618,
-  "campusTransferBytes": 14540577,
+  "campusTransferBytes": 14408396,
   "overviewApproximation": "Position-only error-bounded simplification; 20-face tree crowns at unchanged source positions. Near regions retain source building triangles and repeated facade geometry; no CAD edits."
 }

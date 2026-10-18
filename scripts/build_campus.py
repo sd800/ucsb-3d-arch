@@ -9,8 +9,9 @@ from library_architecture import library_parts,library_detail,library_landscape
 from roof_finishes import nearby_roof,ROOF_PROFILE
 from curation import *
 from highlight_architecture import build_highlight,REFS as HIGHLIGHT_REFS,NOTES as HIGHLIGHT_NOTES
+from highlight_reconstruction import build_reconstruction,REFS as RECONSTRUCTION_REFS,NOTES as RECONSTRUCTION_NOTES,FEATURES as RECONSTRUCTION_FEATURES
 from campus_refinement import TARGETS,REFINEMENT_REFS,NOTES,refined_building,refined_outdoors
-REFS.update({str(k):v for k,v in REFINEMENT_REFS.items()});DETAIL_NOTES.update(NOTES);REFS.update({str(k):v for k,v in HIGHLIGHT_REFS.items()});DETAIL_NOTES.update(HIGHLIGHT_NOTES)
+REFS.update({str(k):v for k,v in REFINEMENT_REFS.items()});DETAIL_NOTES.update(NOTES);REFS.update({str(k):v for k,v in HIGHLIGHT_REFS.items()});DETAIL_NOTES.update(HIGHLIGHT_NOTES);REFS.update({str(k):v for k,v in RECONSTRUCTION_REFS.items()});DETAIL_NOTES.update(RECONSTRUCTION_NOTES)
 from coastal_geometry import open_sea_domain
 from scipy.interpolate import RegularGridInterpolator
 from shapely import segmentize,points,distance,contains
@@ -154,6 +155,8 @@ for j,f in enumerate(buildings,1):
                     pavilion_facade(ms,part,base+z0,h0,n0)
             partitions.append({'area_m2':round(q.area,2),'height_m':hh,'storeys':n})
         pavilion_detail(ms,p,base,ground)
+    elif id in RECONSTRUCTION_REFS:
+        height,levels,partitions=build_reconstruction(id,p,base,ms,code,lay,info)
     elif id in HIGHLIGHT_REFS:
         height,levels,partitions=build_highlight(id,p,base,ms,code,lay,info)
     elif id in TARGETS:
@@ -200,7 +203,12 @@ for j,f in enumerate(buildings,1):
                 for pp in polygons(q):ms['Metal'].append(extrusion(pp,base+height+.27,.22))
     highlight_stats=None
     if str(id)in LANDMARKS:
-        joinery,highlight_stats=detailed_joinery(ms,p,base,height,SimpleNamespace(**globals()),stone='ConcreteBlock',gothic=False)
+        if id in RECONSTRUCTION_REFS:
+            # These individual facades already include their own integrated
+            # reveals, transoms and roof edges. Do not duplicate those members
+            # with a second campus-wide framing pass.
+            joinery={};highlight_stats={'framed_openings':0,'transoms':0,'roof_coping_m':0.0,'hollow_bells':0,'added_triangles':0,'bespoke_architecture':RECONSTRUCTION_FEATURES[id]}
+        else:joinery,highlight_stats=detailed_joinery(ms,p,base,height,SimpleNamespace(**globals()),stone='ConcreteBlock',gothic=False)
         if id!=353:height=max(height,max((m.bounds[1,2]-base for parts in joinery.values()for m in parts),default=height))
         if id==353:highlight_stats['bespoke_architecture']='closed shaft, real base/belfry arches, 61 bronze bells'
         for kk,(mm,parts)in enumerate(joinery.items()):

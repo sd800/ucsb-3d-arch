@@ -1,38 +1,33 @@
 {
-  "S001B00": {
+  "S001R00": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Concrete"
   },
-  "S001HD0000": {
+  "S001R01": {
     "layer": "S001_Henley Hall",
     "category": "building",
-    "material": "Frame"
+    "material": "Concrete"
+  },
+  "S001M2200": {
+    "layer": "S001_Henley Hall",
+    "category": "building",
+    "material": "RoofLibraryGray"
   },
   "S001M3800": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S001M4500": {
-    "layer": "S001_Henley Hall",
-    "category": "building",
-    "material": "LightStone"
-  },
   "S001M4800": {
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Tile"
   },
-  "S001M5100": {
+  "S001M4900": {
     "layer": "S001_Henley Hall",
     "category": "building",
-    "material": "Metal"
-  },
-  "S001D5200": {
-    "layer": "S001_Henley Hall",
-    "category": "building",
-    "material": "Glass"
+    "material": "Concrete"
   },
   "S001D5300": {
     "layer": "S001_Henley Hall",
@@ -43,6 +38,11 @@
     "layer": "S001_Henley Hall",
     "category": "building",
     "material": "Frame"
+  },
+  "S001M5700": {
+    "layer": "S001_Henley Hall",
+    "category": "building",
+    "material": "Paving"
   },
   "S002B00": {
     "layer": "S002_Building 402",
@@ -819,25 +819,35 @@
     "category": "building",
     "material": "Frame"
   },
-  "S022B00": {
+  "S022R00": {
+    "layer": "S022_Elings Hall (CNSI)",
+    "category": "building",
+    "material": "Concrete"
+  },
+  "S022R01": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
     "material": "WhitePanel"
   },
-  "S022B01": {
+  "S022R02": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
-    "material": "WhitePanel"
+    "material": "ConcreteBlock"
   },
-  "S022B02": {
+  "S022R03": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
-    "material": "WhitePanel"
+    "material": "ConcreteBlock"
   },
-  "S022HD0000": {
+  "S022M2200": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
-    "material": "Frame"
+    "material": "RoofLibraryGray"
+  },
+  "S022M3000": {
+    "layer": "S022_Elings Hall (CNSI)",
+    "category": "building",
+    "material": "ConcreteBlock"
   },
   "S022M3800": {
     "layer": "S022_Elings Hall (CNSI)",
@@ -849,15 +859,20 @@
     "category": "building",
     "material": "LightStone"
   },
-  "S022M5100": {
+  "S022M4900": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
-    "material": "Metal"
+    "material": "Concrete"
   },
   "S022D5200": {
     "layer": "S022_Elings Hall (CNSI)",
     "category": "building",
     "material": "Glass"
+  },
+  "S022D5300": {
+    "layer": "S022_Elings Hall (CNSI)",
+    "category": "building",
+    "material": "DarkGlass"
   },
   "S022D5400": {
     "layer": "S022_Elings Hall (CNSI)",
@@ -1709,35 +1724,45 @@
     "category": "building",
     "material": "Frame"
   },
-  "S042B00": {
+  "S042R00": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
-    "material": "Limestone"
+    "material": "Concrete"
   },
-  "S042HD0000": {
+  "S042R01": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
-    "material": "Frame"
+    "material": "Concrete"
+  },
+  "S042R02": {
+    "layer": "S042_Harold Frank Hall",
+    "category": "building",
+    "material": "Concrete"
+  },
+  "S042R03": {
+    "layer": "S042_Harold Frank Hall",
+    "category": "building",
+    "material": "Concrete"
+  },
+  "S042R04": {
+    "layer": "S042_Harold Frank Hall",
+    "category": "building",
+    "material": "Concrete"
+  },
+  "S042M2200": {
+    "layer": "S042_Harold Frank Hall",
+    "category": "building",
+    "material": "RoofLibraryGray"
   },
   "S042M3800": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S042M4500": {
-    "layer": "S042_Harold Frank Hall",
-    "category": "building",
-    "material": "LightStone"
-  },
   "S042M4900": {
     "layer": "S042_Harold Frank Hall",
     "category": "building",
     "material": "Concrete"
-  },
-  "S042M5100": {
-    "layer": "S042_Harold Frank Hall",
-    "category": "building",
-    "material": "Metal"
   },
   "S042D5200": {
     "layer": "S042_Harold Frank Hall",
@@ -2129,40 +2154,45 @@
     "category": "building",
     "material": "Frame"
   },
-  "S053B00": {
+  "S053R00": {
+    "layer": "S053_Bren Hall",
+    "category": "building",
+    "material": "ConcreteBlock"
+  },
+  "S053R01": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Limestone"
   },
-  "S053HD0000": {
+  "S053R02": {
     "layer": "S053_Bren Hall",
     "category": "building",
-    "material": "Frame"
+    "material": "Limestone"
+  },
+  "S053M2200": {
+    "layer": "S053_Bren Hall",
+    "category": "building",
+    "material": "RoofLibraryGray"
+  },
+  "S053M2300": {
+    "layer": "S053_Bren Hall",
+    "category": "building",
+    "material": "RoofLibraryWarm"
+  },
+  "S053M2800": {
+    "layer": "S053_Bren Hall",
+    "category": "building",
+    "material": "SolarLibrary"
   },
   "S053M3800": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Foundation"
   },
-  "S053M4500": {
-    "layer": "S053_Bren Hall",
-    "category": "building",
-    "material": "LightStone"
-  },
   "S053M4900": {
     "layer": "S053_Bren Hall",
     "category": "building",
     "material": "Concrete"
-  },
-  "S053M5100": {
-    "layer": "S053_Bren Hall",
-    "category": "building",
-    "material": "Metal"
-  },
-  "S053D5200": {
-    "layer": "S053_Bren Hall",
-    "category": "building",
-    "material": "Glass"
   },
   "S053D5300": {
     "layer": "S053_Bren Hall",
@@ -2174,35 +2204,45 @@
     "category": "building",
     "material": "Frame"
   },
-  "S053D6800": {
+  "S053M5700": {
     "layer": "S053_Bren Hall",
     "category": "building",
-    "material": "Solar"
+    "material": "Paving"
   },
-  "S054HB00": {
+  "S054R00": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "ConcreteBlock"
   },
-  "S054HD0000": {
+  "S054R01": {
     "layer": "S054_Bioengineering",
     "category": "building",
-    "material": "Frame"
+    "material": "ConcreteBlock"
   },
-  "S054HD0100": {
+  "S054R02": {
     "layer": "S054_Bioengineering",
     "category": "building",
-    "material": "Metal"
+    "material": "Glass"
+  },
+  "S054M2200": {
+    "layer": "S054_Bioengineering",
+    "category": "building",
+    "material": "RoofLibraryGray"
+  },
+  "S054M2900": {
+    "layer": "S054_Bioengineering",
+    "category": "building",
+    "material": "RoofPavilion"
   },
   "S054M3800": {
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "Foundation"
   },
-  "S054M4500": {
+  "S054M4900": {
     "layer": "S054_Bioengineering",
     "category": "building",
-    "material": "LightStone"
+    "material": "Concrete"
   },
   "S054M5100": {
     "layer": "S054_Bioengineering",
@@ -2213,6 +2253,11 @@
     "layer": "S054_Bioengineering",
     "category": "building",
     "material": "Glass"
+  },
+  "S054D5300": {
+    "layer": "S054_Bioengineering",
+    "category": "building",
+    "material": "DarkGlass"
   },
   "S054D5400": {
     "layer": "S054_Bioengineering",
@@ -2599,40 +2644,40 @@
     "category": "building",
     "material": "Frame"
   },
-  "S065B00": {
+  "S065R00": {
     "layer": "S065_Marine Science Building",
     "category": "building",
-    "material": "Limestone"
+    "material": "ConcreteBlock"
   },
-  "S065HD0000": {
+  "S065R01": {
     "layer": "S065_Marine Science Building",
     "category": "building",
-    "material": "Frame"
+    "material": "ConcreteBlock"
+  },
+  "S065R02": {
+    "layer": "S065_Marine Science Building",
+    "category": "building",
+    "material": "ConcreteBlock"
+  },
+  "S065M2200": {
+    "layer": "S065_Marine Science Building",
+    "category": "building",
+    "material": "RoofLibraryGray"
+  },
+  "S065M2300": {
+    "layer": "S065_Marine Science Building",
+    "category": "building",
+    "material": "RoofLibraryWarm"
   },
   "S065M3800": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S065M4500": {
-    "layer": "S065_Marine Science Building",
-    "category": "building",
-    "material": "LightStone"
-  },
   "S065M4900": {
     "layer": "S065_Marine Science Building",
     "category": "building",
     "material": "Concrete"
-  },
-  "S065M5100": {
-    "layer": "S065_Marine Science Building",
-    "category": "building",
-    "material": "Metal"
-  },
-  "S065D5200": {
-    "layer": "S065_Marine Science Building",
-    "category": "building",
-    "material": "Glass"
   },
   "S065D5300": {
     "layer": "S065_Marine Science Building",
@@ -2644,15 +2689,35 @@
     "category": "building",
     "material": "Frame"
   },
-  "S066B00": {
+  "S065M5700": {
+    "layer": "S065_Marine Science Building",
+    "category": "building",
+    "material": "Paving"
+  },
+  "S066R00": {
+    "layer": "S066_Music",
+    "category": "building",
+    "material": "ConcreteBlock"
+  },
+  "S066R01": {
+    "layer": "S066_Music",
+    "category": "building",
+    "material": "ConcreteBlock"
+  },
+  "S066R02": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Limestone"
   },
-  "S066HD0000": {
+  "S066R03": {
     "layer": "S066_Music",
     "category": "building",
-    "material": "Frame"
+    "material": "Limestone"
+  },
+  "S066R04": {
+    "layer": "S066_Music",
+    "category": "building",
+    "material": "Limestone"
   },
   "S066M2200": {
     "layer": "S066_Music",
@@ -2669,20 +2734,25 @@
     "category": "building",
     "material": "RoofClay"
   },
+  "S066M3000": {
+    "layer": "S066_Music",
+    "category": "building",
+    "material": "ConcreteBlock"
+  },
   "S066M3800": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Foundation"
   },
+  "S066M4500": {
+    "layer": "S066_Music",
+    "category": "building",
+    "material": "LightStone"
+  },
   "S066M4900": {
     "layer": "S066_Music",
     "category": "building",
     "material": "Concrete"
-  },
-  "S066D5200": {
-    "layer": "S066_Music",
-    "category": "building",
-    "material": "Glass"
   },
   "S066D5300": {
     "layer": "S066_Music",
@@ -2693,6 +2763,11 @@
     "layer": "S066_Music",
     "category": "building",
     "material": "Frame"
+  },
+  "S066M5700": {
+    "layer": "S066_Music",
+    "category": "building",
+    "material": "Paving"
   },
   "S067B00": {
     "layer": "S067_Marine Science Utility Building",
@@ -3504,45 +3579,70 @@
     "category": "building",
     "material": "Frame"
   },
-  "S086B00": {
+  "S086R00": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
-    "material": "Limestone"
+    "material": "WhitePanel"
   },
-  "S086B01": {
+  "S086R01": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
-    "material": "Limestone"
+    "material": "WhitePanel"
   },
-  "S086HD0000": {
+  "S086AR020": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
-    "material": "Frame"
+    "material": "WhitePanel"
+  },
+  "S086RU2": {
+    "layer": "S086_Humanities and Social Sciences Building",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S086R03": {
+    "layer": "S086_Humanities and Social Sciences Building",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S086R04": {
+    "layer": "S086_Humanities and Social Sciences Building",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S086R05": {
+    "layer": "S086_Humanities and Social Sciences Building",
+    "category": "building",
+    "material": "WhitePanel"
+  },
+  "S086M2200": {
+    "layer": "S086_Humanities and Social Sciences Building",
+    "category": "building",
+    "material": "RoofLibraryGray"
+  },
+  "S086M2300": {
+    "layer": "S086_Humanities and Social Sciences Building",
+    "category": "building",
+    "material": "RoofLibraryWarm"
   },
   "S086M3800": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S086M4500": {
+  "S086M4800": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
-    "material": "LightStone"
+    "material": "Tile"
   },
   "S086M4900": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
     "material": "Concrete"
   },
-  "S086M5100": {
+  "S086M5000": {
     "layer": "S086_Humanities and Social Sciences Building",
     "category": "building",
-    "material": "Metal"
-  },
-  "S086D5200": {
-    "layer": "S086_Humanities and Social Sciences Building",
-    "category": "building",
-    "material": "Glass"
+    "material": "WhitePanel"
   },
   "S086D5300": {
     "layer": "S086_Humanities and Social Sciences Building",
@@ -3589,40 +3689,50 @@
     "category": "building",
     "material": "Frame"
   },
-  "S088B00": {
+  "S088R00": {
     "layer": "S088_Student Resource Building",
     "category": "building",
-    "material": "Limestone"
+    "material": "Concrete"
   },
-  "S088HD0000": {
+  "S088R01": {
     "layer": "S088_Student Resource Building",
     "category": "building",
-    "material": "Frame"
+    "material": "Concrete"
+  },
+  "S088R02": {
+    "layer": "S088_Student Resource Building",
+    "category": "building",
+    "material": "ConcreteBlock"
+  },
+  "S088R03": {
+    "layer": "S088_Student Resource Building",
+    "category": "building",
+    "material": "ConcreteBlock"
+  },
+  "S088R04": {
+    "layer": "S088_Student Resource Building",
+    "category": "building",
+    "material": "Glass"
+  },
+  "S088M2200": {
+    "layer": "S088_Student Resource Building",
+    "category": "building",
+    "material": "RoofLibraryGray"
   },
   "S088M3800": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "Foundation"
   },
-  "S088M4500": {
+  "S088M4300": {
     "layer": "S088_Student Resource Building",
     "category": "building",
-    "material": "LightStone"
+    "material": "Boardwalk"
   },
   "S088M4900": {
     "layer": "S088_Student Resource Building",
     "category": "building",
     "material": "Concrete"
-  },
-  "S088M5100": {
-    "layer": "S088_Student Resource Building",
-    "category": "building",
-    "material": "Metal"
-  },
-  "S088D5200": {
-    "layer": "S088_Student Resource Building",
-    "category": "building",
-    "material": "Glass"
   },
   "S088D5300": {
     "layer": "S088_Student Resource Building",
@@ -3719,40 +3829,45 @@
     "category": "building",
     "material": "Frame"
   },
-  "S091B00": {
+  "S091R00": {
     "layer": "S091_Arts",
     "category": "building",
-    "material": "Limestone"
+    "material": "ConcreteBlock"
   },
-  "S091B01": {
+  "S091R01": {
     "layer": "S091_Arts",
     "category": "building",
-    "material": "Limestone"
+    "material": "ConcreteBlock"
   },
-  "S091HD0000": {
+  "S091R02": {
     "layer": "S091_Arts",
     "category": "building",
-    "material": "Frame"
+    "material": "ConcreteBlock"
+  },
+  "S091R03": {
+    "layer": "S091_Arts",
+    "category": "building",
+    "material": "Glass"
+  },
+  "S091R04": {
+    "layer": "S091_Arts",
+    "category": "building",
+    "material": "Glass"
+  },
+  "S091M2200": {
+    "layer": "S091_Arts",
+    "category": "building",
+    "material": "RoofLibraryGray"
   },
   "S091M3800": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "Foundation"
   },
-  "S091M4500": {
-    "layer": "S091_Arts",
-    "category": "building",
-    "material": "LightStone"
-  },
   "S091M4900": {
     "layer": "S091_Arts",
     "category": "building",
     "material": "Concrete"
-  },
-  "S091M5100": {
-    "layer": "S091_Arts",
-    "category": "building",
-    "material": "Metal"
   },
   "S091D5200": {
     "layer": "S091_Arts",
@@ -3869,35 +3984,30 @@
     "category": "building",
     "material": "Frame"
   },
-  "S095B00": {
+  "S095R00": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
-    "material": "Limestone"
+    "material": "ConcreteBlock"
   },
-  "S095HD0000": {
+  "S095M2200": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
-    "material": "Frame"
+    "material": "RoofLibraryGray"
+  },
+  "S095M2300": {
+    "layer": "S095_San Rafael Tower",
+    "category": "building",
+    "material": "RoofLibraryWarm"
   },
   "S095M3800": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "Foundation"
   },
-  "S095M4500": {
-    "layer": "S095_San Rafael Tower",
-    "category": "building",
-    "material": "LightStone"
-  },
   "S095M4900": {
     "layer": "S095_San Rafael Tower",
     "category": "building",
     "material": "Concrete"
-  },
-  "S095M5100": {
-    "layer": "S095_San Rafael Tower",
-    "category": "building",
-    "material": "Metal"
   },
   "S095D5200": {
     "layer": "S095_San Rafael Tower",
@@ -5039,30 +5149,30 @@
     "category": "building",
     "material": "Frame"
   },
-  "S125B00": {
+  "S125R00": {
     "layer": "S125_University House",
     "category": "building",
     "material": "Limestone"
   },
-  "S125HD0000": {
+  "S125M2500": {
     "layer": "S125_University House",
     "category": "building",
-    "material": "Frame"
+    "material": "RoofClay"
+  },
+  "S125M3000": {
+    "layer": "S125_University House",
+    "category": "building",
+    "material": "ConcreteBlock"
   },
   "S125M3800": {
     "layer": "S125_University House",
     "category": "building",
     "material": "Foundation"
   },
-  "S125M4800": {
+  "S125M4500": {
     "layer": "S125_University House",
     "category": "building",
-    "material": "Tile"
-  },
-  "S125D5200": {
-    "layer": "S125_University House",
-    "category": "building",
-    "material": "Glass"
+    "material": "LightStone"
   },
   "S125D5300": {
     "layer": "S125_University House",
@@ -5214,40 +5324,35 @@
     "category": "building",
     "material": "Frame"
   },
-  "S130B00": {
+  "S130R00": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
-    "material": "Limestone"
+    "material": "WhitePanel"
   },
-  "S130HD0000": {
+  "S130R01": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
-    "material": "Frame"
+    "material": "WhitePanel"
+  },
+  "S130M2500": {
+    "layer": "S130_Benioff Ocean Science Laboratory",
+    "category": "building",
+    "material": "RoofClay"
   },
   "S130M3800": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "Foundation"
   },
-  "S130M4500": {
-    "layer": "S130_Benioff Ocean Science Laboratory",
-    "category": "building",
-    "material": "LightStone"
-  },
   "S130M4900": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
     "material": "Concrete"
   },
-  "S130M5100": {
+  "S130M5000": {
     "layer": "S130_Benioff Ocean Science Laboratory",
     "category": "building",
-    "material": "Metal"
-  },
-  "S130D5200": {
-    "layer": "S130_Benioff Ocean Science Laboratory",
-    "category": "building",
-    "material": "Glass"
+    "material": "WhitePanel"
   },
   "S130D5300": {
     "layer": "S130_Benioff Ocean Science Laboratory",

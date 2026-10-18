@@ -23,7 +23,9 @@
     "build:stream": "python3 scripts/build_stream_model.py",
     "check:stream": "node scripts/check_stream.mjs",
     "check:highlights": "python3 scripts/check_highlights.py",
-    "check:storke": "node scripts/check_storke.mjs"
+    "check:storke": "node scripts/check_storke.mjs",
+    "build:highlight-review": "python3 scripts/build_highlight_review.py && esbuild scripts/highlight_review.js --bundle --format=esm --outfile=tmp/highlight-review.js",
+    "check:highlight-forms": "node scripts/check_highlight_forms.mjs"
   },
   "dependencies": {
     "three": "0.186.1",

@@ -1,5 +1,11 @@
 # Changelog
 
+## 26.10.18.1 — 2026-10-18
+
+- Individually audited all 24 building Highlights against owner, architect and campus references. Reconstructed Henley, Elings, Harold Frank, Bren, Bioengineering, Marine Science, Music, HSSB, Student Resource, Arts, San Rafael Tower, University House and the Benioff Ocean Science Laboratory with separate wings, roof levels and characteristic exterior assemblies.
+- Added Henley's open oval atrium and connected galleries, HSSB's open ground arcade and curved end pavilions, and distinct laboratory, residential and coastal roof/facade treatments. Retained the dedicated Storke Tower/plaza and ILP reconstructions.
+- Added a per-building architectural audit and lightweight actual-CAD review gallery, plus exported-geometry aperture and arcade checks. Regenerated native CAD, lossless web assets, Isla Vista packets and offline delivery; preserved presentation cameras and campus detail.
+
 ## 26.10.17.2 — 2026-10-17
 
 - Rebuilt Storke Tower from university exterior photographs: a closed board-formed concrete shaft, four open base arches, twelve tall round-headed belfry slots with solid piers, recessed bronze bells and supported base railings. Removed the exposed-frame silhouette and invented clock faces.

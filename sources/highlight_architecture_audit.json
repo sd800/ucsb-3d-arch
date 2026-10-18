@@ -1,0 +1,362 @@
+{
+  "review_date": "2026-10-18",
+  "scope": "Every current architectural building Highlight; the individual exterior geometry is reviewed, not merely a shared joinery counter.",
+  "building_highlight_count": 24,
+  "reconstructed_this_review": 13,
+  "joinery_count_is_not_fidelity_evidence": true,
+  "audit": [
+    {
+      "id": "218",
+      "code": "S001",
+      "name": "Henley Hall",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "western laboratory bar",
+        "eastern three-storey oval open-air atrium",
+        "connected galleries and stair flights",
+        "north curtain glazing",
+        "south terracotta solar screen and projecting eaves"
+      ],
+      "reference": "https://kierantimberlake.com/work/henley-hall-institute-for-energy-efficiency/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "303",
+      "code": "S008",
+      "name": "Campbell Hall",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Circular lecture hall and lower service wing",
+        "Alternating radial folded-plate roof",
+        "Plaza-facing tall glazed lobby and attached mullions"
+      ],
+      "reference": "https://aait.ucsb.edu/event-av-services/campbell-hall/gallery",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "227",
+      "code": "S022",
+      "name": "Elings Hall (CNSI)",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "three-storey main laboratory bar",
+        "separate low northern ancillary volumes",
+        "glazed northern lobby",
+        "inclined end feature wall",
+        "closely spaced attached facade members; no unrealized display"
+      ],
+      "reference": "https://www.mat.ucsb.edu/~g.legrady/academic/courses/09f200a/c/cnsi.html",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "332",
+      "code": "S030",
+      "name": "Kohn Hall",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Low tile-roofed courtyard wings",
+        "Separate orange entrance tower",
+        "Open central court with supported partial awning"
+      ],
+      "reference": "https://www.kitp.ucsb.edu/news/new-kohn-hall",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "291",
+      "code": "S040",
+      "name": "UCSB Library",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Original eight-storey library tower",
+        "Lower wings and new northern addition",
+        "Glazed Paseo and western entrance portal",
+        "Separate aerial-referenced roof finishes and PV patches"
+      ],
+      "reference": "https://www.library.ucsb.edu/visit/floor-plans-locations",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "321",
+      "code": "S042",
+      "name": "Harold Frank Hall",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "five-storey classroom/research bar",
+        "lower courtyard/service wing",
+        "recessed southern glazed lobby",
+        "deep horizontal concrete shades",
+        "paired grouped windows and exposed concrete frame"
+      ],
+      "reference": "https://sp.dfss.ucsb.edu/entrances/enter-bldg/hfh.html",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "288",
+      "code": "S053",
+      "name": "Bren Hall",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "open triangular courtyard",
+        "separate office and laboratory wings",
+        "set-back upper office level",
+        "courtyard balconies and supported shade canopy",
+        "limited roof-mounted photovoltaic rows"
+      ],
+      "reference": "https://bren.ucsb.edu/about/bren-hall",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "280",
+      "code": "S054",
+      "name": "Bioengineering",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "three-storey concrete research wings",
+        "punched windows with deep square reveals",
+        "three-storey glazed entrance atrium",
+        "set-back clerestory strip",
+        "attached south window-zone shades"
+      ],
+      "reference": "https://bioengineering.ucsb.edu/facilities",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "353",
+      "code": "S061",
+      "name": "Storke Tower",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Closed board-formed concrete shaft",
+        "Twelve actual belfry slots and four base arches",
+        "61 recessed bronze bells",
+        "Sunken plaza, nine-bay media arcade, reflecting pool and connected stairs"
+      ],
+      "reference": "https://www.campuscalendar.ucsb.edu/storke_tower",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "277",
+      "code": "S063",
+      "name": "Interactive Learning Pavilion",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Separated curved classroom volumes",
+        "Open-air terrace galleries",
+        "Joined stair flights and floor landings",
+        "Positive-depth slabs and parapets without duplicate coplanar caps"
+      ],
+      "reference": "https://lmnarchitects.com/project/classroom-building-university-of-california",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "287",
+      "code": "S065",
+      "name": "Marine Science Building",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "three wings around open courtyard",
+        "four above-ground floors; basement excluded",
+        "second-level courtyard patio",
+        "sawtooth exterior bays",
+        "continuous concrete floor bands and shaded glazing"
+      ],
+      "reference": "https://msi.ucsb.edu/facilities-services/marine-science-research-building",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "297",
+      "code": "S066",
+      "name": "Music",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "separate performance halls and teaching wings",
+        "two open courtyards",
+        "low clay roofs by individual wing",
+        "shaded courtyard circulation",
+        "Music Bowl stepped seating and stage"
+      ],
+      "reference": "https://music.ucsb.edu/operations/facilities",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "324",
+      "code": "S076",
+      "name": "University Center (UCEN)",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Lower lagoon-facing rooms and set-back upper level",
+        "Glazed public frontage",
+        "Supported outdoor terrace and guardrails",
+        "Connected patio and lawn approach"
+      ],
+      "reference": "https://www.ucen.ucsb.edu/meet/meetings-events/outdoor-spaces",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "299",
+      "code": "S078",
+      "name": "Robertson Gym",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Separate high gym hall and lower support wings",
+        "Recessed glazed entrance",
+        "Positive-depth roof edges and facade bays",
+        "Mapped adjoining athletic facilities retained"
+      ],
+      "reference": "https://recreation.ucsb.edu/facilities",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "276",
+      "code": "S084",
+      "name": "Events Center",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Main arena separated from low entry and annex volumes",
+        "Broad structural roof enclosure",
+        "Glazed entrance bays and supported eaves",
+        "Mapped footprint and separate service circulation"
+      ],
+      "reference": "https://ucsbgauchos.com/facilities",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "282",
+      "code": "S086",
+      "name": "Humanities and Social Sciences Building",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "six-storey northern office tower",
+        "four-storey west wing and curved east wing",
+        "curved-head end pavilions",
+        "real open ground-floor arcade",
+        "red diamond frieze and supported rooftop trellis"
+      ],
+      "reference": "https://marcuse.faculty.history.ucsb.edu/projects/HSSBLocation.htm",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "213",
+      "code": "S088",
+      "name": "Student Resource Building",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "three-storey office and student-service wings",
+        "glazed central circulation/clerestory",
+        "low curved east meeting pavilion",
+        "supported entrance canopy",
+        "west-facing ventilation screen"
+      ],
+      "reference": "https://srb.sa.ucsb.edu/about",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "300",
+      "code": "S091",
+      "name": "Arts",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "separate north and south arts wings",
+        "high-bay studio and two-storey classroom masses",
+        "open sculpture courtyards",
+        "glazed gallery fronts",
+        "roof monitors and shaded circulation"
+      ],
+      "reference": "https://arts.ucsb.edu/atrium/",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "350",
+      "code": "S095",
+      "name": "San Rafael Tower",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "seven-storey courtyard tower",
+        "recessed paired residential bays",
+        "deep concrete vertical piers",
+        "solid horizontal slab bands",
+        "lower glazed arrival and entrance canopy"
+      ],
+      "reference": "https://www.housing.ucsb.edu/housing-options/options-filter/san-rafael",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "308",
+      "code": "S125",
+      "name": "University House",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "low mapped residential wings",
+        "individual low-pitched clay roofs",
+        "deep garden eaves",
+        "courtyard veranda with grounded columns",
+        "glazed garden doors and chimney"
+      ],
+      "reference": "https://news.ucsb.edu/in-focus/uc-regents-approve-acquisition-campus-residential-property",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "320",
+      "code": "S130",
+      "name": "Benioff Ocean Science Laboratory",
+      "decision": "reconstructed source-specific exterior",
+      "features_reviewed": [
+        "low west laboratory bar and taller east coastal block",
+        "clay hipped roofs",
+        "continuous shaded sea-facing glazing",
+        "white concrete floor bands",
+        "recessed entrance and supported balcony"
+      ],
+      "reference": "https://news.ucsb.edu/2026/022864/ucsb-seeks-community-input-university-plans-sea-level-rise",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "345",
+      "code": "S151",
+      "name": "Harder Stadium",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Narrow mapped grandstand footprint",
+        "Stepped bleacher rows",
+        "Field-facing seat edges",
+        "Grounded poles and supported upper guardrail"
+      ],
+      "reference": "https://ucsbgauchos.com/facilities/harder-stadium/1",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "283",
+      "code": "S166",
+      "name": "Recreation Center (Rec Cen)",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Separate high activity halls and low entry wings",
+        "Double-height glazed gym frontage",
+        "Roof edges and floor bands",
+        "Pools, circulation and neighboring athletics kept separate"
+      ],
+      "reference": "https://recreation.ucsb.edu/facilities",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    },
+    {
+      "id": "284",
+      "code": "S173",
+      "name": "Mosher Alumni House",
+      "decision": "retained existing individual exterior after review",
+      "features_reviewed": [
+        "Three terraced alumni-house levels",
+        "Glazed meeting rooms and low garden wing",
+        "Open circular rooftop pergola with radial rafters",
+        "Supported deck, railings and Whalen Plaza approach"
+      ],
+      "reference": "https://www.alumni.ucsb.edu/about/mosher-house",
+      "dimensions": "Retain published dimensions where available; all remaining section levels, bays and secondary members are approximate exterior interpretations."
+    }
+  ],
+  "validation": {
+    "browser_geometry": "All individual exported building layers reviewed at the configured presentation view and opposite side; targeted low-angle checks for open structures. Full source geometry, without runtime regional simplification.",
+    "form_regressions": "scripts/check_highlight_forms.mjs",
+    "camera_regressions": "scripts/check_highlight_views.mjs",
+    "native_cad": "scripts/validate_rhino.py"
+  }
+}

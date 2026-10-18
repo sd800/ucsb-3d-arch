@@ -15,7 +15,7 @@
     "layer": "S001_Henley Hall",
     "zone": "central",
     "landmark": true,
-    "height": 15.2,
+    "height": 14.87,
     "height_status": "estimated",
     "levels": 3,
     "area": 1419.57,
@@ -27,28 +27,44 @@
     ],
     "ground_m": 15.758,
     "bottom_m": 15.758,
-    "peak_m": 31.538,
+    "peak_m": 30.628,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Three-storey research form with terra-cotta fins, glazing, shaded entry and layered flat roof. Facade modules are approximate.",
-    "partition": "三层研究楼，表达陶土遮阳片、玻璃幕墙、入口遮棚与屋顶层次；立面模数为近似。",
+    "partition_en": "western laboratory bar; eastern three-storey oval open-air atrium; connected galleries and stair flights; north curtain glazing; south terracotta solar screen and projecting eaves. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 1419.51,
-        "height_m": 15.2,
-        "storeys": 3
+        "name": "laboratory-west",
+        "height_m": 14.5,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 826.48
+      },
+      {
+        "name": "atrium-office-ring",
+        "height_m": 13.6,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 507.28
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 132,
-      "transoms": 129,
+      "framed_openings": 0,
+      "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 5772
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "western laboratory bar",
+        "eastern three-storey oval open-air atrium",
+        "connected galleries and stair flights",
+        "north curtain glazing",
+        "south terracotta solar screen and projecting eaves"
+      ]
     },
-    "source": "https://www.dfss.ucsb.edu/design-construction-services/major-capital-projects/jeff-and-judy-henley-hall-institute-energy-efficiency",
+    "source": "https://kierantimberlake.com/work/henley-hall-institute-for-energy-efficiency/",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": "https://www.dfss.ucsb.edu/design-construction-services/major-capital-projects/jeff-and-judy-henley-hall-institute-energy-efficiency",
+    "architecture_reference": "https://kierantimberlake.com/work/henley-hall-institute-for-energy-efficiency/",
     "gis_height_raw": null,
     "gis_floorcount_raw": 3,
     "construction_status": "Mapped in 2026 public layer"
@@ -1072,9 +1088,9 @@
     "layer": "S022_Elings Hall (CNSI)",
     "zone": "central",
     "landmark": true,
-    "height": 15.4,
+    "height": 13.97,
     "height_status": "estimated",
-    "levels": 4,
+    "levels": 3,
     "area": 3721.91,
     "width": 54.7,
     "depth": 143.18,
@@ -1084,38 +1100,58 @@
     ],
     "ground_m": 15.913,
     "bottom_m": 15.913,
-    "peak_m": 31.893,
+    "peak_m": 29.883,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "three-storey main laboratory bar; separate low northern ancillary volumes; glazed northern lobby; inclined end feature wall; closely spaced attached facade members; no unrealized display. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 3564.69,
-        "height_m": 15.4,
-        "storeys": 4
+        "name": "north-glazed-lobby",
+        "height_m": 13.2,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 776.31
       },
       {
-        "area_m2": 28.95,
-        "height_m": 15.4,
-        "storeys": 4
+        "name": "laboratory",
+        "height_m": 13.6,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 2788.44
       },
       {
-        "area_m2": 128.34,
-        "height_m": 15.4,
-        "storeys": 4
+        "name": "low-ancillary",
+        "height_m": 3.7,
+        "storeys": 1,
+        "offset_m": 0,
+        "area_m2": 28.95
+      },
+      {
+        "name": "low-ancillary",
+        "height_m": 3.7,
+        "storeys": 1,
+        "offset_m": 0,
+        "area_m2": 128.34
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 308,
-      "transoms": 308,
+      "framed_openings": 0,
+      "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 13552
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "three-storey main laboratory bar",
+        "separate low northern ancillary volumes",
+        "glazed northern lobby",
+        "inclined end feature wall",
+        "closely spaced attached facade members; no unrealized display"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://www.mat.ucsb.edu/~g.legrady/academic/courses/09f200a/c/cnsi.html",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://www.mat.ucsb.edu/~g.legrady/academic/courses/09f200a/c/cnsi.html",
     "gis_height_raw": 58.4,
     "gis_floorcount_raw": 4,
     "construction_status": "Mapped in 2026 public layer"
@@ -2145,7 +2181,7 @@
     "layer": "S042_Harold Frank Hall",
     "zone": "central",
     "landmark": true,
-    "height": 19.1,
+    "height": 18.77,
     "height_status": "estimated",
     "levels": 5,
     "area": 2883.06,
@@ -2157,28 +2193,65 @@
     ],
     "ground_m": 15.372,
     "bottom_m": 15.372,
-    "peak_m": 35.052,
+    "peak_m": 34.142,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "five-storey classroom/research bar; lower courtyard/service wing; recessed southern glazed lobby; deep horizontal concrete shades; paired grouped windows and exposed concrete frame. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 2883.1,
-        "height_m": 19.1,
-        "storeys": 5
+        "name": "five-storey-north-bar",
+        "height_m": 18.4,
+        "storeys": 5,
+        "offset_m": 0,
+        "area_m2": 1593.45
+      },
+      {
+        "name": "courtyard-south-wing",
+        "height_m": 11.2,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 857.7
+      },
+      {
+        "name": "east-stair-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 54.38
+      },
+      {
+        "name": "east-stair-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 236.42
+      },
+      {
+        "name": "east-stair-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 141.17
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 419,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 13408
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "five-storey classroom/research bar",
+        "lower courtyard/service wing",
+        "recessed southern glazed lobby",
+        "deep horizontal concrete shades",
+        "paired grouped windows and exposed concrete frame"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://sp.dfss.ucsb.edu/entrances/enter-bldg/hfh.html",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://sp.dfss.ucsb.edu/entrances/enter-bldg/hfh.html",
     "gis_height_raw": 81.5,
     "gis_floorcount_raw": 6,
     "construction_status": "Mapped in 2026 public layer"
@@ -2679,7 +2752,7 @@
     "layer": "S053_Bren Hall",
     "zone": "central",
     "landmark": true,
-    "height": 18.8,
+    "height": 16.27,
     "height_status": "estimated",
     "levels": 4,
     "area": 2115.97,
@@ -2691,28 +2764,51 @@
     ],
     "ground_m": 14.8,
     "bottom_m": 14.8,
-    "peak_m": 34.37,
+    "peak_m": 31.07,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Courtyard void, stepped teaching/research wings, sun screens, terraces and roof photovoltaic arrays. All exterior detail is simplified.",
-    "partition": "保留内庭院，表达教学科研翼楼、遮阳、露台及屋顶光伏阵列，外部细节均为简化表达。",
+    "partition_en": "open triangular courtyard; separate office and laboratory wings; set-back upper office level; courtyard balconies and supported shade canopy; limited roof-mounted photovoltaic rows. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 2115.98,
-        "height_m": 18.8,
-        "storeys": 4
+        "name": "western-laboratory",
+        "height_m": 15.7,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 1308.3
+      },
+      {
+        "name": "northern-office",
+        "height_m": 14.7,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 147.95
+      },
+      {
+        "name": "ocean-office",
+        "height_m": 11.6,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 659.72
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 267,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 8544
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "open triangular courtyard",
+        "separate office and laboratory wings",
+        "set-back upper office level",
+        "courtyard balconies and supported shade canopy",
+        "limited roof-mounted photovoltaic rows"
+      ]
     },
-    "source": "https://classrooms.ucsb.edu/classroom-inventory/bren",
+    "source": "https://bren.ucsb.edu/about/bren-hall",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": "https://classrooms.ucsb.edu/classroom-inventory/bren",
+    "architecture_reference": "https://bren.ucsb.edu/about/bren-hall",
     "gis_height_raw": 66.1,
     "gis_floorcount_raw": 5,
     "construction_status": "Mapped in 2026 public layer"
@@ -2733,7 +2829,7 @@
     "layer": "S054_Bioengineering",
     "zone": "central",
     "landmark": true,
-    "height": 13.98,
+    "height": 15.35,
     "height_status": "estimated",
     "levels": 3,
     "area": 2533.48,
@@ -2745,25 +2841,47 @@
     ],
     "ground_m": 15.788,
     "bottom_m": 15.788,
-    "peak_m": 29.768,
+    "peak_m": 31.138,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Three-storey glass, metal and concrete research wings, with framed glazing, a taller glazed atrium and restrained south-side shading. Three above-ground storeys follow the department facilities reference.",
-    "partition": "依据院系设施资料采用地上三层，细化玻璃、金属及混凝土研究翼楼、窗框、挑高中庭与南侧遮阳。",
+    "partition_en": "three-storey concrete research wings; punched windows with deep square reveals; three-storey glazed entrance atrium; set-back clerestory strip; attached south window-zone shades. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "name": "ConcreteBlock",
-        "area_m2": 2533.59,
+        "name": "south-office-wing",
+        "height_m": 12.9,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 1147.28
+      },
+      {
+        "name": "northern-laboratory-wing",
         "height_m": 13.4,
-        "storeys": 3
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 1386.3
+      },
+      {
+        "name": "set-back-clerestory",
+        "height_m": 14.98,
+        "storeys": 1,
+        "offset_m": 13.780000000000001,
+        "area_m2": 37.84
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 150,
-      "transoms": 150,
-      "roof_coping_m": 268.48,
+      "framed_openings": 0,
+      "transoms": 0,
+      "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 6952
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "three-storey concrete research wings",
+        "punched windows with deep square reveals",
+        "three-storey glazed entrance atrium",
+        "set-back clerestory strip",
+        "attached south window-zone shades"
+      ]
     },
     "source": "https://bioengineering.ucsb.edu/facilities",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
@@ -3303,7 +3421,7 @@
     "layer": "S065_Marine Science Building",
     "zone": "central",
     "landmark": true,
-    "height": 15.4,
+    "height": 15.37,
     "height_status": "estimated",
     "levels": 4,
     "area": 1561.84,
@@ -3315,28 +3433,51 @@
     ],
     "ground_m": 14.255,
     "bottom_m": 14.255,
-    "peak_m": 30.235,
+    "peak_m": 29.625,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "three wings around open courtyard; four above-ground floors; basement excluded; second-level courtyard patio; sawtooth exterior bays; continuous concrete floor bands and shaded glazing. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 1561.8,
-        "height_m": 15.4,
-        "storeys": 4
+        "name": "west-laboratory-wing",
+        "height_m": 15.0,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 761.28
+      },
+      {
+        "name": "north-office-wing",
+        "height_m": 14.5,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 95.76
+      },
+      {
+        "name": "curved-ocean-wing",
+        "height_m": 14.5,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 704.8
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 152,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 4864
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "three wings around open courtyard",
+        "four above-ground floors; basement excluded",
+        "second-level courtyard patio",
+        "sawtooth exterior bays",
+        "continuous concrete floor bands and shaded glazing"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://msi.ucsb.edu/facilities-services/marine-science-research-building",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://msi.ucsb.edu/facilities-services/marine-science-research-building",
     "gis_height_raw": 70.2,
     "gis_floorcount_raw": 5,
     "construction_status": "Mapped in 2026 public layer"
@@ -3357,7 +3498,7 @@
     "layer": "S066_Music",
     "zone": "central",
     "landmark": true,
-    "height": 12.82,
+    "height": 11.72,
     "height_status": "estimated",
     "levels": 3,
     "area": 6433.9,
@@ -3369,28 +3510,65 @@
     ],
     "ground_m": 14.164,
     "bottom_m": 14.164,
-    "peak_m": 26.984,
+    "peak_m": 25.884,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "separate performance halls and teaching wings; two open courtyards; low clay roofs by individual wing; shaded courtyard circulation; Music Bowl stepped seating and stage. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 6433.93,
-        "height_m": 11.700000000000001,
-        "storeys": 3
+        "name": "Lotte-Lehmann-performance-hall",
+        "height_m": 10.2,
+        "storeys": 2,
+        "offset_m": 0,
+        "area_m2": 1170.23
+      },
+      {
+        "name": "Karl-Geiringer-hall",
+        "height_m": 9.0,
+        "storeys": 2,
+        "offset_m": 0,
+        "area_m2": 1034.74
+      },
+      {
+        "name": "north-teaching-wing",
+        "height_m": 10.6,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 2454.21
+      },
+      {
+        "name": "courtyard-studios",
+        "height_m": 7.1,
+        "storeys": 2,
+        "offset_m": 0,
+        "area_m2": 1772.89
+      },
+      {
+        "name": "courtyard-studios",
+        "height_m": 7.1,
+        "storeys": 2,
+        "offset_m": 0,
+        "area_m2": 1.88
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 401,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 12832
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "separate performance halls and teaching wings",
+        "two open courtyards",
+        "low clay roofs by individual wing",
+        "shaded courtyard circulation",
+        "Music Bowl stepped seating and stage"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://music.ucsb.edu/operations/facilities",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://music.ucsb.edu/operations/facilities",
     "gis_height_raw": 42.4,
     "gis_floorcount_raw": 4,
     "construction_status": "Mapped in 2026 public layer"
@@ -4454,7 +4632,7 @@
     "layer": "S086_Humanities and Social Sciences Building",
     "zone": "west",
     "landmark": true,
-    "height": 24.0,
+    "height": 22.9,
     "height_status": "estimated",
     "levels": 6,
     "area": 5834.18,
@@ -4466,33 +4644,72 @@
     ],
     "ground_m": 13.966,
     "bottom_m": 13.966,
-    "peak_m": 38.546,
+    "peak_m": 36.866,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "six-storey northern office tower; four-storey west wing and curved east wing; curved-head end pavilions; real open ground-floor arcade; red diamond frieze and supported rooftop trellis. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 5833.99,
-        "height_m": 24.0,
-        "storeys": 6
+        "name": "six-storey-northern-tower",
+        "height_m": 22.3,
+        "storeys": 6,
+        "offset_m": 0,
+        "area_m2": 1185.64
       },
       {
-        "area_m2": 0.11,
-        "height_m": 24.0,
-        "storeys": 6
+        "name": "four-storey-west-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 3029.91
+      },
+      {
+        "name": "curved-east-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 1494.02
+      },
+      {
+        "name": "curved-east-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 13.41
+      },
+      {
+        "name": "curved-east-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 111.04
+      },
+      {
+        "name": "curved-east-wing",
+        "height_m": 14.8,
+        "storeys": 4,
+        "offset_m": 0,
+        "area_m2": 0.11
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 743,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 23776
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "six-storey northern office tower",
+        "four-storey west wing and curved east wing",
+        "curved-head end pavilions",
+        "real open ground-floor arcade",
+        "red diamond frieze and supported rooftop trellis"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://marcuse.faculty.history.ucsb.edu/projects/HSSBLocation.htm",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://marcuse.faculty.history.ucsb.edu/projects/HSSBLocation.htm",
     "gis_height_raw": 128,
     "gis_floorcount_raw": 8,
     "construction_status": "Mapped in 2026 public layer"
@@ -4561,7 +4778,7 @@
     "layer": "S088_Student Resource Building",
     "zone": "west",
     "landmark": true,
-    "height": 11.7,
+    "height": 14.97,
     "height_status": "estimated",
     "levels": 3,
     "area": 2824.25,
@@ -4573,28 +4790,65 @@
     ],
     "ground_m": 13.66,
     "bottom_m": 13.66,
-    "peak_m": 25.94,
+    "peak_m": 28.63,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "three-storey office and student-service wings; glazed central circulation/clerestory; low curved east meeting pavilion; supported entrance canopy; west-facing ventilation screen. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 2824.24,
-        "height_m": 11.700000000000001,
-        "storeys": 3
+        "name": "curved-meeting-pavilion",
+        "height_m": 5.6,
+        "storeys": 1,
+        "offset_m": 0,
+        "area_m2": 264.6
+      },
+      {
+        "name": "central-glazed-circulation",
+        "height_m": 12.8,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 365.34
+      },
+      {
+        "name": "west-student-services",
+        "height_m": 11.8,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 514.78
+      },
+      {
+        "name": "west-student-services",
+        "height_m": 11.8,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 1679.5
+      },
+      {
+        "name": "clerestory",
+        "height_m": 14.600000000000001,
+        "storeys": 1,
+        "offset_m": 12.8,
+        "area_m2": 152.0
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 183,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 5856
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "three-storey office and student-service wings",
+        "glazed central circulation/clerestory",
+        "low curved east meeting pavilion",
+        "supported entrance canopy",
+        "west-facing ventilation screen"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://srb.sa.ucsb.edu/about",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://srb.sa.ucsb.edu/about",
     "gis_height_raw": 48,
     "gis_floorcount_raw": 3,
     "construction_status": "Mapped in 2026 public layer"
@@ -4716,7 +4970,7 @@
     "layer": "S091_Arts",
     "zone": "west",
     "landmark": true,
-    "height": 8.0,
+    "height": 10.37,
     "height_status": "estimated",
     "levels": 2,
     "area": 6675.1,
@@ -4728,33 +4982,65 @@
     ],
     "ground_m": 13.676,
     "bottom_m": 13.676,
-    "peak_m": 22.256,
+    "peak_m": 24.046,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "separate north and south arts wings; high-bay studio and two-storey classroom masses; open sculpture courtyards; glazed gallery fronts; roof monitors and shaded circulation. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 2570.63,
-        "height_m": 8.0,
-        "storeys": 2
+        "name": "north-classroom-and-gallery",
+        "height_m": 8.2,
+        "storeys": 2,
+        "offset_m": 0,
+        "area_m2": 4099.91
       },
       {
-        "area_m2": 4104.37,
-        "height_m": 8.0,
-        "storeys": 2
+        "name": "south-high-bay-studios",
+        "height_m": 6.6,
+        "storeys": 1,
+        "offset_m": 0,
+        "area_m2": 2570.63
+      },
+      {
+        "name": "south-high-bay-studios",
+        "height_m": 6.6,
+        "storeys": 1,
+        "offset_m": 0,
+        "area_m2": 4.52
+      },
+      {
+        "name": "studio-roof-monitor",
+        "height_m": 9.870000000000001,
+        "storeys": 1,
+        "offset_m": 8.57,
+        "area_m2": 64.0
+      },
+      {
+        "name": "studio-roof-monitor",
+        "height_m": 8.27,
+        "storeys": 1,
+        "offset_m": 6.97,
+        "area_m2": 0.57
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 321,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 10272
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "separate north and south arts wings",
+        "high-bay studio and two-storey classroom masses",
+        "open sculpture courtyards",
+        "glazed gallery fronts",
+        "roof monitors and shaded circulation"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://arts.ucsb.edu/atrium/",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://arts.ucsb.edu/atrium/",
     "gis_height_raw": 32,
     "gis_floorcount_raw": 3,
     "construction_status": "Mapped in 2026 public layer"
@@ -4924,7 +5210,7 @@
     "layer": "S095_San Rafael Tower",
     "zone": "south",
     "landmark": true,
-    "height": 23.0,
+    "height": 22.87,
     "height_status": "estimated",
     "levels": 7,
     "area": 982.71,
@@ -4936,28 +5222,37 @@
     ],
     "ground_m": 13.078,
     "bottom_m": 13.078,
-    "peak_m": 36.658,
+    "peak_m": 35.948,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "seven-storey courtyard tower; recessed paired residential bays; deep concrete vertical piers; solid horizontal slab bands; lower glazed arrival and entrance canopy. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 982.66,
-        "height_m": 23.0,
-        "storeys": 7
+        "name": "seven-storey-tower",
+        "height_m": 22.5,
+        "storeys": 7,
+        "offset_m": 0,
+        "area_m2": 982.66
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 321,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 10272
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "seven-storey courtyard tower",
+        "recessed paired residential bays",
+        "deep concrete vertical piers",
+        "solid horizontal slab bands",
+        "lower glazed arrival and entrance canopy"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://www.housing.ucsb.edu/housing-options/options-filter/san-rafael",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://www.housing.ucsb.edu/housing-options/options-filter/san-rafael",
     "gis_height_raw": 74.8,
     "gis_floorcount_raw": 9,
     "construction_status": "Mapped in 2026 public layer"
@@ -6461,7 +6756,7 @@
     "layer": "S125_University House",
     "zone": "south",
     "landmark": true,
-    "height": 4.3,
+    "height": 4.9,
     "height_status": "estimated",
     "levels": 1,
     "area": 757.15,
@@ -6473,28 +6768,37 @@
     ],
     "ground_m": 12.166,
     "bottom_m": 12.166,
-    "peak_m": 17.186,
+    "peak_m": 17.066,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "low mapped residential wings; individual low-pitched clay roofs; deep garden eaves; courtyard veranda with grounded columns; glazed garden doors and chimney. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 757.15,
-        "height_m": 3.3,
-        "storeys": 1
+        "name": "garden-residence",
+        "height_m": 3.2,
+        "storeys": 1,
+        "offset_m": 0,
+        "area_m2": 757.15
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 29,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 928
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "low mapped residential wings",
+        "individual low-pitched clay roofs",
+        "deep garden eaves",
+        "courtyard veranda with grounded columns",
+        "glazed garden doors and chimney"
+      ]
     },
-    "source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
+    "source": "https://news.ucsb.edu/in-focus/uc-regents-approve-acquisition-campus-residential-property",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": null,
+    "architecture_reference": "https://news.ucsb.edu/in-focus/uc-regents-approve-acquisition-campus-residential-property",
     "gis_height_raw": 12.5,
     "gis_floorcount_raw": 1,
     "construction_status": "Mapped in 2026 public layer"
@@ -6707,9 +7011,9 @@
     "layer": "S130_Benioff Ocean Science Laboratory",
     "zone": "south",
     "landmark": true,
-    "height": 8.0,
+    "height": 10.72,
     "height_status": "estimated",
-    "levels": 2,
+    "levels": 3,
     "area": 1968.79,
     "width": 67.45,
     "depth": 59.53,
@@ -6719,28 +7023,44 @@
     ],
     "ground_m": 7.973,
     "bottom_m": 7.973,
-    "peak_m": 16.553,
+    "peak_m": 18.693,
     "basis_en": "Official 2026 footprint. Exterior storeys and heights are approximate public-source interpretations, not measurements. GIS FLOORCOUNT may include basements; the unspecified-unit BLDGHEIGHT field is retained without treating it as certified height.",
     "basis": "采用2026年学校公开轮廓；外部层数和高度为公开资料基础上的近似表达，未经实测。GIS层数可能包含地下层，未注明单位的高度字段保留备查，不作为实测高度。",
-    "partition_en": "Mapped wings and courtyard voids with repeated facade bays, entrance and roof edges. Members, heights and floor divisions are approximate.",
-    "partition": "保留映射的翼楼和庭院，表达立面开窗、入口与屋顶边缘；构件、高度及楼层划分为近似。",
+    "partition_en": "low west laboratory bar and taller east coastal block; clay hipped roofs; continuous shaded sea-facing glazing; white concrete floor bands; recessed entrance and supported balcony. Exterior member dimensions and unmeasured heights are approximate.",
+    "partition": "按公开建筑外观资料分体重建；构件尺寸与未公布标高为近似。",
     "volume_parts": [
       {
-        "area_m2": 1968.9,
-        "height_m": 8.0,
-        "storeys": 2
+        "name": "three-storey-eastern-coastal-block",
+        "height_m": 9.7,
+        "storeys": 3,
+        "offset_m": 0,
+        "area_m2": 1099.47
+      },
+      {
+        "name": "two-storey-west-laboratory",
+        "height_m": 6.8,
+        "storeys": 2,
+        "offset_m": 0,
+        "area_m2": 869.37
       }
     ],
     "highlight_joinery": {
-      "framed_openings": 94,
+      "framed_openings": 0,
       "transoms": 0,
       "roof_coping_m": 0.0,
       "hollow_bells": 0,
-      "added_triangles": 3008
+      "added_triangles": 0,
+      "bespoke_architecture": [
+        "low west laboratory bar and taller east coastal block",
+        "clay hipped roofs",
+        "continuous shaded sea-facing glazing",
+        "white concrete floor bands",
+        "recessed entrance and supported balcony"
+      ]
     },
-    "source": "https://bosl.ucsb.edu/",
+    "source": "https://news.ucsb.edu/2026/022864/ucsb-seeks-community-input-university-plans-sea-level-rise",
     "footprint_source": "https://services1.arcgis.com/4TXrdeWh0RyCqPgB/ArcGIS/rest/services/Buildings2026/FeatureServer/0",
-    "architecture_reference": "https://bosl.ucsb.edu/",
+    "architecture_reference": "https://news.ucsb.edu/2026/022864/ucsb-seeks-community-input-university-plans-sea-level-rise",
     "gis_height_raw": 42.8,
     "gis_floorcount_raw": 3,
     "construction_status": "Mapped in 2026 public layer"
