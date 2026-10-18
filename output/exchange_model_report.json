@@ -1,0 +1,13 @@
+{
+  "format": "glTF 2.0 / FBX 7.4",
+  "name": "UCSB_MainCampus",
+  "meshCount": 5865,
+  "triangles": 4912816,
+  "vertices": 2826408,
+  "sourceCoordinateSystem": "meters, Z up, north +Y; GLB root maps to standard Y up",
+  "glbBytes": 67664796,
+  "fbxBytes": 76010914,
+  "glbSha256": "fd9eef2abaee8ff090258bfd959a364840f1edb3ea2a86809b24439769159b60",
+  "fbxSha256": "81d5665e71daebfc5bbe2ae114a427c03fe5270f23b044423d6d54ec8277f8b6",
+  "geometry": "Original construction positions rounded only to Float32 (same precision as previous mesh export); original face sequence and material assignments retained."
+}

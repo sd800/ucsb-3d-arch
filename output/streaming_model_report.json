@@ -1,5 +1,5 @@
 {
-  "sourceSha256": "6f45a72d4b0da8a1c4c2de2c72f8c097ba4ffd148607a661bc02313e35f83676",
+  "sourceSha256": "fd9eef2abaee8ff090258bfd959a364840f1edb3ea2a86809b24439769159b60",
   "originalTriangles": 1589232,
   "originalObjects": 5865,
   "regions": 93,
@@ -7,10 +7,10 @@
   "geometryTemplates": 2214,
   "overview": {
     "id": "overview",
-    "url": "assets/stream/overview-903d9be175d8.bin",
-    "local": "assets/stream/overview-903d9be175d8.js",
-    "sha256": "903d9be175d8251167533c09c211f71f8d8feb157c8c2b8c1bd672c484384077",
-    "transferBytes": 3230884,
+    "url": "assets/stream/overview-c01e4eed3510.bin",
+    "local": "assets/stream/overview-c01e4eed3510.js",
+    "sha256": "c01e4eed351022f5471c8ebc337b6589832dc0173dcf9326e87355e511ada4d9",
+    "transferBytes": 3272900,
     "triangles": 458341,
     "gpuBytes": 9440258,
     "decodedBytes": 9198212,
@@ -24,11 +24,12 @@
       36.25
     ]
   },
-  "allRegionalTransferBytes": 6912217,
+  "allRegionalTransferBytes": 7580913,
   "preservesCAD": true,
   "scope": "Isla Vista and neighboring areas only",
   "campusObjectsUnchanged": 2247,
   "neighborObjects": 3618,
-  "campusTransferBytes": 14408396,
-  "overviewApproximation": "Position-only error-bounded simplification; 20-face tree crowns at unchanged source positions. Near regions retain source building triangles and repeated facade geometry; no CAD edits."
+  "campusTransferBytes": 9104867,
+  "overviewApproximation": "Position-only error-bounded simplification; 20-face tree crowns at unchanged source positions. Near regions retain source building triangles and repeated facade geometry; no CAD edits.",
+  "deliveryFormat": "campus-glb-regions-v1"
 }

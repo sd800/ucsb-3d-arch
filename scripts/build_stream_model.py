@@ -13,7 +13,8 @@ from scipy.sparse.csgraph import connected_components
 
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'assets/stream';OUT.mkdir(exist_ok=True)
 TMP=ROOT/'tmp/stream-build';TMP.mkdir(parents=True,exist_ok=True)
-SIZE=192;source=ROOT/'output/UCSB_MainCampus.3ds';blob=source.read_bytes()
+SIZE=192;source=ROOT/'output/UCSB_MainCampus.glb'
+from campus_exchange import iter_glb_meshes
 layers=json.loads((ROOT/'output/layer_map.json').read_text());records=json.loads((ROOT/'output/neighboring_records.json').read_text())
 owners={r['layer']:i+1 for i,r in enumerate(records)};byid={i+1:r for i,r in enumerate(records)}
 SURF={'ContextGround':-100,'ContextGrass':-94,'ContextRoad':-80,'ContextWalk':-75,'ContextPaving':-70,'Water':-60,'Sand':-95}
@@ -22,11 +23,6 @@ ROOF={'ContextStucco','ContextStone','ContextBrick'}
 
 high=defaultdict(lambda:defaultdict(list));low=defaultdict(lambda:defaultdict(list));instances=defaultdict(lambda:defaultdict(list));templates={};tree_canonical={};repeat_count=0;input_tri=0
 tile=lambda x,y:f'{math.floor(x/SIZE)}_{math.floor(y/SIZE)}'
-def chunks(a,z):
- while a+6<=z:
-  tag,n=struct.unpack_from('<HI',blob,a)
-  assert n>=6 and a+n<=z
-  yield tag,a,a+n;a+=n
 def compact(v,f):
  used,ix=np.unique(f.reshape(-1),return_inverse=True)
  return v[used].astype('<f4'),ix.reshape(-1,3).astype('<u4')
@@ -52,85 +48,57 @@ def instance(v,f,mat,owner,neighbor,detail,key):
  if digest not in templates:templates[digest]=(normalized,ff)
  instances[key][(mat,neighbor,detail,digest)].append([*map(float,a),*map(float,scale),owner]);repeat_count+=1
  return True
-def chunk(tag,body):return struct.pack('<HI',tag,len(body)+6)+body
-campus_chunks=[];campus_objects=[];neighbor_objects=[]
-for tag,a,z in chunks(6,len(blob)):
- if tag!=0x3d3d:campus_chunks.append(blob[a:z]);continue
- editor=[]
- for child,c,d in chunks(a+6,z):
-  if child==0x4000:
-   end=blob.index(0,c+6);name=blob[c+6:end].decode();meta=layers[name]
-   if meta['layer']in owners or meta['category']=='neighbor-environment':neighbor_objects.append(name);continue
-   campus_objects.append(name)
-  editor.append(blob[c:d])
- campus_chunks.append(chunk(tag,b''.join(editor)))
-campus_bytes=chunk(0x4d4d,b''.join(campus_chunks));(TMP/'campus.3ds').write_bytes(campus_bytes);subprocess.run(['node','scripts/pack_core_model.mjs'],cwd=ROOT,check=True);campus_zip=(TMP/'campus-packed.bin').read_bytes();campus_hash=hashlib.sha256(campus_zip).hexdigest();campus_file='campus-core-'+campus_hash[:12]
-(OUT/(campus_file+'.bin')).write_bytes(campus_zip)
-encoded=__import__('base64').b64encode(campus_zip).decode()
-(OUT/(campus_file+'.js')).write_text('window.__UCSB_CORE__="'+'\\\n'.join(encoded[i:i+32]for i in range(0,len(encoded),32))+'";\n')
-campus_model={**json.loads((TMP/'campus-packed.json').read_text()),'modelUrl':'assets/stream/'+campus_file+'.bin','offlineModelScript':'assets/stream/'+campus_file+'.js','modelGlobal':'__UCSB_CORE__','compression':'gzip','modelByteLength':len(campus_bytes),'modelTransferBytes':len(campus_zip),'sha256':hashlib.sha256(campus_bytes).hexdigest()}
-(TMP/'campus.3ds').write_bytes(campus_bytes)
+campus_objects=[nm for nm,meta in layers.items()if meta['layer']not in owners and meta['category']!='neighbor-environment'];neighbor_objects=[nm for nm in layers if nm not in campus_objects];campus_model={'pending':True};campus_zip=b''
 print('Reading source triangles',flush=True)
-for tag,a,z in chunks(6,len(blob)):
- if tag!=0x3d3d:continue
- for tag,c,d in chunks(a+6,z):
-  if tag!=0x4000:continue
-  end=blob.index(0,c+6);name=blob[c+6:end].decode();meta=layers[name];v=f=None
-  if meta['layer']not in owners and meta['category']!='neighbor-environment':continue
-  for tag,e,h in chunks(end+1,d):
-   if tag!=0x4100:continue
-   for tag,j,k in chunks(e+6,h):
-    if tag==0x4110:
-     count=struct.unpack_from('<H',blob,j+6)[0];v=np.frombuffer(blob,dtype='<f4',count=count*3,offset=j+8).reshape(-1,3).copy()
-    if tag==0x4120:
-     count=struct.unpack_from('<H',blob,j+6)[0];f=np.frombuffer(blob,dtype='<u2',count=count*4,offset=j+8).reshape(-1,4)[:,:3].astype('<u4')
-  assert v is not None and f is not None
-  input_tri+=len(f);mat=meta['material'];owner=owners.get(meta['layer'],0);neighbor=True;detail='D'in name and owner>0
-  if owner:
-   r=byid[owner];key=tile(*r['center']);n=normals(v,f);centers=v[f].mean(axis=1)
-   roof=(mat in ROOF)&(n[:,2]>.7)&(centers[:,2]>r['ground_m']+3)
-   for sel,material in [(~roof,mat),(roof,'__RoofCap')]:
-    ff=f[sel]
-    if not len(ff):continue
-    # Repeated facade parts are instanced when there are many disconnected
-    # components. Unique architectural assemblies remain ordinary geometry.
-    components=component_ranges(v,ff)if detail else [ff]
-    if detail and len(components)>5:
-     for component in components:
-      if len(component)<=320 and instance(v,component,material,owner,neighbor,detail,key):continue
-      add(high,key,v,component,material,owner,neighbor,detail)
-    else:add(high,key,v,ff,material,owner,neighbor,detail)
-    if not detail:add(low,key,v,ff,material,owner,neighbor,False)
-  elif mat in TREES:
-   for ff in component_ranges(v,f):
-    vv,_=compact(v,ff);center=(vv.min(axis=0)+vv.max(axis=0))/2;key=tile(*center[:2])
-    if not instance(v,ff,mat,0,neighbor,False,key):add(high,key,v,ff,mat,0,neighbor,False,'accent')
-  else:
-   n=normals(v,f);surface=mat in SURF;up=n[:,2]>.1
-   if surface:
-    # Paint is a top skin; ground keeps an opaque top and continuous sides.
-    groups=[(f[up],'surface',SURF[mat])]
-    if mat in SOLID:
-     shell=f[~up];vv=v.copy();top=v[f[up]].reshape(-1,3)
-     heights={}
-     for x,y,zz in top:heights[(round(float(x),3),round(float(y),3))]=max(heights.get((round(float(x),3),round(float(y),3)),-1e6),float(zz))
-     for i in np.unique(shell):
-      x,y,zz=vv[i]
-      if zz<heights.get((round(float(x),3),round(float(y),3)),zz)-.005:vv[i,2]=-40
-     # Classifying a shell by its original source centroid keeps its entire
-     # triangle intact; neighboring tiles share identical boundary vertices.
-     sf=vv[shell].mean(axis=1);keys=np.array([tile(x,y)for x,y in sf[:,:2]])
-     for key in np.unique(keys):
-      ff=shell[keys==key];add(high,key,vv,ff,mat,0,neighbor,False,'shell',SURF[mat]-1000);add(low,key,vv,ff,mat,0,neighbor,False,'shell',SURF[mat]-1000)
-   else:groups=[(f,'accent',0)]
-   for ff,kind,order in groups:
-    if not len(ff):continue
-    centers=v[ff].mean(axis=1);keys=np.array([tile(x,y)for x,y in centers[:,:2]])
+for name,v,f in iter_glb_meshes(source):
+ meta=layers[name];f=np.asarray(f,dtype='<u4')
+ if meta['layer']not in owners and meta['category']!='neighbor-environment':continue
+ input_tri+=len(f);mat=meta['material'];owner=owners.get(meta['layer'],0);neighbor=True;detail='D'in name and owner>0
+ if owner:
+  r=byid[owner];key=tile(*r['center']);n=normals(v,f);centers=v[f].mean(axis=1)
+  roof=(mat in ROOF)&(n[:,2]>.7)&(centers[:,2]>r['ground_m']+3)
+  for sel,material in [(~roof,mat),(roof,'__RoofCap')]:
+   ff=f[sel]
+   if not len(ff):continue
+   # Repeated facade parts are instanced when there are many disconnected
+   # components. Unique architectural assemblies remain ordinary geometry.
+   components=component_ranges(v,ff)if detail else [ff]
+   if detail and len(components)>5:
+    for component in components:
+     if len(component)<=320 and instance(v,component,material,owner,neighbor,detail,key):continue
+     add(high,key,v,component,material,owner,neighbor,detail)
+   else:add(high,key,v,ff,material,owner,neighbor,detail)
+   if not detail:add(low,key,v,ff,material,owner,neighbor,False)
+ elif mat in TREES:
+  for ff in component_ranges(v,f):
+   vv,_=compact(v,ff);center=(vv.min(axis=0)+vv.max(axis=0))/2;key=tile(*center[:2])
+   if not instance(v,ff,mat,0,neighbor,False,key):add(high,key,v,ff,mat,0,neighbor,False,'accent')
+ else:
+  n=normals(v,f);surface=mat in SURF;up=n[:,2]>.1
+  if surface:
+   # Paint is a top skin; ground keeps an opaque top and continuous sides.
+   groups=[(f[up],'surface',SURF[mat])]
+   if mat in SOLID:
+    shell=f[~up];vv=v.copy();top=v[f[up]].reshape(-1,3)
+    heights={}
+    for x,y,zz in top:heights[(round(float(x),3),round(float(y),3))]=max(heights.get((round(float(x),3),round(float(y),3)),-1e6),float(zz))
+    for i in np.unique(shell):
+     x,y,zz=vv[i]
+     if zz<heights.get((round(float(x),3),round(float(y),3)),zz)-.005:vv[i,2]=-40
+    # Classifying a shell by its original source centroid keeps its entire
+    # triangle intact; neighboring tiles share identical boundary vertices.
+    sf=vv[shell].mean(axis=1);keys=np.array([tile(x,y)for x,y in sf[:,:2]])
     for key in np.unique(keys):
-     sub=ff[keys==key];add(high,key,v,sub,mat,0,neighbor,False,kind,order)
-     # Tiny furniture/rails are near-only, retaining their full source form.
-     if kind=='surface' or mat in ['Bronze','MetalPanel']:add(low,key,v,sub,mat,0,neighbor,False,kind,order)
-del blob
+     ff=shell[keys==key];add(high,key,vv,ff,mat,0,neighbor,False,'shell',SURF[mat]-1000);add(low,key,vv,ff,mat,0,neighbor,False,'shell',SURF[mat]-1000)
+  else:groups=[(f,'accent',0)]
+  for ff,kind,order in groups:
+   if not len(ff):continue
+   centers=v[ff].mean(axis=1);keys=np.array([tile(x,y)for x,y in centers[:,:2]])
+   for key in np.unique(keys):
+    sub=ff[keys==key];add(high,key,v,sub,mat,0,neighbor,False,kind,order)
+    # Tiny furniture/rails are near-only, retaining their full source form.
+    if kind=='surface' or mat in ['Bronze','MetalPanel']:add(low,key,v,sub,mat,0,neighbor,False,kind,order)
+
 for key,batches in instances.items():
  for ident,values in list(batches.items()):
   mat,neighbor,detail,digest=ident
@@ -165,7 +133,7 @@ low.clear()
 for key,ident,path in jobs:
  data=path.read_bytes();nv,nf=struct.unpack_from('<II',data);v=np.frombuffer(data,dtype='<f4',count=nv*3,offset=8).reshape(-1,3);f=np.frombuffer(data,dtype='<u4',count=nf*3,offset=8+nv*12).reshape(-1,3)
  low[key][ident]=[compact(v,f)]
-path_names={campus_file+'.bin',campus_file+'.js'};all_instances=sum(len(v)for b in instances.values()for v in b.values())
+path_names=set();all_instances=sum(len(v)for b in instances.values()for v in b.values())
 
 def vertex_normals(v,f):
  n=np.zeros_like(v);tri=v[f];fn=np.cross(tri[:,1]-tri[:,0],tri[:,2]-tri[:,0])
@@ -262,3 +230,6 @@ for p in OUT.iterdir():
 (OUT/'manifest.json').write_text(json.dumps(manifest,separators=(',',':'))+'\n')
 report={'sourceSha256':manifest['sourceSha256'],'originalTriangles':input_tri,'originalObjects':len(layers),'regions':len(manifest['tiles']),'instancedParts':all_instances,'geometryTemplates':len(templates),'overview':manifest['base'],'allRegionalTransferBytes':sum(t['transferBytes']for t in manifest['tiles']),'preservesCAD':True,'scope':'Isla Vista and neighboring areas only','campusObjectsUnchanged':len(campus_objects),'neighborObjects':len(neighbor_objects),'campusTransferBytes':len(campus_zip),'overviewApproximation':'Position-only error-bounded simplification; 20-face tree crowns at unchanged source positions. Near regions retain source building triangles and repeated facade geometry; no CAD edits.'}
 (ROOT/'output/streaming_model_report.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps({k:report[k]for k in ['regions','instancedParts','geometryTemplates','allRegionalTransferBytes']},indent=2));print('Overview:',manifest['base'],flush=True)
+
+from region_glb import convert_regions
+convert_regions(ROOT)

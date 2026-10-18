@@ -33,8 +33,8 @@ assert data['compression']=='gzip' and (r/urlsplit(data['modelUrl']).path).is_fi
 assert {b['zone'] for b in data['records']}=={'central','west','south','north'}
 assert len(data['landmarkOrder'])==len([b for b in data['records'] if b['landmark']])
 entity=next(x for x in schema['@graph'] if x['@type']=='3DModel')
-assert entity['sha256']==hashlib.sha256((r/'output/UCSB_MainCampus.3ds').read_bytes()).hexdigest()
-assert entity['contentUrl']==site+'output/UCSB_MainCampus.3ds'
+assert entity['sha256']==hashlib.sha256((r/data['downloads'][2]['url']).read_bytes()).hexdigest()
+assert entity['contentUrl']==site+data['downloads'][2]['url']
 offline=(r/'output/UCSB_Campus_Offline.html').read_text()
 assert not re.search(r'<script[^>]+src=',offline) and 'noindex, follow' in offline
 assert not any(bad in text for bad in ['uchicago.edu','UChicago','umich.edu','UMich','芝加哥大学','密西根大学','安娜堡','__SITE_URL__','__CAMPUS_DATA__'])

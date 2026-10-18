@@ -14,6 +14,8 @@ An independent, bilingual exterior study of the **University of California, Sant
 | `output/UCSB_Campus_Offline.html` | Generated self-contained offline edition, included in the local delivery ZIP |
 | `output/building_dimensions_and_sources.csv` | Bilingual building directory, mapped extents, height certainty and source notes |
 | `output/neighboring_building_dimensions_and_sources.csv` | Individually layered Isla Vista building directory and source notes |
+| `output/UCSB_MainCampus.fbx` | Binary FBX 7.4 mesh model, grouped by building/layer |
+| `output/UCSB_MainCampus.glb` | Standard extension-free glTF 2.0 binary model |
 | `output/layer_map.json` | Mapping of 3DS object names to building/environment layers |
 | `scripts/apply_layers_rhino.py` | Restore layers after importing 3DS into Rhino |
 | `output/campus_aerial.png` | Rendered preview and social-sharing image |
@@ -94,3 +96,15 @@ Library roof finishes are differentiated by wing, with satellite-visible photovo
 ILP stairs, landings, terraces and both bridges form one connected upper circulation surface at each level. Treads meet the shared slab-top datum, supported by closed inclined waist slabs; rails leave the connecting routes open. Connection and level checks are recorded in `output/ilp_connection_validation.json`.
 
 Offshore context uses only land-facing shoreline distances, excluding artificial water-map crop edges. The sea surface and closed depth volume share a continuous fade, including low-angle views. See `output/ocean_low_angle.png` and `output/ocean_continuity_validation.json`.
+
+## Website model delivery
+
+The viewer uses standard glTF 2.0 binary (GLB). The lossless complete-model derivative is **13.85 MiB** transferred, from a **64.53 MiB** extension-free download GLB. `EXT_meshopt_compression` and gzip reduce transfer; decompressed position/index accessors match the native GLB byte for byte. No quantization or simplification is introduced by this format conversion.
+
+The campus itself loads its complete, detailed GLB subset. Only Isla Vista and neighboring areas retain regional streaming, instancing and distance-based detail. Existing mobile/desktop budgets remain unchanged. Regional delivery uses gzipped GLBs with quantized normals, vertex colors, object IDs and `EXT_mesh_gpu_instancing`; the overview is a directory containing independent GLB cells. LOD is a visual derivative of the complete CAD export.
+
+A worker inflates/decompresses the complete GLB and calculates normals; geometry buffers transfer once to the main thread. Scene creation and no-worker fallback yield between work slices. The meshoptimizer JavaScript/WebAssembly codec is bundled locally. HTTP loads binary assets; double-click `file://` loads classic scripts, and the standalone edition embeds browsing data. WebGL 2, WebAssembly and Compression Streams are required by current delivery.
+
+Downloads are listed **3DM → FBX → GLB**. 3DM retains editable Rhino solids and individual layers. FBX and GLB retain mesh geometry and material assignments, grouped by building/layer. FBX uses meter units and Z up; GLB uses a standard Y-up root transform with the metric source vertices retained below it. The public download GLB requires no optional extensions. Files exceeding the hosting per-file limit are delivered losslessly as `.xz`; extract before importing.
+
+`output/exchange_model_report.json` records native mesh counts/hashes; `output/web_model_report.json` records complete GLB transfer counts/hashes. `npm run check:glb` verifies lossless accessor equality, HTTP/local/offline byte integrity and ordered downloads; `npm run check:exchange` compares every FBX vertex/index against GLB and checks units/normals. Rendering still needs memory for decoded geometry and framebuffers.

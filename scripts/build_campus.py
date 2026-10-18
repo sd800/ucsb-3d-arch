@@ -527,6 +527,8 @@ for name,g in [('Campus',scope),*zone_shapes.items()]:
     aa,bb,cc,dd=g.bounds;xx=(aa+cc)/2;yy=(bb+dd)/2;size=max(cc-aa,dd-bb)*.7;v=rh.ViewInfo();v.Name=name;v.Viewport.SetCameraLocation(rh.Point3d(xx-1200,yy-1700,1700));v.Viewport.SetCameraDirection(rh.Vector3d(1200,1700,-1600));v.Viewport.SetCameraUp(rh.Vector3d(0,0,1));v.Viewport.TargetPoint=rh.Point3d(xx,yy,12);v.Viewport.ChangeToParallelProjection(True);v.Viewport.SetFrustum(-size,size,-size,size,1,40000);model.NamedViews.Add(v)
 model.Strings['ModelNotes']='Independent UCSB coastal Main Campus exterior study. Official 2026 footprints, historical public outdoor mapping, OSM shore and paths, USGS terrain. Storke height published; remaining heights and details approximate. One layer per mapped campus and neighboring structure; campus outdoor and sea geometry on Environment, verified university extension grounds on Campus_Extensions_Environment, surrounding streets and landscape on Neighboring_Environment. Not official BIM or a measured survey.'
 assert model.Write(str(OUT/'UCSB_MainCampus_Layered.3dm'),7)
+from campus_exchange import export_scene
+export_scene(ROOT,objects,COLORS,layer_map,records)
 def chunk(tag,data=b''):return struct.pack('<HI',tag,len(data)+6)+data
 def zs(s):return s.encode('ascii')+b'\0'
 def rgb(c):return chunk(0x0011,bytes(c))

@@ -1,15 +1,12 @@
 {
-  "buildSignature": "bd84a5299e2de10611960c890873ee1ede19c51655237a3694f25ad677ed0349",
-  "format": "campus-3ds-v1",
-  "codec": "meshoptimizer 1.3.0 lossless vertex/index-sequence codecs + gzip",
-  "source": "output/UCSB_MainCampus.3ds",
-  "sourceBytes": 103080131,
-  "sourceSha256": "6f45a72d4b0da8a1c4c2de2c72f8c097ba4ffd148607a661bc02313e35f83676",
-  "ordinaryGzipBytes": 40538399,
-  "previousTransferBytes": 40538399,
-  "packedBytes": 72994692,
-  "transferBytes": 21581769,
-  "transferSha256": "9ac4652b57829701f7702b447c4ddb6bf53e9d9539ab65fb132a60f2c80fe88a",
-  "maxEncodedBlockBytes": 348055,
-  "decodedGeometryChanged": false
+  "format": "glb-meshopt-v1",
+  "codec": "glTF 2.0 + EXT_meshopt_compression (lossless) + gzip",
+  "source": "output/UCSB_MainCampus.glb",
+  "sourceBytes": 67664796,
+  "sourceSha256": "fd9eef2abaee8ff090258bfd959a364840f1edb3ea2a86809b24439769159b60",
+  "packedBytes": 38869948,
+  "transferBytes": 14520516,
+  "transferSha256": "7b2d22ed82cddff5f870f327a46b6ad4ac8fd1dd3c57767565cc06dc20c7f2d0",
+  "compressedViews": 11730,
+  "geometryChanged": false
 }
