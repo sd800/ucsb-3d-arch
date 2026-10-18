@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.18.2 — 2026-10-18
+
+- Show the live camera azimuth, elevation, vertical view span and model-space view center beside the public-source model status. Update on navigation, presets, zoom, resize and language changes, including off-axis horizontal framing.
+- Wrap the bilingual readout on narrow screens and lift the scale, legend and section controls above the footer automatically. Preserve existing camera behavior, CAD geometry and delivery data.
+
 ## 26.10.18.1 — 2026-10-18
 
 - Individually audited all 24 building Highlights against owner, architect and campus references. Reconstructed Henley, Elings, Harold Frank, Bren, Bioengineering, Marine Science, Music, HSSB, Student Resource, Arts, San Rafael Tower, University House and the Benioff Ocean Science Laboratory with separate wings, roof levels and characteristic exterior assemblies.

@@ -1,3 +1,4 @@
+import {updateViewReadout} from './view_readout.js';
 import highlightViews from '../config/highlight-views.json';
 import {highlightCamera} from './highlight_camera.js';
 import {createRegionStream} from './region_stream.js';
@@ -190,7 +191,7 @@ function render(updateShadows=true){if(streaming&&updateShadows!==false)streamin
 function drawScene(){
  if(!renderer||!modelReady)return;updateCampusDepthRange(camera,renderBounds);updateCampusDetailDepth(camera,campus,depthBits);streaming?.updateView();renderer.render(scene,camera);const n=new THREE.Vector3(0,1,0).transformDirection(camera.matrixWorldInverse);$('north-arrow').style.transform='rotate('+Math.atan2(n.x,n.y)+'rad)';
  const mpp=(camera.right-camera.left)/camera.zoom/Math.max(host.clientWidth,1),raw=mpp*80,pow=10**Math.floor(Math.log10(raw));const length=[1,2,5,10].map(x=>x*pow).find(x=>x>=raw)||10*pow;
- $('scale-line').style.width=(length/mpp)+'px';$('scale-text').textContent=length<1?Math.round(length*100)+' cm':length+' m';updateLabels();
+ $('scale-line').style.width=(length/mpp)+'px';$('scale-text').textContent=length<1?Math.round(length*100)+' cm':length+' m';updateLabels();updateViewReadout($('view-state'),camera,controls,lang);
 }
 applyLanguage();
 async function initializeModel(){
