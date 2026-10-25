@@ -1,5 +1,10 @@
 # Changelog
 
+## 26.10.25.1 — 2026-10-25
+
+- Redirect HTTP/HTTPS visits to /index.html and /index to the same site root before model or interface loading; retain the complete query string and fragment and replace the alias history entry.
+- Keep direct local HTML opening and offline editions functional, leave other paths untouched, and preserve page content and model data. Retain the redirect in viewer templates for future packaging.
+
 ## 26.10.18.8 — 2026-10-18
 
 - Match the Guide copyright line to normal paragraph typography and spacing below it, and use standard paragraph spacing above and below the model download links.
